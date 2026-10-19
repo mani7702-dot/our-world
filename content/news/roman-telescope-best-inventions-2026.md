@@ -1,6 +1,8 @@
 ---
 title: A telescope named after "the mother of Hubble"
 date: 2026-10-15
+image: assets/images/roman-telescope-best-inventions-2026.jpg
+image_caption: Photo: Wikimedia Commons
 category: Space
 read: 3 min
 excerpt: NASA's newest space telescope made TIME's list of the best inventions of 2026 — and it carries the name of a woman who fought to be in astronomy at all.

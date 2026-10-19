@@ -1,6 +1,8 @@
 ---
 title: Five cheetah cubs, one very busy camera
 date: 2026-10-11
+image: assets/images/cheetah-cub-cam-five-cubs.jpg
+image_caption: Photo: Wikimedia Commons
 category: Animals
 read: 2 min
 excerpt: Five cheetah cubs were born at the Smithsonian's conservation park — and you can watch all of them, around the clock, on a livestream.
