@@ -1,0 +1,26 @@
+name: Build guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build
+        run: python build.py
+      - name: Fail if generated pages are stale (unbuilt commit)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Built output differs from committed files. Run 'python build.py' locally and commit the result."
+            git status --porcelain
+            exit 1
+          fi
+          echo "Build output matches committed files."

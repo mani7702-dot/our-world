@@ -1,0 +1,41 @@
+name: New post to Telegram
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/**"]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Collect changed posts
+        id: posts
+        run: |
+          titles=""
+          for f in $(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- content/); do
+            [ -f "$f" ] || continue
+            t=$(grep -m1 '^title:' "$f" | sed 's/^title:[[:space:]]*//')
+            [ -n "$t" ] && titles="${titles}- ${t}"$'\n'
+          done
+          if [ -z "$titles" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "titles=$titles" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Send Telegram message
+        if: steps.posts.outputs.changed == 'true' && secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != ''
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TITLES: ${{ steps.posts.outputs.titles }}
+        run: |
+          printf -v msg 'New on Our World:\n%s' "$TITLES"
+          curl -sS -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT}" \
+            --data-urlencode "text=${msg}" \
+            --data-urlencode "disable_web_page_preview=true"
