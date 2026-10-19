@@ -158,6 +158,9 @@ def nav_html(active, prefix):
         ("Games", "games/index.html", "games"),
         ("News", "news/index.html", "news"),
         ("Parents", "parents/index.html", "parents"),
+        ("Privacy", "privacy/index.html", "privacy"),
+        ("Terms", "terms/index.html", "terms"),
+        ("Contact", "contact/index.html", "contact"),
         ("About", "about/index.html", "about"),
     ]
     parts = []
@@ -321,7 +324,7 @@ def search_page():
     """Renders search/index.html — the page that consumes search-index.json."""
     return page(
         "Search — Our World",
-        "Search every story and news item on Our World by title, topic or tag. No ads, no trackers, no accounts.",
+        "Search every story and news item on Our World by title, topic or tag. No accounts, no chat — searching happens in your own browser.",
         "blog",
         "../",
         "search.html",
@@ -349,6 +352,9 @@ def build_sitemap(blog, news):
         "/games/draw-paint.html",
         "/parents/",
         "/about/",
+        "/privacy/",
+        "/terms/",
+        "/contact/",
         "/search/",
     ]
     lines = [
@@ -389,7 +395,7 @@ def main():
     }
     write(os.path.join(ROOT, "index.html"),
           page("Our World — stories, games and news for curious kids",
-               "Our World is a safe place for young readers: short stories, three playful browser games, and kid-safe world news. No ads, no trackers, no accounts.",
+               "Our World is a safe place for young readers: short stories, three playful browser games, and kid-safe world news — free, and supported by ads. No accounts, no chat.",
                "home", "", "home.html", home_tokens))
     written.append("index.html")
 

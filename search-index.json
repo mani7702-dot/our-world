@@ -1,5 +1,31 @@
 [
   {
+    "title": "The axolotl: 7 facts about the salamander that never grows up",
+    "url": "blog/axolotl-facts-never-grows-up.html",
+    "section": "blog",
+    "excerpt": "It keeps its baby gills its whole life, can regrow a lost limb, and barely seems to age. Meet the axolotl — nature's perpetual kid.",
+    "tags": [
+      "animals",
+      "axolotl",
+      "salamander",
+      "regeneration",
+      "facts"
+    ]
+  },
+  {
+    "title": "How do airplanes stay in the sky?",
+    "url": "blog/how-do-airplanes-stay-in-the-sky.html",
+    "section": "blog",
+    "excerpt": "A jumbo jet can weigh more than a hundred cars, yet it cruises at ten kilometers high. The answer is a four-way tug-of-war between four forces.",
+    "tags": [
+      "science",
+      "airplanes",
+      "flight",
+      "physics",
+      "howitworks"
+    ]
+  },
+  {
     "title": "How do seeds know which way is up?",
     "url": "blog/how-do-seeds-know-which-way-is-up.html",
     "section": "blog",
@@ -43,6 +69,32 @@
       "science",
       "space",
       "sky"
+    ]
+  },
+  {
+    "title": "Why do we get brain freeze?",
+    "url": "blog/why-do-we-get-brain-freeze.html",
+    "section": "blog",
+    "excerpt": "One bite of ice cream, one sudden ache behind your forehead. Brain freeze is not your brain freezing at all — it is a nerve and a blood vessel getting confused.",
+    "tags": [
+      "science",
+      "body",
+      "health",
+      "icecream",
+      "howitworks"
+    ]
+  },
+  {
+    "title": "Why do we yawn — and why is it contagious?",
+    "url": "blog/why-do-we-yawn.html",
+    "section": "blog",
+    "excerpt": "The big mouth-stretch everyone shares — and the reason one person's yawn can set off a whole room. Scientists are still working out the first part, but the second is stranger.",
+    "tags": [
+      "science",
+      "body",
+      "sleep",
+      "behavior",
+      "howitworks"
     ]
   },
   {
@@ -90,6 +142,19 @@
     ]
   },
   {
+    "title": "Why did a bear walk into a bakery at a farmers market?",
+    "url": "news/bear-bread-farmers-market-aspen.html",
+    "section": "news",
+    "excerpt": "A hungry black bear strolled straight past the shoppers at an Aspen market and made a beeline for the bread booth — and stayed, they say, for a snack and a nap.",
+    "tags": [
+      "bear",
+      "animals",
+      "colorado",
+      "weirdnews",
+      "bakery"
+    ]
+  },
+  {
     "title": "A 12-foot shark got stuck in a city canal — and the internet made it famous",
     "url": "news/bronze-whaler-shark-busan-canal.html",
     "section": "news",
@@ -98,6 +163,45 @@
       "animals",
       "sharks",
       "news"
+    ]
+  },
+  {
+    "title": "Why are owls nesting in a Manhattan water tower?",
+    "url": "news/manhattan-barn-owls-water-tower.html",
+    "section": "news",
+    "excerpt": "A family of barn owls moved onto a rooftop water tower in the heart of New York City — the first barn owl nest anyone can remember in Manhattan.",
+    "tags": [
+      "owls",
+      "animals",
+      "birds",
+      "newyork",
+      "news"
+    ]
+  },
+  {
+    "title": "Can a crayfish get bigger than \"Crawzilla\"?",
+    "url": "news/record-breaking-crayfish-tennessee.html",
+    "section": "news",
+    "excerpt": "A friendly rivalry over one giant Kentucky crayfish sent scientists on a nationwide hunt — and the real record-holder turned up hiding in a museum drawer.",
+    "tags": [
+      "crayfish",
+      "animals",
+      "records",
+      "science",
+      "news"
+    ]
+  },
+  {
+    "title": "Can a world 20 light-years away have weather?",
+    "url": "news/webb-brown-dwarf-weather.html",
+    "section": "news",
+    "excerpt": "NASA's Webb telescope watched a wild world 20 light-years away and found its stormy skies follow surprisingly tidy rules — three repeating weather patterns, not total chaos.",
+    "tags": [
+      "space",
+      "webb",
+      "nasa",
+      "astronomy",
+      "weather"
     ]
   },
   {

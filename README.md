@@ -10,6 +10,7 @@ A calm kids' site: blog, browser games, kid-safe news. **No backend, no database
 
 ## What's on the site
 
+- **Ads** — Our World is free, supported by Google AdSense. No accounts, no chat, and your progress never leaves your device.
 - **Blog** — explainers and reading guides for 7–11 year olds.
 - **Games** — three browser games (Memory Match, Math Quiz, Draw & Paint). No installs, no accounts.
 - **News** — short, kind news items with links to the original story.
@@ -50,8 +51,8 @@ Every article page has **A− / A+** (text size) and **Easy-read** (dyslexia-fri
 
 ## Safety model
 
-- No ads, no trackers, no analytics, no accounts, no chat.
-- Fonts are self-hosted — no third party sees who reads the site.
+- Ads keep the site free (Google AdSense). The ad network sees what it needs to serve ads — nothing here sells your data.
+- No chat, no accounts, no sign-ups. Self-hosted fonts; the ad network is the only third party.
 - Game progress stays in browser localStorage only. Never transmitted.
 - The About page carries a contact form that stays dormant until a real form ID is set — nothing connects anywhere until then.
 
