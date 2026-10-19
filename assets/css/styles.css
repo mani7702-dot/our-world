@@ -904,3 +904,7 @@ body { animation: page-in 0.35s var(--ease-out) both; }
 @media (prefers-reduced-motion: reduce) {
   .page-404 .nf-dots span { animation: none; }
 }
+
+.post-figure { margin: 1.5rem 0; }
+.post-figure img { width: 100%; height: auto; border-radius: var(--radius); }
+.post-figure figcaption { font-size: 0.8rem; color: var(--ink-2); margin-top: 0.4rem; font-style: italic; }
