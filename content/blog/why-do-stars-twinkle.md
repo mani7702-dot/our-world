@@ -1,6 +1,7 @@
 ---
 title: Why do stars twinkle?
 date: 2026-10-19
+time: 12:28
 category: Science
 read: 3 min
 excerpt: Stars do not really wobble — our air makes them look like they do. Here is what is happening between you and a star.

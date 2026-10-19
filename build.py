@@ -200,7 +200,7 @@ def draft_badge(p):
 def today_card(p, label):
     return (
         '<div class="today-card" style="--zone:%s" data-reveal>\n'
-        '      <span class="kicker">%s</span>\n'
+        '      <span class="kicker">%s · %s</span>\n'
         '      <h3><a href="%s/%s.html">%s</a></h3>\n'
         '      <p class="small muted">%s</p>\n'
         "      %s\n"
@@ -208,6 +208,7 @@ def today_card(p, label):
     ) % (
         ZONE[p["section"]],
         label,
+        esc(p["date_long"]),
         p["section"],
         p["slug"],
         esc(p["title"]),
@@ -220,7 +221,7 @@ def blog_row(p, url):
     return (
         '<article class="article-row" data-reveal>\n'
         "      <div>\n"
-        '        <span class="kicker" style="--zone:%s;margin-bottom:8px">%s · %s read</span>\n'
+        '        <span class="kicker" style="--zone:%s;margin-bottom:8px">%s · %s · %s read</span>\n'
         '        <h3><a href="%s">%s</a></h3>\n'
         "        <p>%s</p>\n"
         "      </div>\n"
@@ -229,6 +230,7 @@ def blog_row(p, url):
     ) % (
         ZONE["blog"],
         esc(p["category"]),
+        esc(p["date_long"]),
         esc(p["read"]),
         url,
         esc(p["title"]),

@@ -1,6 +1,7 @@
 ---
 title: The tardigrade: 7 reasons the water bear is almost unkillable
 date: 2026-10-19
+time: 15:52
 category: Animals
 read: 4 min
 excerpt: Half a millimeter long, eight legs, and it has survived boiling, freezing, deep-ocean pressure and outer space. Meet the toughest animal on Earth.

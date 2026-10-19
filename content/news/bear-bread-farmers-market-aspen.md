@@ -1,6 +1,7 @@
 ---
 title: Why did a bear walk into a bakery at a farmers market?
 date: 2026-10-19
+time: 17:34
 category: Animals
 read: 3 min
 excerpt: A hungry black bear strolled straight past the shoppers at an Aspen market and made a beeline for the bread booth — and stayed, they say, for a snack and a nap.

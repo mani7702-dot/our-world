@@ -1,6 +1,7 @@
 ---
 title: Why does the Moon seem to change shape?
 date: 2026-10-19
+time: 19:36
 category: Space
 read: 4 min
 excerpt: The Moon is not shrinking or growing — it is a ball hanging in sunlight, and you are only ever seeing a slice of it. Here is the real reason for the phases.

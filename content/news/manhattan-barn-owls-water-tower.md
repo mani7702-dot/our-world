@@ -1,6 +1,7 @@
 ---
 title: Why are owls nesting in a Manhattan water tower?
 date: 2026-10-19
+time: 17:23
 category: Animals
 read: 4 min
 excerpt: A family of barn owls moved onto a rooftop water tower in the heart of New York City — the first barn owl nest anyone can remember in Manhattan.

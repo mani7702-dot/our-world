@@ -1,6 +1,7 @@
 ---
 title: Can a crayfish get bigger than "Crawzilla"?
 date: 2026-10-19
+time: 17:23
 category: Animals
 read: 4 min
 excerpt: A friendly rivalry over one giant Kentucky crayfish sent scientists on a nationwide hunt — and the real record-holder turned up hiding in a museum drawer.

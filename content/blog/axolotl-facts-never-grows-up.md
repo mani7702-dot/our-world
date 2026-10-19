@@ -1,6 +1,7 @@
 ---
 title: The axolotl: 7 facts about the salamander that never grows up
 date: 2026-10-19
+time: 17:27
 category: Animals
 read: 5 min
 excerpt: It keeps its baby gills its whole life, can regrow a lost limb, and barely seems to age. Meet the axolotl — nature's perpetual kid.

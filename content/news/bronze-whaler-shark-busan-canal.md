@@ -1,6 +1,7 @@
 ---
 title: A 12-foot shark got stuck in a city canal — and the internet made it famous
 date: 2026-10-19
+time: 16:00
 category: Animals
 read: 3 min
 excerpt: A bronze whaler shark chased its lunch into a canal in South Korea and could not find its way out. Then 600,000 people came to wave.

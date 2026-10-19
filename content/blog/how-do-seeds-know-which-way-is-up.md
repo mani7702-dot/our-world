@@ -1,6 +1,7 @@
 ---
 title: How do seeds know which way is up?
 date: 2026-10-19
+time: 12:27
 category: Science
 read: 3 min
 excerpt: Plant a seed upside down and it still grows the right way. So how does it know which end is which?

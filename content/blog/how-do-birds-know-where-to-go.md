@@ -1,6 +1,7 @@
 ---
 title: How do birds know where to go?
 date: 2026-10-19
+time: 19:27
 category: Animals
 read: 4 min
 excerpt: A young bird with no map, no phone and no grown-up to ask still flies thousands of kilometres to the right place. Sun, stars, Earth's magnetic field and smell all take a turn.
