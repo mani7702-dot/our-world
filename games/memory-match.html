@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Match — Our World</title>
+  <meta name="description" content="Memory Match: flip the cards, find the pairs, beat your own best time. Three board sizes, no installs, no accounts.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c2410c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23ffb703'/%3E%3Ccircle cx='21' cy='21' r='3.5' fill='%232a9d8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <style>
+    /* ---------- Memory Match — scoped game styles (site tokens only) ---------- */
+    .mm-panel {
+      background: var(--surface);
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: clamp(16px, 3vw, 26px);
+      box-shadow: var(--shadow-1);
+    }
+    .mm-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .mm-label {
+      font-family: var(--font-display); font-weight: 700; font-size: 0.95rem;
+      color: var(--ink-2);
+    }
+    .mm-sizes { display: flex; flex-wrap: wrap; gap: 8px; }
+    .mm-sizes .mm-size[aria-pressed="true"] {
+      background: var(--zone, var(--games));
+      border-color: var(--zone, var(--games));
+      color: #fff;
+    }
+    .mm-sizes .mm-size[aria-pressed="true"]:hover { color: #fff; transform: none; }
+
+    /* HUD */
+    .mm-hud {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 18px 0 0;
+    }
+    @media (min-width: 600px) { .mm-hud { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+    .mm-stat {
+      background: var(--paper);
+      border: 2px solid var(--line);
+      border-radius: var(--r-md);
+      padding: 10px 14px;
+    }
+    .mm-stat-k {
+      display: block;
+      font-family: var(--font-display); font-weight: 700; font-size: 0.76rem;
+      letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2);
+    }
+    .mm-stat-v {
+      display: block;
+      font-family: var(--font-display); font-weight: 800; font-size: 1.5rem;
+      color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.2;
+    }
+
+    /* Board */
+    .mm-board-wrap { display: flex; justify-content: center; }
+    .mm-board {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: clamp(6px, 1.8vw, 14px);
+      width: 100%;
+      margin-top: 18px;
+    }
+    .mm-board--4, .mm-board--8 { max-width: 540px; }
+    .mm-board--12 { max-width: 800px; }
+    @media (min-width: 760px) { .mm-board--12 { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+    /* Card */
+    .mm-card {
+      position: relative;
+      appearance: none; -webkit-appearance: none;
+      margin: 0; padding: 0;
+      aspect-ratio: 1 / 1;
+      min-height: 44px;                       /* touch target */
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-md);
+      background: var(--zone-tint, var(--games-tint));
+      box-shadow: var(--shadow-1);
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .mm-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
+    .mm-card:active { transform: translateY(0); }
+    .mm-card[aria-disabled="true"] { cursor: default; }
+    .mm-card-inner {
+      position: absolute; inset: 0;
+      transform-style: preserve-3d;
+      transition: transform 0.4s var(--ease-out, ease);
+    }
+    .mm-card.is-flipped .mm-card-inner { transform: rotateY(180deg); }
+    .mm-face {
+      position: absolute; inset: 0;
+      display: grid; place-items: center;
+      border-radius: calc(var(--r-md) - 2px);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      font-family: var(--font-display); font-weight: 800;
+      line-height: 1;
+      user-select: none;
+    }
+    .mm-face-back { font-size: clamp(1.3rem, 4.5vw, 2rem); color: var(--zone, var(--games)); }
+    .mm-face-front {
+      transform: rotateY(180deg);
+      background: var(--surface);
+      font-size: clamp(1.6rem, 5.5vw, 2.6rem);
+    }
+    .mm-card.is-right { border-color: var(--ok); }
+    .mm-card.is-right .mm-face-front { color: var(--ok); }
+    .mm-card.is-wrong { border-color: var(--brand); }
+
+    /* Status line */
+    .mm-status { margin: 16px 0 0; color: var(--ink-2); font-size: 0.98rem; min-height: 1.6em; }
+
+    /* Win banner */
+    .mm-banner {
+      margin-top: 20px;
+      background: var(--zone-tint, var(--games-tint));
+      border: 3px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: 20px 22px 22px;
+      box-shadow: var(--shadow-2);
+      text-align: center;
+    }
+    .mm-banner[hidden] { display: none; }
+    .mm-banner h2 { margin: 0 0 4px; font-size: clamp(1.5rem, 4vw, 2rem); }
+    .mm-result {
+      display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: center;
+      font-family: var(--font-display); font-weight: 700; color: var(--ink);
+      margin-bottom: 12px;
+    }
+    .mm-result .badge-age { border-color: var(--ok); color: var(--ok); }
+    .mm-note { margin: 14px 0 0; }
+
+    /* Motion only when allowed */
+    @keyframes mm-pop {
+      0% { transform: scale(1); }
+      45% { transform: scale(1.07); }
+      100% { transform: scale(1); }
+    }
+    @keyframes mm-shake {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-5px); }
+      40% { transform: translateX(5px); }
+      60% { transform: translateX(-3px); }
+      80% { transform: translateX(3px); }
+    }
+    .mm-card.anim-pop { animation: mm-pop 0.45s var(--ease-spring, ease); }
+    .mm-card.anim-shake { animation: mm-shake 0.4s ease; }
+
+    /* Reduced motion: states only, no flip/shake/pop */
+    .mm-board.is-static .mm-card-inner { transition: none; }
+    .mm-board.is-static .mm-card:hover { transform: none; box-shadow: var(--shadow-1); }
+    .mm-board.is-static .mm-card.anim-pop,
+    .mm-board.is-static .mm-card.anim-shake { animation: none; }
+  </style>
+</head>
+<body style="--zone:#b45309;--zone-tint:#fdf0d5">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Our World</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/">Blog</a></li>
+          <li><a href="index.html" aria-current="page">Games</a></li>
+          <li><a href="../news/">News</a></li>
+          <li><a href="../parents/">Parents</a></li>
+          <li><a href="../about/">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="kicker" style="--zone:#b45309">Game · Ages 4+</span>
+        <h1>Memory Match</h1>
+        <p>Flip the cards, find the pairs, beat your own best time. Three board sizes.</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="mm-panel">
+          <div class="mm-controls">
+            <span class="mm-label" id="mm-size-label">Board size</span>
+            <div class="mm-sizes" id="mm-sizes" role="group" aria-labelledby="mm-size-label"></div>
+            <button type="button" class="btn btn--ghost btn--sm" id="mm-new">New game</button>
+          </div>
+
+          <div class="mm-hud">
+            <div class="mm-stat">
+              <span class="mm-stat-k">Moves</span>
+              <span class="mm-stat-v" id="mm-moves">0</span>
+            </div>
+            <div class="mm-stat">
+              <span class="mm-stat-k">Pairs found</span>
+              <span class="mm-stat-v" id="mm-found">0 of 4</span>
+            </div>
+            <div class="mm-stat">
+              <span class="mm-stat-k">Time</span>
+              <span class="mm-stat-v" id="mm-time">0:00</span>
+            </div>
+            <div class="mm-stat">
+              <span class="mm-stat-k" id="mm-best-label">Best (4 pairs)</span>
+              <span class="mm-stat-v" id="mm-best">—</span>
+            </div>
+          </div>
+
+          <div class="mm-board-wrap">
+            <div class="mm-board mm-board--4" id="mm-board"></div>
+          </div>
+
+          <p class="mm-status" id="mm-status" role="status" aria-live="polite">Pick a board size and flip your first card.</p>
+        </div>
+
+        <div class="mm-banner" id="mm-banner" hidden>
+          <h2>All pairs found!</h2>
+          <div class="mm-result" id="mm-result"></div>
+          <button type="button" class="btn btn--zone btn--sm" id="mm-again">Play again</button>
+        </div>
+
+        <p class="small mm-note" style="color:var(--ink-2)">Your best time is saved on your own device only. No accounts, no trackers.</p>
+        <p class="small mm-note"><a class="btn btn--ghost btn--sm" href="index.html">Back to all games</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Our World</h4>
+          <p class="small" style="max-width:36ch;color:var(--ink-2)">A calm corner of the internet for young readers: stories, games and news, with nothing shouting back.</p>
+        </div>
+        <div>
+          <h4>Read</h4>
+          <ul>
+            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../news/">News</a></li>
+            <li><a href="../parents/">Parents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="index.html">All games</a></li>
+            <li><a href="memory-match.html">Memory Match</a></li>
+            <li><a href="math-quiz.html">Math Quiz</a></li>
+            <li><a href="draw-paint.html">Draw &amp; Paint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span>No ads · No trackers · No accounts</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script defer>
+    (function () {
+      "use strict";
+
+      var ANIMALS = ["🐶", "🐱", "🐰", "🐼", "🦊", "🐸", "🐵", "🦁", "🐮", "🐷", "🐔", "🐙"];
+      var NAMES = ["dog", "cat", "rabbit", "panda", "fox", "frog", "monkey", "lion", "cow", "pig", "chicken", "octopus"];
+      var SIZES = [4, 8, 12];
+      var MISMATCH_MS = 800;
+
+      var boardEl = document.getElementById("mm-board");
+      var sizesEl = document.getElementById("mm-sizes");
+      var movesEl = document.getElementById("mm-moves");
+      var foundEl = document.getElementById("mm-found");
+      var timeEl = document.getElementById("mm-time");
+      var bestLabelEl = document.getElementById("mm-best-label");
+      var bestEl = document.getElementById("mm-best");
+      var statusEl = document.getElementById("mm-status");
+      var bannerEl = document.getElementById("mm-banner");
+      var resultEl = document.getElementById("mm-result");
+      var newBtn = document.getElementById("mm-new");
+      var againBtn = document.getElementById("mm-again");
+
+      var motionQuery = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
+      var motionOK = function () { return !(motionQuery && motionQuery.matches); };
+
+      var pairs = SIZES[0];
+      var deck = [];
+      var cardEls = [];
+      var firstIndex = -1;
+      var lock = false;
+      var moves = 0;
+      var found = 0;
+      var startTime = 0;
+      var elapsed = 0;
+      var timerId = 0;
+      var running = false;
+
+      /* ---------- best time (localStorage only) ---------- */
+      function bestKey(n) { return "ow-memory-best-" + n; }
+      function getBest(n) {
+        try {
+          var raw = window.localStorage.getItem(bestKey(n));
+          var value = raw === null ? NaN : parseInt(raw, 10);
+          return isNaN(value) ? null : value;
+        } catch (err) { return null; }
+      }
+      function setBest(n, ms) {
+        try { window.localStorage.setItem(bestKey(n), String(ms)); } catch (err) { /* storage unavailable */ }
+      }
+      function fmt(ms) {
+        var total = Math.max(0, Math.round(ms / 1000));
+        var m = Math.floor(total / 60);
+        var s = total % 60;
+        return m + ":" + (s < 10 ? "0" : "") + s;
+      }
+
+      /* ---------- HUD ---------- */
+      function renderHud() {
+        movesEl.textContent = String(moves);
+        foundEl.textContent = found + " of " + pairs;
+        timeEl.textContent = fmt(elapsed);
+        bestLabelEl.textContent = "Best (" + pairs + " pairs)";
+        var best = getBest(pairs);
+        bestEl.textContent = best === null ? "—" : fmt(best);
+      }
+      function say(message) { statusEl.textContent = message; }
+
+      /* ---------- timer ---------- */
+      function tick() {
+        elapsed = Date.now() - startTime;
+        timeEl.textContent = fmt(elapsed);
+      }
+      function startTimer() {
+        if (running) { return; }
+        running = true;
+        startTime = Date.now();
+        timerId = window.setInterval(tick, 250);
+      }
+      function stopTimer() {
+        running = false;
+        if (timerId) { window.clearInterval(timerId); timerId = 0; }
+        if (startTime) { elapsed = Date.now() - startTime; }
+        timeEl.textContent = fmt(elapsed);
+      }
+
+      /* ---------- cards ---------- */
+      function labelFor(index) {
+        var card = deck[index];
+        var base = "Card " + (index + 1);
+        if (card.state === "matched") { return base + ", " + card.name + ", matched"; }
+        if (card.state === "up") { return base + ", " + card.name + ", face up"; }
+        return base + ", face down";
+      }
+      function syncCard(index, el) {
+        var card = deck[index];
+        el.classList.toggle("is-flipped", card.state !== "down");
+        el.setAttribute("aria-label", labelFor(index));
+        el.setAttribute("aria-disabled", card.state === "matched" ? "true" : "false");
+      }
+      function makeCard(index) {
+        var card = deck[index];
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "mm-card";
+        btn.dataset.index = String(index);
+
+        var inner = document.createElement("span");
+        inner.className = "mm-card-inner";
+
+        var back = document.createElement("span");
+        back.className = "mm-face mm-face-back";
+        back.setAttribute("aria-hidden", "true");
+        back.textContent = "?";
+
+        var front = document.createElement("span");
+        front.className = "mm-face mm-face-front";
+        front.setAttribute("aria-hidden", "true");
+        front.textContent = card.animal;
+
+        inner.appendChild(back);
+        inner.appendChild(front);
+        btn.appendChild(inner);
+        syncCard(index, btn);
+
+        btn.addEventListener("click", function () { flip(index); });
+        return btn;
+      }
+
+      function flash(index, animClass, addClass) {
+        if (!motionOK()) { return; }
+        var el = cardEls[index];
+        if (addClass) { el.classList.add(addClass); }
+        el.classList.add(animClass);
+        window.setTimeout(function () {
+          el.classList.remove(animClass);
+        }, 500);
+      }
+
+      function flip(index) {
+        if (lock) { return; }
+        var card = deck[index];
+        if (card.state !== "down") { return; }
+
+        startTimer();
+        card.state = "up";
+        syncCard(index, cardEls[index]);
+
+        if (firstIndex === -1) {
+          firstIndex = index;
+          say("Now flip a second card to look for a match.");
+          return;
+        }
+
+        moves += 1;
+        movesEl.textContent = String(moves);
+
+        var other = firstIndex;
+        firstIndex = -1;
+
+        if (deck[other].pairId === card.pairId) {
+          deck[other].state = "matched";
+          card.state = "matched";
+          syncCard(other, cardEls[other]);
+          syncCard(index, cardEls[index]);
+          found += 1;
+          renderHud();
+          flash(other, "anim-pop", "is-right");
+          flash(index, "anim-pop", "is-right");
+          if (found === pairs) {
+            win();
+          } else {
+            say("Match! " + card.name + " pair found. " + (pairs - found) + " to go.");
+          }
+          return;
+        }
+
+        lock = true;
+        cardEls[other].classList.add("is-wrong");
+        cardEls[index].classList.add("is-wrong");
+        flash(other, "anim-shake", null);
+        flash(index, "anim-shake", null);
+        say("Not a match. The cards turn back over.");
+
+        window.setTimeout(function () {
+          [other, index].forEach(function (i) {
+            deck[i].state = "down";
+            cardEls[i].classList.remove("is-flipped", "is-wrong");
+            syncCard(i, cardEls[i]);
+          });
+          lock = false;
+        }, MISMATCH_MS);
+      }
+
+      function win() {
+        stopTimer();
+        var best = getBest(pairs);
+        var isBest = best === null || elapsed < best;
+        if (isBest) { setBest(pairs, elapsed); }
+        renderHud();
+
+        while (resultEl.firstChild) { resultEl.removeChild(resultEl.firstChild); }
+
+        var timeItem = document.createElement("span");
+        timeItem.textContent = "Time " + fmt(elapsed);
+        resultEl.appendChild(timeItem);
+
+        var movesItem = document.createElement("span");
+        movesItem.textContent = moves + (moves === 1 ? " move" : " moves");
+        resultEl.appendChild(movesItem);
+
+        if (isBest) {
+          var badge = document.createElement("span");
+          badge.className = "badge-age";
+          badge.textContent = "New best time!";
+          resultEl.appendChild(badge);
+          say("All pairs found in " + fmt(elapsed) + " with " + moves + " moves. That is a new best time for " + pairs + " pairs!");
+        } else {
+          say("All pairs found in " + fmt(elapsed) + " with " + moves + " moves. Your best is " + fmt(best) + ".");
+        }
+
+        bannerEl.hidden = false;
+        againBtn.focus();
+      }
+
+      /* ---------- new game ---------- */
+      function newGame(size) {
+        pairs = size;
+        firstIndex = -1;
+        lock = false;
+        moves = 0;
+        found = 0;
+        stopTimer();
+        startTime = 0;
+        elapsed = 0;
+
+        deck = [];
+        var animals = ANIMALS.slice(0, pairs);
+        animals.forEach(function (animal, i) {
+          deck.push({ pairId: i, animal: animal, name: NAMES[i], state: "down" });
+          deck.push({ pairId: i, animal: animal, name: NAMES[i], state: "down" });
+        });
+        for (var i = deck.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var tmp = deck[i]; deck[i] = deck[j]; deck[j] = tmp;
+        }
+
+        boardEl.className = "mm-board mm-board--" + pairs;
+        boardEl.classList.toggle("is-static", !motionOK());
+
+        while (boardEl.firstChild) { boardEl.removeChild(boardEl.firstChild); }
+        cardEls = [];
+        deck.forEach(function (card, index) {
+          var el = makeCard(index);
+          cardEls.push(el);
+          boardEl.appendChild(el);
+        });
+
+        bannerEl.hidden = true;
+        while (resultEl.firstChild) { resultEl.removeChild(resultEl.firstChild); }
+
+        renderHud();
+        say("New game with " + pairs + " pairs. Flip your first card.");
+      }
+
+      /* ---------- size picker ---------- */
+      SIZES.forEach(function (size) {
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "btn btn--ghost btn--sm mm-size";
+        btn.dataset.size = String(size);
+        btn.textContent = size + " pairs";
+        btn.setAttribute("aria-pressed", size === pairs ? "true" : "false");
+        btn.addEventListener("click", function () {
+          pairs = size;
+          var all = sizesEl.querySelectorAll(".mm-size");
+          for (var i = 0; i < all.length; i++) {
+            all[i].setAttribute("aria-pressed", all[i].dataset.size === String(size) ? "true" : "false");
+          }
+          newGame(size);
+        });
+        sizesEl.appendChild(btn);
+      });
+
+      newBtn.addEventListener("click", function () { newGame(pairs); });
+      againBtn.addEventListener("click", function () { newGame(pairs); });
+
+      if (motionQuery && motionQuery.addEventListener) {
+        motionQuery.addEventListener("change", function () {
+          boardEl.classList.toggle("is-static", !motionOK());
+        });
+      }
+
+      newGame(SIZES[0]);
+    })();
+  </script>
+</body>
+</html>

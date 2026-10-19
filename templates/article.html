@@ -1,0 +1,30 @@
+<section class="page-head">
+  <div class="container">
+    <span class="kicker" style="--zone:{{ZONE}}">{{CATEGORY}}</span>
+    <h1>{{TITLE}}</h1>
+    <div class="article-meta">
+      <time datetime="{{DATE}}">{{DATE_LONG}}</time>
+      {{META_EXTRA}}
+    </div>
+    {{SAMPLE_NOTE}}
+  </div>
+</section>
+
+<section class="page-body container">
+  <div class="reading-controls" role="group" aria-label="Reading options">
+    <span class="label">Reading options</span>
+    <button type="button" class="btn btn--ghost btn--sm" id="text-smaller" aria-label="Smaller text">A−</button>
+    <button type="button" class="btn btn--ghost btn--sm" id="text-larger" aria-label="Larger text">A+</button>
+    <button type="button" class="btn btn--ghost btn--sm" id="dyslexia-toggle" aria-pressed="false">Easy-read</button>
+  </div>
+
+  <article class="prose prose-md" id="article-body">
+    <p class="article-lede">{{LEDE}}</p>
+    {{BODY}}
+  </article>
+
+  {{TAG_LIST}}
+  {{GROWNUPS}}
+
+  <p class="article-foot"><a class="btn btn--ghost btn--sm" href="{{BACK_URL}}">← Back to {{BACK_LABEL}}</a></p>
+</section>

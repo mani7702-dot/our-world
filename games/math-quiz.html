@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Math Quiz — Our World</title>
+  <meta name="description" content="Adding, subtraction and times tables with a streak counter. Ten questions a round, three levels, no accounts.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c2410c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23ffb703'/%3E%3Ccircle cx='21' cy='21' r='3.5' fill='%232a9d8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <style>
+    /* ---------- Math Quiz — scoped styles (tokens only, from styles.css) ---------- */
+    .quiz-wrap { max-width: 780px; margin-inline: auto; }
+    .quiz-card {
+      background: var(--surface);
+      border: 2px solid var(--line);
+      border-radius: var(--r-lg);
+      box-shadow: var(--shadow-1);
+      padding: clamp(20px, 4vw, 32px);
+    }
+    .quiz-card > h2 { margin: 0 0 6px; }
+    .quiz-card > h3 { margin: 22px 0 10px; font-size: 1.15rem; }
+    .quiz-screen[hidden], .quiz-feedback[hidden], #quiz-next[hidden],
+    .quiz-record[hidden], .quiz-review-title[hidden], .quiz-note[hidden] { display: none !important; }
+
+    /* level picker */
+    .quiz-levels { display: grid; gap: 14px; grid-template-columns: 1fr; margin-top: 20px; }
+    @media (min-width: 680px) { .quiz-levels { grid-template-columns: repeat(3, 1fr); } }
+    .quiz-level {
+      display: grid; gap: 8px; justify-items: start;
+      min-height: 44px;
+      padding: 18px 16px;
+      font: inherit; color: var(--ink); text-align: left;
+      background: var(--surface);
+      border: 2px solid var(--line-2);
+      border-radius: var(--r-md);
+      cursor: pointer;
+    }
+    .quiz-level strong { font-family: var(--font-display); font-size: 1.08rem; line-height: 1.25; }
+    .quiz-level-desc { color: var(--ink-2); font-size: 0.92rem; line-height: 1.5; }
+    .quiz-best-line { margin: 20px 0 0; font-weight: 700; }
+    .quiz-best-line b { font-family: var(--font-display); font-size: 1.25rem; color: var(--games-deep); }
+
+    /* HUD */
+    .quiz-hud { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+    .quiz-stats { display: flex; flex-wrap: wrap; gap: 10px; }
+    .quiz-stat {
+      display: inline-flex; align-items: baseline; gap: 8px;
+      background: var(--paper-2); border: 2px solid var(--line);
+      border-radius: var(--r-sm); padding: 6px 14px;
+    }
+    .quiz-stat > span { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
+    .quiz-stat > b { font-family: var(--font-display); font-size: 1.15rem; color: var(--games-deep); }
+
+    /* progress */
+    .quiz-counter { display: flex; flex-wrap: wrap; gap: 4px 12px; justify-content: space-between; font-weight: 700; font-size: 0.95rem; color: var(--ink-2); margin-bottom: 8px; }
+    .quiz-bar { height: 10px; background: var(--line); border-radius: 999px; overflow: hidden; margin-bottom: 22px; }
+    .quiz-bar > span { display: block; height: 100%; width: 0; background: var(--games); border-radius: 999px; }
+
+    /* question + answers */
+    .quiz-question {
+      font-family: var(--font-display); font-weight: 800;
+      font-size: clamp(2rem, 6vw, 2.7rem); line-height: 1.15;
+      margin: 0 0 22px;
+    }
+    .quiz-answers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .quiz-answer {
+      min-height: 64px; padding: 10px 16px;
+      font-family: var(--font-display); font-weight: 800;
+      font-size: clamp(1.35rem, 4vw, 1.7rem);
+      color: var(--ink); background: var(--surface);
+      border: 2px solid var(--line-2); border-radius: var(--r-md);
+      cursor: pointer;
+    }
+    .quiz-answer:disabled { cursor: default; }
+    .quiz-answer.is-correct, .quiz-answer.is-answer {
+      border-color: var(--ok); color: var(--ok);
+      background: var(--surface);
+      background: color-mix(in srgb, var(--ok) 10%, var(--surface));
+    }
+    .quiz-answer.is-correct::after, .quiz-answer.is-answer::after { content: " \2713"; }
+    .quiz-answer.is-wrong {
+      border-color: var(--brand); color: var(--brand-ink);
+      background: var(--surface);
+      background: color-mix(in srgb, var(--brand) 10%, var(--surface));
+    }
+
+    /* feedback */
+    .quiz-feedback {
+      display: grid; gap: 4px; margin-top: 18px;
+      background: var(--paper-2);
+      border: 2px solid var(--line); border-left-width: 6px;
+      border-radius: var(--r-sm); padding: 14px 18px;
+    }
+    .quiz-feedback.is-correct { border-color: var(--ok); }
+    .quiz-feedback.is-wrong { border-color: var(--brand); }
+    .quiz-feedback-line { font-family: var(--font-display); font-weight: 700; font-size: 1.12rem; }
+    .quiz-feedback.is-correct .quiz-feedback-line { color: var(--ok); }
+    .quiz-feedback.is-wrong .quiz-feedback-line { color: var(--brand-ink); }
+    .quiz-feedback-hint { margin: 0; color: var(--ink-2); font-size: 0.98rem; }
+    .quiz-actions { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; }
+
+    /* summary */
+    .quiz-summary-score { font-family: var(--font-display); font-weight: 800; font-size: clamp(2rem, 6vw, 2.6rem); margin: 6px 0 4px; }
+    .quiz-summary-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 18px 0 0; }
+    @media (max-width: 480px) { .quiz-summary-grid { grid-template-columns: 1fr; } }
+    .quiz-summary-grid .quiz-stat { justify-content: space-between; padding: 10px 16px; }
+    .quiz-record { margin: 16px 0 0; font-family: var(--font-display); font-weight: 700; color: var(--games-deep); }
+    .quiz-review { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+    .quiz-review li { background: var(--paper-2); border: 2px solid var(--line); border-radius: var(--r-sm); padding: 12px 16px; }
+    .quiz-review strong { font-family: var(--font-display); }
+    .quiz-review p { margin: 2px 0 0; color: var(--ink-2); font-size: 0.95rem; }
+    .quiz-foot-note { margin: 16px 0 0; text-align: center; }
+
+    /* motion: only when the reader is happy with motion */
+    @media (prefers-reduced-motion: no-preference) {
+      .quiz-level, .quiz-answer, .quiz-bar > span { transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease, width 0.35s var(--ease-out); }
+      .quiz-level:hover { border-color: var(--games); background: var(--games-tint); transform: translateY(-2px); }
+      .quiz-answer:not(:disabled):hover { border-color: var(--games); background: var(--games-tint); }
+      .quiz-answer:not(:disabled):active { transform: scale(0.97); }
+      .quiz-feedback.show { animation: quiz-fb-in 0.18s var(--ease-out) both; }
+      @keyframes quiz-fb-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .quiz-level, .quiz-answer, .quiz-bar > span, .quiz-feedback { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body style="--zone:#b45309;--zone-tint:#fdf0d5">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Our World</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/">Blog</a></li>
+          <li><a href="../games/" aria-current="page">Games</a></li>
+          <li><a href="../news/">News</a></li>
+          <li><a href="../parents/">Parents</a></li>
+          <li><a href="../about/">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="kicker" style="--zone:#b45309">Game · Ages 6+</span>
+        <h1>Math Quiz</h1>
+        <p>Adding, subtraction and times tables with a streak counter. Ten questions per round, three levels, and your best streak stays on this device.</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="quiz-wrap">
+
+          <!-- start screen: level picker -->
+          <section class="quiz-card quiz-screen" id="quiz-start" aria-labelledby="quiz-start-title">
+            <h2 id="quiz-start-title">Pick your level</h2>
+            <p class="muted" style="margin:0">Ten questions each round. Change level any time — every wrong answer comes with a friendly explanation.</p>
+            <div class="quiz-levels" id="quiz-levels">
+              <button type="button" class="quiz-level" data-level="six">
+                <span class="badge-age">Ages 6+</span>
+                <strong>Add &amp; subtract within 20</strong>
+                <span class="quiz-level-desc">Sums like 7 + 5 and take-aways like 15 - 8.</span>
+              </button>
+              <button type="button" class="quiz-level" data-level="eight">
+                <span class="badge-age">Ages 8+</span>
+                <strong>Times tables &amp; big take-aways</strong>
+                <span class="quiz-level-desc">Times tables to 10 and subtraction within 100.</span>
+              </button>
+              <button type="button" class="quiz-level" data-level="ten">
+                <span class="badge-age">Ages 10+</span>
+                <strong>Mixed sums &amp; division</strong>
+                <span class="quiz-level-desc">Times tables, sharing, and two-step questions.</span>
+              </button>
+            </div>
+            <p class="quiz-best-line">Best streak so far: <b id="quiz-best-start">0</b></p>
+          </section>
+
+          <!-- quiz screen -->
+          <section class="quiz-card quiz-screen" id="quiz-quiz" hidden aria-labelledby="quiz-question">
+            <div class="quiz-hud">
+              <div class="quiz-stats" role="group" aria-label="This round so far">
+                <span class="quiz-stat"><span>Streak</span><b id="hud-streak">0</b></span>
+                <span class="quiz-stat"><span>Answered</span><b id="hud-answered">0</b></span>
+                <span class="quiz-stat"><span>Right</span><b id="hud-accuracy">—</b></span>
+                <span class="quiz-stat"><span>Best</span><b id="hud-best">0</b></span>
+              </div>
+              <button type="button" class="btn btn--ghost btn--sm" id="quiz-change-level">Change level</button>
+            </div>
+            <div class="quiz-counter">
+              <span id="quiz-counter-text">Question 1 of 10</span>
+              <span id="quiz-counter-level">Ages 6+</span>
+            </div>
+            <div class="quiz-bar" aria-hidden="true"><span id="quiz-bar-fill"></span></div>
+            <p class="quiz-question" id="quiz-question" aria-live="polite">What is 7 + 5?</p>
+            <div class="quiz-answers" id="quiz-answers" role="group" aria-label="Answer choices"></div>
+            <div class="quiz-feedback" id="quiz-feedback" hidden>
+              <span class="quiz-feedback-line" id="quiz-feedback-line"></span>
+              <p class="quiz-feedback-hint" id="quiz-feedback-hint"></p>
+            </div>
+            <div class="quiz-actions">
+              <button type="button" class="btn btn--primary" id="quiz-next" hidden>Next question</button>
+            </div>
+          </section>
+
+          <!-- summary screen -->
+          <section class="quiz-card quiz-screen" id="quiz-summary" hidden aria-labelledby="quiz-summary-title">
+            <span class="badge-age" id="sum-level-badge">Ages 6+</span>
+            <h2 id="quiz-summary-title">Round complete!</h2>
+            <p class="quiz-summary-score" id="sum-score">0 out of 10</p>
+            <p class="muted" id="sum-accuracy" style="margin:0">0% right this round.</p>
+            <div class="quiz-summary-grid">
+              <span class="quiz-stat"><span>Best streak this round</span><b id="sum-best-round">0</b></span>
+              <span class="quiz-stat"><span>Best streak ever</span><b id="sum-best-all">0</b></span>
+            </div>
+            <p class="quiz-record" id="sum-record" hidden>New best streak — well done!</p>
+            <h3 class="quiz-review-title" id="quiz-review-title">Have another look</h3>
+            <ul class="quiz-review" id="sum-review"></ul>
+            <div class="quiz-actions">
+              <button type="button" class="btn btn--primary" id="play-again">Play again</button>
+              <button type="button" class="btn btn--ghost" id="change-level">Change level</button>
+            </div>
+          </section>
+
+        </div>
+        <p class="quiz-foot-note small muted">Your best streak is saved in this browser only — no accounts, no tracking.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Our World</h4>
+          <p class="small" style="max-width:36ch;color:var(--ink-2)">A calm corner of the internet for young readers: stories, games and news, with nothing shouting back.</p>
+        </div>
+        <div>
+          <h4>Read</h4>
+          <ul>
+            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../news/">News</a></li>
+            <li><a href="../parents/">Parents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="index.html">All games</a></li>
+            <li><a href="memory-match.html">Memory Match</a></li>
+            <li><a href="math-quiz.html">Math Quiz</a></li>
+            <li><a href="draw-paint.html">Draw &amp; Paint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span>No ads · No trackers · No accounts</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script defer>
+    (function () {
+      "use strict";
+
+      /* ---------- constants ---------- */
+      var BEST_KEY = "ow-quiz-best-streak";
+      var PER_ROUND = 10;
+      var LEVEL_LABEL = { six: "Ages 6+", eight: "Ages 8+", ten: "Ages 10+" };
+      var PRAISE = ["Yes! Nice one.", "Brilliant!", "You've got it.", "Spot on!", "Correct — keep it up!", "Nice thinking!"];
+      var WRONG_LINE = "Not quite — the answer is ";
+
+      /* ---------- dom ---------- */
+      function el(id) { return document.getElementById(id); }
+      var startScreen = el("quiz-start");
+      var quizScreen = el("quiz-quiz");
+      var varSummary = el("quiz-summary");
+      var bestStart = el("quiz-best-start");
+      var hud = {
+        streak: el("hud-streak"),
+        answered: el("hud-answered"),
+        accuracy: el("hud-accuracy"),
+        best: el("hud-best")
+      };
+      var counterText = el("quiz-counter-text");
+      var counterLevel = el("quiz-counter-level");
+      var barFill = el("quiz-bar-fill");
+      var questionEl = el("quiz-question");
+      var answersEl = el("quiz-answers");
+      var feedbackEl = el("quiz-feedback");
+      var feedbackLine = el("quiz-feedback-line");
+      var feedbackHint = el("quiz-feedback-hint");
+      var nextBtn = el("quiz-next");
+      var levelButtons = Array.prototype.slice.call(document.querySelectorAll(".quiz-level"));
+      var sumBadge = el("sum-level-badge");
+      var sumScore = el("sum-score");
+      var sumAccuracy = el("sum-accuracy");
+      var sumBestRound = el("sum-best-round");
+      var sumBestAll = el("sum-best-all");
+      var sumRecord = el("sum-record");
+      var reviewTitle = el("quiz-review-title");
+      var reviewList = el("sum-review");
+
+      /* ---------- best streak (only storage this page uses) ---------- */
+      function readBest() {
+        try {
+          var v = parseInt(window.localStorage.getItem(BEST_KEY), 10);
+          return (isFinite(v) && v > 0) ? v : 0;
+        } catch (err) { return 0; }
+      }
+      function writeBest(v) {
+        try { window.localStorage.setItem(BEST_KEY, String(v)); } catch (err) { /* private mode: keep it in memory only */ }
+      }
+
+      /* ---------- question factory ---------- */
+      function randInt(min, max) { return min + Math.floor(Math.random() * (max - min + 1)); }
+      function shuffle(list) {
+        for (var i = list.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var t = list[i]; list[i] = list[j]; list[j] = t;
+        }
+        return list;
+      }
+      function q(expr, answer, hint, extras) { return { expr: expr, answer: answer, hint: hint, extras: extras || [] }; }
+
+      function addSub20() {
+        if (Math.random() < 0.5) {
+          var a = randInt(1, 12), b = randInt(1, 20 - a), ans = a + b;
+          return q(a + " + " + b, ans, a + " + " + b + " = " + ans + " — count up " + b + " from " + a + ".", [a - b > 0 ? a - b : a + b + 1]);
+        }
+        var a2 = randInt(3, 20), b2 = randInt(1, a2 - 1), ans2 = a2 - b2;
+        return q(a2 + " - " + b2, ans2, a2 + " - " + b2 + " = " + ans2 + " — count back " + b2 + " from " + a2 + ".", [a2 + b2]);
+      }
+      function timesTables() {
+        var a = randInt(2, 10), b = randInt(2, 10), ans = a * b;
+        return q(a + " × " + b, ans, a + " × " + b + " = " + ans + " — that's " + b + " groups of " + a + ".", [ans + a, ans - a]);
+      }
+      function sub100() {
+        var a = randInt(21, 100), b = randInt(1, a - 1), ans = a - b;
+        return q(a + " - " + b, ans, a + " - " + b + " = " + ans + " — take " + b + " away from " + a + ", a step at a time.", [a + b]);
+      }
+      function division() {
+        var b = randInt(2, 10), ans = randInt(2, 10), c = b * ans;
+        return q(c + " ÷ " + b, ans, c + " ÷ " + b + " = " + ans + " — " + b + " × " + ans + " = " + c + ".", [ans + 1, ans + 2]);
+      }
+      function twoStepTimes() {
+        var a = randInt(2, 9), b = randInt(2, 9), c = randInt(1, Math.min(20, a * b - 1));
+        var plus = Math.random() < 0.5;
+        var ans = plus ? a * b + c : a * b - c;
+        return q(
+          a + " × " + b + (plus ? " + " : " - ") + c,
+          ans,
+          a + " × " + b + " = " + (a * b) + ", then " + (a * b) + (plus ? " + " + c + " = " : " - " + c + " = ") + ans + ".",
+          [a * b]
+        );
+      }
+      function twoStepAddSub() {
+        var a = randInt(20, 60), b = randInt(10, 39), c = randInt(5, Math.min(30, a + b - 1));
+        var ans = a + b - c;
+        return q(
+          a + " + " + b + " - " + c,
+          ans,
+          a + " + " + b + " = " + (a + b) + ", then " + (a + b) + " - " + c + " = " + ans + ".",
+          [a + b]
+        );
+      }
+
+      function makeQuestion(level) {
+        if (level === "six") { return addSub20(); }
+        if (level === "eight") { return Math.random() < 0.5 ? timesTables() : sub100(); }
+        var r = Math.random();
+        if (r < 0.25) { return timesTables(); }
+        if (r < 0.5) { return division(); }
+        if (r < 0.75) { return twoStepTimes(); }
+        return twoStepAddSub();
+      }
+
+      function buildOptions(ans, extras) {
+        var seen = {}, opts = [ans], pool = [];
+        seen[ans] = true;
+        (extras || []).forEach(function (v) {
+          if (typeof v === "number" && v >= 0 && v !== ans && !seen[v]) { seen[v] = true; pool.push(v); }
+        });
+        var deltas = shuffle([1, -1, 2, -2, 3, -3, 5, -5, 10, -10]);
+        for (var i = 0; i < deltas.length && pool.length < 6; i++) {
+          var d = ans + deltas[i];
+          if (d >= 0 && !seen[d]) { seen[d] = true; pool.push(d); }
+        }
+        shuffle(pool);
+        while (opts.length < 4 && pool.length) { opts.push(pool.pop()); }
+        var extra = ans + 4;
+        while (opts.length < 4) {
+          if (!seen[extra]) { seen[extra] = true; opts.push(extra); }
+          extra++;
+        }
+        return shuffle(opts);
+      }
+
+      function buildRound(level) {
+        var list = [];
+        while (list.length < PER_ROUND) {
+          var next = makeQuestion(level);
+          if (list.length && list[list.length - 1].expr === next.expr) { continue; }
+          next.options = buildOptions(next.answer, next.extras);
+          list.push(next);
+        }
+        return list;
+      }
+
+      /* ---------- state ---------- */
+      var state = {
+        level: "six",
+        index: 0,
+        questions: [],
+        current: null,
+        currentButtons: [],
+        answered: false,
+        answeredCount: 0,
+        correctCount: 0,
+        streak: 0,
+        bestRound: 0,
+        results: [],
+        lastPraise: -1
+      };
+
+      /* ---------- screens ---------- */
+      function show(screen) {
+        [startScreen, quizScreen, varSummary].forEach(function (s) { s.hidden = (s !== screen); });
+      }
+      function refreshBestDisplays() {
+        var best = readBest();
+        bestStart.textContent = String(best);
+        hud.best.textContent = String(best);
+        sumBestAll.textContent = String(best);
+      }
+
+      /* ---------- HUD ---------- */
+      function updateHud() {
+        hud.streak.textContent = String(state.streak);
+        hud.answered.textContent = String(state.answeredCount);
+        hud.accuracy.textContent = state.answersNoteAccuracy;
+        barFill.style.width = Math.round((state.index / PER_ROUND) * 100) + "%";
+      }
+
+      /* ---------- round ---------- */
+      function startRound(level) {
+        state.level = level;
+        state.index = 0;
+        state.questions = buildRound(level);
+        state.answered = false;
+        state.answeredCount = 0;
+        state.correctCount = 0;
+        state.streak = 0;
+        state.bestRound = 0;
+        state.results = [];
+        state.answersNoteAccuracy = "—";
+        counterLevel.textContent = LEVEL_LABEL[level];
+        updateHud();
+        show(quizScreen);
+        renderQuestion();
+      }
+
+      function renderQuestion() {
+        var question = state.questions[state.index];
+        state.current = question;
+        state.answered = false;
+        state.currentButtons = [];
+
+        counterText.textContent = "Question " + (state.index + 1) + " of " + PER_ROUND;
+        questionEl.textContent = "What is " + question.expr + "?";
+
+        answersEl.replaceChildren();
+        question.options.forEach(function (value) {
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "quiz-answer";
+          btn.textContent = String(value);
+          btn.addEventListener("click", function () { answerQuestion(value, btn); });
+          answersEl.appendChild(btn);
+          state.currentButtons.push(btn);
+        });
+
+        feedbackEl.hidden = true;
+        feedbackEl.classList.remove("show", "is-correct", "is-wrong");
+        feedbackLine.textContent = "";
+        feedbackHint.textContent = "";
+        nextBtn.hidden = true;
+        updateHud();
+      }
+
+      function answerQuestion(value, btn) {
+        if (state.answered) { return; }
+        state.answered = true;
+
+        var question = state.current;
+        var correct = (value === question.answer);
+
+        state.currentButtons.forEach(function (b) { b.disabled = true; });
+        if (correct) {
+          btn.classList.add("is-correct");
+        } else {
+          btn.classList.add("is-wrong");
+          state.currentButtons.forEach(function (b) {
+            if (b.textContent === String(question.answer)) { b.classList.add("is-answer"); }
+          });
+        }
+
+        state.answeredCount += 1;
+        if (correct) {
+          state.correctCount += 1;
+          state.streak += 1;
+          if (state.streak > state.bestRound) { state.bestRound = state.streak; }
+        } else {
+          state.streak = 0;
+        }
+
+        var line;
+        if (correct) {
+          var pickIndex;
+          do { pickIndex = Math.floor(Math.random() * PRAISE.length); } while (pickIndex === state.lastPraise && PRAISE.length > 1);
+          state.lastPraise = pickIndex;
+          line = PRAISE[pickIndex];
+          if (state.streak === PER_ROUND) { line = "Perfect round — every question right!"; }
+          else if (state.streak === 10) { line = PRAISE[pickIndex] + " 10 in a row!"; }
+          else if (state.streak === 5) { line = PRAISE[pickIndex] + " 5 in a row!"; }
+          else if (state.streak === 3) { line = PRAISE[pickIndex] + " 3 in a row!"; }
+          feedbackHint.textContent = question.hint;
+        } else {
+          line = WRONG_LINE + question.answer + ".";
+          feedbackHint.textContent = question.hint;
+        }
+
+        feedbackEl.classList.remove("is-correct", "is-wrong");
+        feedbackEl.classList.add(correct ? "is-correct" : "is-wrong");
+        feedbackLine.textContent = line;
+        feedbackEl.hidden = false;
+        feedbackEl.classList.add("show");
+
+        state.results.push({ expr: question.expr, answer: question.answer, hint: question.hint, correct: correct });
+
+        state.answersNoteAccuracy = Math.round((state.correctCount / state.answeredCount) * 100) + "%";
+        updateHud();
+
+        nextBtn.textContent = (state.index + 1 >= PER_ROUND) ? "See how you did" : "Next question";
+        nextBtn.hidden = false;
+        nextBtn.focus();
+      }
+
+      function nextQuestion() {
+        state.index += 1;
+        if (state.index >= PER_ROUND) { showSummary(); }
+        else { renderQuestion(); state.currentButtons[0].focus(); }
+      }
+
+      /* ---------- summary ---------- */
+      function showSummary() {
+        var acc = Math.round((state.correctCount / PER_ROUND) * 100);
+        var best = readBest();
+        var record = state.bestRound > best;
+        if (record) { best = state.bestRound; writeBest(best); }
+
+        sumBadge.textContent = LEVEL_LABEL[state.level];
+        sumScore.textContent = state.correctCount + " out of " + PER_ROUND;
+        sumAccuracy.textContent = acc + "% right this round.";
+        sumBestRound.textContent = String(state.bestRound);
+        sumBestAll.textContent = String(best);
+        sumRecord.hidden = !record;
+
+        var wrong = state.results.filter(function (r) { return !r.correct; });
+        reviewTitle.hidden = (wrong.length === 0);
+        reviewList.replaceChildren();
+
+        if (wrong.length === 0) {
+          var praise = document.createElement("li");
+          var strong = document.createElement("strong");
+          strong.textContent = "Every question right — amazing!";
+          praise.appendChild(strong);
+          reviewList.appendChild(praise);
+        } else {
+          wrong.forEach(function (r) {
+            var li = document.createElement("li");
+            var s = document.createElement("strong");
+            s.textContent = r.expr + " = " + r.answer;
+            var p = document.createElement("p");
+            p.textContent = r.hint;
+            li.appendChild(s);
+            li.appendChild(p);
+            reviewList.appendChild(li);
+          });
+        }
+
+        show(varSummary);
+        el("play-again").focus();
+      }
+
+      /* ---------- wiring ---------- */
+      levelButtons.forEach(function (btn) {
+        btn.addEventListener("click", function () { startRound(btn.getAttribute("data-level")); });
+      });
+      nextBtn.addEventListener("click", nextQuestion);
+      el("quiz-change-level").addEventListener("click", function () { showStart(); });
+      el("change-level").addEventListener("click", function () { showStart(); });
+      el("play-again").addEventListener("click", function () { startRound(state.level); });
+
+      function showStart() {
+        refreshBestDisplays();
+        show(startScreen);
+      }
+
+      /* keyboard shortcuts 1–4 pick an answer during a question */
+      document.addEventListener("keydown", function (e) {
+        if (quizScreen.hidden || state.answered) { return; }
+        if (e.key === "1" || e.key === "2" || e.key === "3" || e.key === "4") {
+          var btn = state.currentButtons[Number(e.key) - 1];
+          if (btn) { btn.click(); }
+        }
+      });
+
+      /* ---------- init ---------- */
+      refreshBestDisplays();
+      show(startScreen);
+    })();
+  </script>
+</body>
+</html>

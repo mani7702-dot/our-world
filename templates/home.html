@@ -1,0 +1,129 @@
+<section class="hero">
+  <div class="hero-texture" aria-hidden="true"></div>
+  <div class="container hero-anim">
+    <div>
+      <span class="kicker">A safe place for curious kids</span>
+      <h1>Stories, games and news — made for young readers.</h1>
+      <p class="lede">Short articles they can read alone. Three games that run right in the browser. Daily world news explained plainly. Nothing shouting, nothing tracking.</p>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="games/">Start with a game</a>
+        <a class="btn btn--ghost" href="blog/">Read a story</a>
+      </div>
+    </div>
+    <aside class="hero-facts" aria-label="What you will find here">
+      <h2>What is inside</h2>
+      <ul>
+        <li><span class="dot" style="background:#f59e0b"></span><span><strong>Games</strong><span class="small">Memory Match, Math Quiz and Draw &amp; Paint. No installs, no accounts.</span></span></li>
+        <li><span class="dot" style="background:#22c55e"></span><span><strong>Blog</strong><span class="small">Reading, learning and growing-up posts for kids and parents.</span></span></li>
+        <li><span class="dot" style="background:#3b82f6"></span><span><strong>News</strong><span class="small">Today's world, written short and calm, with nothing scary left in.</span></span></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="today container" aria-label="Today at Our World">
+  <div class="today-grid">
+    {{TODAY_BLOG}}
+    <div class="today-card" style="--zone:#b45309">
+      <span class="kicker">Game of the day</span>
+      <h3><a href="games/memory-match.html">Memory Match</a></h3>
+      <p class="small muted">Flip the cards, find the pairs, beat your own best time.</p>
+      <span class="badge-age" style="--zone:#b45309;--zone-tint:#fdf0d5;--zone-ink:#78350f">Ages 4+</span>
+    </div>
+    {{TODAY_NEWS}}
+  </div>
+</section>
+
+<section class="zone zone--games">
+  <div class="container">
+    <div class="zone-head" data-reveal>
+      <div>
+        <span class="kicker">Games</span>
+        <h2>Three games to start</h2>
+        <p class="intro">Each game opens straight in the browser. Progress stays on your own device — we never see it.</p>
+      </div>
+      <a class="btn btn--ghost btn--sm" href="games/">All games</a>
+    </div>
+    <div class="card-grid card-grid--3">
+      <article class="game-card" style="--zone:#b45309;--zone-tint:#fdf0d5" data-reveal>
+        <div class="tile" aria-hidden="true">Aa</div>
+        <span class="badge-age">Ages 4+</span>
+        <h3>Memory Match</h3>
+        <p>Turn over two cards at a time and find the matching animal pairs. Three board sizes, from four pairs up to twelve.</p>
+        <div class="card-foot">
+          <a class="btn btn--zone btn--sm" href="games/memory-match.html">Play</a>
+        </div>
+      </article>
+      <article class="game-card" style="--zone:#b45309;--zone-tint:#fdf0d5" data-reveal>
+        <div class="tile" aria-hidden="true">2+2</div>
+        <span class="badge-age">Ages 6+</span>
+        <h3>Math Quiz</h3>
+        <p>Adding, subtraction and times tables that get harder as you go. Build a streak and try to beat your record.</p>
+        <div class="card-foot">
+          <a class="btn btn--zone btn--sm" href="games/math-quiz.html">Play</a>
+        </div>
+      </article>
+      <article class="game-card" style="--zone:#b45309;--zone-tint:#fdf0d5" data-reveal>
+        <div class="tile" aria-hidden="true">✎</div>
+        <span class="badge-age">Ages 3+</span>
+        <h3>Draw &amp; Paint</h3>
+        <p>A calm drawing board with colours, an eraser and a save button that downloads the picture to keep.</p>
+        <div class="card-foot">
+          <a class="btn btn--zone btn--sm" href="games/draw-paint.html">Play</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="zone zone--blog">
+  <div class="container">
+    <div class="zone-head" data-reveal>
+      <div>
+        <span class="kicker">Blog</span>
+        <h2>Fresh from the blog</h2>
+        <p class="intro">Posts about reading, learning, friendship and the small science of everyday things.</p>
+      </div>
+      <a class="btn btn--ghost btn--sm" href="blog/">All posts</a>
+    </div>
+    <div style="display:grid;gap:18px">
+      {{BLOG_ROWS}}
+    </div>
+  </div>
+</section>
+
+<section class="zone zone--news">
+  <div class="container">
+    <div class="zone-head" data-reveal>
+      <div>
+        <span class="kicker">News</span>
+        <h2>The world this week</h2>
+        <p class="intro">Short, calm summaries of real events from around the world — written for young readers.</p>
+      </div>
+      <a class="btn btn--ghost btn--sm" href="news/">All news</a>
+    </div>
+    <ul class="news-list">
+      {{NEWS_LIST}}
+    </ul>
+  </div>
+</section>
+
+<section class="zone zone--plain">
+  <div class="container">
+    <div class="promise" data-reveal>
+      <span class="kicker" style="--zone:#ffb703">For grown-ups</span>
+      <h2>Built quiet on purpose</h2>
+      <p>Our World has no ads, no trackers, no accounts and no chat. Games and stories load fast, work on school computers, and never ask a child for personal information.</p>
+      <ul class="chips">
+        <li class="chip"><span class="tick" aria-hidden="true">✓</span> No ads</li>
+        <li class="chip"><span class="tick" aria-hidden="true">✓</span> No trackers</li>
+        <li class="chip"><span class="tick" aria-hidden="true">✓</span> No accounts</li>
+        <li class="chip"><span class="tick" aria-hidden="true">✓</span> No chat</li>
+        <li class="chip"><span class="tick" aria-hidden="true">✓</span> No ads in games</li>
+      </ul>
+      <div>
+        <a class="btn btn--primary" href="parents/">Parents &amp; safety</a>
+      </div>
+    </div>
+  </div>
+</section>
