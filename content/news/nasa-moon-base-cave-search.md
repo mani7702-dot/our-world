@@ -2,6 +2,8 @@
 title: Why is NASA hunting for caves to build a Moon base?
 date: 2026-10-19
 time: 19:39
+image: assets/images/nasa-moon-base-cave-search.jpg
+image_caption: Photo: Wikimedia Commons
 category: Space
 read: 3 min
 excerpt: Before anyone can live on the Moon, NASA wants to find underground caves, hidden ice, and safe ground. Three new missions are going to scout the way.

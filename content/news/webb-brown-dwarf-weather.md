@@ -2,6 +2,8 @@
 title: Can a world 20 light-years away have weather?
 date: 2026-10-19
 time: 17:30
+image: assets/images/webb-brown-dwarf-weather.jpg
+image_caption: Photo: Wikimedia Commons
 category: Space
 read: 4 min
 excerpt: NASA's Webb telescope watched a wild world 20 light-years away and found its stormy skies follow surprisingly tidy rules — three repeating weather patterns, not total chaos.
