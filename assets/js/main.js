@@ -28,4 +28,21 @@
   // Footer year
   var year = document.querySelector("#year");
   if (year) year.textContent = String(new Date().getFullYear());
+
+  // Theme toggle (dark mode)
+  var themeBtn = document.getElementById("theme-toggle");
+  function applyTheme(mode) {
+    document.documentElement.dataset.theme = mode;
+    if (themeBtn) {
+      themeBtn.setAttribute("aria-pressed", mode === "dark" ? "true" : "false");
+      themeBtn.setAttribute("aria-label", mode === "dark" ? "Switch to light mode" : "Switch to dark mode");
+    }
+    try { window.localStorage.setItem("ow-theme", mode); } catch (e) { /* private mode */ }
+  }
+  if (themeBtn) {
+    themeBtn.addEventListener("click", function () {
+      applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+    });
+    applyTheme(document.documentElement.dataset.theme || "light");
+  }
 })();

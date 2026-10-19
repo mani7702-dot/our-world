@@ -658,3 +658,41 @@ body { animation: page-in 0.35s var(--ease-out) both; }
   .reading-controls { gap: 8px; }
   .reading-controls .label { width: 100%; }
 }
+
+/* ---------- theme toggle ---------- */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px; min-width: 44px;
+  border: 2px solid var(--line-2); border-radius: var(--r-sm);
+  background: var(--surface); color: var(--ink); cursor: pointer;
+  flex: none;
+  transition: border-color 0.15s ease, transform 0.15s var(--ease-out);
+}
+.theme-toggle:hover { border-color: var(--brand); color: var(--brand-ink); }
+.theme-toggle:active { transform: scale(0.96); }
+
+/* ---------- dark theme (tokens only — components adapt automatically) ---------- */
+[data-theme="dark"] {
+  --paper:      #17110c;
+  --paper-2:    #20160f;
+  --surface:    #271c13;
+  --ink:        #f6ead9;
+  --ink-2:      #b7a290;
+  --line:       #3a2b1f;
+  --line-2:     #4d3828;
+
+  --brand:      #e8651a;
+  --brand-ink:  #ff9153;
+  --brand-tint: #3b1e10;
+
+  --games:      #fbbf24;  --games-tint: #33260a;  --games-deep: #fde68a;
+  --blog:       #4ade80;  --blog-tint:   #14291a;  --blog-deep:   #bbf7d0;
+  --news:       #60a5fa;  --news-tint:   #12233f;  --news-deep:   #bfdbfe;
+  color-scheme: dark;
+}
+[data-theme="dark"] .site-header { background: rgba(23, 17, 12, 0.96); }
+[data-theme="dark"] .hero-texture { opacity: 0.2; }
+[data-theme="dark"] .promise { background: #0d0906; border: 2px solid #3a2b1f; }
+[data-theme="dark"] .promise p { color: #d8c4ae; }
+[data-theme="dark"] .badge-draft { border-color: #7a3a1d; }
+[data-theme="dark"] .game-card { background: var(--surface); }
