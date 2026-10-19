@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 15:52
 image: assets/images/tardigrade-facts-water-bear.png
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/tardigrade-facts-water-bear2.webp
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/tardigrade-facts-water-bear1.png
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 4 min
 excerpt: Half a millimeter long, eight legs, and it has survived boiling, freezing, deep-ocean pressure and outer space. Meet the toughest animal on Earth.

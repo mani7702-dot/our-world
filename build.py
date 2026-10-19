@@ -301,10 +301,26 @@ def article_page(p):
     )
     post_image = ""
     if p.get("image"):
-        cap = '<figcaption>%s</figcaption>' % esc(p["image_caption"]) if p.get("image_caption") else ""
-        post_image = ('<figure class="post-figure">\n'
-                      '  <img src="../%s" alt="%s" loading="lazy" width="1200" height="630">\n'
-                      '  %s\n</figure>' % (p["image"], esc(p["title"]), cap))
+        def fig(pth, key_extra):
+            cap = ""
+            if p.get("image_caption") and key_extra in ("", "2"):
+                cap2 = p.get("image_caption") if key_extra == "" else p.get("image_caption2", "")
+                cap = ('<figcaption>%s</figcaption>' % esc(cap2)) if cap2 else ""
+            return ('<figure class="post-figure">\n'
+                    '  <img src="../%s" alt="%s" loading="lazy" width="1200" height="630">\n'
+                    '  %s\n</figure>' % (pth, esc(p["title"]), cap))
+        figures = []
+        for idx in ("", "2", "3"):
+            pth = p.get("image" + idx)
+            if pth:
+                figures.append(fig(pth, idx))
+        post_image = "\n".join(figures)
+        v = p.get("video", "")
+        if v:
+            poster = "../" + p["image"]
+            post_image += ('<figure class="post-figure"><video class="post-video" controls preload="none" '
+                           'poster="%s"><source src="%s" type="video/webm">Your browser does not support video.</video></figure>'
+                           % (poster, v))
     tokens = {
         "ZONE": ZONE[section],
         "JSONLD": jsonld_script,

@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 12:28
 image: assets/images/why-do-stars-twinkle.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-do-stars-twinkle2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-do-stars-twinkle1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 3 min
 excerpt: Stars do not really wobble — our air makes them look like they do. Here is what is happening between you and a star.

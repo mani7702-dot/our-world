@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 19:39
 image: assets/images/nasa-moon-base-cave-search.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/nasa-moon-base-cave-search2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/nasa-moon-base-cave-search1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Space
 read: 3 min
 excerpt: Before anyone can live on the Moon, NASA wants to find underground caves, hidden ice, and safe ground. Three new missions are going to scout the way.

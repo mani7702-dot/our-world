@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:25
 image: assets/images/how-do-airplanes-stay-in-the-sky.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/how-do-airplanes-stay-in-the-sky2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/how-do-airplanes-stay-in-the-sky1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: A jumbo jet can weigh more than a hundred cars, yet it cruises at ten kilometers high. The answer is a four-way tug-of-war between four forces.

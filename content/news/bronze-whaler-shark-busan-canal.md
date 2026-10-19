@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 16:00
 image: assets/images/bronze-whaler-shark-busan-canal.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/bronze-whaler-shark-busan-canal2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/bronze-whaler-shark-busan-canal1.png
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 3 min
 excerpt: A bronze whaler shark chased its lunch into a canal in South Korea and could not find its way out. Then 600,000 people came to wave.

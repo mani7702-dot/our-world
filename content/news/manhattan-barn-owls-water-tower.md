@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:23
 image: assets/images/manhattan-barn-owls-water-tower.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/manhattan-barn-owls-water-tower2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/manhattan-barn-owls-water-tower1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 4 min
 excerpt: A family of barn owls moved onto a rooftop water tower in the heart of New York City — the first barn owl nest anyone can remember in Manhattan.

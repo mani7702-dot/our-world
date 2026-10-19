@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 19:36
 image: assets/images/how-does-the-moon-change-shape.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/how-does-the-moon-change-shape2.png
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/how-does-the-moon-change-shape1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Space
 read: 4 min
 excerpt: The Moon is not shrinking or growing — it is a ball hanging in sunlight, and you are only ever seeing a slice of it. Here is the real reason for the phases.

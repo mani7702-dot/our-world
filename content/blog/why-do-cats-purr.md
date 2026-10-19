@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 19:34
 image: assets/images/why-do-cats-purr.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-do-cats-purr2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-do-cats-purr1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 4 min
 excerpt: A purr is a tiny engine in the throat that runs on both the in-breath and the out-breath — and it might be doing a lot more than saying "I'm happy."

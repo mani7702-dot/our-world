@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:27
 image: assets/images/axolotl-facts-never-grows-up.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/axolotl-facts-never-grows-up2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/axolotl-facts-never-grows-up1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 5 min
 excerpt: It keeps its baby gills its whole life, can regrow a lost limb, and barely seems to age. Meet the axolotl — nature's perpetual kid.

@@ -30,3 +30,7 @@ Wrap up warm, take a blanket, and bring someone to lie next to — counting toge
 **Source:** [NASA — What's Up: October 2026 Skywatching Tips](https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/)
 image: assets/images/october-sky-orionid-meteor-shower.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/october-sky-orionid-meteor-shower2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/october-sky-orionid-meteor-shower1.jpg
+image_caption1: Photo: Wikimedia Commons

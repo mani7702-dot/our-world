@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:25
 image: assets/images/why-do-we-get-brain-freeze.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-do-we-get-brain-freeze2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-do-we-get-brain-freeze1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 3 min
 excerpt: One bite of ice cream, one sudden ache behind your forehead. Brain freeze is not your brain freezing at all — it is a nerve and a blood vessel getting confused.

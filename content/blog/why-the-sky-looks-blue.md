@@ -28,3 +28,7 @@ In the evening, sunlight has to travel through much more air to reach your eyes.
 > Try this at home: shine a torch through a glass of water with a few drops of milk in it. Look from the side — the water looks faintly blue. Look from the far end — it looks orange, just like a sunset.
 image: assets/images/why-the-sky-looks-blue.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-the-sky-looks-blue2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-the-sky-looks-blue1.jpg
+image_caption1: Photo: Wikimedia Commons

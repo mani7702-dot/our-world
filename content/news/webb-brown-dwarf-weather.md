@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:30
 image: assets/images/webb-brown-dwarf-weather.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/webb-brown-dwarf-weather2.png
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/webb-brown-dwarf-weather1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Space
 read: 4 min
 excerpt: NASA's Webb telescope watched a wild world 20 light-years away and found its stormy skies follow surprisingly tidy rules — three repeating weather patterns, not total chaos.

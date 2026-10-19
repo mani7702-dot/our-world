@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:23
 image: assets/images/record-breaking-crayfish-tennessee.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/record-breaking-crayfish-tennessee2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/record-breaking-crayfish-tennessee1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 4 min
 excerpt: A friendly rivalry over one giant Kentucky crayfish sent scientists on a nationwide hunt — and the real record-holder turned up hiding in a museum drawer.

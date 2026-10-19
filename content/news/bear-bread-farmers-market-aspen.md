@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 17:34
 image: assets/images/bear-bread-farmers-market-aspen.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/bear-bread-farmers-market-aspen2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/bear-bread-farmers-market-aspen1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 3 min
 excerpt: A hungry black bear strolled straight past the shoppers at an Aspen market and made a beeline for the bread booth — and stayed, they say, for a snack and a nap.

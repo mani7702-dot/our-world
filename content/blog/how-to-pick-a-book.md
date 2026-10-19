@@ -25,3 +25,7 @@ A book you did not finish is not a failure. It is information: you now know more
 > Try this next time you are at the library: read the first two pages of three books you have never opened. One of them will sound like a friend.
 image: assets/images/how-to-pick-a-book.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/how-to-pick-a-book2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/how-to-pick-a-book1.jpg
+image_caption1: Photo: Wikimedia Commons

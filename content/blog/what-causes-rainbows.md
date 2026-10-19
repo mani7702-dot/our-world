@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 19:37
 image: assets/images/what-causes-rainbows.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/what-causes-rainbows2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/what-causes-rainbows1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: No paint, no magic — just sunlight, a lot of falling raindrops, and light bending and bouncing inside each one. Here is how a rainbow is really made.

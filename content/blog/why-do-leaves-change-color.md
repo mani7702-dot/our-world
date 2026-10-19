@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 22:20
 image: assets/images/why-do-leaves-change-color.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-do-leaves-change-color2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-do-leaves-change-color1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: Every autumn the same trees that were green all summer turn gold and red. It looks like magic, but it is a quiet chemical process that starts with shorter days. Here is how it works, step by numbered step.

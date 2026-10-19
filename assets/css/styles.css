@@ -908,3 +908,4 @@ body { animation: page-in 0.35s var(--ease-out) both; }
 .post-figure { margin: 1.5rem 0; }
 .post-figure img { width: 100%; height: auto; border-radius: var(--radius); }
 .post-figure figcaption { font-size: 0.8rem; color: var(--ink-2); margin-top: 0.4rem; font-style: italic; }
+.post-video { width: 100%; border-radius: var(--radius); aspect-ratio: 16/9; background: #000; }

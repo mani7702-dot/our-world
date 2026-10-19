@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 19:31
 image: assets/images/why-is-the-ocean-blue.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-is-the-ocean-blue2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-is-the-ocean-blue1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: Not because it reflects the sky. Water itself is a filter, and it quietly throws away the red half of sunlight. The blue is what's left over.

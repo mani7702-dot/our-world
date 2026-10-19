@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 12:28
 image: assets/images/why-is-the-sea-salty.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/why-is-the-sea-salty2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/why-is-the-sea-salty1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Science
 read: 3 min
 excerpt: If you leave a glass of sea water in the sun, it does not dry up the way a puddle does. That is a clue to where the salt comes from.

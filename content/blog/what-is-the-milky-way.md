@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 19:32
 image: assets/images/what-is-the-milky-way.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/what-is-the-milky-way2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/what-is-the-milky-way1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Space
 read: 4 min
 excerpt: It is the faint white band across a dark night sky, and it is also our entire galaxy — home to at least 100 billion stars, including the Sun. How we know what it looks like from inside it.

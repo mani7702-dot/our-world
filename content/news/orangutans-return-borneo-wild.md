@@ -4,6 +4,10 @@ date: 2026-10-19
 time: 22:20
 image: assets/images/orangutans-return-borneo-wild.jpg
 image_caption: Photo: Wikimedia Commons
+image2: assets/images/orangutans-return-borneo-wild2.jpg
+image_caption2: Photo: Wikimedia Commons
+image1: assets/images/orangutans-return-borneo-wild1.jpg
+image_caption1: Photo: Wikimedia Commons
 category: Animals
 read: 3 min
 excerpt: After wildfires destroyed much of their jungle this summer, eight orangutans were rescued, cared for, and driven back to a safe forest. It was the first release since the fires began — and the news made a lot of people happy.
