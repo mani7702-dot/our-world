@@ -329,13 +329,16 @@ def search_page():
     )
 
 
+SITE_BASE = "https://mani7702-dot.github.io/our-world"
+
+
 def build_robots_txt():
-    """Root-relative robots.txt — no domain yet, so no absolute Sitemap URL."""
-    return "User-agent: *\nAllow: /\nSitemap: /sitemap.xml\n"
+    """Robots.txt with an absolute Sitemap URL."""
+    return "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE_BASE
 
 
 def build_sitemap(blog, news):
-    """Sitemap over known static pages + every article, root-relative until a domain is chosen."""
+    """Sitemap over known static pages + every article, with absolute URLs."""
     static_entries = [
         "/",
         "/blog/",
@@ -353,9 +356,9 @@ def build_sitemap(blog, news):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
     for entry in static_entries:
-        lines.append("  <url><loc>%s</loc></url>" % entry)
+        lines.append("  <url><loc>%s%s</loc></url>" % (SITE_BASE, entry))
     for p in blog + news:
-        loc = "/%s/%s.html" % (p["section"], p["slug"])
+        loc = "%s/%s/%s.html" % (SITE_BASE, p["section"], p["slug"])
         lastmod = p.get("date", "") or "2026-01-01"
         lines.append("  <url><loc>%s</loc><lastmod>%s</lastmod></url>" % (loc, lastmod))
     lines.append("</urlset>")
