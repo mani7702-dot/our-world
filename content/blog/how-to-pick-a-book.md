@@ -5,7 +5,7 @@ category: Reading
 read: 3 min
 excerpt: Three honest rules for choosing your next read — and why it is completely fine to stop a book you do not enjoy.
 tags: reading, books, habits
-sample: true
+sample: false
 ---
 
 Picking a book is harder than it looks. A cover can lie. A back page can lie. Even the first chapter can lie. Here are three rules that work.
@@ -21,6 +21,8 @@ Fifty pages is a fair trial. Some books start slow on purpose and then take off 
 ## Rule 3: Stopping is allowed
 
 A book you did not finish is not a failure. It is information: you now know more about what you like. Readers who stop books read more books. Put it back on the shelf with a clear conscience and pick the next one.
+
+> Try this next time you are at the library: read the first two pages of three books you have never opened. One of them will sound like a friend.
 
 
 

@@ -329,10 +329,49 @@ def search_page():
     )
 
 
+def build_robots_txt():
+    """Root-relative robots.txt — no domain yet, so no absolute Sitemap URL."""
+    return "User-agent: *\nAllow: /\nSitemap: /sitemap.xml\n"
+
+
+def build_sitemap(blog, news):
+    """Sitemap over known static pages + every article, root-relative until a domain is chosen."""
+    static_entries = [
+        "/",
+        "/blog/",
+        "/news/",
+        "/games/",
+        "/games/memory-match.html",
+        "/games/math-quiz.html",
+        "/games/draw-paint.html",
+        "/parents/",
+        "/about/",
+        "/search/",
+    ]
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for entry in static_entries:
+        lines.append("  <url><loc>%s</loc></url>" % entry)
+    for p in blog + news:
+        loc = "/%s/%s.html" % (p["section"], p["slug"])
+        lastmod = p.get("date", "") or "2026-01-01"
+        lines.append("  <url><loc>%s</loc><lastmod>%s</lastmod></url>" % (loc, lastmod))
+    lines.append("</urlset>")
+    return "\n".join(lines) + "\n"
+
+
 def main():
     blog = load_posts("blog")
     news = load_posts("news")
     written = []
+
+    # robots.txt + sitemap.xml (root-relative; update the domain once chosen)
+    write(os.path.join(ROOT, "robots.txt"), build_robots_txt())
+    written.append("robots.txt")
+    write(os.path.join(ROOT, "sitemap.xml"), build_sitemap(blog, news))
+    written.append("sitemap.xml")
 
     # client-side search index (site root, fetched by search/index.html)
     write(os.path.join(ROOT, "search-index.json"), build_search_index(blog + news))

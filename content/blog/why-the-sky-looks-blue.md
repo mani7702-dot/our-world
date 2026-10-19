@@ -5,7 +5,7 @@ category: Science
 read: 4 min
 excerpt: Sunlight is white — so why is the daytime sky blue and the sunset red? A simple answer kids can repeat at dinner.
 tags: science, sky, light
-sample: true
+sample: false
 for-grownups: The short version for curious grown-ups: this is Rayleigh scattering. Air molecules scatter light with an intensity that falls off as the fourth power of the wavelength, so blue light around 450 nm scatters roughly five times more strongly than red light around 650 nm. That scattered blue reaches our eyes from every direction, which is why the whole dome of the sky looks blue. At sunset the light travels through much more atmosphere, the blue is scattered out along the way, and the reds and oranges survive the trip.
 ---
 

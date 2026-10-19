@@ -851,3 +851,56 @@ body { animation: page-in 0.35s var(--ease-out) both; }
   outline-offset: 3px;
   border-radius: var(--r-sm);
 }
+
+/* ---------- 404 page (scoped to .page-404; tokens only, so dark theme adapts) ---------- */
+.page-404 { text-align: center; }
+.page-404 h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.9rem, 5vw, 2.75rem);
+  color: var(--ink);
+  margin-block: 6px 14px;
+}
+.page-404 .container > p:not(.nf-links) {
+  max-width: 46ch;
+  margin-inline: auto;
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+.page-404 .nf-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-block: 18px 24px;
+}
+.page-404 .nf-dots span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-1);
+  animation: nf-dot-bob 2.4s ease-in-out infinite;
+}
+.page-404 .nf-dots span:nth-child(2) { animation-delay: 0.3s; }
+.page-404 .nf-dots span:nth-child(3) { animation-delay: 0.6s; }
+@keyframes nf-dot-bob {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+.page-404 p.nf-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 26px;
+}
+.page-404 .nf-links .btn {
+  min-width: 148px;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.08rem;
+  padding-block: 14px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-404 .nf-dots span { animation: none; }
+}

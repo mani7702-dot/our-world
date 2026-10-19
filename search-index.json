@@ -66,36 +66,36 @@
     ]
   },
   {
-    "title": "A new library shaped like a tree",
-    "url": "news/library-shaped-like-a-tree.html",
+    "title": "Look up: October's sky has a meteor shower",
+    "url": "news/october-sky-orionid-meteor-shower.html",
     "section": "news",
-    "excerpt": "One city built a reading place with real branches and leaves. Kids climb, read, and borrow books by torchlight.",
+    "excerpt": "NASA's monthly sky guide says the Orionid meteor shower lights up this month — here is how to watch it with no telescope at all.",
     "tags": [
-      "libraries",
-      "cities",
-      "reading"
+      "space",
+      "sky",
+      "stargazing"
     ]
   },
   {
-    "title": "Turtle rescue returns 90 babies to the sea",
-    "url": "news/turtle-rescue-90-babies.html",
+    "title": "A telescope named after \"the mother of Hubble\"",
+    "url": "news/roman-telescope-best-inventions-2026.html",
     "section": "news",
-    "excerpt": "A beach team watched over turtle nests all season, then helped the hatchlings reach the water.",
+    "excerpt": "NASA's newest space telescope made TIME's list of the best inventions of 2026 — and it carries the name of a woman who fought to be in astronomy at all.",
+    "tags": [
+      "space",
+      "telescopes",
+      "science"
+    ]
+  },
+  {
+    "title": "Five cheetah cubs, one very busy camera",
+    "url": "news/cheetah-cub-cam-five-cubs.html",
+    "section": "news",
+    "excerpt": "Five cheetah cubs were born at the Smithsonian's conservation park — and you can watch all of them, around the clock, on a livestream.",
     "tags": [
       "animals",
-      "rescue",
-      "turtles"
-    ]
-  },
-  {
-    "title": "Kids' invention fair: a robot that waters plants",
-    "url": "news/kids-invention-fair-robot.html",
-    "section": "news",
-    "excerpt": "Two students built a small robot that checks how dry the soil is and waters school plants on its own.",
-    "tags": [
-      "inventions",
-      "school",
-      "robots"
+      "cheetahs",
+      "zoo"
     ]
   }
 ]

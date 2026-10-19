@@ -5,7 +5,7 @@ category: Science
 read: 3 min
 excerpt: Germs are too small to see, but you can still wash them away. Here is what soap actually does — and why twenty seconds matters.
 tags: science, health, hygiene
-sample: true
+sample: false
 for-grownups: Soap does not "kill" most germs — it helps them let go. Many germs sit on skin in an oily film that water alone cannot lift. Soap molecules have one end that loves water and one end that loves oil, so they pry germs loose and let water carry them away. Twenty seconds of scrubbing gives that process time to work, which is why health agencies worldwide recommend it.
 ---
 
