@@ -154,11 +154,11 @@ def load_posts(section):
 def nav_html(active, prefix):
     items = [
         ("Home", "index.html", "home"),
-        ("Blog", "blog/", "blog"),
-        ("Games", "games/", "games"),
-        ("News", "news/", "news"),
-        ("Parents", "parents/", "parents"),
-        ("About", "about/", "about"),
+        ("Blog", "blog/index.html", "blog"),
+        ("Games", "games/index.html", "games"),
+        ("News", "news/index.html", "news"),
+        ("Parents", "parents/index.html", "parents"),
+        ("About", "about/index.html", "about"),
     ]
     parts = []
     for label, href, key in items:
