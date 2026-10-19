@@ -301,26 +301,30 @@ def article_page(p):
     )
     post_image = ""
     if p.get("image"):
-        def fig(pth, key_extra):
-            cap = ""
-            if p.get("image_caption") and key_extra in ("", "2"):
-                cap2 = p.get("image_caption") if key_extra == "" else p.get("image_caption2", "")
-                cap = ('<figcaption>%s</figcaption>' % esc(cap2)) if cap2 else ""
-            return ('<figure class="post-figure">\n'
-                    '  <img src="../%s" alt="%s" loading="lazy" width="1200" height="630">\n'
-                    '  %s\n</figure>' % (pth, esc(p["title"]), cap))
-        figures = []
-        for idx in ("", "2", "3"):
-            pth = p.get("image" + idx)
-            if pth:
-                figures.append(fig(pth, idx))
-        post_image = "\n".join(figures)
+        cap = '<figcaption>%s</figcaption>' % esc(p["image_caption"]) if p.get("image_caption") else ""
+        post_image = ('<figure class="post-figure">\n'
+                      '  <img src="../%s" alt="%s" loading="lazy" width="1200" height="630">\n'
+                      '  %s\n</figure>' % (p["image"], esc(p["title"]), cap))
         v = p.get("video", "")
         if v:
-            poster = "../" + p["image"]
             post_image += ('<figure class="post-figure"><video class="post-video" controls preload="none" '
-                           'poster="%s"><source src="%s" type="video/webm">Your browser does not support video.</video></figure>'
-                           % (poster, v))
+                           'poster="../%s"><source src="%s" type="video/webm">Your browser does not support video.</video></figure>'
+                           % (p["image"], v))
+    body_html = p["body_html"]
+    def insert_fig(body, pth, frac):
+        parts = body.split("</p>")
+        if len(parts) < 3:
+            return body
+        at = max(1, int(len(parts) * frac))
+        fig = ('<figure class="post-figure in-body">\n'
+               '  <img src="../%s" alt="Photo" loading="lazy" width="1200" height="630">\n'
+               '</figure>' % pth)
+        parts.insert(at, fig)
+        return "</p>".join(parts)
+    if p.get("image2"):
+        body_html = insert_fig(body_html, p["image2"], 0.38)
+    if p.get("image3"):
+        body_html = insert_fig(body_html, p["image3"], 0.72)
     tokens = {
         "ZONE": ZONE[section],
         "JSONLD": jsonld_script,
@@ -334,7 +338,7 @@ def article_page(p):
         "META_EXTRA": meta_extra,
         "SAMPLE_NOTE": sample_note,
         "LEDE": esc(p["excerpt"]),
-        "BODY": p["body_html"],
+        "BODY": body_html,
         "TAG_LIST": tag_list,
         "GROWNUPS": grownups,
         "BACK_URL": "../%s/index.html" % section,
