@@ -2,6 +2,8 @@
 title: Why do we yawn — and why is it contagious?
 date: 2026-10-19
 time: 17:27
+image: assets/images/why-do-we-yawn.jpg
+image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: The big mouth-stretch everyone shares — and the reason one person's yawn can set off a whole room. Scientists are still working out the first part, but the second is stranger.

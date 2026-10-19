@@ -23,6 +23,5 @@ Fifty pages is a fair trial. Some books start slow on purpose and then take off 
 A book you did not finish is not a failure. It is information: you now know more about what you like. Readers who stop books read more books. Put it back on the shelf with a clear conscience and pick the next one.
 
 > Try this next time you are at the library: read the first two pages of three books you have never opened. One of them will sound like a friend.
-
-
-
+image: assets/images/how-to-pick-a-book.jpg
+image_caption: Photo: Wikimedia Commons

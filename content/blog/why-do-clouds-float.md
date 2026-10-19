@@ -2,6 +2,8 @@
 title: Why do clouds float in the sky?
 date: 2026-10-19
 time: 19:23
+image: assets/images/why-do-clouds-float.jpg
+image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: A cloud can hold as much water as a hundred elephants, yet it drifts overhead instead of falling on your head. The secret is droplet size, rising air, and a trick of heat.

@@ -2,6 +2,8 @@
 title: How do bees make honey?
 date: 2026-10-19
 time: 22:20
+image: assets/images/how-do-bees-make-honey.jpg
+image_caption: Photo: Wikimedia Commons
 category: Animals
 read: 4 min
 excerpt: Honey starts as plain flower nectar and ends as golden, sealed-up sweetness. Between the two there is a whole factory line of bees, stomachs, and wing-fanning. Here is the journey from flower to hive.

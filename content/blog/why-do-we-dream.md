@@ -2,6 +2,8 @@
 title: Why do we dream?
 date: 2026-10-19
 time: 19:35
+image: assets/images/why-do-we-dream.jpg
+image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: Wild stories, flying elephants, and a brain that is almost as busy as when you're awake. Scientists are still unpacking the mystery.

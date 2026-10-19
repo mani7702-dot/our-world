@@ -299,11 +299,18 @@ def article_page(p):
         }, ensure_ascii=False)
         + "</script>"
     )
+    post_image = ""
+    if p.get("image"):
+        cap = '<figcaption>%s</figcaption>' % esc(p["image_caption"]) if p.get("image_caption") else ""
+        post_image = ('<figure class="post-figure">\n'
+                      '  <img src="../%s" alt="%s" loading="lazy" width="1200" height="630">\n'
+                      '  %s\n</figure>' % (p["image"], esc(p["title"]), cap))
     tokens = {
         "ZONE": ZONE[section],
         "JSONLD": jsonld_script,
         "AUTHOR": "Our World",
         "TIME_PART": (" at %s IST" % p["time"]) if p.get("time") else "",
+        "POST_IMAGE": post_image,
         "CATEGORY": esc(p["category"]),
         "TITLE": esc(p["title"]),
         "DATE": esc(p.get("date", "")),

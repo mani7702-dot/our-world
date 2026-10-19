@@ -26,6 +26,5 @@ Because blue light is bouncing around up there, and some of it comes down into y
 In the evening, sunlight has to travel through much more air to reach your eyes. All that extra air scatters the blue light away long before it arrives, so what is left by the time the light reaches you is the red end of the rainbow. That is why a sunset looks like a slow-motion version of the sky's trick.
 
 > Try this at home: shine a torch through a glass of water with a few drops of milk in it. Look from the side — the water looks faintly blue. Look from the far end — it looks orange, just like a sunset.
-
-
-
+image: assets/images/why-the-sky-looks-blue.jpg
+image_caption: Photo: Wikimedia Commons

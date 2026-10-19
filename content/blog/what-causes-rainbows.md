@@ -2,6 +2,8 @@
 title: What causes a rainbow?
 date: 2026-10-19
 time: 19:37
+image: assets/images/what-causes-rainbows.jpg
+image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: No paint, no magic — just sunlight, a lot of falling raindrops, and light bending and bouncing inside each one. Here is how a rainbow is really made.

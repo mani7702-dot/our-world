@@ -22,6 +22,5 @@ Soap is made of tiny molecules with two different ends. One end loves water, the
 ## Why twenty seconds
 
 It takes time for the soap to work around every finger, thumb and nail. Twenty seconds is about as long as singing "happy birthday" twice — long enough for the germs to lose their grip.
-
-
-
+image: assets/images/why-we-wash-our-hands.png
+image_caption: Photo: Wikimedia Commons

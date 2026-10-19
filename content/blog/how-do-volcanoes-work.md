@@ -2,6 +2,8 @@
 title: How do volcanoes work?
 date: 2026-10-19
 time: 19:36
+image: assets/images/how-do-volcanoes-work.jpg
+image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: Melted rock, a trapped gas trick, and mountains that build themselves. The pressure cookers of planet Earth, explained.

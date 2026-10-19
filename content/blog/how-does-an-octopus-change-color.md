@@ -2,6 +2,8 @@
 title: How does an octopus change color in the blink of an eye?
 date: 2026-10-19
 time: 15:58
+image: assets/images/how-does-an-octopus-change-color.png
+image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
 excerpt: Thousands of tiny color sacs, muscles wired straight to the brain, and skin that can sense light by itself. The full trick, explained simply.
