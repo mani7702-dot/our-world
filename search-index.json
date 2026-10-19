@@ -26,6 +26,19 @@
     ]
   },
   {
+    "title": "How do bees make honey?",
+    "url": "blog/how-do-bees-make-honey.html",
+    "section": "blog",
+    "excerpt": "Honey starts as plain flower nectar and ends as golden, sealed-up sweetness. Between the two there is a whole factory line of bees, stomachs, and wing-fanning. Here is the journey from flower to hive.",
+    "tags": [
+      "animals",
+      "insects",
+      "bees",
+      "nature",
+      "howitworks"
+    ]
+  },
+  {
     "title": "How do birds know where to go?",
     "url": "blog/how-do-birds-know-where-to-go.html",
     "section": "blog",
@@ -143,6 +156,19 @@
       "weather",
       "clouds",
       "water"
+    ]
+  },
+  {
+    "title": "Why do leaves change color in autumn?",
+    "url": "blog/why-do-leaves-change-color.html",
+    "section": "blog",
+    "excerpt": "Every autumn the same trees that were green all summer turn gold and red. It looks like magic, but it is a quiet chemical process that starts with shorter days. Here is how it works, step by numbered step.",
+    "tags": [
+      "science",
+      "plants",
+      "autumn",
+      "nature",
+      "howitworks"
     ]
   },
   {
@@ -298,6 +324,19 @@
       "nasa",
       "moon",
       "exploration",
+      "news"
+    ]
+  },
+  {
+    "title": "Eight orangutans go home: a forest waited for them",
+    "url": "news/orangutans-return-borneo-wild.html",
+    "section": "news",
+    "excerpt": "After wildfires destroyed much of their jungle this summer, eight orangutans were rescued, cared for, and driven back to a safe forest. It was the first release since the fires began — and the news made a lot of people happy.",
+    "tags": [
+      "animals",
+      "orangutans",
+      "conservation",
+      "rescue",
       "news"
     ]
   },
