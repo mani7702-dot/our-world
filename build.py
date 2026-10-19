@@ -180,10 +180,11 @@ def render(name, tokens):
     return t
 
 
-def page(title, desc, active, prefix, main_name, main_tokens):
+def page(title, desc, active, prefix, main_name, main_tokens, base_extra=None):
     tokens = {
         "TITLE": title,
         "DESC": desc,
+        "JSONLD": (base_extra or {}).get("JSONLD", ""),
         "PREFIX": prefix,
         "NAV": nav_html(active, prefix),
         "MAIN": render(main_name, main_tokens),
@@ -279,8 +280,25 @@ def article_page(p):
         if p["is_sample"]
         else ""
     )
+    article_url = "%s/%s/%s.html" % (SITE_BASE, section, p["slug"])
+    jsonld_script = (
+        '<script type="application/ld+json">'
+        + json.dumps({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": p["title"],
+            "description": p["excerpt"],
+            "datePublished": p.get("date", ""),
+            "mainEntityOfPage": article_url,
+            "publisher": {"@type": "Organization", "name": "Our World", "url": SITE_BASE},
+            "author": {"@type": "Organization", "name": "Our World"},
+            "inLanguage": "en",
+        }, ensure_ascii=False)
+        + "</script>"
+    )
     tokens = {
         "ZONE": ZONE[section],
+        "JSONLD": jsonld_script,
         "CATEGORY": esc(p["category"]),
         "TITLE": esc(p["title"]),
         "DATE": esc(p.get("date", "")),
@@ -296,7 +314,7 @@ def article_page(p):
     }
     title = "%s — Our World" % esc(p["title"])
     desc = p["excerpt"][:155]
-    out = page(title, desc, section, prefix, "article.html", tokens)
+    out = page(title, desc, section, prefix, "article.html", tokens, base_extra={"JSONLD": jsonld_script})
     write(os.path.join(ROOT, section, p["slug"] + ".html"), out)
 
 
