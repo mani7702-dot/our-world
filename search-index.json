@@ -26,6 +26,18 @@
     ]
   },
   {
+    "title": "How do birds know where to go?",
+    "url": "blog/how-do-birds-know-where-to-go.html",
+    "section": "blog",
+    "excerpt": "A young bird with no map, no phone and no grown-up to ask still flies thousands of kilometres to the right place. Sun, stars, Earth's magnetic field and smell all take a turn.",
+    "tags": [
+      "animals",
+      "birds",
+      "migration",
+      "navigation"
+    ]
+  },
+  {
     "title": "How do seeds know which way is up?",
     "url": "blog/how-do-seeds-know-which-way-is-up.html",
     "section": "blog",
@@ -34,6 +46,19 @@
       "science",
       "plants",
       "garden"
+    ]
+  },
+  {
+    "title": "How do volcanoes work?",
+    "url": "blog/how-do-volcanoes-work.html",
+    "section": "blog",
+    "excerpt": "Melted rock, a trapped gas trick, and mountains that build themselves. The pressure cookers of planet Earth, explained.",
+    "tags": [
+      "science",
+      "volcanoes",
+      "geology",
+      "earth",
+      "lava"
     ]
   },
   {
@@ -49,6 +74,18 @@
     ]
   },
   {
+    "title": "Why does the Moon seem to change shape?",
+    "url": "blog/how-does-the-moon-change-shape.html",
+    "section": "blog",
+    "excerpt": "The Moon is not shrinking or growing — it is a ball hanging in sunlight, and you are only ever seeing a slice of it. Here is the real reason for the phases.",
+    "tags": [
+      "space",
+      "moon",
+      "phases",
+      "astronomy"
+    ]
+  },
+  {
     "title": "The tardigrade: 7 reasons the water bear is almost unkillable",
     "url": "blog/tardigrade-facts-water-bear.html",
     "section": "blog",
@@ -58,6 +95,42 @@
       "space",
       "survival",
       "facts"
+    ]
+  },
+  {
+    "title": "What causes a rainbow?",
+    "url": "blog/what-causes-rainbows.html",
+    "section": "blog",
+    "excerpt": "No paint, no magic — just sunlight, a lot of falling raindrops, and light bending and bouncing inside each one. Here is how a rainbow is really made.",
+    "tags": [
+      "science",
+      "rainbows",
+      "light",
+      "weather"
+    ]
+  },
+  {
+    "title": "What is the Milky Way?",
+    "url": "blog/what-is-the-milky-way.html",
+    "section": "blog",
+    "excerpt": "It is the faint white band across a dark night sky, and it is also our entire galaxy — home to at least 100 billion stars, including the Sun. How we know what it looks like from inside it.",
+    "tags": [
+      "space",
+      "astronomy",
+      "galaxy",
+      "stars"
+    ]
+  },
+  {
+    "title": "Why do cats purr?",
+    "url": "blog/why-do-cats-purr.html",
+    "section": "blog",
+    "excerpt": "A purr is a tiny engine in the throat that runs on both the in-breath and the out-breath — and it might be doing a lot more than saying \"I'm happy.\"",
+    "tags": [
+      "animals",
+      "cats",
+      "purring",
+      "science"
     ]
   },
   {
@@ -84,6 +157,19 @@
     ]
   },
   {
+    "title": "Why do we dream?",
+    "url": "blog/why-do-we-dream.html",
+    "section": "blog",
+    "excerpt": "Wild stories, flying elephants, and a brain that is almost as busy as when you're awake. Scientists are still unpacking the mystery.",
+    "tags": [
+      "science",
+      "sleep",
+      "dreams",
+      "brain",
+      "REM"
+    ]
+  },
+  {
     "title": "Why do we get brain freeze?",
     "url": "blog/why-do-we-get-brain-freeze.html",
     "section": "blog",
@@ -107,6 +193,18 @@
       "sleep",
       "behavior",
       "howitworks"
+    ]
+  },
+  {
+    "title": "Why is the ocean blue?",
+    "url": "blog/why-is-the-ocean-blue.html",
+    "section": "blog",
+    "excerpt": "Not because it reflects the sky. Water itself is a filter, and it quietly throws away the red half of sunlight. The blue is what's left over.",
+    "tags": [
+      "science",
+      "ocean",
+      "light",
+      "water"
     ]
   },
   {
@@ -187,6 +285,19 @@
       "animals",
       "birds",
       "newyork",
+      "news"
+    ]
+  },
+  {
+    "title": "Why is NASA hunting for caves to build a Moon base?",
+    "url": "news/nasa-moon-base-cave-search.html",
+    "section": "news",
+    "excerpt": "Before anyone can live on the Moon, NASA wants to find underground caves, hidden ice, and safe ground. Three new missions are going to scout the way.",
+    "tags": [
+      "space",
+      "nasa",
+      "moon",
+      "exploration",
       "news"
     ]
   },

@@ -142,6 +142,7 @@ def load_posts(section):
             meta["date_long"] = datetime.strptime(meta.get("date", ""), "%Y-%m-%d").strftime("%d %B %Y")
         except ValueError:
             meta["date_long"] = meta.get("date", "")
+        meta["time"] = str(meta.get("time", "")).strip()
         meta.setdefault("title", meta["slug"])
         meta.setdefault("excerpt", "")
         meta.setdefault("category", section.capitalize())
@@ -299,6 +300,8 @@ def article_page(p):
     tokens = {
         "ZONE": ZONE[section],
         "JSONLD": jsonld_script,
+        "AUTHOR": "Our World",
+        "TIME_PART": (" at %s IST" % p["time"]) if p.get("time") else "",
         "CATEGORY": esc(p["category"]),
         "TITLE": esc(p["title"]),
         "DATE": esc(p.get("date", "")),
