@@ -288,7 +288,7 @@ def article_page(p):
         "BODY": p["body_html"],
         "TAG_LIST": tag_list,
         "GROWNUPS": grownups,
-        "BACK_URL": "../%s/" % section,
+        "BACK_URL": "../%s/index.html" % section,
         "BACK_LABEL": "the blog" if section == "blog" else "the news",
     }
     title = "%s — Our World" % esc(p["title"])
