@@ -46,8 +46,33 @@
         <p>Most kids' sites shout: pop-ups, ads, endless video autoplay, features designed to keep eyes glued. Our World does the opposite — it gives young readers good short content and then leaves them alone.</p>
         <h2>How it is built</h2>
         <p>The whole site is plain static files: no database, no accounts, nothing to hack. That is also why it loads fast on a school computer and keeps working when everything else is slow.</p>
-        <h2>Contact</h2>
-        <p>A contact email and a proper contact form arrive in the launch phase, together with the first live posts.</p>
+        <h2>Talk to us</h2>
+        <p>Parents and teachers can write about anything: a correction, a topic you would like covered, or a safety question. We read everything.</p>
+        <ul class="contact-ways">
+          <li><strong>Email:</strong> <a href="mailto:hello@ourworld.example">hello@ourworld.example</a> <span class="muted small">(replace with the real address before launch)</span></li>
+          <li><strong>Form:</strong> it goes live the moment a real form ID is set. Until then it posts nowhere, so nothing you type leaves this page.</li>
+        </ul>
+        <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
+          <label for="cf-name">Your name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          <label for="cf-email">Your email</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          <label class="hp" aria-hidden="true">Leave empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+          <label for="cf-msg">Message</label>
+          <textarea id="cf-msg" name="message" rows="5" required></textarea>
+          <p class="small muted">We never share addresses, and nothing you write here is stored on this site.</p>
+          <button class="btn btn--primary btn--sm" type="submit">Send message</button>
+        </form>
+        <style>
+          .contact-ways{list-style:none;padding:0;margin:0 0 1.25rem;display:grid;gap:.5rem}
+          .contact-ways li{margin:0}
+          .contact-form{display:grid;gap:.6rem;max-width:34rem}
+          .contact-form label{font-weight:700;font-size:.95rem}
+          .contact-form input,.contact-form textarea{width:100%;box-sizing:border-box;padding:.65rem .8rem;border:1px solid var(--line-2);border-radius:var(--r-sm);background:var(--surface);color:var(--ink);font:inherit}
+          .contact-form input:focus-visible,.contact-form textarea:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-color:var(--brand)}
+          .contact-form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+          .contact-form button{justify-self:start}
+        </style>
       </div>
     </section>
   </main>
@@ -55,7 +80,7 @@
     <div class="container">
       <div class="footer-bottom" style="margin-top:0;border:none;padding-top:0">
         <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
-        <span>No ads · No trackers · No accounts</span>
+        <span><a href="../search/">Search</a> · No ads · No trackers · No accounts</span>
       </div>
     </div>
   </footer>

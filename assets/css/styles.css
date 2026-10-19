@@ -696,3 +696,158 @@ body { animation: page-in 0.35s var(--ease-out) both; }
 [data-theme="dark"] .promise p { color: #d8c4ae; }
 [data-theme="dark"] .badge-draft { border-color: #7a3a1d; }
 [data-theme="dark"] .game-card { background: var(--surface); }
+
+/* ---------- search page (scoped to .search-page) ---------- */
+.search-page .search-form {
+  max-width: 640px;
+  margin-bottom: 22px;
+}
+.search-page .search-label {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.search-page .search-input {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 18px;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 2px solid var(--line-2);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-1);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.search-page .search-input::placeholder { color: var(--ink-2); opacity: 1; }
+.search-page .search-input:hover { border-color: var(--brand); }
+.search-page .search-input:focus {
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: var(--shadow-2);
+}
+.search-page .search-input:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+/* results — aria-live region */
+.search-page .search-results { min-height: 3em; }
+.search-page .search-results-list {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.search-page .search-result {
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-1);
+  padding: 18px 22px;
+  display: grid;
+  gap: 6px;
+  transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease;
+}
+.search-page .search-result:hover {
+  transform: translateY(-2px);
+  border-color: var(--line-2);
+  box-shadow: var(--shadow-2);
+}
+.search-page .search-result-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.search-page .search-result-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+.search-page .search-result-title:hover { color: var(--brand-ink); }
+.search-page .search-result-title:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
+.search-page .search-result-section {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand-ink);
+  background: var(--brand-tint);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+.search-page .search-result-excerpt {
+  margin: 0;
+  color: var(--ink-2);
+  max-width: 68ch;
+}
+.search-page .search-result-tags {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ink-2);
+}
+
+/* status lines: count, hint, no-match, error */
+.search-page .search-count {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.search-page .search-hint,
+.search-page .search-empty,
+.search-page .search-error {
+  margin: 0;
+  padding: 16px 20px;
+  border-radius: var(--r-md);
+  max-width: 60ch;
+}
+.search-page .search-hint { color: var(--ink-2); }
+.search-page .search-empty {
+  color: var(--ink);
+  background: var(--brand-tint);
+  border: 2px dashed var(--line-2);
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+.search-page .search-error {
+  color: var(--brand-ink);
+  background: var(--paper-2);
+  border: 2px solid var(--line-2);
+}
+
+/* link back to the blog */
+.search-page .search-back { margin-top: 28px; }
+.search-page .search-back-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--brand-ink);
+  text-decoration: none;
+  border-bottom: 2px solid var(--brand);
+  padding-bottom: 2px;
+}
+.search-page .search-back-link:hover { color: var(--brand); }
+.search-page .search-back-link:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}

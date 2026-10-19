@@ -7,6 +7,7 @@ into pages at the project root. Stdlib only.
 Publish flow: drop a .md file into content/ -> run `python build.py` -> done.
 """
 import html as html_mod
+import json
 import os
 import re
 from datetime import datetime
@@ -296,10 +297,46 @@ def article_page(p):
     write(os.path.join(ROOT, section, p["slug"] + ".html"), out)
 
 
+def build_search_index(posts):
+    """Client-side search data: a flat array, written to the site root.
+
+    Keys are exactly what assets/js/search.js needs — title, url (root-relative),
+    section, excerpt, tags. No HTML is stored, so the JSON stays plain text.
+    """
+    entries = []
+    for p in posts:
+        entries.append(
+            {
+                "title": p["title"],
+                "url": "%s/%s.html" % (p["section"], p["slug"]),
+                "section": p["section"],
+                "excerpt": p.get("excerpt", ""),
+                "tags": p.get("tag_list", []),
+            }
+        )
+    return json.dumps(entries, ensure_ascii=False, indent=2) + "\n"
+
+
+def search_page():
+    """Renders search/index.html — the page that consumes search-index.json."""
+    return page(
+        "Search — Our World",
+        "Search every story and news item on Our World by title, topic or tag. No ads, no trackers, no accounts.",
+        "blog",
+        "../",
+        "search.html",
+        {},
+    )
+
+
 def main():
     blog = load_posts("blog")
     news = load_posts("news")
     written = []
+
+    # client-side search index (site root, fetched by search/index.html)
+    write(os.path.join(ROOT, "search-index.json"), build_search_index(blog + news))
+    written.append("search-index.json")
 
     # home
     home_tokens = {
@@ -332,7 +369,11 @@ def main():
         article_page(p)
         written.append("%s/%s.html" % (p["section"], p["slug"]))
 
-    print("Built %d pages:" % len(written))
+    # search page
+    write(os.path.join(ROOT, "search", "index.html"), search_page())
+    written.append("search/index.html")
+
+    print("Built %d files:" % len(written))
     for w in written:
         print("  " + w)
     print("Blog posts: %d  |  News items: %d" % (len(blog), len(news)))

@@ -8,6 +8,14 @@ A calm kids' site: blog, browser games, kid-safe news. **No backend, no database
 - `build.py` compiles the content into finished pages.
 - `assets/` holds the design system, self-hosted fonts and JS.
 
+## What's on the site
+
+- **Blog** — explainers and reading guides for 7–11 year olds.
+- **Games** — three browser games (Memory Match, Math Quiz, Draw & Paint). No installs, no accounts.
+- **News** — short, kind news items with links to the original story.
+- **Dark mode** — moon toggle in the header. It follows your device setting and remembers your choice.
+- **Site search** — rolling out shortly; it works on the built site with no server.
+
 ## Publishing a post (2 steps)
 
 1. Drop a file like this into `content/blog/` or `content/news/`:
@@ -44,11 +52,17 @@ Every article page has **A− / A+** (text size) and **Easy-read** (dyslexia-fri
 
 - No ads, no trackers, no analytics, no accounts, no chat.
 - Fonts are self-hosted — no third party sees who reads the site.
-- Game progress (when games land) stays in browser localStorage only.
+- Game progress stays in browser localStorage only. Never transmitted.
+- The About page carries a contact form that stays dormant until a real form ID is set — nothing connects anywhere until then.
+
+## After any change
+
+Every page you touch (a post, a page, an asset) is stale until rebuilt. The loop is always the same: edit, then `python build.py`, then push. Never push unbuilt pages.
 
 ## Deploy target
 
-Cloudflare Pages (primary) + GitHub Pages (mirror). Push the built site to the repo; both hosts serve it free with automatic HTTPS.
+Cloudflare Pages (primary) + GitHub Pages (mirror). Both serve the built site free with automatic HTTPS.
+Step-by-step instructions are in **[DEPLOY.md](DEPLOY.md)**.
 
 ## Local preview
 

@@ -1,0 +1,101 @@
+[
+  {
+    "title": "How do seeds know which way is up?",
+    "url": "blog/how-do-seeds-know-which-way-is-up.html",
+    "section": "blog",
+    "excerpt": "Plant a seed upside down and it still grows the right way. So how does it know which end is which?",
+    "tags": [
+      "science",
+      "plants",
+      "garden"
+    ]
+  },
+  {
+    "title": "Why do stars twinkle?",
+    "url": "blog/why-do-stars-twinkle.html",
+    "section": "blog",
+    "excerpt": "Stars do not really wobble — our air makes them look like they do. Here is what is happening between you and a star.",
+    "tags": [
+      "science",
+      "space",
+      "sky"
+    ]
+  },
+  {
+    "title": "Why is the sea salty?",
+    "url": "blog/why-is-the-sea-salty.html",
+    "section": "blog",
+    "excerpt": "If you leave a glass of sea water in the sun, it does not dry up the way a puddle does. That is a clue to where the salt comes from.",
+    "tags": [
+      "science",
+      "ocean",
+      "water"
+    ]
+  },
+  {
+    "title": "Why the sky looks blue",
+    "url": "blog/why-the-sky-looks-blue.html",
+    "section": "blog",
+    "excerpt": "Sunlight is white — so why is the daytime sky blue and the sunset red? A simple answer kids can repeat at dinner.",
+    "tags": [
+      "science",
+      "sky",
+      "light"
+    ]
+  },
+  {
+    "title": "How to pick a book you will actually finish",
+    "url": "blog/how-to-pick-a-book.html",
+    "section": "blog",
+    "excerpt": "Three honest rules for choosing your next read — and why it is completely fine to stop a book you do not enjoy.",
+    "tags": [
+      "reading",
+      "books",
+      "habits"
+    ]
+  },
+  {
+    "title": "Why we wash our hands",
+    "url": "blog/why-we-wash-our-hands.html",
+    "section": "blog",
+    "excerpt": "Germs are too small to see, but you can still wash them away. Here is what soap actually does — and why twenty seconds matters.",
+    "tags": [
+      "science",
+      "health",
+      "hygiene"
+    ]
+  },
+  {
+    "title": "A new library shaped like a tree",
+    "url": "news/library-shaped-like-a-tree.html",
+    "section": "news",
+    "excerpt": "One city built a reading place with real branches and leaves. Kids climb, read, and borrow books by torchlight.",
+    "tags": [
+      "libraries",
+      "cities",
+      "reading"
+    ]
+  },
+  {
+    "title": "Turtle rescue returns 90 babies to the sea",
+    "url": "news/turtle-rescue-90-babies.html",
+    "section": "news",
+    "excerpt": "A beach team watched over turtle nests all season, then helped the hatchlings reach the water.",
+    "tags": [
+      "animals",
+      "rescue",
+      "turtles"
+    ]
+  },
+  {
+    "title": "Kids' invention fair: a robot that waters plants",
+    "url": "news/kids-invention-fair-robot.html",
+    "section": "news",
+    "excerpt": "Two students built a small robot that checks how dry the soil is and waters school plants on its own.",
+    "tags": [
+      "inventions",
+      "school",
+      "robots"
+    ]
+  }
+]
