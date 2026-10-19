@@ -11,6 +11,30 @@
     ]
   },
   {
+    "title": "How does an octopus change color in the blink of an eye?",
+    "url": "blog/how-does-an-octopus-change-color.html",
+    "section": "blog",
+    "excerpt": "Thousands of tiny color sacs, muscles wired straight to the brain, and skin that can sense light by itself. The full trick, explained simply.",
+    "tags": [
+      "science",
+      "octopus",
+      "animals",
+      "camouflage"
+    ]
+  },
+  {
+    "title": "The tardigrade: 7 reasons the water bear is almost unkillable",
+    "url": "blog/tardigrade-facts-water-bear.html",
+    "section": "blog",
+    "excerpt": "Half a millimeter long, eight legs, and it has survived boiling, freezing, deep-ocean pressure and outer space. Meet the toughest animal on Earth.",
+    "tags": [
+      "animals",
+      "space",
+      "survival",
+      "facts"
+    ]
+  },
+  {
     "title": "Why do stars twinkle?",
     "url": "blog/why-do-stars-twinkle.html",
     "section": "blog",
@@ -63,6 +87,17 @@
       "science",
       "health",
       "hygiene"
+    ]
+  },
+  {
+    "title": "A 12-foot shark got stuck in a city canal — and the internet made it famous",
+    "url": "news/bronze-whaler-shark-busan-canal.html",
+    "section": "news",
+    "excerpt": "A bronze whaler shark chased its lunch into a canal in South Korea and could not find its way out. Then 600,000 people came to wave.",
+    "tags": [
+      "animals",
+      "sharks",
+      "news"
     ]
   },
   {
