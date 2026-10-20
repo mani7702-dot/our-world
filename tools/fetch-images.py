@@ -21,6 +21,8 @@ QUERY = {
     "how-does-a-compass-work": "compass",
     "why-do-we-sneeze": "sneezing",
     "colorado-wildlife-overpass-i25-collisions-down-91": "wildlife overpass",
+    "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
+    "green-star-white-dwarf-wdj1330-6435": "green star",
 }
 
 def ok_license(l):
