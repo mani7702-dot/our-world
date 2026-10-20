@@ -9,10 +9,6 @@ read: 4 min
 excerpt: Most lakes are just water in a hole. But some glow pink, bubble with methane, burn with underground heat, or even float on the seafloor. Here are 10 real lakes that look like nature hit the weird button.
 tags: lakes, nature, geography, weird, world
 sample: false
-sources:
-  - https://listverse.com/2026/10/19/10-rare-lakes-that-took-weirdness-to-the-next-level/
-  - https://en.wikipedia.org/wiki/Lake_Natron
-  - https://en.wikipedia.org/wiki/Lake_Kivu
 for-grownups: "Curious grown-up note: these 10 lakes all exist — their locations, chemistry, and phenomena are confirmed by Wikipedia and peer-reviewed reporting. Each does something extraordinary because of geology, chemistry, or biology, not magic. Sources listed in the Sources section."
 ---
 # Why do some lakes look like they broke nature's rules?
