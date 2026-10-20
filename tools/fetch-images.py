@@ -23,6 +23,7 @@ QUERY = {
     "colorado-wildlife-overpass-i25-collisions-down-91": "wildlife overpass",
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
     "green-star-white-dwarf-wdj1330-6435": "green star",
+    "spacex-crs35-jellyfish-launch": "SpaceX Falcon 9 launch jellyfish",
 }
 
 def ok_license(l):
