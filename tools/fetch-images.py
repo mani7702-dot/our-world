@@ -36,6 +36,7 @@ QUERY = {
     "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
     "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
+    "dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
 }
 
 def ok_license(l):
