@@ -29,6 +29,7 @@ QUERY = {
     "2026-10-20-sloth-bear-odum-julia-roberts-rescue": "sloth bear",
     "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
+    "ancient-peruvian-hairless-dogs-wari-huarmey": "Peruvian hairless dog",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
     "nasa-simon-atmospheric-waves-above-hurricane": "atmospheric gravity waves hurricane satellite",
