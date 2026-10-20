@@ -20,6 +20,7 @@ QUERY = {
     "mmx-mars-phobos-sample": "Phobos",
     "how-does-a-compass-work": "compass",
     "why-do-we-sneeze": "sneezing",
+    "colorado-wildlife-overpass-i25-collisions-down-91": "wildlife overpass",
 }
 
 def ok_license(l):
