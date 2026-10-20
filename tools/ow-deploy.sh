@@ -38,5 +38,10 @@ if [ -n "$SLUG" ]; then
   code=$(curl -s -o /dev/null -w "%{http_code}" "https://mani7702-dot.github.io/our-world/news/${SLUG}.html")
   echo "live: $code"
   [ "$code" = "200" ] || { echo "ERROR: live not 200"; exit 7; }
+  # index the new page now (IndexNow, free, no account) — Bing/Yandex crawl within hours
+  curl -s -o /dev/null -w "indexnow: %{http_code}\n" -X POST \
+    -H "Content-Type: application/json; charset=utf-8" \
+    -d "{\"host\":\"mani7702-dot.github.io\",\"key\":\"afd35788d7f52e6d423daf2f10f0a1c1\",\"urlList\":[\"https://mani7702-dot.github.io/our-world/news/${SLUG}.html\"]}" \
+    https://api.indexnow.org/indexnow
 fi
 echo "DONE"
