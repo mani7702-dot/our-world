@@ -45,6 +45,7 @@ QUERY = {
     "2026-10-20-aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
+    "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
 }
 
 def ok_license(l):
