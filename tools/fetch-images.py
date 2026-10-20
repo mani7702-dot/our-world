@@ -44,6 +44,7 @@ QUERY = {
     "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
     "sgiath-sea-squirt-hunting-dog-animal-of-the-year": "Labrador retriever",
     "2026-10-20-aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
+    "2026-10-20-wfp-cuts-gaza-food-aid-funding-shortfall": "World Food Programme food distribution",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
@@ -60,7 +61,7 @@ def ok_license(l):
 def curl_json(params):
     url = API + "?" + urllib.parse.urlencode(params)
     for _ in range(3):
-        p = subprocess.run(["curl", "-s", "--max-time", "30", "-A", UA, url],
+        p = subprocess.run(["curl", "-s", "--compressed", "--max-time", "30", "-A", UA, url],
                            capture_output=True, text=True)
         out = p.stdout.strip()
         if not out:
