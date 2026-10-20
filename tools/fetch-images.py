@@ -49,6 +49,7 @@ QUERY = {
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
     "nightjar-migration-wings-sacrifice-efficiency": "European nightjar (Caprimulgus europaeus) flying",
     "el-nino-alters-weather-patterns-around-world": "El Niño Pacific Ocean satellite",
+    "williston-lake-floating-forest-canada": "floating forest",
 }
 
 def ok_license(l):
