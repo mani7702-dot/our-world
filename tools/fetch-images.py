@@ -40,6 +40,7 @@ QUERY = {
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
     "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
+    "sgiath-sea-squirt-hunting-dog-animal-of-the-year": "Labrador retriever",
 }
 
 def ok_license(l):
