@@ -42,7 +42,7 @@ if [ -n "$SLUG" ]; then
   # index the new page now (IndexNow, free, no account) — Bing/Yandex crawl within hours
   curl -s -o /dev/null -w "indexnow: %{http_code}\n" -X POST \
     -H "Content-Type: application/json; charset=utf-8" \
-    -d "{\"host\":\"mani7702-dot.github.io\",\"key\":\"afd35788d7f52e6d423daf2f10f0a1c1\",\"urlList\":[\"https://mani7702-dot.github.io/our-world/news/${SLUG}.html\"]}" \
+    -d "{\"host\":\"mani7702-dot.github.io\",\"key\":\"afd35788d7f52e6d423daf2f10f0a1c1\",\"keyLocation\":\"https://mani7702-dot.github.io/our-world/afd35788d7f52e6d423daf2f10f0a1c1.txt\",\"urlList\":[\"https://mani7702-dot.github.io/our-world/news/${SLUG}.html\"]}" \
     https://api.indexnow.org/indexnow
 fi
 echo "DONE"

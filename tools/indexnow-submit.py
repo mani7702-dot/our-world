@@ -5,6 +5,7 @@ Usage: python3 tools/indexnow-submit.py  (or --urls "a,b" for single new posts)
 import json, re, sys, urllib.request
 
 KEY = "afd35788d7f52e6d423daf2f10f0a1c1"
+KEY_LOC = "https://mani7702-dot.github.io/our-world/afd35788d7f52e6d423daf2f10f0a1c1.txt"
 HOST = "mani7702-dot.github.io"
 SITE = "https://mani7702-dot.github.io/our-world"
 
@@ -27,7 +28,7 @@ def main():
         chunk = urls[i:i+5000]
         try:
             status, body = fetch("https://api.indexnow.org/indexnow",
-                json.dumps({"host": HOST, "key": KEY, "urlList": chunk}).encode())
+                json.dumps({"host": HOST, "key": KEY, "keyLocation": KEY_LOC, "urlList": chunk}).encode())
             print(f"  chunk {i//5000}: HTTP {status} {body[:200]}")
         except Exception as e:
             print(f"  chunk {i//5000}: ERROR {e}")
