@@ -58,6 +58,7 @@ QUERY = {
     "uranium-cubes-nazi-nuclear-failure": "Haigerloch uranium cubes",
     "free-roaming-bison-american-prairie-1016": "Bison prairie Montana",
     "10-weird-lakes-nature-gets-strange": "Lake Natron flamingo pink",
+    "2026-10-20-chandra-16-galaxies-galactic-gallery": "Chandra X-ray galaxy Messier 82",
 }
 
 def ok_license(l):
