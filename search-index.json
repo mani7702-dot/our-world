@@ -1,17 +1,5 @@
 [
   {
-    "title": "7 amazing things lizards, birds, and bugs can do that sound impossible",
-    "url": "blog/amazing-animal-abilities-that-sound-impossible.html",
-    "section": "blog",
-    "excerpt": "Animals keep surprising scientists. From a seal that talks like a person to a tiny mite that hasn't needed sex for 20 million years, here are seven real abilities that sound like superhero powers.",
-    "tags": [
-      "science",
-      "animals",
-      "listicle",
-      "amazing"
-    ]
-  },
-  {
     "title": "How does a compass know which way is north?",
     "url": "blog/how-does-a-compass-work.html",
     "section": "blog",
@@ -20,19 +8,6 @@
       "science",
       "compass",
       "magnets",
-      "how it works"
-    ]
-  },
-  {
-    "title": "Can a magic mushroom calm an angry fish?",
-    "url": "blog/magic-mushroom-fish-less-aggressive.html",
-    "section": "blog",
-    "excerpt": "A compound from magic mushrooms makes the fierce mangrove rivulus fish less aggressive, without dulling its curiosity — a clue about how brains wire mood and calm.",
-    "tags": [
-      "science",
-      "mushrooms",
-      "fish",
-      "behavior",
       "how it works"
     ]
   },
@@ -327,19 +302,6 @@
     ]
   },
   {
-    "title": "How 180,000 Giant Tortoises Came Back From Fewer Than 1,000",
-    "url": "news/2026-10-20-aldabra-giant-tortoises-thrive-180000-survey.html",
-    "section": "news",
-    "excerpt": "\"On a far-off atoll in the Indian Ocean, Aldabra giant tortoises have made a comeback so big that scientists counted nearly 180,000 of them — a triumph of protection that began in the 19th century.\"",
-    "tags": [
-      "[tortoises",
-      "aldabra",
-      "seychelles",
-      "conservation",
-      "endangered species]"
-    ]
-  },
-  {
     "title": "How a \"squid butt\" fossil from Wyoming turned out to be a whole new kind of ancient sea creature",
     "url": "news/2026-10-20-belemnite-squid-jurassic-wyoming.html",
     "section": "news",
@@ -369,20 +331,6 @@
     ]
   },
   {
-    "title": "What 16 galaxies are teaching us about the violent life of stars and black holes",
-    "url": "news/2026-10-20-nasa-16-galaxies-cosmic-chaos.html",
-    "section": "news",
-    "excerpt": "NASA's new gallery of 16 galaxies shows some of the universe's most dramatic sights — black hole jets, exploding stars, and whole galaxies crashing into each other. Each picture is a time machine.",
-    "tags": [
-      "space",
-      "nasa",
-      "galaxies",
-      "stars",
-      "black holes",
-      "news"
-    ]
-  },
-  {
     "title": "How a Sloth Bear Named Odum Went From Street Performer to Sanctuary Star",
     "url": "news/2026-10-20-sloth-bear-odum-julia-roberts-rescue.html",
     "section": "news",
@@ -395,76 +343,6 @@
       "wildlife sos",
       "dancing bears",
       "rehabilitation"
-    ]
-  },
-  {
-    "title": "10 Surprising Lakes Around the World That Defy What You'd Expect",
-    "url": "news/2026-10-20-strange-surprising-lakes-around-world.html",
-    "section": "news",
-    "excerpt": "\"Some lakes trap gas bubbles like frozen jewels, others host a million jellyfish that follow the sun, and one even floats away like a drifting island. Here are 5 amazing lakes that prove nature is stranger than fiction.\"",
-    "tags": [
-      "lakes",
-      "natural wonders",
-      "world",
-      "nature",
-      "science"
-    ]
-  },
-  {
-    "title": "How the World Helps Families Get Food — and Why Money Matters",
-    "url": "news/2026-10-20-wfp-cuts-gaza-food-aid-funding-shortfall.html",
-    "section": "news",
-    "excerpt": "\"The World Food Programme has to feed 1.1 million people in Gaza instead of 1.6 million — because donations ran low. Here's why food aid depends on money from all of us.\"",
-    "tags": [
-      "[world food programme",
-      "WFP",
-      "gaza",
-      "humanitarian aid",
-      "food security",
-      "fundraising",
-      "ipc]"
-    ]
-  },
-  {
-    "title": "How did a mountainside send a wall of water 1,580 feet up a fjord? Alaska's surprising tsunami revealed",
-    "url": "news/alaska-tracy-arm-landslide-tsunami-1580-feet.html",
-    "section": "news",
-    "excerpt": "In August, a chunk of mountain in Alaska's Tracy Arm broke loose and crashed into the fjord, launching the second-tallest tsunami wave scientists have ever recorded — one that shot water 1,580 feet up the opposite wall. The clues were there days before.",
-    "tags": [
-      "science",
-      "space",
-      "earth",
-      "tsunami",
-      "landslide",
-      "Alaska",
-      "geology"
-    ]
-  },
-  {
-    "title": "What makes a magnet a magnet — and why scientists just found a third kind",
-    "url": "news/altermagnetism-third-magnetism-europhysics-prize.html",
-    "section": "news",
-    "excerpt": "For over 100 years, physicists thought there were only two kinds of magnetism. Then three researchers discovered a third — and won Europe's top physics prize for it.",
-    "tags": [
-      "science",
-      "physics",
-      "magnetism",
-      "materials",
-      "technology"
-    ]
-  },
-  {
-    "title": "\"Is this Amelia Earhart's missing plane — or just a pile of Pacific trees?\"",
-    "url": "news/amelia-earhart-taraia-object-trees.html",
-    "section": "news",
-    "excerpt": "\"Researchers visited a remote Pacific island to check a shiny object some thought might be Amelia Earhart's missing Electra — but Purdue University says it is probably just a collection of washed-up trees.\"",
-    "tags": [
-      "[world",
-      "amelia-earhart",
-      "exploration",
-      "kiribati",
-      "history",
-      "mystery]"
     ]
   },
   {
@@ -508,19 +386,6 @@
     ]
   },
   {
-    "title": "\"How did Brazil say goodbye to the grueling 6-day workweek?\"",
-    "url": "news/brazil-ends-6-day-workweek-constitutional-amendment.html",
-    "section": "news",
-    "excerpt": "\"Brazil's Senate voted 75–1 to pass a constitutional amendment ending the six-day work schedule. The change phases the workweek from 44 to 40, then to 36 hours over 10 years — giving every worker a real weekend.\"",
-    "tags": [
-      "[brazil",
-      "work",
-      "labor-rights",
-      "senate",
-      "constitutional-amendment]"
-    ]
-  },
-  {
     "title": "\"91% fewer crashes on the road where animals roam — thanks to a giant bridge just for them\"",
     "url": "news/colorado-wildlife-overpass-i25-collisions-down-91.html",
     "section": "news",
@@ -531,77 +396,6 @@
       "colorado",
       "wildlife-crossing",
       "conservation]"
-    ]
-  },
-  {
-    "title": "How big can a fungus get? China's \"D-rex\" giant mushroom stands 20 inches tall",
-    "url": "news/dianjunus-rex-giant-fungus-china.html",
-    "section": "news",
-    "excerpt": "Deep in a Chinese forest, scientists found a fungus so big it made the news twice — a towering \"fungal giant\" named D-rex that grew right after the dinosaurs died out.",
-    "tags": [
-      "fungi",
-      "mushroom",
-      "china",
-      "biodiversity",
-      "yunnan",
-      "evolution",
-      "extinction"
-    ]
-  },
-  {
-    "title": "A forgotten fossil in a drawer turned out to be Antarctica's first dinosaur",
-    "url": "news/dinosaur-antarctica-fossil-drawer-titanosaur.html",
-    "section": "news",
-    "excerpt": "A 40-year-old fossil that sat unlabelled in a British Antarctic Survey drawer was identified as the first dinosaur ever found on the continent — a titanosaur tail bone from 80 million years ago.",
-    "tags": [
-      "science",
-      "dinosaurs",
-      "Antarctica",
-      "paleontology",
-      "fossils",
-      "news"
-    ]
-  },
-  {
-    "title": "Why did a rescue dog weigh as much as a baby hippo — and how did she get healthy?",
-    "url": "news/dog-weighed-baby-hippo-sheds-pounds-rspca.html",
-    "section": "news",
-    "excerpt": "A bulldog named Peggy-Sue came to an animal shelter so heavy she could only take a few steps before collapsing. A slow exercise plan and a new diet helped her lose 20 pounds — and the whole thing shows how rescue dogs can bounce back with time, patience, and a lot of care.",
-    "tags": [
-      "animals",
-      "dogs",
-      "rescue",
-      "health",
-      "britain",
-      "rspca"
-    ]
-  },
-  {
-    "title": "How Dussehra Celebrates the Win of Good Over Evil Across India?",
-    "url": "news/dussehra-festival-good-over-evil-celebrated-india.html",
-    "section": "news",
-    "excerpt": "Every year at the end of September and October, millions across India celebrate Dussehra — the festival that burns away bad dreams with giant effigies and dances with joy.",
-    "tags": [
-      "india",
-      "dussehra",
-      "festival",
-      "culture",
-      "tradition"
-    ]
-  },
-  {
-    "title": "How El Niño's warming ocean is rewriting the weather map across Earth",
-    "url": "news/el-nino-alters-weather-patterns-around-world.html",
-    "section": "news",
-    "excerpt": "\"This year's El Niño — now officially the strongest on record — is sending ripples around the planet: wildfires in Indonesia, a supercharged Pacific hurricane season, a hush over the Atlantic, and a monsoon that forgot to show up in India. Satellites and weather stations from NASA to the WMO are tracking every twist.\"",
-    "tags": [
-      "[el-nino",
-      "weather",
-      "climate",
-      "satellites",
-      "nasa",
-      "bbc",
-      "wmo]"
     ]
   },
   {
@@ -645,21 +439,6 @@
     ]
   },
   {
-    "title": "What was the fattest prehistoric squid? Scientists found a 160-million-year-old barrel-shaped beast in Wyoming",
-    "url": "news/jurassic-squid-beast-wyoteuthis-linsterorum-found.html",
-    "section": "news",
-    "excerpt": "Deep in Wyoming's ancient sea mud, scientists uncovered the \"chunkiest\" belemnite ever found — a barrel-shaped squid relative called Wyoteuthis linsterorum that lived 160 million years ago.",
-    "tags": [
-      "science",
-      "Jurassic",
-      "fossils",
-      "squid",
-      "Wyoming",
-      "paleontology",
-      "belemnite"
-    ]
-  },
-  {
     "title": "Why did the ground near a volcano start moving? Satellites spotted two hidden magma sources",
     "url": "news/masaya-volcano-hidden-magma.html",
     "section": "news",
@@ -700,64 +479,6 @@
     ]
   },
   {
-    "title": "What happens in the sky above a hurricane? NASA spots invisible waves",
-    "url": "news/nasa-simon-atmospheric-waves-above-hurricane.html",
-    "section": "news",
-    "excerpt": "Hurricane Simon stirred up more than wind and rain — NASA satellites saw enormous invisible waves rippling through Earth's upper atmosphere far above the storm.",
-    "tags": [
-      "space",
-      "nasa",
-      "earth",
-      "satellites",
-      "weather",
-      "atmospheric waves",
-      "hurricane"
-    ]
-  },
-  {
-    "title": "Why Do Nightjars Give Up Speed for Slow-Motion Hunt?",
-    "url": "news/nightjar-migration-wings-sacrifice-efficiency.html",
-    "section": "news",
-    "excerpt": "The European nightjar flies thousands of miles each year, yet scientists discovered its wings are built for slow, ninja-like hunting — not for racing through the sky. The tradeoff is written right into how each wingbeat pushes and lifts.",
-    "tags": [
-      "science",
-      "birds",
-      "flight",
-      "migration",
-      "nightjar",
-      "aerodynamics"
-    ]
-  },
-  {
-    "title": "How sharp is a crystal's cleaning trick? Scientists hit the ultimate quantum limit",
-    "url": "news/quantum-limit-molecules-surface-science.html",
-    "section": "news",
-    "excerpt": "A Max Planck team cooked up an ultra-clean crystal surface that lets molecules keep their quantum weirdness for as long as physics allows — the first time any molecule glued to a surface has reached that fundamental ceiling.",
-    "tags": [
-      "science",
-      "quantum",
-      "photons",
-      "crystals",
-      "molecules",
-      "nasa"
-    ]
-  },
-  {
-    "title": "Who's the dog that sniffs out an invasive \"sea vomit\" before it smothers the coast?",
-    "url": "news/sgiath-sea-squirt-hunting-dog-animal-of-the-year.html",
-    "section": "news",
-    "excerpt": "Sgiath, a black Labrador from the Scottish Highlands, is the UK's first dog trained to track down the invasive carpet sea squirt — a slimy creature nicknamed \"sea vomit\" that can smother native marine life.",
-    "tags": [
-      "science",
-      "ocean",
-      "dogs",
-      "conservation",
-      "invasive species",
-      "sea squirt",
-      "UK"
-    ]
-  },
-  {
     "title": "How a rocket launch painted a jellyfish in the sky",
     "url": "news/spacex-crs35-jellyfish-launch.html",
     "section": "news",
@@ -769,62 +490,6 @@
       "spacex",
       "iss",
       "news"
-    ]
-  },
-  {
-    "title": "How did a drunk tourist end up guilty of stealing a Las Vegas flamingo named Peachy?",
-    "url": "news/tourist-guilty-stolen-las-vegas-flamingo.html",
-    "section": "news",
-    "excerpt": "\"A Canadian visitor to Las Vegas thought stealing a flamingo from the Flamingo hotel would be a funny prank — he was wrong. Mitchell Fairbarn was convicted of animal cruelty after the Chilean flamingo Peachy was found injured.\"",
-    "tags": [
-      "[las-vegas",
-      "flamingo",
-      "animal-welfare",
-      "law",
-      "us-news]"
-    ]
-  },
-  {
-    "title": "100 years until two monster black holes crash? What scientists found at the heart of Mrk 501",
-    "url": "news/two-black-holes-hurtling-toward-cosmic-collision.html",
-    "section": "news",
-    "excerpt": "\"Astronomers found a second jet of particles spinning around a giant black hole in galaxy Mrk 501 — proof that a second monster black hole is orbiting it, and the two may crash in as little as 100 years.\"",
-    "tags": [
-      "science",
-      "space",
-      "astronomy",
-      "black holes",
-      "galaxies",
-      "Mrk 501",
-      "jets"
-    ]
-  },
-  {
-    "title": "Why is this alien planet's atmosphere lopsided?",
-    "url": "news/webb-wasp-17b-lopsided-atmosphere.html",
-    "section": "news",
-    "excerpt": "A scorching gas giant 1,300 light-years away has an atmosphere that bulges out more on one side than the other — a new 3D mapping technique with the James Webb Space Telescope confirmed the prediction.",
-    "tags": [
-      "space",
-      "webb",
-      "nasa",
-      "exoplanet",
-      "atmosphere",
-      "astronomy"
-    ]
-  },
-  {
-    "title": "A floating forest broke loose on a Canadian lake — and nobody knew where it came from",
-    "url": "news/williston-lake-floating-forest-canada.html",
-    "section": "news",
-    "excerpt": "A boat captain on Williston Lake, Canada, filmed a whole patch of trees floating like a tiny island. Satellites confirmed it was real — a rare \"floating forest\" that forms when high water lifts mats of roots and soil from the shore.",
-    "tags": [
-      "lakes",
-      "canada",
-      "floating forest",
-      "nature",
-      "weird",
-      "williston"
     ]
   },
   {

@@ -35,10 +35,8 @@ git push origin main || { echo "ERROR: push failed"; exit 6; }
 
 if [ -n "$SLUG" ]; then
   sleep 75
-  # explainers land in blog/; news finds land in news/ — check both
-  bcode=$(curl -s -o /dev/null -w "%{http_code}" "https://mani7702-dot.github.io/our-world/blog/${SLUG}.html")
-  ncode=$(curl -s -o /dev/null -w "%{http_code}" "https://mani7702-dot.github.io/our-world/news/${SLUG}.html")
-  echo "live: blog=$bcode news=$ncode"
-  [ "$bcode" = "200" -o "$ncode" = "200" ] || { echo "ERROR: live not 200"; exit 7; }
+  code=$(curl -s -o /dev/null -w "%{http_code}" "https://mani7702-dot.github.io/our-world/news/${SLUG}.html")
+  echo "live: $code"
+  [ "$code" = "200" ] || { echo "ERROR: live not 200"; exit 7; }
 fi
 echo "DONE"

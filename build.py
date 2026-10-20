@@ -276,6 +276,22 @@ def news_item(p, url, prefix=""):
     )
 
 
+def popular_strip(all_posts, limit=8):
+    """Horizontal row of small image-title cards on the news index."""
+    picks = [p for p in all_posts if p.get("image")][:limit]
+    if not picks:
+        return ""
+    cards = []
+    for p in picks:
+        url = "%s/%s.html" % (p["section"], p["slug"])
+        img = ('<img src="../%s" alt="%s" loading="lazy" decoding="async" '
+               'width="96" height="56" class="popular-thumb">') % (p["image"], esc(p["title"]))
+        cards.append(
+            '<a class="popular-card" href="%s" title="%s">%s<span>%s</span></a>'
+            % (url, esc(p["title"]), img, esc(p["title"]))
+        )
+    return '<div class="popular-row">' + "".join(cards) + "</div>"
+
 def article_page(p):
     section = p["section"]
     prefix = "../"
@@ -286,7 +302,10 @@ def article_page(p):
     if p["tag_list"]:
         tag_list = (
             '<ul class="tag-list">'
-            + "".join('<li class="tag">%s</li>' % esc(t) for t in p["tag_list"])
+            + "".join(
+                '<li class="tag"><a href="../search/?q=%s">%s</a></li>' % (esc(t), esc(t))
+                for t in p["tag_list"]
+            )
             + "</ul>"
         )
     grownups = ""
@@ -474,7 +493,12 @@ def main():
             listing = "\n".join(blog_row(p, "%s.html" % p["slug"], "../") for p in posts)
         else:
             listing = "\n".join(news_item(p, "%s.html" % p["slug"], "../") for p in posts)
-        tokens = {"COUNT": str(len(posts)), "ROWS": listing, "LIST": listing}
+        tokens = {
+            "COUNT": str(len(posts)),
+            "ROWS": listing,
+            "LIST": listing,
+            "POPULAR": popular_strip(blog + news) if section == "news" else "",
+        }
         write(os.path.join(ROOT, section, "index.html"),
               page("%s — Our World" % section.capitalize(),
                    "Posts and news from Our World, written for young readers.",
