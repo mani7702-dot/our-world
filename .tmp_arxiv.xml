@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R7+X7sjsVzyuY5zRYBVQBwehjmY</id>
+  <title>arXiv Query: search_query=all:fractional OR all:Fermi OR all:sea OR all:Nagerl&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2026-10-20T20:11:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fractional+OR+(all:Fermi+OR+(all:sea+OR+all:Nagerl))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>154412</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1502.07284v1</id>
+    <title>Fermi Communications and Public Outreach</title>
+    <updated>2015-02-12T06:44:51Z</updated>
+    <link href="https://arxiv.org/abs/1502.07284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.07284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Sonoma State University (SSU) Education and Public Outreach (E/PO) group participates in the planning and execution of press conferences that feature noteworthy Fermi discoveries, as well as supporting social media and outreach websites. We have also created many scientific illustrations for the media, tools for amateur astronomers for use at star parties, and have given numerous public talks about Fermi discoveries.</summary>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-12T06:44:51Z</published>
+    <arxiv:comment>2014 Fermi Symposium proceedings - eConf C141020.1</arxiv:comment>
+    <arxiv:primary_category term="physics.pop-ph"/>
+    <author>
+      <name>L. Cominsky</name>
+    </author>
+    <author>
+      <name>A. Simonnet</name>
+    </author>
+    <author>
+      <name>the Fermi E/PO team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.3666v1</id>
+    <title>Pulsar observations with the Fermi LAT: what we have seen</title>
+    <updated>2009-12-18T17:38:23Z</updated>
+    <link href="https://arxiv.org/abs/0912.3666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.3666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A year after \emph{Fermi} was launched, the number of known gamma-ray pulsars has increased dramatically. For the first time, a sizable population of pulsars has been discovered in gamma-ray data alone. For the first time, millisecond pulsars have been confirmed as powerful sources of gamma-ray emission, and a whole population of these objects is seen with the LAT. The remaining gamma-ray pulsars are young pulsars, discovered via an efficient collaboration with radio and X-ray telescopes. It is now clear that a large fraction of the nearby energetic pulsars are gamma-ray emitters, whose luminosity grows with the spin-down energy loss rate. Many previously unidentified EGRET sources turn out to be pulsars. Many of the detected pulsars are found to be powering pulsar wind nebulae, and some are associated with TeV sources. The \emph{Fermi} LAT is expected to detect more pulsars in gamma rays in the coming years, while multi-wavelength follow ups should detect \emph{Fermi}-discovered pulsars. The data already revealed that gamma-ray pulsars generally emit fan-like beams sweeping over a large fraction of the sky and produced in the outer magnetosphere.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-18T17:38:23Z</published>
+    <arxiv:comment>11 pages, 14 figures. Proceedings of the 2009 Fermi Symposium, eConf Proceedings C091122</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>L. Guillemot</name>
+    </author>
+    <author>
+      <name>Fermi LAT Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.0042v1</id>
+    <title>Twelve Years of Education and Public Outreach with the Fermi Gamma-ray Space Telescope</title>
+    <updated>2013-02-28T23:24:41Z</updated>
+    <link href="https://arxiv.org/abs/1303.0042v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.0042v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>During the past twelve years, NASA's Fermi Gamma-ray Space Telescope has supported a wide range of Education and Public Outreach (E/PO) activities, targeting K-14 students and the general public. The purpose of the Fermi E/PO program is to increase student and public understanding of the science of the high-energy Universe, through inspiring, engaging and educational activities linked to the mission's science objectives. The E/PO program has additional more general goals, including increasing the diversity of students in the Science, Technology, Engineering and Mathematics (STEM) pipeline, and increasing public awareness and understanding of Fermi science and technology. Fermi's multi-faceted E/PO program includes elements in each major outcome category: Higher Education; Elementary and Secondary Education; Informal Education and Public Outreach.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-28T23:24:41Z</published>
+    <arxiv:comment>2012 Fermi Symposium proceedings - eConf C121028</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Lynn Cominsky</name>
+    </author>
+    <author>
+      <name>Kevin McLin</name>
+    </author>
+    <author>
+      <name>Aurore Simonnet</name>
+    </author>
+    <author>
+      <name>the Fermi Education</name>
+    </author>
+    <author>
+      <name>Public Outreach Team</name>
+    </author>
+  </entry>
+</feed>

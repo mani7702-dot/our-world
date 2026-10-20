@@ -30,16 +30,42 @@ QUERY = {
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
+    "nasa-simon-atmospheric-waves-above-hurricane": "atmospheric gravity waves hurricane satellite",
+    "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",
+    "webb-wasp-17b-lopsided-atmosphere": "exoplanet atmosphere",
+    "2026-10-20-nasa-16-galaxies-cosmic-chaos": "galaxy Messier 82 Chandra X-ray",
+    "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
+    "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
+    "amelia-earhart-taraia-object-trees": "Nikumaroro",
+    "dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
+    "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
+    "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
+    "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
+    "sgiath-sea-squirt-hunting-dog-animal-of-the-year": "Labrador retriever",
+    "2026-10-20-aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
+    "2026-10-20-wfp-cuts-gaza-food-aid-funding-shortfall": "World Food Programme food distribution",
+    "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
+    "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
+    "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
+    "nightjar-migration-wings-sacrifice-efficiency": "European nightjar (Caprimulgus europaeus) flying",
+    "el-nino-alters-weather-patterns-around-world": "El Nino Pacific Ocean satellite",
+    "williston-lake-floating-forest-canada": "floating forest",
+    "quantum-limit-molecules-surface-science": "scanning tunneling microscope molecule",
+    "2026-10-20-strange-surprising-lakes-around-world": "Lake Natron Tanzania flamingo pink",
+    "cold-atoms-fractional-fermi-sea-new-quantum-state": "ultracold atom cloud magnetic trap",
+    "uranium-cubes-nazi-nuclear-failure": "Haigerloch uranium cubes",
+    "free-roaming-bison-american-prairie-1016": "Bison prairie Montana",
 }
 
 def ok_license(l):
     l = l.lower()
     return any(k in l for k in OK_LICENSE) and "nc" not in l and "nd" not in l
 
+
 def curl_json(params):
     url = API + "?" + urllib.parse.urlencode(params)
     for _ in range(3):
-        p = subprocess.run(["curl", "-s", "--max-time", "30", "-A", UA, url],
+        p = subprocess.run(["curl", "-s", "--compressed", "--max-time", "30", "-A", UA, url],
                            capture_output=True, text=True)
         out = p.stdout.strip()
         if not out:
@@ -55,8 +81,9 @@ def curl_json(params):
             time.sleep(8)
     return None
 
+
 def down(url):
-    return subprocess.run(["curl", "-s", "--max-time", "45", "-A", UA, url],
+    return subprocess.run(["curl", "-s", "--compressed", "--max-time", "45", "-A", UA, url],
                           capture_output=True).stdout
 
 hits = 0
