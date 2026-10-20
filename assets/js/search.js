@@ -120,6 +120,13 @@
 
   input.addEventListener("input", update);
 
+  // Prefill from ?q= (tag links on articles land here with a query).
+  var qs = new URLSearchParams(location.search).get("q");
+  if (qs) {
+    input.value = qs;
+    update();
+  }
+
   // The only request this page ever makes: our own generated JSON.
   fetch("../search-index.json")
     .then(function (res) {
