@@ -35,6 +35,7 @@ QUERY = {
     "2026-10-20-nasa-16-galaxies-cosmic-chaos": "galaxy Messier 82 Chandra X-ray",
     "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
     "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
+    "amelia-earhart-taraia-object-trees": "Nikumaroro",
 }
 
 def ok_license(l):
