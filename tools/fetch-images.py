@@ -30,6 +30,7 @@ QUERY = {
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
+    "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",
 }
 
 def ok_license(l):
