@@ -26,6 +26,7 @@ QUERY = {
     "spacex-crs35-jellyfish-launch": "SpaceX Falcon 9 launch jellyfish",
     "masaya-volcano-hidden-magma": "Masaya volcano Nicaragua lava lake",
     "2026-10-20-sloth-bear-odum-julia-roberts-rescue": "sloth bear",
+    "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
 }
 
 def ok_license(l):
