@@ -42,6 +42,7 @@ QUERY = {
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
     "dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
+    "jurassic-squid-butt-was-chunkiest-ever": "belemnite fossil Jurassic squid",
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
     "dussehra-india-good-over-evil": "Dussehra effigy burning India",
     "third-form-of-magnetism-altermagnetism-europhysics-prize": "altermagnetism magnetic crystal",
