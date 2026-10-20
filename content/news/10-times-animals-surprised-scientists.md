@@ -9,7 +9,7 @@ read: 4 min
 excerpt: Orcas flee from smaller whales. Elephants may call each other by name. Bumblebee queens can hold their breath underwater for a week. Nature keeps inventing tricks we never guessed existed.
 tags: animals, orcas, elephants, bees, whales, bears, science
 sample: false
-for-grownups: "Scientists used machine learning on 469 elephant rumbles in Kenya's Samburu and Amboseli parks, plus playback experiments, to find name-like calls — published in Nature Ecology & Evolution. Pilot whales off Iceland triggered orca avoidance in 68 percent of 24 boat-based encounters (2007-2020)."
+for-grownups: Scientists used machine learning on 469 elephant rumbles in Kenya's Samburu and Amboseli parks, plus playback experiments, to find name-like calls — published in Nature Ecology & Evolution. Pilot whales off Iceland triggered orca avoidance in 68 percent of 24 boat-based encounters (2007-2020).
 ---
 
 # 10 times animals surprised scientists with skills they never saw coming
