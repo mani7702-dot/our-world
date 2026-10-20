@@ -50,6 +50,7 @@ QUERY = {
     "nightjar-migration-wings-sacrifice-efficiency": "European nightjar (Caprimulgus europaeus) flying",
     "el-nino-alters-weather-patterns-around-world": "El Niño Pacific Ocean satellite",
     "williston-lake-floating-forest-canada": "floating forest",
+    "quantum-limit-molecules-surface-science": "scanning tunneling microscope molecule",
 }
 
 def ok_license(l):
