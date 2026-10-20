@@ -55,6 +55,7 @@ QUERY = {
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
     "nightjar-migration-wings-sacrifice-efficiency": "European nightjar (Caprimulgus europaeus) flying",
     "el-nino-alters-weather-patterns-around-world": "El Nino Pacific Ocean satellite",
+    "hurricane-simon-atmospheric-waves-nasa": "atmospheric gravity waves hurricane satellite",
     "williston-lake-floating-forest-canada": "floating forest",
     "quantum-limit-molecules-surface-science": "scanning tunneling microscope molecule",
     "2026-10-20-strange-surprising-lakes-around-world": "Lake Natron Tanzania flamingo pink",
