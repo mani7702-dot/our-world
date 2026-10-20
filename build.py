@@ -459,6 +459,29 @@ def build_sitemap(blog, news):
     return "\n".join(lines) + "\n"
 
 
+def build_feed(blog, news):
+    """Atom feed over the latest ~20 articles; feed.xml (RSS is expected by aggregators)."""
+    items = sorted(blog + news, key=lambda p: p.get("date", ""), reverse=True)[:20]
+    ent = []
+    for p in items:
+        loc = "%s/%s/%s.html" % (SITE_BASE, p["section"], p["slug"])
+        ent.append(
+            "  <entry><title>%s</title><link href=\"%s\"/><id>%s</id>"
+            "<updated>%s</updated>%s</entry>"
+            % (esc(p["title"]), loc, loc, p.get("date", "") or "2026-01-01",
+               "<summary>%s</summary>" % esc(p.get("desc", "")) if p.get("desc") else "")
+        )
+    return (
+        '<?xml version="1.0" encoding="utf-8"?>',
+        '<feed xmlns="http://www.w3.org/2005/Atom"><title>Our World</title>'
+        '<link href="%s/feed.xml" rel="self"/><id>%s/</id><updated>%s</updated>'
+        % (SITE_BASE, SITE_BASE, (items[0].get("date", "") if items else "2026-01-01")),
+        *ent,
+        "</feed>",
+        "",
+    )
+
+
 def main():
     blog = load_posts("blog")
     news = load_posts("news")
@@ -469,6 +492,8 @@ def main():
     written.append("robots.txt")
     write(os.path.join(ROOT, "sitemap.xml"), build_sitemap(blog, news))
     written.append("sitemap.xml")
+    write(os.path.join(ROOT, "feed.xml"), "\n".join(build_feed(blog, news)))
+    written.append("feed.xml")
 
     # client-side search index (site root, fetched by search/index.html)
     write(os.path.join(ROOT, "search-index.json"), build_search_index(blog + news))
