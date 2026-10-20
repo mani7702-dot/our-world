@@ -42,6 +42,7 @@ QUERY = {
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
     "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
+    "dussehra-effigies-india-good-over-evil": "Dussehra effigy burning India",
     "sgiath-sea-squirt-hunting-dog-animal-of-the-year": "Labrador retriever",
     "2026-10-20-aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
     "2026-10-20-wfp-cuts-gaza-food-aid-funding-shortfall": "World Food Programme food distribution",
