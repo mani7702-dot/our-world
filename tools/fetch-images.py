@@ -31,6 +31,7 @@ QUERY = {
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
     "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",
+    "webb-wasp-17b-lopsided-atmosphere": "exoplanet atmosphere",
 }
 
 def ok_license(l):
