@@ -33,6 +33,7 @@ QUERY = {
     "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",
     "webb-wasp-17b-lopsided-atmosphere": "exoplanet atmosphere",
     "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
+    "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
 }
 
 def ok_license(l):
