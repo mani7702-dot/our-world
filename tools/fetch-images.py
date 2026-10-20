@@ -46,6 +46,7 @@ QUERY = {
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
+    "nightjar-migration-wings-sacrifice-efficiency": "European nightjar (Caprimulgus europaeus) flying",
     "el-nino-alters-weather-patterns-around-world": "El Niño Pacific Ocean satellite",
 }
 
