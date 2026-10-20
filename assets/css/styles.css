@@ -372,14 +372,16 @@ li { margin: 0.3em 0; }
   border: 2px solid var(--line);
   border-radius: var(--r-md);
   padding: 18px 22px;
-  display: grid; gap: 6px;
+  display: grid; gap: 12px; grid-template-columns: 1fr;
   transition: transform 0.14s ease, box-shadow 0.14s ease;
 }
+@media (min-width: 760px) { .news-item { grid-template-columns: 200px 1fr; align-items: center; } }
 .news-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-1); }
-.news-item time { font-family: var(--font-display); font-weight: 700; color: var(--news); font-size: 0.95rem; }
+.news-item time { font-family: var(--font-display); font-weight: 700; color: var(--news); font-size: 0.95rem; display: block; margin-bottom: 2px; }
 .news-item a { color: var(--ink); font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; text-decoration: none; }
 .news-item a:hover { color: var(--news); }
-.news-item p { margin: 0; color: var(--ink-2); font-size: 0.98rem; }
+.news-item p { margin: 4px 0 0; color: var(--ink-2); font-size: 0.98rem; }
+.news-item .badge-draft { display: inline-block; margin-top: 8px; }
 
 /* article rows (blog) */
 .article-row {
@@ -391,11 +393,21 @@ li { margin: 0.3em 0; }
   padding: 24px;
   align-items: start;
 }
-@media (min-width: 760px) { .article-row { grid-template-columns: 1fr auto; align-items: center; } }
+@media (min-width: 760px) { .article-row { grid-template-columns: 220px 1fr; align-items: center; } }
 .article-row h3 { margin: 0 0 6px; font-size: 1.25rem; }
 .article-row h3 a { color: var(--ink); text-decoration: none; }
 .article-row h3 a:hover { color: var(--blog); }
 .article-row p { margin: 0; color: var(--ink-2); max-width: 62ch; }
+
+/* row thumbnails (home + section indexes) */
+.row-thumb { display: block; overflow: hidden; border-radius: var(--r-md); }
+.row-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.article-row .row-thumb { max-width: 220px; height: 126px; }
+.news-item .row-thumb { max-width: 200px; height: 115px; }
+.today-card .row-thumb { width: 100%; aspect-ratio: 16 / 9; }
+@media (max-width: 759px) {
+  .article-row .row-thumb, .news-item .row-thumb { max-width: 100%; height: auto; aspect-ratio: 16 / 9; }
+}
 
 /* ---------- parents promise strip ---------- */
 .promise {

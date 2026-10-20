@@ -2,7 +2,7 @@
 title: How does an octopus change color in the blink of an eye?
 date: 2026-10-19
 time: 15:58
-image: assets/images/how-does-an-octopus-change-color.png
+image: assets/images/how-does-an-octopus-change-color.jpg
 image_caption: Photo: Wikimedia Commons
 image2: assets/images/how-does-an-octopus-change-color2.jpg
 image_caption2: Photo: Wikimedia Commons

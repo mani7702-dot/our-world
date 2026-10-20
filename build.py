@@ -197,9 +197,21 @@ def draft_badge(p):
     return DRAFT if p["is_sample"] else ""
 
 
-def today_card(p, label):
+def thumb(p, url, prefix):
+    """Small article image, clickable through to the post."""
+    if not p.get("image"):
+        return ""
+    return (
+        '<a class="row-thumb" href="%s" tabindex="-1" aria-label="Open: %s">'
+        '<img src="%s%s" alt="%s" loading="lazy" decoding="async" '
+        'width="480" height="252"></a>'
+    ) % (url, esc(p["title"]), prefix, p["image"], esc(p["title"]))
+
+
+def today_card(p, label, prefix=""):
     return (
         '<div class="today-card" style="--zone:%s" data-reveal>\n'
+        "      %s\n"
         '      <span class="kicker">%s · %s</span>\n'
         '      <h3><a href="%s/%s.html">%s</a></h3>\n'
         '      <p class="small muted">%s</p>\n'
@@ -207,6 +219,7 @@ def today_card(p, label):
         "    </div>"
     ) % (
         ZONE[p["section"]],
+        thumb(p, "%s/%s.html" % (p["section"], p["slug"]), prefix),
         label,
         esc(p["date_long"]),
         p["section"],
@@ -217,17 +230,19 @@ def today_card(p, label):
     )
 
 
-def blog_row(p, url):
+def blog_row(p, url, prefix=""):
     return (
         '<article class="article-row" data-reveal>\n'
+        '      %s\n'
         "      <div>\n"
         '        <span class="kicker" style="--zone:%s;margin-bottom:8px">%s · %s · %s read</span>\n'
         '        <h3><a href="%s">%s</a></h3>\n'
         "        <p>%s</p>\n"
+        "        %s\n"
         "      </div>\n"
-        "      %s\n"
         "    </article>"
     ) % (
+        thumb(p, url, prefix),
         ZONE["blog"],
         esc(p["category"]),
         esc(p["date_long"]),
@@ -239,15 +254,19 @@ def blog_row(p, url):
     )
 
 
-def news_item(p, url):
+def news_item(p, url, prefix=""):
     return (
         '<li class="news-item" data-reveal>\n'
+        "      %s\n"
+        '      <div>\n'
         '      <time datetime="%s">%s</time>\n'
         '      <a href="%s">%s</a>\n'
         "      <p>%s</p>\n"
         "      %s\n"
+        "      </div>\n"
         "    </li>"
     ) % (
+        thumb(p, url, prefix),
         esc(p.get("date", "")),
         esc(p["date_long"]),
         url,
@@ -452,9 +471,9 @@ def main():
     # section indexes
     for section, posts, tpl in (("blog", blog, "blog-index.html"), ("news", news, "news-index.html")):
         if section == "blog":
-            listing = "\n".join(blog_row(p, "%s.html" % p["slug"]) for p in posts)
+            listing = "\n".join(blog_row(p, "%s.html" % p["slug"], "../") for p in posts)
         else:
-            listing = "\n".join(news_item(p, "%s.html" % p["slug"]) for p in posts)
+            listing = "\n".join(news_item(p, "%s.html" % p["slug"], "../") for p in posts)
         tokens = {"COUNT": str(len(posts)), "ROWS": listing, "LIST": listing}
         write(os.path.join(ROOT, section, "index.html"),
               page("%s — Our World" % section.capitalize(),
