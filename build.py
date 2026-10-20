@@ -276,16 +276,16 @@ def news_item(p, url, prefix=""):
     )
 
 
-def popular_strip(all_posts, limit=8):
+def popular_strip(all_posts, limit=8, prefix=""):
     """Horizontal row of small image-title cards on the news index."""
     picks = [p for p in all_posts if p.get("image")][:limit]
     if not picks:
         return ""
     cards = []
     for p in picks:
-        url = "%s/%s.html" % (p["section"], p["slug"])
-        img = ('<img src="../%s" alt="%s" loading="lazy" decoding="async" '
-               'width="96" height="56" class="popular-thumb">') % (p["image"], esc(p["title"]))
+        url = "%s%s/%s.html" % (prefix, p["section"], p["slug"])
+        img = ('<img src="%s%s" alt="%s" loading="lazy" decoding="async" '
+               'width="96" height="56" class="popular-thumb">') % (prefix, p["image"], esc(p["title"]))
         cards.append(
             '<a class="popular-card" href="%s" title="%s">%s<span>%s</span></a>'
             % (url, esc(p["title"]), img, esc(p["title"]))
@@ -522,7 +522,7 @@ def main():
             "COUNT": str(len(posts)),
             "ROWS": listing,
             "LIST": listing,
-            "POPULAR": popular_strip(blog + news) if section == "news" else "",
+            "POPULAR": popular_strip(blog + news, prefix="../") if section == "news" else "",
         }
         write(os.path.join(ROOT, section, "index.html"),
               page("%s — Our World" % section.capitalize(),
