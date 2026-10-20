@@ -1,5 +1,29 @@
 [
   {
+    "title": "How does a compass know which way is north?",
+    "url": "blog/how-does-a-compass-work.html",
+    "section": "blog",
+    "excerpt": "Tiny explorers have trusted compasses for over a thousand years. But how does a little floating needle always find north?",
+    "tags": [
+      "science",
+      "compass",
+      "magnets",
+      "how it works"
+    ]
+  },
+  {
+    "title": "Why do we sneeze?",
+    "url": "blog/why-do-we-sneeze.html",
+    "section": "blog",
+    "excerpt": "That sudden \"ah-choo\" is your body's best defense against stuff getting into your nose. Here is what is really happening.",
+    "tags": [
+      "health",
+      "body",
+      "sneeze",
+      "how it works"
+    ]
+  },
+  {
     "title": "The axolotl: 7 facts about the salamander that never grows up",
     "url": "blog/axolotl-facts-never-grows-up.html",
     "section": "blog",
@@ -275,6 +299,33 @@
       "science",
       "health",
       "hygiene"
+    ]
+  },
+  {
+    "title": "A simple touch can bring dying corals back to life in 7 weeks",
+    "url": "news/bleached-corals-recover-by-touching.html",
+    "section": "news",
+    "excerpt": "Scientists found that a bleached, whitening coral can fully recover if it simply touches a healthy coral from the same family. It is the fastest comeback from bleaching ever recorded.",
+    "tags": [
+      "science",
+      "ocean",
+      "corals",
+      "animals",
+      "news"
+    ]
+  },
+  {
+    "title": "Mosasaurs: the fast, sneaky hunters of the ancient seas",
+    "url": "news/mosasaurs-fast-sneaky-sea-hunters.html",
+    "section": "news",
+    "excerpt": "While dinosaurs ruled the land, bus-sized mosasaurs hunted the ocean. New physics models show they did it with sudden, sneaky bursts of speed.",
+    "tags": [
+      "animals",
+      "mosasaur",
+      "dinosaurs",
+      "ocean",
+      "prehistoric",
+      "news"
     ]
   },
   {

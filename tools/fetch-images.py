@@ -15,6 +15,10 @@ QUERY = {
     "record-breaking-crayfish-tennessee": "crayfish",
     "roman-telescope-best-inventions-2026": "Roman Space Telescope",
     "webb-brown-dwarf-weather": "brown dwarf",
+    "bleached-corals-recover-by-touching": "bleached coral",
+    "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
+    "how-does-a-compass-work": "compass",
+    "why-do-we-sneeze": "sneezing",
 }
 
 def ok_license(l):
