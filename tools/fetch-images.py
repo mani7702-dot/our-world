@@ -63,6 +63,7 @@ QUERY = {
     "free-roaming-bison-american-prairie-1016": "Bison prairie Montana",
     "10-weird-lakes-nature-gets-strange": "Lake Natron flamingo pink",
     "2026-10-20-chandra-16-galaxies-galactic-gallery": "Chandra X-ray galaxy Messier 82",
+    "10-times-animals-surprised-scientists": "orcas pilot whales",
 }
 
 def ok_license(l):
