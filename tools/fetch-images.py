@@ -52,6 +52,7 @@ QUERY = {
     "el-nino-alters-weather-patterns-around-world": "El Niño Pacific Ocean satellite",
     "williston-lake-floating-forest-canada": "floating forest",
     "quantum-limit-molecules-surface-science": "scanning tunneling microscope molecule",
+    "2026-10-20-strange-surprising-lakes-around-world": "Lake Natron Tanzania flamingo pink",
 }
 
 def ok_license(l):
