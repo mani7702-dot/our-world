@@ -39,6 +39,7 @@ QUERY = {
     "dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
+    "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
 }
 
 def ok_license(l):
