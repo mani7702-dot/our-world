@@ -38,6 +38,7 @@ QUERY = {
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
     "dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
+    "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
 }
 
 def ok_license(l):
