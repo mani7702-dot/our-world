@@ -32,6 +32,7 @@ QUERY = {
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
     "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",
     "webb-wasp-17b-lopsided-atmosphere": "exoplanet atmosphere",
+    "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
 }
 
 def ok_license(l):
