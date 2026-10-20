@@ -20,6 +20,7 @@ QUERY = {
     "mmx-mars-phobos-sample": "Phobos",
     "how-does-a-compass-work": "compass",
     "why-do-we-sneeze": "sneezing",
+    "magic-mushroom-fish-less-aggressive": "psilocybin mushroom",
     "colorado-wildlife-overpass-i25-collisions-down-91": "wildlife overpass",
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
     "green-star-white-dwarf-wdj1330-6435": "green star",
