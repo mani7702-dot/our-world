@@ -57,6 +57,7 @@ QUERY = {
     "cold-atoms-fractional-fermi-sea-new-quantum-state": "ultracold atom cloud magnetic trap",
     "uranium-cubes-nazi-nuclear-failure": "Haigerloch uranium cubes",
     "free-roaming-bison-american-prairie-1016": "Bison prairie Montana",
+    "10-weird-lakes-nature-gets-strange": "Lake Natron flamingo pink",
 }
 
 def ok_license(l):

@@ -22,7 +22,7 @@ for dp,_,fs in os.walk('.'):
         s=open(os.path.join(dp,f),encoding='utf-8',errors='ignore').read()
         for m in re.findall(r'(?:href|src)="([^"]+)"', s):
             u=m.replace('\\','/')
-            if u.startswith(('http','//','data:','#','mailto:')) or '{{' in u: continue
+            if u.startswith(('http','//','data:','#','mailto:')) or '{{' in u or '?' in u: continue
             if not os.path.exists(os.path.normpath(os.path.join(dp,u))): print(f"{f}->{u}")
 EOF
 )
