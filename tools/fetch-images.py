@@ -44,6 +44,7 @@ QUERY = {
     "sgiath-sea-squirt-hunting-dog-animal-of-the-year": "Labrador retriever",
     "2026-10-20-aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
+    "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
 }
 
 def ok_license(l):
