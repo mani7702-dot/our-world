@@ -42,6 +42,8 @@ QUERY = {
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
     "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
     "sgiath-sea-squirt-hunting-dog-animal-of-the-year": "Labrador retriever",
+    "2026-10-20-aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
+    "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
 }
 
 def ok_license(l):
