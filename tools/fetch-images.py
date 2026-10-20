@@ -28,6 +28,7 @@ QUERY = {
     "2026-10-20-sloth-bear-odum-julia-roberts-rescue": "sloth bear",
     "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
+    "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
 }
 
 def ok_license(l):
