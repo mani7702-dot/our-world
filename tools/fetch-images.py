@@ -17,6 +17,7 @@ QUERY = {
     "webb-brown-dwarf-weather": "brown dwarf",
     "bleached-corals-recover-by-touching": "bleached coral",
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
+    "mmx-mars-phobos-sample": "Phobos",
     "how-does-a-compass-work": "compass",
     "why-do-we-sneeze": "sneezing",
 }
