@@ -9,6 +9,8 @@ tags:
   - history
   - science
 time: 02:50
+image: assets/images/ancient-peruvian-hairless-dogs-wari-huarmey.jpg
+image_caption: Photo: Wikimedia Commons
 ---
 
 # A 1,200-year-old mystery in Peru was solved by a dog's missing teeth
