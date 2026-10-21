@@ -1,9 +1,13 @@
-#!/usr/bin/env python3
-import re, sys
-from xml.etree import ElementTree as ET
-tree = ET.parse(sys.argv[1])
-for it in tree.getroot().iter("item"):
-    t = (it.findtext("title") or "").strip()
-    l = (it.findtext("link") or "").strip()
-    d = re.sub(r"<[^>]+>", "", it.findtext("description") or "").strip()
-    print(t); print("  URL:", l); print("  DESC:", d[:220]); print()
+import xml.etree.ElementTree as ET
+import sys
+
+path = sys.argv[1]
+root = ET.parse(path).getroot()
+for it in root.iter('item'):
+    t = (it.findtext('title') or '').strip()
+    l = (it.findtext('link') or '').strip()
+    d = (it.findtext('description') or '').strip()[:200]
+    print('TITLE:', t)
+    print('URL:', l)
+    print('DESC:', d)
+    print('---')

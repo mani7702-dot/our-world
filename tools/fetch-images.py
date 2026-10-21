@@ -95,6 +95,7 @@ QUERY = {
     "canadian-tourist-stole-las-vegas-flamingo-convicted-animal-cruelty": "Chilean flamingo",
     "jwst-orion-stellar-nursery-omc2": "Orion Nebula JWST infrared protostar",
     "nightjar-upstroke-thrust-long-distance-flight": "Caprimulgus europaeus",
+    "capybara-pups-manx-wetlands": "capybara",
 }
 
 def ok_license(l):
