@@ -94,6 +94,7 @@ QUERY = {
     "red-squirrels-thrive-jersey-england-refuge": "red squirrel UK",
     "canadian-tourist-stole-las-vegas-flamingo-convicted-animal-cruelty": "Chilean flamingo",
     "jwst-orion-stellar-nursery-omc2": "Orion Nebula JWST infrared protostar",
+    "nightjar-upstroke-thrust-long-distance-flight": "Caprimulgus europaeus",
 }
 
 def ok_license(l):
