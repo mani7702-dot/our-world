@@ -100,6 +100,7 @@ QUERY = {
     "antarctica-sea-ice-third-lowest-2026": "Antarctic sea ice",
     "red-squirrels-thrive-jersey-england-refuge": "red squirrel UK",
     "canadian-tourist-stole-las-vegas-flamingo-convicted-animal-cruelty": "Chilean flamingo",
+    "canada-military-base-fire-alberta-wind-spread": "Canadian military parade ground",
     "jwst-orion-stellar-nursery-omc2": "Orion Nebula JWST infrared protostar",
     "nightjar-upstroke-thrust-long-distance-flight": "Caprimulgus europaeus",
     "capybara-pups-manx-wetlands": "capybara",
