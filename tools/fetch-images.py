@@ -91,6 +91,7 @@ QUERY = {
     "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
     "antarctica-sea-ice-third-lowest-2026": "Antarctic sea ice",
     "red-squirrels-thrive-jersey-england-refuge": "red squirrel UK",
+    "canadian-tourist-stole-las-vegas-flamingo-convicted-animal-cruelty": "Chilean flamingo",
 }
 
 def ok_license(l):
