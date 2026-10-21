@@ -75,6 +75,8 @@ QUERY = {
     "10-wild-facts-about-bears": "brown bear",
     "history-made-up-facts": "historical manuscripts and artifacts",
     "sitcoms-launch-biggest-music-careers-century": "television studio recording microphone singer",
+    "strawberry-soil-steam-cleanse-crop": "strawberry plant",
+    "nobel-prize-optogenetics-brain-light-2026": "optogenetics neuron laser illumination microscopy",
 }
 
 def ok_license(l):
