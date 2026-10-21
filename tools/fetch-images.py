@@ -105,6 +105,7 @@ QUERY = {
     "windermere-sewage-cleanup-tunnel": "Windermere Lake District England",
     "el-nino-global-weather-impacts": "Pacific Ocean storm satellite weather",
     "how-does-sleep-build-muscle-burn-fat-brain": "hypothalamus brain neurons",
+    "tree-thirsty-berlin-app": "Berlin street tree watering app",
     "arctic-sea-ice-satellite-record-low-2026": "Arctic sea ice satellite",
     "italian-biomethane-plant-turns-farm-waste-into-clean-gas": "biomethane plant Italy agricultural waste",
     "david-bushnell-turtle-secret-submarine-1776": "David Bushnell Turtle submarine",
