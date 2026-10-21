@@ -151,6 +151,7 @@ QUERY = {
     "pupils-space-badge-meet-astronaut-rubio": "International Space Station school lesson astronaut",
     "eclipse-predictors-chinese-astronomers": "total solar eclipse",
     "perseverance-autonav-road-to-mars-record": "Mars rover Perseverance driving",
+    "sherlock-holmes-joseph-bell-real-surgeon": "Sidney Paget Sherlock Holmes",
 }
 
 def ok_license(l):
