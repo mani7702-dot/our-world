@@ -129,6 +129,7 @@ QUERY = {
     "lost-dog-survived-month-yellowstone-luna": "Jack Russell terrier",
 "ultra-processed-food-colorectal-cancer-study": "epidemiology study researcher analyzing questionnaire data",
 "perseverance-mars-rover-driving-record": "Perseverance rover Mars surface",
+    "astronauts-hearts-mars-spaceflight-test": "astronaut exercise ISS treadmill",
     "atlantic-current-amoc-climate-weather": "Gulf Stream ocean current satellite sea surface temperature",
     "silverpit-crater-asteroid-tsunami": "Silverpit Crater",
     "nasa-farmflux-low-altitude-flights-amarillo-texas": "agricultural aircraft flying low over farmland",
