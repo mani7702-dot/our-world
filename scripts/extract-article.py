@@ -1,59 +1,75 @@
 #!/usr/bin/env python3
-"""File-based HTML article extractor for Our World cron (Tirith-safe).
-Usage: python3 scripts/extract-article.py <file.html>
-Prints TITLE + body paragraphs + KEYWORD COUNTS.
-Never inline with backslash-heavy logic; never name `inspect.py`."""
-import sys, html
+"""Extract article text from a saved HTML file (robust for ScienceDaily layout)."""
+import sys, re, html
 from html.parser import HTMLParser
 
-
-class ParaExtractor(HTMLParser):
+class TextExtractor(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.in_p = False
-        self.in_title = False
-        self.parts = []
-        self.cur = ""
-        self.title = ""
+        self.skip_depth = 0
+        self.text = []
+        self.capture = False
+    def handle_starttag(self, tag, attrs):
+        d = dict(attrs)
+        if tag in ("script", "style", "svg", "noscript"):
+            self.skip_depth += 1
+        cls = d.get("class", "")
+        # ScienceDaily wraps content in div#text-body-content or similar
+        if tag == "div" and ("text-body" in cls or "article_body" in cls or "post-body" in cls or "story" in cls):
+            self.capture = True
+    def handle_endtag(self, tag):
+        if tag in ("script", "style", "svg", "noscript"):
+            if self.skip_depth > 0:
+                self.skip_depth -= 1
+        if tag == "div":
+            self.capture = False
+    def handle_data(self, data):
+        if self.skip_depth > 0:
+            return
+        if self.capture:
+            s = html.unescape(data).strip()
+            if s:
+                self.text.append(s)
 
-    def handle_starttag(self, t, a):
-        if t == "p":
-            self.in_p = True
-        if t == "title":
-            self.in_title = True
+if len(sys.argv) < 2:
+    print("usage: extract-article.py <saved.html>")
+    sys.exit(1)
 
-    def handle_endtag(self, t):
-        if t == "p" and self.in_p:
-            tx = html.unescape(self.cur).strip()
-            if len(tx) > 40:
-                self.parts.append(tx)
-            self.cur = ""
-            self.in_p = False
-        if t == "title":
-            self.in_title = False
+filepath = sys.argv[1]
+html_content = open(filepath, encoding="utf-8", errors="replace").read()
 
-    def handle_data(self, d):
-        if self.in_p:
-            self.cur += d
-        if self.in_title:
-            self.title += d
+# Title
+m = re.search(r"<title[^>]*>(.*?)</title>", html_content, re.S|re.I)
+title = m.group(1).strip() if m else "(no title)"
+# Meta description
+md = re.search(r'<meta\s+name="description"\s+content="([^"]*)"', html_content, re.I)
+desc = md.group(1).strip() if md else ""
 
+# Find all paragraph text
+paras = re.findall(r"<p[^>]*>(.*?)</p>", html_content, re.S|re.I)
+clean = []
+for p in paras:
+    # strip tags
+    t = re.sub(r"<[^>]+>", " ", p)
+    t = html.unescape(t).strip()
+    t = re.sub(r"\s+", " ", t)
+    if len(t) > 30:
+        clean.append(t)
 
-def extract(path):
-    t = open(path, encoding="utf-8").read()
-    p = ParaExtractor()
-    p.feed(t)
-    return p.title, p.parts
+full = "\n".join(clean)
 
-
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("usage: extract-article.py <file.html>")
-        sys.exit(2)
-    title, paras = extract(sys.argv[1])
-    print("TITLE:", title)
-    print("--- %d paragraphs ---" % len(paras))
-    # Print paragraphs 5..end (skip the first boilerplate)
-    for para in paras[4:]:
-        print(para)
-        print()
+print("TITLE:", title)
+if desc:
+    print("META DESC:", desc)
+print("=" * 60)
+print(full[:5000])
+print("=" * 60)
+keywords = ["first five minutes", "big bang", "helium", "universe", "cosmic", "galaxies",
+            "black hole", "supermassive", "collision", "doomsday", "November 13",
+            "monster", "100 years"]
+print("\nKEYWORD COUNTS:")
+for kw in keywords:
+    c = full.lower().count(kw.lower())
+    if c:
+        print(f"  {kw}: {c}")
+print("\nEST WORD COUNT:", len(full.split()))
