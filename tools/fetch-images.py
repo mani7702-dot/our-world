@@ -144,6 +144,7 @@ QUERY = {
     "casals-lidar-earth-3d-maps": "space lidar instrument",
     "oldest-wing-walker-99-helga-duffy": "biplane",
     "daily-4-minute-strength-after-65": "human muscle exercise fitness",
+    "why-do-tropical-trees-breathe-at-night": "CAM photosynthesis tropical tree",
 }
 
 def ok_license(l):
