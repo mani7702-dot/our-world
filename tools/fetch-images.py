@@ -83,6 +83,7 @@ QUERY = {
     "pilot-whales-chase-orcas-mobbing": "orcas pilot whales",
     "sphinx-crocodile-skull-herugavialis-cairensis": "gharial fossil skull",
     "wasp-17b-lopsided-atmosphere-webb-telescope": "WASP-17b exoplanet artist impression",
+    "japan-kikai-akahoya-volcanic-apocalypse-populations": "Kikai caldera eruption",
 }
 
 def ok_license(l):
