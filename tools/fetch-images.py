@@ -89,6 +89,7 @@ QUERY = {
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
     "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
     "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
+    "antarctica-sea-ice-third-lowest-2026": "Antarctic sea ice",
 }
 
 def ok_license(l):
