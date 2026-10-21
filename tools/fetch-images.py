@@ -43,6 +43,7 @@ QUERY = {
     "nasa-simon-atmospheric-waves-above-hurricane": "atmospheric gravity waves hurricane satellite",
     "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",
     "mrk501-twin-black-holes-collide-100-years": "supermassive black hole galaxy jet",
+    "hamburger-galaxy-ngc3628-edge-on-spiral": "NGC 3628 Hamburger Galaxy edge-on spiral",
     "webb-wasp-17b-lopsided-atmosphere": "exoplanet atmosphere",
     "2026-10-20-nasa-16-galaxies-cosmic-chaos": "galaxy Messier 82 Chandra X-ray",
     "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
