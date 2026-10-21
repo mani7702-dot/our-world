@@ -24,6 +24,7 @@ QUERY = {
     "mmx-mars-phobos-sample": "Phobos",
     "japan-mmx-mars-phobos-sample-mission-launches": "Phobos Mars moon",
     "how-does-a-compass-work": "compass",
+    "soy-salt-brain-compound": "soybeans",
     "forests-swallowing-methane-climate-shift": "forest floor leaf litter",
     "why-do-seeds-know-which-way-is-up": "plant seedling",
     "jersey-marine-reefs-protected-sea": "marine protected area Jersey",
@@ -138,6 +139,7 @@ QUERY = {
     "uzbekistan-77th-artemis-accords-signatory": "Artemis Accords space cooperation",
     "skin-cells-play-different-rules-boys-vs-girls-mice-study": "skin stem cell biological sex",
     "sentinel-3c-satellite-first-images-italy-arctic": "Earth observation satellite",
+    "why-universe-laws-tuned-for-life-water-flow": "water droplet viscosity macro",
 }
 
 def ok_license(l):
