@@ -78,6 +78,7 @@ QUERY = {
     "2026-10-20-strange-surprising-lakes-around-world": "Lake Natron Tanzania flamingo pink",
     "cold-atoms-fractional-fermi-sea-new-quantum-state": "ultracold atom cloud magnetic trap",
     "uranium-cubes-nazi-nuclear-failure": "Haigerloch uranium cubes",
+    "doomsday-prediction-1960-2026-failed-population-explosion": "population growth chart 1960s",
     "free-roaming-bison-american-prairie-1016": "Bison prairie Montana",
     "10-weird-lakes-nature-gets-strange": "Lake Natron flamingo pink",
     "2026-10-20-chandra-16-galaxies-galactic-gallery": "Chandra X-ray galaxy Messier 82",
