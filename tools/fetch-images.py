@@ -103,6 +103,7 @@ QUERY = {
     "cleaning-air-lifts-aerosol-cooling-unmasks-warming": "coal power plant",
     "windermere-sewage-cleanup-tunnel": "Windermere Lake District England",
     "el-nino-global-weather-impacts": "Pacific Ocean storm satellite weather",
+    "how-does-sleep-build-muscle-burn-fat-brain": "hypothalamus brain neurons",
 }
 
 def ok_license(l):
