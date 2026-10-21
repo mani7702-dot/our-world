@@ -98,6 +98,7 @@ QUERY = {
     "nightjar-upstroke-thrust-long-distance-flight": "Caprimulgus europaeus",
     "capybara-pups-manx-wetlands": "capybara",
     "chiron-first-centaur-discovered-1977": "2060 Chiron",
+    "cleaning-air-lifts-aerosol-cooling-unmasks-warming": "coal power plant",
 }
 
 def ok_license(l):
