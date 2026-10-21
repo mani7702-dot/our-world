@@ -10,6 +10,7 @@ QUERY = {
     "bronze-whaler-shark-busan-canal": "bronze whaler shark",
     "cheetah-cub-cam-five-cubs": "cheetah cub",
     "manhattan-barn-owls-water-tower": "barn owl",
+    "nightjar-wings-trade-off-long-distance-migration": "European nightjar flying",
     "nasa-moon-base-cave-search": "moon",
     "orangutans-return-borneo-wild": "orangutan",
     "record-breaking-crayfish-tennessee": "crayfish",
