@@ -146,6 +146,8 @@ QUERY = {
     "daily-4-minute-strength-after-65": "human muscle exercise fitness",
     "why-do-tropical-trees-breathe-at-night": "CAM photosynthesis tropical tree",
     "reverse-cellular-aging-epigenetic-clock-60-years": "DNA methylation cell",
+    "jpl-90th-anniversary-future-missions": "Jet Propulsion Laboratory Pasadena rocket",
+    "pupils-space-badge-meet-astronaut-rubio": "International Space Station school lesson astronaut",
 }
 
 def ok_license(l):
