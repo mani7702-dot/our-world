@@ -154,6 +154,7 @@ QUERY = {
     "perseverance-autonav-road-to-mars-record": "Mars rover Perseverance driving",
     "sherlock-holmes-joseph-bell-real-surgeon": "Sidney Paget Sherlock Holmes",
     "cumbria-uplands-lab-nature-recovery-science": "English Lake District",
+    "cumbria-uplands-lab-studies-peat-carbon": "Lake District peat bog",
     "rs25-engine-test-artemis-moon-rocket": "NASA RS-25 rocket engine test fire",
     "kitten-stuck-car-engine-sandy-springs": "kitten cat",
     "jessica-watkins-iss-science-kibo": "International Space Station Kibo laboratory module interior",
