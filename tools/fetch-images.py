@@ -152,6 +152,7 @@ QUERY = {
     "eclipse-predictors-chinese-astronomers": "total solar eclipse",
     "perseverance-autonav-road-to-mars-record": "Mars rover Perseverance driving",
     "sherlock-holmes-joseph-bell-real-surgeon": "Sidney Paget Sherlock Holmes",
+    "cumbria-uplands-lab-nature-recovery-science": "English Lake District",
 }
 
 def ok_license(l):
