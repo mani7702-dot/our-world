@@ -43,6 +43,7 @@ QUERY = {
     "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
     "dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
+    "swimmer-turbine-tidal-power-scotland": "tidal power turbine",
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
     "jurassic-squid-butt-was-chunkiest-ever": "belemnite fossil Jurassic squid",
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",

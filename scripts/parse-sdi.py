@@ -1,9 +1,22 @@
 #!/usr/bin/env python3
-"""Parse a saved ScienceDaily XML feed file and list titles + links."""
-import sys, xml.etree.ElementTree as ET
-path = sys.argv[1] if len(sys.argv) > 1 else "/tmp/sdi.xml"
-root = ET.fromstring(open(path, encoding="utf-8").read())
+import re, sys
+from xml.etree import ElementTree as ET
+
+tree = ET.parse(sys.argv[1])
+root = tree.getroot()
+ns = {"m": "http://search.yahoo.com/mrss/"}
+
+items = []
 for it in root.iter("item"):
-    t = (it.findtext("title") or "").strip()
-    l = (it.findtext("link") or "").strip()
-    print(t, "|", l)
+    title = (it.findtext("title") or "").strip()
+    desc_raw = it.findtext("description") or ""
+    # strip HTML tags from description
+    desc = re.sub(r"<[^>]+>", "", desc_raw).strip()
+    link = (it.findtext("link") or "").strip()
+    items.append((title, desc, link))
+
+for i, (t, d, l) in enumerate(items, 1):
+    print(f"[{i}] {t}")
+    print(f"    URL: {l}")
+    print(f"    DESC: {d[:280]}")
+    print()
