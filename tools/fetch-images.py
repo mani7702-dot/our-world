@@ -135,6 +135,7 @@ QUERY = {
     "silverpit-crater-asteroid-tsunami": "Silverpit Crater",
     "nasa-farmflux-low-altitude-flights-amarillo-texas": "agricultural aircraft flying low over farmland",
     "kew-palm-house-plant-relocation-2027": "Kew Palm House glasshouse",
+    "uzbekistan-77th-artemis-accords-signatory": "Artemis Accords space cooperation",
 }
 
 def ok_license(l):
