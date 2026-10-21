@@ -84,7 +84,7 @@ QUERY = {
     "10-sunken-villages-that-reappear": "submerged ruins",
     "movie-antagonists-who-deserved-sympathy": "movie villain character portrait",
     "10-wild-facts-about-bears": "brown bear",
-    "history-made-up-facts": "historical manuscripts and artifacts",
+    "sweeteners-gut-microbes-lab-test-39": "gut microbiome bacteria",
     "sitcoms-launch-biggest-music-careers-century": "television studio recording microphone singer",
     "musicians-who-resent-their-biggest-hits": "singer microphone stage spotlight",
     "strawberry-soil-steam-cleanse-crop": "strawberry plant",
