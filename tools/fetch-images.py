@@ -137,6 +137,7 @@ QUERY = {
     "kew-palm-house-plant-relocation-2027": "Kew Palm House glasshouse",
     "uzbekistan-77th-artemis-accords-signatory": "Artemis Accords space cooperation",
     "skin-cells-play-different-rules-boys-vs-girls-mice-study": "skin stem cell biological sex",
+    "sentinel-3c-satellite-first-images-italy-arctic": "Earth observation satellite",
 }
 
 def ok_license(l):
