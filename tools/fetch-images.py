@@ -79,6 +79,7 @@ QUERY = {
     "strawberry-soil-steam-cleanse-crop": "strawberry plant",
     "nobel-prize-optogenetics-brain-light-2026": "optogenetics neuron laser illumination microscopy",
     "magic-mushroom-compound-calms-aggressive-fish": "psilocybin mushroom",
+    "pilot-whales-chase-orcas-mobbing": "orcas pilot whales",
     "wasp-17b-lopsided-atmosphere-webb-telescope": "WASP-17b exoplanet artist impression",
 }
 
