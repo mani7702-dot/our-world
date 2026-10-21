@@ -136,6 +136,7 @@ QUERY = {
     "nasa-farmflux-low-altitude-flights-amarillo-texas": "agricultural aircraft flying low over farmland",
     "kew-palm-house-plant-relocation-2027": "Kew Palm House glasshouse",
     "uzbekistan-77th-artemis-accords-signatory": "Artemis Accords space cooperation",
+    "skin-cells-play-different-rules-boys-vs-girls-mice-study": "skin stem cell biological sex",
 }
 
 def ok_license(l):
