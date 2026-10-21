@@ -143,6 +143,7 @@ QUERY = {
     "why-universe-laws-tuned-for-life-water-flow": "water droplet viscosity macro",
     "casals-lidar-earth-3d-maps": "space lidar instrument",
     "oldest-wing-walker-99-helga-duffy": "biplane",
+    "daily-4-minute-strength-after-65": "human muscle exercise fitness",
 }
 
 def ok_license(l):
