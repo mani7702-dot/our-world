@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic Tac Toe — Our World</title>
+  <meta name="description" content="Tic Tac Toe against a friendly robot: three in a row wins. Free browser game for kids, no installs, no accounts.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c2410c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23ffb703'/%3E%3Ccircle cx='21' cy='21' r='3.5' fill='%232a9d8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script>document.documentElement.dataset.theme=window.localStorage.getItem("ow-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+  <style>
+    /* ---------- Tic Tac Toe — scoped game styles (site tokens only) ---------- */
+    .ttt-panel {
+      background: var(--surface);
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: clamp(16px, 3vw, 26px);
+      box-shadow: var(--shadow-1);
+    }
+    .ttt-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .ttt-hud { display: flex; gap: 10px; margin-left: auto; }
+    .ttt-stat {
+      background: var(--paper); border: 2px solid var(--line);
+      border-radius: var(--r-md); padding: 8px 14px; text-align: center;
+    }
+    .ttt-stat-k {
+      display: block; font-family: var(--font-display); font-weight: 700;
+      font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2);
+    }
+    .ttt-stat-v {
+      display: block; font-family: var(--font-display); font-weight: 800;
+      font-size: 1.4rem; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.15;
+    }
+
+    .ttt-board-wrap { display: flex; justify-content: center; }
+    .ttt-board {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      width: 100%; max-width: 380px;
+      margin-top: 20px;
+    }
+    .ttt-cell {
+      appearance: none; -webkit-appearance: none;
+      margin: 0; padding: 0;
+      aspect-ratio: 1 / 1;
+      min-height: 64px;
+      border: 2px solid var(--line);
+      border-radius: var(--r-md);
+      background: var(--paper);
+      font-family: var(--font-display); font-weight: 800;
+      font-size: clamp(2rem, 9vw, 3.2rem);
+      line-height: 1;
+      color: var(--ink);
+      cursor: pointer;
+      transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      user-select: none;
+    }
+    .ttt-cell:hover:not(:disabled) { transform: translateY(-2px); border-color: var(--zone, var(--games)); }
+    .ttt-cell:disabled { cursor: default; }
+    .ttt-cell.is-x { color: var(--blog); }
+    .ttt-cell.is-o { color: var(--news); }
+    .ttt-cell.is-win { border-color: var(--ok); background: var(--games-tint); }
+    @media (prefers-reduced-motion: reduce) { .ttt-cell { transition: none; } .ttt-cell:hover:not(:disabled) { transform: none; } }
+
+    .ttt-status { margin: 16px 0 0; color: var(--ink-2); font-size: 0.98rem; min-height: 1.6em; }
+    .ttt-tally { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 10px; font-family: var(--font-display); font-weight: 700; color: var(--ink-2); font-size: 0.9rem; }
+  </style>
+</head>
+<body style="--zone:#b45309;--zone-tint:#fdf0d5">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Our World</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="index.html" aria-current="page">Games</a></li>
+          <li><a href="../news/index.html">News</a></li>
+          <li><a href="../parents/index.html">Parents</a></li>
+          <li><a href="../privacy/index.html">Privacy</a></li><li><a href="../terms/index.html">Terms</a></li><li><a href="../contact/index.html">Contact</a></li><li><a href="../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="kicker" style="--zone:#b45309">Game · Ages 5+</span>
+        <h1>Tic Tac Toe</h1>
+        <p>You are X, the robot is O. Take turns — the first to line up three in a row wins the round.</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="ttt-panel">
+          <div class="ttt-controls">
+            <button type="button" class="btn btn--ghost btn--sm" id="ttt-new">New round</button>
+            <div class="ttt-hud">
+              <div class="ttt-stat">
+                <span class="ttt-stat-k">Round</span>
+                <span class="ttt-stat-v" id="ttt-round">1</span>
+              </div>
+              <div class="ttt-stat">
+                <span class="ttt-stat-k">Your wins</span>
+                <span class="ttt-stat-v" id="ttt-wins">0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ttt-board-wrap">
+            <div class="ttt-board" id="ttt-board" role="group" aria-label="Tic Tac Toe board"></div>
+          </div>
+
+          <p class="ttt-status" id="ttt-status" role="status" aria-live="polite">Loading the board…</p>
+          <div class="ttt-tally" id="ttt-tally"></div>
+        </div>
+
+        <p class="small" style="margin:14px 0 0;color:var(--ink-2)">Your tally is saved on your own device only. No accounts.</p>
+        <p class="small" style="margin:14px 0 0"><a class="btn btn--ghost btn--sm" href="index.html">Back to all games</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Our World</h4>
+          <p class="small" style="max-width:36ch;color:var(--ink-2)">A calm corner of the internet for young readers: stories, games and news, with nothing shouting back.</p>
+        </div>
+        <div>
+          <h4>Read</h4>
+          <ul>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../news/index.html">News</a></li>
+            <li><a href="../parents/index.html">Parents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="index.html">All games</a></li>
+            <li><a href="memory-match.html">Memory Match</a></li>
+            <li><a href="math-quiz.html">Math Quiz</a></li>
+            <li><a href="draw-paint.html">Draw &amp; Paint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span><a href="../search/index.html">Search</a> · No chat · No accounts · Your progress stays on your device · <a href="https://www.instagram.com/ourworlddaillyword/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595534401425" target="_blank" rel="noopener">Facebook</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    (function () {
+      "use strict";
+      var boardEl = document.getElementById("ttt-board");
+      var statusEl = document.getElementById("ttt-status");
+      var roundEl = document.getElementById("ttt-round");
+      var winsEl = document.getElementById("ttt-wins");
+      var tallyEl = document.getElementById("ttt-tally");
+      var newBtn = document.getElementById("ttt-new");
+      if (!boardEl) { return; }
+
+      var LINES = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+      var NAMES = ["top left","top middle","top right","middle left","centre","middle right","bottom left","bottom middle","bottom right"];
+
+      var board = ["","","","","","","","",""];
+      var cells = [];
+      var humanTurn = true;
+      var over = false;
+      var round = 1;
+      var tally = loadTally();
+      var thinkTimer = 0;
+
+      /* ---------- tally (localStorage only) ---------- */
+      function loadTally() {
+        try {
+          var raw = window.localStorage.getItem("ow-ttt-tally");
+          if (!raw) { return { w: 0, l: 0, d: 0 }; }
+          var v = window.JSON.parse(raw);
+          return { w: v.w || 0, l: v.l || 0, d: v.d || 0 };
+        } catch (err) { return { w: 0, l: 0, d: 0 }; }
+      }
+      function saveTally() {
+        try { window.localStorage.setItem("ow-ttt-tally", window.JSON.stringify(tally)); } catch (err) { /* storage unavailable */ }
+      }
+      function renderTally() {
+        winsEl.textContent = String(tally.w);
+        tallyEl.textContent = "You " + tally.w + " wins · Robot " + tally.l + " wins · " + tally.d + " draws";
+      }
+
+      function say(m) { statusEl.textContent = m; }
+
+      function markOf(v) { return v === "x" ? "X" : v === "o" ? "O" : "empty"; }
+
+      function syncCell(i) {
+        var el = cells[i];
+        el.textContent = board[i] === "x" ? "X" : board[i] === "o" ? "O" : "";
+        el.classList.toggle("is-x", board[i] === "x");
+        el.classList.toggle("is-o", board[i] === "o");
+        el.classList.remove("is-win");
+        el.setAttribute("aria-label", NAMES[i] + ": " + markOf(board[i]));
+        el.disabled = over || board[i] !== "" || !humanTurn;
+      }
+
+      function syncAll() {
+        for (var i = 0; i < 9; i++) { syncCell(i); }
+      }
+
+      function winner(b) {
+        for (var i = 0; i < LINES.length; i++) {
+          var L = LINES[i];
+          if (b[L[0]] && b[L[0]] === b[L[1]] && b[L[1]] === b[L[2]]) {
+            return { mark: b[L[0]], line: L };
+          }
+        }
+        return null;
+      }
+      function isFull(b) {
+        for (var i = 0; i < 9; i++) { if (!b[i]) { return false; } }
+        return true;
+      }
+
+      function finish(result) {
+        over = true;
+        humanTurn = false;
+        syncAll();
+        if (result.win) {
+          var L = result.win.line;
+          for (var i = 0; i < 3; i++) { cells[L[i]].classList.add("is-win"); }
+          if (result.win.mark === "x") {
+            tally.w += 1;
+
+            say("You got three in a row — you win this round!");
+          } else {
+            tally.l += 1;
+            say("The robot got three in a row. Good game — try again!");
+          }
+        } else {
+          tally.d += 1;
+          say("A draw — nobody wins this one. Well played!");
+        }
+        saveTally();
+        renderTally();
+      }
+
+      /* ---------- robot ---------- */
+      function findLine(b, mark) {
+        for (var i = 0; i < LINES.length; i++) {
+          var L = LINES[i];
+          var mine = 0, empty = -1, cellsN = 0;
+          for (var j = 0; j < 3; j++) {
+            var v = b[L[j]];
+            if (v === mark) { mine++; }
+            else if (!v) { empty = L[j]; }
+            else { cellsN++; }
+          }
+          if (cellsN === 0 && mine === 2 && empty !== -1) { return empty; }
+        }
+        return -1;
+      }
+      function pickMove(b) {
+        var win = findLine(b, "o");
+        if (win !== -1) { return win; }
+        var block = findLine(b, "x");
+        if (block !== -1) { return block; }
+        if (!b[4]) { return 4; }
+        var corners = [0, 2, 6, 8].filter(function (i) { return !b[i]; });
+        if (corners.length) { return corners[Math.floor(Math.random() * corners.length)]; }
+        var sides = [1, 3, 5, 7].filter(function (i) { return !b[i]; });
+        if (sides.length) { return sides[Math.floor(Math.random() * sides.length)]; }
+        return -1;
+      }
+
+      function robotMove() {
+        if (over) { return; }
+        var move = pickMove(board);
+        if (move === -1) { return; }
+        board[move] = "o";
+        syncCell(move);
+        var w = winner(board);
+        if (w) { finish({ win: w }); return; }
+        if (isFull(board)) { finish({}); return; }
+        humanTurn = true;
+        syncAll();
+        say("Your turn — tap an empty square.");
+      }
+
+      /* ---------- turns ---------- */
+      function play(i) {
+        if (over || !humanTurn || board[i] !== "") { return; }
+        board[i] = "x";
+        syncCell(i);
+        var w = winner(board);
+        if (w) { finish({ win: w }); return; }
+        if (isFull(board)) { finish({}); return; }
+        humanTurn = false;
+        syncAll();
+        say("Robot is thinking…");
+        thinkTimer = window.setTimeout(robotMove, 500);
+      }
+
+      function newRound() {
+        if (thinkTimer) { window.clearTimeout(thinkTimer); thinkTimer = 0; }
+        board = ["","","","","","","","",""];
+        over = false;
+        round += 1;
+        roundEl.textContent = String(round);
+        /* Alternate who starts so the robot gives everyone a chance. */
+        humanTurn = round % 2 === 1;
+        syncAll();
+        if (!humanTurn) {
+          say("The robot starts this round. Watch its move…");
+          thinkTimer = window.setTimeout(robotMove, 600);
+        } else {
+          say("Your turn — tap an empty square.");
+        }
+      }
+
+      function build() {
+        for (var i = 0; i < 9; i++) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "ttt-cell";
+          b.dataset.index = String(i);
+          (function (idx) {
+            b.addEventListener("click", function () { play(idx); });
+          })(i);
+          cells.push(b);
+          boardEl.appendChild(b);
+        }
+      }
+
+      newBtn.addEventListener("click", newRound);
+      build();
+      renderTally();
+      roundEl.textContent = "1";
+      humanTurn = true;
+      syncAll();
+      say("Your turn — tap an empty square.");
+    })();
+  </script>
+</body>
+</html>

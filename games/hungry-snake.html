@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hungry Snake — Our World</title>
+  <meta name="description" content="Hungry Snake: guide the snake to the apples, grow longer, and don't bump the walls. Free browser game for kids, no installs, no accounts.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c2410c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23ffb703'/%3E%3Ccircle cx='21' cy='21' r='3.5' fill='%232a9d8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script>document.documentElement.dataset.theme=window.localStorage.getItem("ow-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+  <style>
+    /* ---------- Hungry Snake — scoped game styles (site tokens only) ---------- */
+    .hs-panel {
+      background: var(--surface);
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: clamp(16px, 3vw, 26px);
+      box-shadow: var(--shadow-1);
+    }
+    .hs-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .hs-hud { display: flex; gap: 10px; margin-left: auto; }
+    .hs-stat {
+      background: var(--paper); border: 2px solid var(--line);
+      border-radius: var(--r-md); padding: 8px 14px; text-align: center;
+    }
+    .hs-stat-k {
+      display: block; font-family: var(--font-display); font-weight: 700;
+      font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2);
+    }
+    .hs-stat-v {
+      display: block; font-family: var(--font-display); font-weight: 800;
+      font-size: 1.4rem; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.15;
+    }
+
+    .hs-stage { display: flex; justify-content: center; margin-top: 18px; }
+    .hs-grid {
+      display: grid;
+      grid-template-columns: repeat(13, 1fr);
+      width: min(92vw, 440px);
+      aspect-ratio: 1 / 1;
+      background: var(--paper);
+      border: 3px solid var(--zone, var(--games));
+      border-radius: var(--r-md);
+      overflow: hidden;
+      touch-action: none;
+      -webkit-user-select: none; user-select: none;
+    }
+    .hs-cell { background: var(--paper); min-width: 0; min-height: 0; }
+    .hs-cell.is-snake { background: var(--blog); }
+    .hs-cell.is-head { background: var(--ink); border-radius: 30%; }
+    .hs-cell.is-apple { background: var(--brand); border-radius: 50%; }
+    .hs-cell.is-pulse { animation: hs-pulse 0.3s ease; }
+    @keyframes hs-pulse { 50% { transform: scale(0.82); } }
+
+    .hs-dpad {
+      display: grid;
+      grid-template-columns: repeat(3, 56px);
+      grid-template-rows: repeat(2, 56px);
+      gap: 8px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+    .hs-dbtn {
+      appearance: none; border: 2px solid var(--line); border-radius: var(--r-md);
+      background: var(--surface); color: var(--ink);
+      font-family: var(--font-display); font-weight: 800; font-size: 1.2rem;
+      cursor: pointer; min-width: 56px; min-height: 56px;
+      -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+    }
+    .hs-dbtn:hover { border-color: var(--zone, var(--games)); }
+    .hs-dbtn--up { grid-column: 2; grid-row: 1; }
+    .hs-dbtn--left { grid-column: 1; grid-row: 2; }
+    .hs-dbtn--down { grid-column: 2; grid-row: 2; }
+    .hs-dbtn--right { grid-column: 3; grid-row: 2; }
+
+    .hs-status { margin: 16px 0 0; color: var(--ink-2); font-size: 0.98rem; min-height: 1.6em; }
+    .hs-banner {
+      margin-top: 20px;
+      background: var(--zone-tint, var(--games-tint));
+      border: 3px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: 20px 22px 22px;
+      box-shadow: var(--shadow-2);
+      text-align: center;
+    }
+    .hs-banner[hidden] { display: none; }
+    .hs-banner h2 { margin: 0 0 4px; font-size: clamp(1.5rem, 4vw, 2rem); }
+    @media (prefers-reduced-motion: reduce) {
+      .hs-cell.is-pulse { animation: none; }
+    }
+  </style>
+</head>
+<body style="--zone:#b45309;--zone-tint:#fdf0d5">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Our World</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="index.html" aria-current="page">Games</a></li>
+          <li><a href="../news/index.html">News</a></li>
+          <li><a href="../parents/index.html">Parents</a></li>
+          <li><a href="../privacy/index.html">Privacy</a></li><li><a href="../terms/index.html">Terms</a></li><li><a href="../contact/index.html">Contact</a></li><li><a href="../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="kicker" style="--zone:#b45309">Game · Ages 6+</span>
+        <h1>Hungry Snake</h1>
+        <p>Guide the snake to the apples — each one makes you longer and a little faster. Don't bump the walls or yourself!</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="hs-panel">
+          <div class="hs-controls">
+            <button type="button" class="btn btn--zone btn--sm" id="hs-start">Start</button>
+            <button type="button" class="btn btn--ghost btn--sm" id="hs-pause" disabled>Pause</button>
+            <div class="hs-hud">
+              <div class="hs-stat">
+                <span class="hs-stat-k">Apples</span>
+                <span class="hs-stat-v" id="hs-score">0</span>
+              </div>
+              <div class="hs-stat">
+                <span class="hs-stat-k">Best</span>
+                <span class="hs-stat-v" id="hs-best">—</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hs-stage">
+            <div class="hs-grid" id="hs-grid" aria-hidden="true"></div>
+          </div>
+
+          <div class="hs-dpad" role="group" aria-label="Direction buttons">
+            <button type="button" class="hs-dbtn hs-dbtn--up" data-dir="up" aria-label="Move up">&#8593;</button>
+            <button type="button" class="hs-dbtn hs-dbtn--left" data-dir="left" aria-label="Move left">&#8592;</button>
+            <button type="button" class="hs-dbtn hs-dbtn--down" data-dir="down" aria-label="Move down">&#8595;</button>
+            <button type="button" class="hs-dbtn hs-dbtn--right" data-dir="right" aria-label="Move right">&#8594;</button>
+          </div>
+
+          <p class="hs-status" id="hs-status" role="status" aria-live="polite">Press Start — or use the arrow keys. On a phone, swipe on the board.</p>
+        </div>
+
+        <div class="hs-banner" id="hs-banner" hidden>
+          <h2 id="hs-banner-title">Ouch — you bumped!</h2>
+          <p id="hs-banner-note" style="margin:0 0 12px;color:var(--ink-2)"></p>
+          <button type="button" class="btn btn--zone btn--sm" id="hs-again">Play again</button>
+        </div>
+
+        <p class="small" style="margin:14px 0 0;color:var(--ink-2)">Your best score is saved on your own device only. No accounts.</p>
+        <p class="small" style="margin:14px 0 0"><a class="btn btn--ghost btn--sm" href="index.html">Back to all games</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Our World</h4>
+          <p class="small" style="max-width:36ch;color:var(--ink-2)">A calm corner of the internet for young readers: stories, games and news, with nothing shouting back.</p>
+        </div>
+        <div>
+          <h4>Read</h4>
+          <ul>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../news/index.html">News</a></li>
+            <li><a href="../parents/index.html">Parents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="index.html">All games</a></li>
+            <li><a href="memory-match.html">Memory Match</a></li>
+            <li><a href="math-quiz.html">Math Quiz</a></li>
+            <li><a href="draw-paint.html">Draw &amp; Paint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span><a href="../search/index.html">Search</a> · No chat · No accounts · Your progress stays on your device · <a href="https://www.instagram.com/ourworlddaillyword/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595534401425" target="_blank" rel="noopener">Facebook</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    (function () {
+      "use strict";
+      var gridEl = document.getElementById("hs-grid");
+      var statusEl = document.getElementById("hs-status");
+      var scoreEl = document.getElementById("hs-score");
+      var bestEl = document.getElementById("hs-best");
+      var startBtn = document.getElementById("hs-start");
+      var pauseBtn = document.getElementById("hs-pause");
+      var banner = document.getElementById("hs-banner");
+      var bannerTitle = document.getElementById("hs-banner-title");
+      var bannerNote = document.getElementById("hs-banner-note");
+      var againBtn = document.getElementById("hs-again");
+      if (!gridEl) { return; }
+
+      var N = 13;               // 13x13 board
+      var BASE_MS = 260;        // starting tick
+      var MIN_MS = 120;         // fastest tick
+      var STEP_MS = 8;          // speed-up per apple
+
+      var cells = [];
+      var snake = [];           // array of cell indexes, head first
+      var dir = 1;              // 1 = right
+      var nextDir = 1;
+      var apple = -1;
+      var score = 0;
+      var timer = 0;
+      var running = false;
+      var dead = false;
+
+      var DELTA = { up: -N, down: N, left: -1, right: 1 };
+
+      function say(m) { statusEl.textContent = m; }
+
+      /* ---------- best score (localStorage only) ---------- */
+      function getBest() {
+        try {
+          var raw = window.localStorage.getItem("ow-snake-best");
+          var v = raw === null ? NaN : parseInt(raw, 10);
+          return isNaN(v) ? null : v;
+        } catch (err) { return null; }
+      }
+      function setBest(v) {
+        try { window.localStorage.setItem("ow-snake-best", String(v)); } catch (err) { /* storage unavailable */ }
+      }
+      function renderBest() {
+        var best = getBest();
+        bestEl.textContent = best === null ? "—" : String(best);
+      }
+
+      function build() {
+        for (var i = 0; i < N * N; i++) {
+          var d = document.createElement("div");
+          d.className = "hs-cell";
+          cells.push(d);
+          gridEl.appendChild(d);
+        }
+      }
+
+      function paint() {
+        for (var i = 0; i < cells.length; i++) { cells[i].className = "hs-cell"; }
+        for (var s = 0; s < snake.length; s++) {
+          cells[snake[s]].classList.add(s === 0 ? "is-head" : "is-snake");
+        }
+        if (apple >= 0) { cells[apple].classList.add("is-apple"); }
+      }
+
+      function placeApple() {
+        var free = [];
+        for (var i = 0; i < N * N; i++) {
+          if (snake.indexOf(i) === -1 && i !== apple) { free.push(i); }
+        }
+        apple = free[Math.floor(Math.random() * free.length)];
+      }
+
+      function turn(d) {
+        if (dead || !running) { return; }
+        if (d === -dir && snake.length > 1) { return; }   /* no instant 180° turns */
+        nextDir = d;
+      }
+
+      function tick() {
+        if (dead || !running) { return; }
+        dir = nextDir;
+        var head = snake[0];
+        var r = Math.floor(head / N), c = head % N;
+        var nr = r, nc = c;
+        if (dir === -N) { nr -= 1; }
+        else if (dir === N) { nr += 1; }
+        else if (dir === -1) { nc -= 1; }
+        else { nc += 1; }
+
+        if (nr < 0 || nr >= N || nc < 0 || nc >= N) { die("wall"); return; }
+        var ni = nr * N + nc;
+        var ate = ni === apple;
+        var body = ate ? snake : snake.slice(0, snake.length - 1);
+        if (body.indexOf(ni) !== -1) { die("self"); return; }
+
+        snake.unshift(ni);
+        if (ate) {
+          score += 1;
+          scoreEl.textContent = String(score);
+          if (score % 5 === 0) { say("Yum! " + score + " apples — you are getting speedy."); }
+          else { say("Yum! " + score + (score === 1 ? " apple." : " apples.")); }
+          placeApple();
+          restartTimer();
+        } else {
+          snake.pop();
+        }
+        paint();
+        if (ate && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+          cells[ni].classList.add("is-pulse");
+          window.setTimeout(function () {
+            if (score > 0) { cells[ni].classList.remove("is-pulse"); }
+          }, 320);
+        }
+      }
+
+      function restartTimer() {
+        if (timer) { window.clearInterval(timer); }
+        var speed = Math.max(MIN_MS, BASE_MS - score * STEP_MS);
+        timer = window.setInterval(tick, speed);
+      }
+
+      function die(how) {
+        dead = true;
+        running = false;
+        if (timer) { window.clearInterval(timer); timer = 0; }
+        var best = getBest();
+        var record = best === null || score > best;
+        if (record) { setBest(score); renderBest(); }
+        banner.hidden = false;
+        bannerTitle.textContent = how === "wall" ? "Ouch — you bumped the wall!" : "Ouch — you bumped yourself!";
+        bannerNote.textContent = "You collected " + score + (score === 1 ? " apple." : " apples.") + (record ? " That is your best ever!" : (best === null ? "" : " Your best is " + best + "."));
+        say("Game over — " + score + (score === 1 ? " apple." : " apples.") + " Press Play again when you are ready.");
+        pauseBtn.disabled = true;
+        startBtn.disabled = false;
+      }
+
+      function start() {
+        if (timer) { window.clearInterval(timer); timer = 0; }
+        snake = [3, 2, 1];
+        dir = 1;
+        nextDir = 1;
+        score = 0;
+        scoreEl.textContent = "0";
+        dead = false;
+        running = true;
+        banner.hidden = true;
+        pauseBtn.disabled = false;
+        pauseBtn.textContent = "Pause";
+        startBtn.disabled = true;
+        placeApple();
+        paint();
+        say("Go! Guide the snake to the apple.");
+        restartTimer();
+      }
+
+      function togglePause() {
+        if (dead) { return; }
+        if (running) {
+          running = false;
+          if (timer) { window.clearInterval(timer); timer = 0; }
+          pauseBtn.textContent = "Resume";
+          say("Paused — take your time.");
+        } else {
+          running = true;
+          pauseBtn.textContent = "Pause";
+          say("Back in! Keep going to the apple.");
+          restartTimer();
+        }
+      }
+
+      /* ---------- input ---------- */
+      window.addEventListener("keydown", function (e) {
+        var key = e.key;
+        var map = { ArrowUp: "up", ArrowDown: "down", ArrowLeft: "left", ArrowRight: "right", w: "up", s: "down", a: "left", d: "right", W: "up", S: "down", A: "left", D: "right" };
+        if (map[key]) {
+          e.preventDefault();
+          var names = { up: -N, down: N, left: -1, right: 1 };
+          turn(names[map[key]]);
+        } else if (key === " " || key === "p") {
+          e.preventDefault();
+          if (running || pauseBtn.textContent === "Resume") { togglePause(); }
+        }
+      });
+
+      document.querySelectorAll(".hs-dbtn").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var names = { up: -N, down: N, left: -1, right: 1 };
+          turn(names[b.dataset.dir]);
+        });
+      });
+
+      /* swipe on the board */
+      var sx = 0, sy = 0, swiping = false;
+      gridEl.addEventListener("touchstart", function (e) {
+        if (e.touches.length !== 1) { return; }
+        sx = e.touches[0].clientX; sy = e.touches[0].clientY; swiping = true;
+      }, { passive: true });
+      gridEl.addEventListener("touchend", function (e) {
+        if (!swiping) { return; }
+        swiping = false;
+        var t = e.changedTouches[0];
+        var dx = t.clientX - sx, dy = t.clientY - sy;
+        var names = { up: -N, down: N, left: -1, right: 1 };
+        if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 24) { turn(dx > 0 ? names.right : names.left); }
+        else if (Math.abs(dy) > 24) { turn(dy > 0 ? names.down : names.up); }
+      }, { passive: true });
+
+      startBtn.addEventListener("click", start);
+      againBtn.addEventListener("click", start);
+      pauseBtn.addEventListener("click", togglePause);
+
+      build();
+      renderBest();
+    })();
+  </script>
+</body>
+</html>

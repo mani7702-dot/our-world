@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colour Echo — Our World</title>
+  <meta name="description" content="Colour Echo: watch the colours light up, then copy the pattern back. How many rounds can you remember? Free, no installs, no accounts.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c2410c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23ffb703'/%3E%3Ccircle cx='21' cy='21' r='3.5' fill='%232a9d8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script>document.documentElement.dataset.theme=window.localStorage.getItem("ow-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+  <style>
+    /* ---------- Colour Echo — scoped game styles (site tokens only) ---------- */
+    .ce-panel {
+      background: var(--surface);
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: clamp(16px, 3vw, 26px);
+      box-shadow: var(--shadow-1);
+    }
+    .ce-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .ce-hud { display: flex; gap: 10px; margin-left: auto; }
+    .ce-stat {
+      background: var(--paper); border: 2px solid var(--line);
+      border-radius: var(--r-md); padding: 8px 14px; text-align: center;
+    }
+    .ce-stat-k {
+      display: block; font-family: var(--font-display); font-weight: 700;
+      font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2);
+    }
+    .ce-stat-v {
+      display: block; font-family: var(--font-display); font-weight: 800;
+      font-size: 1.4rem; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.15;
+    }
+
+    .ce-pads {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(10px, 2.5vw, 18px);
+      max-width: 480px;
+      margin: 20px auto 0;
+    }
+    .ce-pad {
+      appearance: none; -webkit-appearance: none;
+      border: none; margin: 0; padding: 0;
+      aspect-ratio: 1 / 1;
+      min-height: 96px;
+      border-radius: var(--r-lg);
+      cursor: pointer;
+      background: var(--ce-color);
+      box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.18), var(--shadow-1);
+      opacity: 0.72;
+      transition: opacity 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    .ce-pad:hover { opacity: 0.85; }
+    .ce-pad.is-lit {
+      opacity: 1;
+      transform: scale(1.03);
+      box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.18), 0 0 0 4px rgba(255, 255, 255, 0.65), var(--shadow-2);
+    }
+    .ce-pad:disabled { cursor: default; }
+    @media (prefers-reduced-motion: reduce) {
+      .ce-pad, .ce-pad.is-lit { transition: none; transform: none; }
+    }
+
+    .ce-status { margin: 16px 0 0; color: var(--ink-2); font-size: 0.98rem; min-height: 1.6em; }
+    .ce-banner {
+      margin-top: 20px;
+      background: var(--zone-tint, var(--games-tint));
+      border: 3px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: 20px 22px 22px;
+      box-shadow: var(--shadow-2);
+      text-align: center;
+    }
+    .ce-banner[hidden] { display: none; }
+    .ce-banner h2 { margin: 0 0 4px; font-size: clamp(1.5rem, 4vw, 2rem); }
+  </style>
+</head>
+<body style="--zone:#b45309;--zone-tint:#fdf0d5">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Our World</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="index.html" aria-current="page">Games</a></li>
+          <li><a href="../news/index.html">News</a></li>
+          <li><a href="../parents/index.html">Parents</a></li>
+          <li><a href="../privacy/index.html">Privacy</a></li><li><a href="../terms/index.html">Terms</a></li><li><a href="../contact/index.html">Contact</a></li><li><a href="../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="kicker" style="--zone:#b45309">Game · Ages 4+</span>
+        <h1>Colour Echo</h1>
+        <p>Watch the colours light up one by one, then copy the pattern back. Each round adds one more colour.</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="ce-panel">
+          <div class="ce-controls">
+            <button type="button" class="btn btn--zone btn--sm" id="ce-start">Start playing</button>
+            <div class="ce-hud">
+              <div class="ce-stat">
+                <span class="ce-stat-k">Round</span>
+                <span class="ce-stat-v" id="ce-round">0</span>
+              </div>
+              <div class="ce-stat">
+                <span class="ce-stat-k">Best round</span>
+                <span class="ce-stat-v" id="ce-best">—</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ce-pads" id="ce-pads" role="group" aria-label="Colour pads"></div>
+
+          <p class="ce-status" id="ce-status" role="status" aria-live="polite">Press Start playing — watch first, then copy.</p>
+        </div>
+
+        <div class="ce-banner" id="ce-banner" hidden>
+          <h2 id="ce-banner-title">Nice try!</h2>
+          <p id="ce-banner-note" style="margin:0 0 12px;color:var(--ink-2)"></p>
+          <button type="button" class="btn btn--zone btn--sm" id="ce-again">Play again</button>
+        </div>
+
+        <p class="small" style="margin:14px 0 0;color:var(--ink-2)">Your best round is saved on your own device only. No accounts.</p>
+        <p class="small" style="margin:14px 0 0"><a class="btn btn--ghost btn--sm" href="index.html">Back to all games</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Our World</h4>
+          <p class="small" style="max-width:36ch;color:var(--ink-2)">A calm corner of the internet for young readers: stories, games and news, with nothing shouting back.</p>
+        </div>
+        <div>
+          <h4>Read</h4>
+          <ul>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../news/index.html">News</a></li>
+            <li><a href="../parents/index.html">Parents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="index.html">All games</a></li>
+            <li><a href="memory-match.html">Memory Match</a></li>
+            <li><a href="math-quiz.html">Math Quiz</a></li>
+            <li><a href="draw-paint.html">Draw &amp; Paint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span><a href="../search/index.html">Search</a> · No chat · No accounts · Your progress stays on your device · <a href="https://www.instagram.com/ourworlddaillyword/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595534401425" target="_blank" rel="noopener">Facebook</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    (function () {
+      "use strict";
+      var padsWrap = document.getElementById("ce-pads");
+      var startBtn = document.getElementById("ce-start");
+      var roundEl = document.getElementById("ce-round");
+      var bestEl = document.getElementById("ce-best");
+      var statusEl = document.getElementById("ce-status");
+      var banner = document.getElementById("ce-banner");
+      var bannerTitle = document.getElementById("ce-banner-title");
+      var bannerNote = document.getElementById("ce-banner-note");
+      var againBtn = document.getElementById("ce-again");
+      if (!padsWrap) { return; }
+
+      var PADS = [
+        { name: "green",  color: "#43a047" },
+        { name: "red",    color: "#e53935" },
+        { name: "yellow", color: "#f9a825" },
+        { name: "blue",   color: "#1e88e5" }
+      ];
+      var LIT_MS = 420;
+      var GAP_MS = 190;
+
+      var seq = [];
+      var input = 0;
+      var playing = false;    // true while the player is copying
+      var busy = false;       // true during playback
+      var timers = [];
+      var started = false;
+
+      function clearTimers() {
+        for (var i = 0; i < timers.length; i++) { window.clearTimeout(timers[i]); }
+        timers = [];
+      }
+      function later(fn, ms) { timers.push(window.setTimeout(fn, ms)); }
+      function say(m) { statusEl.textContent = m; }
+
+      /* ---------- best round (localStorage only) ---------- */
+      function getBest() {
+        try {
+          var raw = window.localStorage.getItem("ow-echo-best");
+          var v = raw === null ? NaN : parseInt(raw, 10);
+          return isNaN(v) ? null : v;
+        } catch (err) { return null; }
+      }
+      function setBest(v) {
+        try { window.localStorage.setItem("ow-echo-best", String(v)); } catch (err) { /* storage unavailable */ }
+      }
+      function renderHud() {
+        roundEl.textContent = String(seq.length === 0 ? 0 : seq.length);
+        var best = getBest();
+        bestEl.textContent = best === null ? "—" : String(best);
+      }
+
+      /* ---------- pads ---------- */
+      var padEls = [];
+      function buildPads() {
+        for (var i = 0; i < PADS.length; i++) {
+          var p = PADS[i];
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "ce-pad";
+          b.style.setProperty("--ce-color", p.color);
+          b.setAttribute("aria-label", p.name + " pad");
+          (function (idx) {
+            b.addEventListener("click", function () { press(idx); });
+          })(i);
+          padEls.push(b);
+          padsWrap.appendChild(b);
+        }
+      }
+
+      function lit(i, ms) {
+        var b = padEls[i];
+        b.classList.add("is-lit");
+        later(function () { b.classList.remove("is-lit"); }, ms);
+      }
+
+      function setPadsDisabled(d) {
+        for (var i = 0; i < padEls.length; i++) { padEls[i].disabled = d; }
+      }
+
+      /* ---------- game flow ---------- */
+      function newRound() {
+        seq.push(Math.floor(Math.random() * PADS.length));
+        renderHud();
+        busy = true;
+        playing = false;
+        input = 0;
+        setPadsDisabled(true);
+        say("Watch the colours…");
+        var t = 600;
+        for (var i = 0; i < seq.length; i++) {
+          (function (pad, at) {
+            later(function () { lit(pad, LIT_MS); }, at);
+          })(seq[i], t);
+          t += LIT_MS + GAP_MS;
+        }
+        later(function () {
+          busy = false;
+          playing = true;
+          setPadsDisabled(false);
+          say("Your turn — copy the pattern. (" + seq.length + (seq.length === 1 ? " colour" : " colours") + ")");
+        }, t + 150);
+      }
+
+      function press(i) {
+        if (!playing || busy) { return; }
+        lit(i, 220);
+        if (i === seq[input]) {
+          input += 1;
+          if (input === seq.length) {
+            playing = false;
+            setPadsDisabled(true);
+            var best = getBest();
+            if (best === null || seq.length > best) {
+              setBest(seq.length);
+              renderHud();
+            }
+            say("Well done! Next round coming up…");
+            later(newRound, 900);
+          }
+          return;
+        }
+        end(seq.length);
+      }
+
+      function end(reached) {
+        playing = false;
+        busy = false;
+        started = false;
+        clearTimers();
+        setPadsDisabled(true);
+        banner.hidden = false;
+        bannerTitle.textContent = "Nice try!";
+        bannerNote.textContent = "You remembered " + reached + (reached === 1 ? " colour." : " colours in a row.");
+        say("The pattern got trickier. Press Start playing for another go.");
+      }
+
+      function start() {
+        clearTimers();
+        banner.hidden = true;
+        seq = [];
+        input = 0;
+        started = true;
+        renderHud();
+        setPadsDisabled(true);
+        say("Here we go — watch closely!");
+        later(newRound, 500);
+      }
+
+      startBtn.addEventListener("click", start);
+      againBtn.addEventListener("click", start);
+
+      buildPads();
+      setPadsDisabled(true);
+      renderHud();
+    })();
+  </script>
+</body>
+</html>

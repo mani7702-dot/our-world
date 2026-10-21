@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Number Slide — Our World</title>
+  <meta name="description" content="Number Slide: shuffle the tiles, then slide them back into order. A classic 3x3 puzzle — free, no installs, no accounts.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c2410c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%23ffb703'/%3E%3Ccircle cx='21' cy='21' r='3.5' fill='%232a9d8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script>document.documentElement.dataset.theme=window.localStorage.getItem("ow-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+  <style>
+    /* ---------- Number Slide — scoped game styles (site tokens only) ---------- */
+    .ns-panel {
+      background: var(--surface);
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-lg);
+      padding: clamp(16px, 3vw, 26px);
+      box-shadow: var(--shadow-1);
+    }
+    .ns-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .ns-hud { display: flex; gap: 10px; margin-left: auto; }
+    .ns-stat {
+      background: var(--paper); border: 2px solid var(--line);
+      border-radius: var(--r-md); padding: 8px 14px; text-align: center;
+    }
+    .ns-stat-k {
+      display: block; font-family: var(--font-display); font-weight: 700;
+      font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2);
+    }
+    .ns-stat-v {
+      display: block; font-family: var(--font-display); font-weight: 800;
+      font-size: 1.4rem; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.15;
+    }
+
+    .ns-board-wrap { display: flex; justify-content: center; }
+    .ns-board {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      width: 100%; max-width: 380px;
+      margin-top: 20px;
+    }
+    .ns-tile {
+      appearance: none; -webkit-appearance: none;
+      margin: 0; padding: 0;
+      aspect-ratio: 1 / 1;
+      min-height: 64px;
+      border: 2px solid var(--zone, var(--games));
+      border-radius: var(--r-md);
+      background: var(--zone-tint, var(--games-tint));
+      font-family: var(--font-display); font-weight: 800;
+      font-size: clamp(1.8rem, 8vw, 3rem);
+      line-height: 1;
+      color: var(--ink);
+      box-shadow: var(--shadow-1);
+      cursor: pointer;
+      transition: transform 0.14s ease, box-shadow 0.14s ease;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      user-select: none;
+    }
+    .ns-tile:hover:not(:disabled) { transform: translateY(-2px); box-shadow: var(--shadow-2); }
+    .ns-tile:disabled { cursor: default; }
+    .ns-tile.is-right { border-color: var(--ok); color: var(--ok); }
+    .ns-gap { visibility: hidden; pointer-events: none; }
+    @media (prefers-reduced-motion: reduce) { .ns-tile { transition: none; } .ns-tile:hover:not(:disabled) { transform: none; } }
+
+    .ns-status { margin: 16px 0 0; color: var(--ink-2); font-size: 0.98rem; min-height: 1.6em; }
+    .ns-banner {
+      margin-top: 20px;
+      background: var(--zone-tint, var(--games-tint));
+      border: 3px solid var(--ok);
+      border-radius: var(--r-lg);
+      padding: 20px 22px 22px;
+      box-shadow: var(--shadow-2);
+      text-align: center;
+    }
+    .ns-banner[hidden] { display: none; }
+    .ns-banner h2 { margin: 0 0 4px; font-size: clamp(1.5rem, 4vw, 2rem); }
+  </style>
+</head>
+<body style="--zone:#b45309;--zone-tint:#fdf0d5">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Our World</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="index.html" aria-current="page">Games</a></li>
+          <li><a href="../news/index.html">News</a></li>
+          <li><a href="../parents/index.html">Parents</a></li>
+          <li><a href="../privacy/index.html">Privacy</a></li><li><a href="../terms/index.html">Terms</a></li><li><a href="../contact/index.html">Contact</a></li><li><a href="../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <span class="kicker" style="--zone:#b45309">Game · Ages 6+</span>
+        <h1>Number Slide</h1>
+        <p>Slide the numbered tiles into the empty space until they sit in order, 1 to 8. Tap a tile next to the gap to move it.</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container">
+        <div class="ns-panel">
+          <div class="ns-controls">
+            <button type="button" class="btn btn--ghost btn--sm" id="ns-shuffle">Shuffle</button>
+            <div class="ns-hud">
+              <div class="ns-stat">
+                <span class="ns-stat-k">Moves</span>
+                <span class="ns-stat-v" id="ns-moves">0</span>
+              </div>
+              <div class="ns-stat">
+                <span class="ns-stat-k">Best (fewest moves)</span>
+                <span class="ns-stat-v" id="ns-best">—</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ns-board-wrap">
+            <div class="ns-board" id="ns-board" role="group" aria-label="Number Slide board"></div>
+          </div>
+
+          <p class="ns-status" id="ns-status" role="status" aria-live="polite">Press Shuffle to scramble the tiles.</p>
+        </div>
+
+        <div class="ns-banner" id="ns-banner" hidden>
+          <h2>Solved — wonderfully done!</h2>
+          <p id="ns-banner-note" style="margin:0 0 12px;color:var(--ink-2)"></p>
+          <button type="button" class="btn btn--zone btn--sm" id="ns-again">Shuffle again</button>
+        </div>
+
+        <p class="small" style="margin:14px 0 0;color:var(--ink-2)">Your best score is saved on your own device only. No accounts.</p>
+        <p class="small" style="margin:14px 0 0"><a class="btn btn--ghost btn--sm" href="index.html">Back to all games</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Our World</h4>
+          <p class="small" style="max-width:36ch;color:var(--ink-2)">A calm corner of the internet for young readers: stories, games and news, with nothing shouting back.</p>
+        </div>
+        <div>
+          <h4>Read</h4>
+          <ul>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../news/index.html">News</a></li>
+            <li><a href="../parents/index.html">Parents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="index.html">All games</a></li>
+            <li><a href="memory-match.html">Memory Match</a></li>
+            <li><a href="math-quiz.html">Math Quiz</a></li>
+            <li><a href="draw-paint.html">Draw &amp; Paint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span><a href="../search/index.html">Search</a> · No chat · No accounts · Your progress stays on your device · <a href="https://www.instagram.com/ourworlddaillyword/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595534401425" target="_blank" rel="noopener">Facebook</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    (function () {
+      "use strict";
+      var boardEl = document.getElementById("ns-board");
+      var statusEl = document.getElementById("ns-status");
+      var movesEl = document.getElementById("ns-moves");
+      var bestEl = document.getElementById("ns-best");
+      var shuffleBtn = document.getElementById("ns-shuffle");
+      var banner = document.getElementById("ns-banner");
+      var bannerNote = document.getElementById("ns-banner-note");
+      var againBtn = document.getElementById("ns-again");
+      if (!boardEl) { return; }
+
+      var N = 3;
+      var GOAL = [1,2,3,4,5,6,7,8,0];   // 0 = the gap
+      var tiles = GOAL.slice();
+      var gap = 8;
+      var moves = 0;
+      var solved = false;
+      var tileEls = [];
+
+      function say(m) { statusEl.textContent = m; }
+
+      /* ---------- best moves (localStorage only) ---------- */
+      function getBest() {
+        try {
+          var raw = window.localStorage.getItem("ow-slide-best");
+          var v = raw === null ? NaN : parseInt(raw, 10);
+          return isNaN(v) || v <= 0 ? null : v;
+        } catch (err) { return null; }
+      }
+      function setBest(v) {
+        try { window.localStorage.setItem("ow-slide-best", String(v)); } catch (err) { /* storage unavailable */ }
+      }
+      function renderBest() {
+        var best = getBest();
+        bestEl.textContent = best === null ? "—" : String(best);
+      }
+
+      function isSolved() {
+        for (var i = 0; i < 9; i++) { if (tiles[i] !== GOAL[i]) { return false; } }
+        return true;
+      }
+
+      function canMove(i) {
+        var r = Math.floor(i / N), c = i % N;
+        var gr = Math.floor(gap / N), gc = gap % N;
+        return (r === gr && Math.abs(c - gc) === 1) || (c === gc && Math.abs(r - gr) === 1);
+      }
+
+      function labelFor(i) {
+        var v = tiles[i];
+        var pos = ["top left","top middle","top right","middle left","centre","middle right","bottom left","bottom middle","bottom right"][i];
+        return v === 0 ? pos + ": empty space" : pos + ": tile " + v;
+      }
+
+      function sync() {
+        for (var i = 0; i < 9; i++) {
+          var el = tileEls[i];
+          var v = tiles[i];
+          el.textContent = v === 0 ? "" : String(v);
+          el.classList.toggle("ns-gap", v === 0);
+          el.classList.toggle("is-right", v !== 0 && v === GOAL[i]);
+          el.setAttribute("aria-label", labelFor(i));
+          el.disabled = solved || v === 0 || !canMove(i);
+        }
+        movesEl.textContent = String(moves);
+      }
+
+      function build() {
+        for (var i = 0; i < 9; i++) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "ns-tile";
+          (function (idx) {
+            b.addEventListener("click", function () { move(idx); });
+          })(i);
+          tileEls.push(b);
+          boardEl.appendChild(b);
+        }
+      }
+
+      function move(i) {
+        if (solved || !canMove(i)) { return; }
+        tiles[gap] = tiles[i];
+        tiles[i] = 0;
+        gap = i;
+        moves += 1;
+        sync();
+        if (isSolved()) { win(); return; }
+        say("Keep going — " + countRight() + " tiles are in their places.");
+      }
+
+      function countRight() {
+        var n = 0;
+        for (var i = 0; i < 9; i++) { if (tiles[i] !== 0 && tiles[i] === GOAL[i]) { n += 1; } }
+        return n;
+      }
+
+      function win() {
+        solved = true;
+        sync();
+        var best = getBest();
+        var record = best === null || moves < best;
+        if (record) { setBest(moves); renderBest(); }
+        banner.hidden = false;
+        bannerNote.textContent = "You solved it in " + moves + (moves === 1 ? " move." : " moves.") + (record ? " That is your best ever!" : " Your best is " + best + ".");
+        say("Solved in " + moves + " moves. Press Shuffle for a new puzzle.");
+      }
+
+      function shuffle() {
+        if (banner) { banner.hidden = true; }
+        /* Shuffle by making random legal moves from solved — always solvable. */
+        tiles = GOAL.slice();
+        gap = 8;
+        var last = -1;
+        for (var k = 0; k < 220; k++) {
+          var options = [];
+          for (var i = 0; i < 9; i++) { if (canMove(i) && i !== last) { options.push(i); } }
+          var pick = options[Math.floor(Math.random() * options.length)];
+          tiles[gap] = tiles[pick];
+          tiles[pick] = 0;
+          last = gap;
+          gap = pick;
+        }
+        if (isSolved()) { return shuffle(); }
+        solved = false;
+        moves = 0;
+        sync();
+        say("Scrambled! Slide the tiles back into order.");
+      }
+
+      shuffleBtn.addEventListener("click", shuffle);
+      againBtn.addEventListener("click", shuffle);
+
+      build();
+      renderBest();
+      shuffle();
+    })();
+  </script>
+</body>
+</html>

@@ -48,10 +48,13 @@ BLOCK = ("war", "attack", "death toll", "killed", "murder", "court", "lawsuit", 
 
 def items(url):
     p = subprocess.run(["curl", "-s", "--compressed", "--max-time", "25", "-A", UA, url],
-                       capture_output=True, text=True)
+                       capture_output=True)
     try:
-        root = ET.fromstring(p.stdout)
-    except ET.ParseError:
+        data = p.stdout
+        if data[:2] == b"‹":
+            import gzip; data = gzip.decompress(data)
+        root = ET.fromstring(data)
+    except (ET.ParseError, TypeError):
         return []
     out = []
     for it in root.iter("item"):
