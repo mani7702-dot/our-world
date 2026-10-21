@@ -150,6 +150,7 @@ QUERY = {
     "jpl-90th-anniversary-future-missions": "Jet Propulsion Laboratory Pasadena rocket",
     "pupils-space-badge-meet-astronaut-rubio": "International Space Station school lesson astronaut",
     "eclipse-predictors-chinese-astronomers": "total solar eclipse",
+    "perseverance-autonav-road-to-mars-record": "Mars rover Perseverance driving",
 }
 
 def ok_license(l):
