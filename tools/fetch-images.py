@@ -87,6 +87,7 @@ QUERY = {
     "wasp-17b-lopsided-atmosphere-webb-telescope": "WASP-17b exoplanet artist impression",
     "japan-kikai-akahoya-volcanic-apocalypse-populations": "Kikai caldera eruption",
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
+    "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
 }
 
 def ok_license(l):
