@@ -2,6 +2,8 @@
 title: How steam is cleaning strawberry soil without chemicals
 date: 2026-10-21
 time: 05:40
+image: assets/images/strawberry-soil-steam-cleanse-crop.jpg
+image_caption: Photo: Wikimedia Commons
 category: News
 read: 3 min
 excerpt: A farm machine that pushes steam into the dirt is helping organic strawberry growers in California grow healthier crops — without the chemical fumigants that worry scientists.

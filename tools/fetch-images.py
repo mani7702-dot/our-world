@@ -71,6 +71,7 @@ QUERY = {
     "10-weird-lakes-nature-gets-strange": "Lake Natron flamingo pink",
     "2026-10-20-chandra-16-galaxies-galactic-gallery": "Chandra X-ray galaxy Messier 82",
     "10-times-animals-surprised-scientists": "orcas pilot whales",
+    "10-sunken-villages-that-reappear": "submerged ruins",
     "movie-antagonists-who-deserved-sympathy": "movie villain character portrait",
     "10-wild-facts-about-bears": "brown bear",
     "history-made-up-facts": "historical manuscripts and artifacts",
