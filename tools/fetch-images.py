@@ -54,6 +54,7 @@ QUERY = {
     "sea-vomit-detecting-dog-sgiath": "Labrador retriever",
     "aldabra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
     "2026-10-20-wfp-cuts-gaza-food-aid-funding-shortfall": "World Food Programme food distribution",
+    "musk-tesla-spacex-merger-considered": "Tesla Model S electric car",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "alaska-landslide-tsunami-tracy-arm-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
