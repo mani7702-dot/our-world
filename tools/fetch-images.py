@@ -74,6 +74,7 @@ QUERY = {
     "movie-antagonists-who-deserved-sympathy": "movie villain character portrait",
     "10-wild-facts-about-bears": "brown bear",
     "history-made-up-facts": "historical manuscripts and artifacts",
+    "sitcoms-launch-biggest-music-careers-century": "television studio recording microphone singer",
 }
 
 def ok_license(l):
