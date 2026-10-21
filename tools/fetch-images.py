@@ -141,6 +141,7 @@ QUERY = {
     "skin-cells-play-different-rules-boys-vs-girls-mice-study": "skin stem cell biological sex",
     "sentinel-3c-satellite-first-images-italy-arctic": "Earth observation satellite",
     "why-universe-laws-tuned-for-life-water-flow": "water droplet viscosity macro",
+    "casals-lidar-earth-3d-maps": "space lidar instrument",
     "oldest-wing-walker-99-helga-duffy": "biplane",
 }
 
