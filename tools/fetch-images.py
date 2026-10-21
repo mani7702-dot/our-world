@@ -160,6 +160,7 @@ QUERY = {
     "kitten-stuck-car-engine-sandy-springs": "kitten cat",
     "jessica-watkins-iss-science-kibo": "International Space Station Kibo laboratory module interior",
     "japan-nagoya-asian-games-accommodation-chaos": "Japanese athlete Olympic village",
+    "ten-diets-slower-biological-aging": "fruits and vegetables healthy food",
 }
 
 def ok_license(l):
