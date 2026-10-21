@@ -104,6 +104,7 @@ QUERY = {
     "windermere-sewage-cleanup-tunnel": "Windermere Lake District England",
     "el-nino-global-weather-impacts": "Pacific Ocean storm satellite weather",
     "how-does-sleep-build-muscle-burn-fat-brain": "hypothalamus brain neurons",
+    "arctic-sea-ice-satellite-record-low-2026": "Arctic sea ice satellite",
 }
 
 def ok_license(l):
