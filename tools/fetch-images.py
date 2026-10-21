@@ -127,6 +127,7 @@ QUERY = {
 "six-ways-magic-protected-homes-from-witch-bottles-to-symbols": "witch bottle",
 "ghostly-eyeless-cave-snail-china": "freshwater gastropod cave",
 "ultra-processed-food-colorectal-cancer-study": "epidemiology study researcher analyzing questionnaire data",
+"perseverance-mars-rover-driving-record": "Perseverance rover Mars surface",
 }
 
 def ok_license(l):
