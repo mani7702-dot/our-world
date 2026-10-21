@@ -108,6 +108,7 @@ QUERY = {
     "tree-thirsty-berlin-app": "Berlin street tree watering app",
     "arctic-sea-ice-satellite-record-low-2026": "Arctic sea ice satellite",
     "italian-biomethane-plant-turns-farm-waste-into-clean-gas": "biomethane plant Italy agricultural waste",
+    "wimpole-estate-5242-species-despite-drought": "great crested newt",
     "david-bushnell-turtle-secret-submarine-1776": "David Bushnell Turtle submarine",
 }
 
