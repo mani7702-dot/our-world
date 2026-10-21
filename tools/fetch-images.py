@@ -15,6 +15,7 @@ QUERY = {
     "record-breaking-crayfish-tennessee": "crayfish",
     "roman-telescope-performs-better-than-expected": "Nancy Grace Roman Space Telescope",
     "roman-telescope-best-inventions-2026": "Roman Space Telescope",
+    "nasa-roman-telescope-exceeds-expectations": "space telescope",
     "webb-brown-dwarf-weather": "brown dwarf",
     "bleached-corals-recover-by-touching": "bleached coral",
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
