@@ -96,6 +96,7 @@ QUERY = {
     "jwst-orion-stellar-nursery-omc2": "Orion Nebula JWST infrared protostar",
     "nightjar-upstroke-thrust-long-distance-flight": "Caprimulgus europaeus",
     "capybara-pups-manx-wetlands": "capybara",
+    "chiron-first-centaur-discovered-1977": "2060 Chiron",
 }
 
 def ok_license(l):
