@@ -9,7 +9,7 @@ read: 3 min
 excerpt: A SpaceX Falcon 9 lifted off for the Space Station at sunrise and lit up the eastern sky with a glowing shape that looked just like a jellyfish floating in space.
 tags: space, nasa, rockets, spacex, iss, news
 sample: false
-for-grownups: On 13 October 2026, SpaceX's Falcon 9 launched from Cape Canaveral SLC-40 at 6:33 a.m. EDT on the CRS-35 mission, the 35th commercial resupply flight to the International Space Station. As the rocket climbed into the dark morning sky, sunlight hit its expanding exhaust plumes high in the atmosphere, making them glow like an illuminated jellyfish bell with trailing tentacles. This "rocket jellyfish" effect is common during sunrise/sunset launches because the ground is still dark while the high plume is in sunlight. The cargo Dragon also carried medical research experiments studying bone loss, immune changes, and tissue chips that could advance treatments for diseases like blindness, Alzheimer's and Parkinson's.
+for-grownups: On 13 October 2026, SpaceX's Falcon 9 launched from Cape Canaveral SLC-40 at 6:33 a.m. EDT on the CRS-35 mission, the 35th commercial resupply flight to the International Space Station. As the rocket climbed into the dark morning sky, sunlight hit its expanding exhaust plumes high in the atmosphere, making them glow like an illuminated jellyfish bell with trailing tentacles. This "rocket jellyfish" effect is common during sunrise/sunset launches because the ground is still dark while the high-altitude plume is in sunlight. The cargo Dragon carried 6,322 lb (2,868 kg) of supplies and experiments: the final set of ISS Roll-Out Solar Arrays (IROSAs) to boost station power, LambdaVision-1 artificial retina research, Stellar Spheroids 3D heart tissue models, MINDS brain organoid studies for neurodegenerative disease research, and ELF-Unconventional Glass 2 studying how glass forms in microgravity.
 ---
 
 At six thirty-three in the morning, the sky over the eastern United States turned into a science-fiction picture.
@@ -24,14 +24,20 @@ The hot gas pours out and fans outward, making a glowing, umbrella-shaped "bell"
 
 ## What was the rocket carrying?
 
-This was SpaceX's 35th cargo run to the Space Station for NASA — called CRS-35. Inside the Dragon capsule were supplies and science experiments: equipment the astronauts will use, plus special research that could help people back on Earth.
+This was SpaceX's 35th cargo run to the Space Station for NASA — called CRS-35. The Dragon capsule carried more than 6,300 pounds of food, supplies, and science experiments.
 
-Some of that research studies how the human body changes in space — things like bone loss and immune-system shifts that are hard to study in a normal lab. There were also tiny "tissue chip" experiments that might help doctors understand diseases and design better treatments.
+One of the most exciting items was the final set of new solar panels for the ISS — known as IROSAs. These will help power the space station for crews living and working above us.
 
-## Have you ever seen a rocket jellyfish?
+There were also experiments that study how the human body changes in space. Tiny "organoid" models of heart tissue and brain cells float in microgravity, letting scientists watch how they grow without the pull of gravity. Researchers hope these studies will help doctors back on Earth understand heart disease and brain conditions like Alzheimer's.
 
-If you live where rockets launch, keep your eyes open around sunrise or sunset. That is exactly when these glowing sky shapes appear, because that is when the ground is dark and the sky-high plume is lit up.
+## Try this at home
+
+You can see the same glow effect with a flashlight in a dark room! Shine a flashlight upward toward the ceiling while lying on the floor. Watch how the beam spreads out and creates a glowing cone — just like a rocket's exhaust plume lighting up the sky.
+
+## Fun fact
+
+The "jellyfish" shape has a real name in astronomy: it is similar to what scientists call a "noctilucent cloud" — night-shining clouds that form 80 kilometres above Earth and glow silver-blue when sunlight hits them after sunset.
 
 Every launch is different, and so is every glow. But the feeling is the same: the simple, quiet wonder of watching a machine leave our world and carry human curiosity with it.
 
-**Sources:** [NASA — SpaceX CRS-35 Launch Jellyfish](https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/) · [ScienceDaily — NASA's SpaceX launch lights up the sky with a giant glowing jellyfish](https://www.sciencedaily.com/releases/2026/10/261016070635.htm)
+**Sources:** [Wikipedia — SpaceX CRS-35](https://en.wikipedia.org/wiki/SpaceX_CRS-35) · [ScienceDaily — NASA's SpaceX launch lights up the sky with a giant glowing jellyfish](https://www.sciencedaily.com/releases/2026/10/261016070635.htm)
