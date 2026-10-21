@@ -106,6 +106,7 @@ QUERY = {
     "el-nino-global-weather-impacts": "Pacific Ocean storm satellite weather",
     "how-does-sleep-build-muscle-burn-fat-brain": "hypothalamus brain neurons",
     "arctic-sea-ice-satellite-record-low-2026": "Arctic sea ice satellite",
+    "italian-biomethane-plant-turns-farm-waste-into-clean-gas": "biomethane plant Italy agricultural waste",
 }
 
 def ok_license(l):
