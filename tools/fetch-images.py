@@ -81,6 +81,7 @@ QUERY = {
     "nobel-prize-optogenetics-brain-light-2026": "optogenetics neuron laser illumination microscopy",
     "magic-mushroom-compound-calms-aggressive-fish": "psilocybin mushroom",
     "pilot-whales-chase-orcas-mobbing": "orcas pilot whales",
+    "sphinx-crocodile-skull-herugavialis-cairensis": "gharial fossil skull",
     "wasp-17b-lopsided-atmosphere-webb-telescope": "WASP-17b exoplanet artist impression",
 }
 
