@@ -111,6 +111,7 @@ QUERY = {
     "arctic-sea-ice-satellite-record-low-2026": "Arctic sea ice satellite",
     "italian-biomethane-plant-turns-farm-waste-into-clean-gas": "biomethane plant Italy agricultural waste",
     "wimpole-estate-5242-species-despite-drought": "great crested newt",
+    "wasps-nest-took-over-wildlife-office-norfolk": "paper wasp nest",
     "david-bushnell-turtle-secret-submarine-1776": "David Bushnell Turtle submarine",
     "aging-brain-memory-meaning": "brain anatomy diagram hippocampus",
 }
