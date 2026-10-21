@@ -129,6 +129,7 @@ QUERY = {
 "ultra-processed-food-colorectal-cancer-study": "epidemiology study researcher analyzing questionnaire data",
 "perseverance-mars-rover-driving-record": "Perseverance rover Mars surface",
     "atlantic-current-amoc-climate-weather": "Gulf Stream ocean current satellite sea surface temperature",
+    "silverpit-crater-asteroid-tsunami": "Silverpit Crater",
 }
 
 def ok_license(l):
