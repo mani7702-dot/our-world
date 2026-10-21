@@ -17,6 +17,10 @@ FEEDS = {
         ("BBC Science & Env", "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"),
         ("Smithsonian", "https://www.smithsonianmag.com/feed/"),
     ],
+    "world": [
+        ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+        ("Good News Network", "https://www.goodnewsnetwork.org/feed/"),
+    ],
 }
 
 def fetch(url):
