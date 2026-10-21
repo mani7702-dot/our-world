@@ -19,6 +19,7 @@ QUERY = {
     "bleached-corals-recover-by-touching": "bleached coral",
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
     "mmx-mars-phobos-sample": "Phobos",
+    "japan-mmx-mars-phobos-sample-mission-launches": "Phobos Mars moon",
     "how-does-a-compass-work": "compass",
     "forests-swallowing-methane-climate-shift": "forest floor leaf litter",
     "why-do-seeds-know-which-way-is-up": "plant seedling",
