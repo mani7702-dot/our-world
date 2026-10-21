@@ -100,6 +100,7 @@ QUERY = {
     "wasp-17b-lopsided-atmosphere-webb-telescope": "WASP-17b exoplanet artist impression",
     "japan-kikai-akahoya-volcanic-apocalypse-populations": "Kikai caldera eruption",
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
+    "why-are-peat-fires-so-bad": "peat swamp fire Indonesia smoke haze",
     "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
     "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
     "antarctica-sea-ice-third-lowest-2026": "Antarctic sea ice",
