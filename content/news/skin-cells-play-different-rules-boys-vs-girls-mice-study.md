@@ -1,5 +1,5 @@
 ---
-title: "Why do boy skin cells and girl skin cells play by different rules?"
+title: Why do boy skin cells and girl skin cells play by different rules?
 date: 2026-10-21
 time: 22:15
 category: Science
