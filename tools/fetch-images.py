@@ -88,6 +88,7 @@ QUERY = {
     "japan-kikai-akahoya-volcanic-apocalypse-populations": "Kikai caldera eruption",
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
     "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
+    "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
 }
 
 def ok_license(l):
