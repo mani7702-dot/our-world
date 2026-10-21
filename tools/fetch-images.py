@@ -156,6 +156,7 @@ QUERY = {
     "cumbria-uplands-lab-nature-recovery-science": "English Lake District",
     "rs25-engine-test-artemis-moon-rocket": "NASA RS-25 rocket engine test fire",
     "kitten-stuck-car-engine-sandy-springs": "kitten cat",
+    "jessica-watkins-iss-science-kibo": "International Space Station Kibo laboratory module interior",
 }
 
 def ok_license(l):
