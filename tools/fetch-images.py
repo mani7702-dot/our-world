@@ -78,6 +78,7 @@ QUERY = {
     "10-wild-facts-about-bears": "brown bear",
     "history-made-up-facts": "historical manuscripts and artifacts",
     "sitcoms-launch-biggest-music-careers-century": "television studio recording microphone singer",
+    "musicians-who-resent-their-biggest-hits": "singer microphone stage spotlight",
     "strawberry-soil-steam-cleanse-crop": "strawberry plant",
     "nobel-prize-optogenetics-brain-light-2026": "optogenetics neuron laser illumination microscopy",
     "magic-mushroom-compound-calms-aggressive-fish": "psilocybin mushroom",
