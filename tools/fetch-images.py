@@ -126,10 +126,12 @@ QUERY = {
     "moon-base-rover-progress-update-nasa": "lunar rover moon surface",
 "six-ways-magic-protected-homes-from-witch-bottles-to-symbols": "witch bottle",
 "ghostly-eyeless-cave-snail-china": "freshwater gastropod cave",
+    "lost-dog-survived-month-yellowstone-luna": "Jack Russell terrier",
 "ultra-processed-food-colorectal-cancer-study": "epidemiology study researcher analyzing questionnaire data",
 "perseverance-mars-rover-driving-record": "Perseverance rover Mars surface",
     "atlantic-current-amoc-climate-weather": "Gulf Stream ocean current satellite sea surface temperature",
     "silverpit-crater-asteroid-tsunami": "Silverpit Crater",
+    "nasa-farmflux-low-altitude-flights-amarillo-texas": "agricultural aircraft flying low over farmland",
 }
 
 def ok_license(l):
