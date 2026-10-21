@@ -13,6 +13,7 @@ QUERY = {
     "nasa-moon-base-cave-search": "moon",
     "orangutans-return-borneo-wild": "orangutan",
     "record-breaking-crayfish-tennessee": "crayfish",
+    "roman-telescope-performs-better-than-expected": "Nancy Grace Roman Space Telescope",
     "roman-telescope-best-inventions-2026": "Roman Space Telescope",
     "webb-brown-dwarf-weather": "brown dwarf",
     "bleached-corals-recover-by-touching": "bleached coral",
