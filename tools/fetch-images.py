@@ -90,6 +90,7 @@ QUERY = {
     "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
     "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
     "antarctica-sea-ice-third-lowest-2026": "Antarctic sea ice",
+    "red-squirrels-thrive-jersey-england-refuge": "red squirrel UK",
 }
 
 def ok_license(l):
