@@ -133,6 +133,7 @@ QUERY = {
     "atlantic-current-amoc-climate-weather": "Gulf Stream ocean current satellite sea surface temperature",
     "silverpit-crater-asteroid-tsunami": "Silverpit Crater",
     "nasa-farmflux-low-altitude-flights-amarillo-texas": "agricultural aircraft flying low over farmland",
+    "kew-palm-house-plant-relocation-2027": "Kew Palm House glasshouse",
 }
 
 def ok_license(l):
