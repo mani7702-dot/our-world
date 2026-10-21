@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Per-category candidate picker for Our World multi-agent news pipeline.
 # Usage: python3 tools/fetch-news.py --category <space|science|animals|world|history|explainers|listicles|trending|all> --count 6
 # Pulls headline + URL + snippet per item so each lane agent can pick + cross-check.
@@ -51,7 +52,7 @@ def items(url):
                        capture_output=True)
     try:
         data = p.stdout
-        if data[:2] == b"‹":
+        if data[:2] == b"\x1f\x8b":
             import gzip; data = gzip.decompress(data)
         root = ET.fromstring(data)
     except (ET.ParseError, TypeError):
