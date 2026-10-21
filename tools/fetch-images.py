@@ -155,6 +155,7 @@ QUERY = {
     "sherlock-holmes-joseph-bell-real-surgeon": "Sidney Paget Sherlock Holmes",
     "cumbria-uplands-lab-nature-recovery-science": "English Lake District",
     "rs25-engine-test-artemis-moon-rocket": "NASA RS-25 rocket engine test fire",
+    "kitten-stuck-car-engine-sandy-springs": "kitten cat",
 }
 
 def ok_license(l):
