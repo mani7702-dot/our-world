@@ -58,6 +58,7 @@ QUERY = {
     "musk-tesla-spacex-merger-considered": "Tesla Model S electric car",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
+    "nasa-amazon-fires-hidden-beneath-rainforest": "Amazon rainforest wildfire satellite infrared",
     "alaska-landslide-tsunami-tracy-arm-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "molecule-quantum-fourier-limit-surface": "crystal surface microscopy",
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
