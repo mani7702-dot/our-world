@@ -118,6 +118,7 @@ QUERY = {
     "david-bushnell-turtle-secret-submarine-1776": "David Bushnell Turtle submarine",
     "aging-brain-memory-meaning": "brain anatomy diagram hippocampus",
     "roman-temple-germany-frankfurt-limes": "Roman limes archaeological site Germany",
+    "mars-helicopter-blade-designs-18km-flight": "Ingenuity Mars helicopter rotor",
 }
 
 def ok_license(l):
