@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "how-does-exercise-keep-muscles-young": "human muscle tissue",
     "bear-bread-farmers-market-aspen": "black bear",
     "bronze-whaler-shark-busan-canal": "bronze whaler shark",
     "cheetah-cub-cam-five-cubs": "cheetah cub",
