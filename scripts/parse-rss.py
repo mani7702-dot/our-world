@@ -1,16 +1,18 @@
-#!/usr/bin/env python3
-"""Tirith-safe file-based RSS parser. Usage: python3 scripts/parse-rss.py <feed.xml>"""
-import sys, xml.etree.ElementTree as ET
-path = sys.argv[1]
-root = ET.parse(path).getroot()
-items = root.iter("item") if root.tag == "rss" or root.tag.endswith("rss") else root.iter("item")
+# Tirith-safe full Listverse feed scanner — prints every item with date.
+import subprocess, xml.etree.ElementTree as ET
+UA = "Mozilla/5.0 (OurWorld picker; contact andugulamani722@gmail.com)"
+url = "https://listverse.com/feed/"
+p = subprocess.run(["curl","-s","--compressed","--max-time","25","-A",UA,url],
+                   capture_output=True, text=True)
+root = ET.fromstring(p.stdout)
+items = []
 for it in root.iter("item"):
     t = (it.findtext("title") or "").strip()
-    l = (it.findtext("link") or "").strip()
-    d = (it.findtext("description") or "").strip()[:250]
+    link = (it.findtext("link") or "").strip()
+    pub = (it.findtext("pubDate") or "").strip()
     if t:
-        print(f"TITLE: {t}")
-        print(f"  LINK: {l}")
-        if d:
-            print(f"  DESC: {d}")
-        print()
+        items.append((pub, t, link))
+items.sort(reverse=True)
+for pub, t, link in items[:15]:
+    print(f"{pub}\n  {t}\n  {link}")
+print("TOTAL", len(items))
