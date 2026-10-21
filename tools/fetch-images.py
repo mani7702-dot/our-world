@@ -121,6 +121,7 @@ QUERY = {
     "roman-temple-germany-frankfurt-limes": "Roman limes archaeological site Germany",
     "mars-helicopter-blade-designs-18km-flight": "Ingenuity Mars helicopter rotor",
     "stanford-microscope-seeing-living-cells": "optical microscopy biological cell",
+    "moon-base-rover-progress-update-nasa": "lunar rover moon surface",
 }
 
 def ok_license(l):
