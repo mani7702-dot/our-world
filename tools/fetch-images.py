@@ -102,6 +102,7 @@ QUERY = {
     "chiron-first-centaur-discovered-1977": "2060 Chiron",
     "cleaning-air-lifts-aerosol-cooling-unmasks-warming": "coal power plant",
     "windermere-sewage-cleanup-tunnel": "Windermere Lake District England",
+    "el-nino-global-weather-impacts": "Pacific Ocean storm satellite weather",
 }
 
 def ok_license(l):
