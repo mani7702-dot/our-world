@@ -126,6 +126,7 @@ QUERY = {
     "moon-base-rover-progress-update-nasa": "lunar rover moon surface",
 "six-ways-magic-protected-homes-from-witch-bottles-to-symbols": "witch bottle",
 "ghostly-eyeless-cave-snail-china": "freshwater gastropod cave",
+"ultra-processed-food-colorectal-cancer-study": "epidemiology study researcher analyzing questionnaire data",
 }
 
 def ok_license(l):
