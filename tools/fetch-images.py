@@ -153,6 +153,7 @@ QUERY = {
     "perseverance-autonav-road-to-mars-record": "Mars rover Perseverance driving",
     "sherlock-holmes-joseph-bell-real-surgeon": "Sidney Paget Sherlock Holmes",
     "cumbria-uplands-lab-nature-recovery-science": "English Lake District",
+    "rs25-engine-test-artemis-moon-rocket": "NASA RS-25 rocket engine test fire",
 }
 
 def ok_license(l):
