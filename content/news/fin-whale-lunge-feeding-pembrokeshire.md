@@ -1,43 +1,47 @@
 ---
-title: How a fin whale's mouth holds enough space to swallow a school bus — and why that giant gulp is how it eats
-date: 2026-10-20
-time: 18:05
+title: "How does a fin whale fit an entire school of fish in one gulp?"
+date: 2026-10-21
+time: 19:42
 image: assets/images/fin-whale-lunge-feeding-pembrokeshire.jpg
 image_caption: Photo: Wikimedia Commons
-read: 3 min
-excerpt: A fin whale off the Welsh coast opened its mouth so wide it took in thousands of tonnes of seawater in one single lunge — the biggest bite any animal on Earth can take.
-tags: science, ocean, whales, animals, news
-for-grownups: Fin whales (Balaenoptera physalus) are the world's second-largest animal after the blue whale, reaching 20-25m (65-82 ft) and weighing up to 80 tons. They are rorqual baleen whales that lunge-feed: accelerating toward a prey patch and opening their throat pleats to engulf up to 100 tonnes of water, then filtering it out through baleen plates. The Pembrokeshire sighting involved a fin whale performing this lunge-feed behaviour close to shore — unusual since they normally inhabit deep offshore waters. The drone footage captured the whale's ventral (belly-side) pleated throat grooves expanding as it took in water, confirming textbook rorqual feeding mechanics. Fin whale populations were devastated by commercial whaling; current global population is estimated at ~50,000 and listed as endangered by the IUCN.
+category: Animals
+tags: fin whale, lunge feeding, marine mammals, whale behavior, pembrokeshire, drone footage
+for-grownups: The fin whale (Balaenoptera physalus) is the second-largest animal on Earth after the blue whale, reaching up to 24-27 meters (85-90 ft) in length and weighing up to 70-80 tonnes. BBC News reported a fin whale lunge-feeding off Pembrokeshire, Wales, captured on drone video by Rhys Morgan; the expandable ventral pleats (grooves between jaw tip and navel) let the whale engulf up to 18,000 gallons of water and krill in a single gulp. Wikipedia confirms lunge feeding is a rorqual feeding strategy where the whale accelerates through a prey patch, opens its mouth wide, and expands its throat pleats to take in a volume of water larger than its own body, then pushes the water out through baleen plates to trap prey. Fin whales can consume up to 2,000 kg of food per day and swim at 37-50 km/h, earning the nickname "greyhound of the sea." Fin whales are listed as vulnerable by the IUCN due to historical whaling that took over 725,000 individuals from the Southern Hemisphere between 1905 and 1976; the northern Atlantic population is considered recovered, while other populations are still rebuilding.
+sample: false
 ---
 
-Most of the time, the biggest animals on the planet are also the hardest to see — they live far out in the deep ocean, diving and swimming where we can't easily watch them.
+# How does a fin whale fit an entire school of fish in one gulp?
 
-But last week, off the coast of Pembrokeshire in Wales, something giant came close enough to shore that a drone camera caught the whole thing. And what the drone filmed is one of the most dramatic meals in the natural world.
+In the deep blue off the coast of Wales, a giant moves through the sea. It is the fin whale — the ocean's second-largest creature, a sleek 80-tonne engine of muscle and speed. And it has a feeding trick so dramatic that filmmakers call it "the most spectacular hunt on Earth."
 
-## The biggest mouth in the ocean
+## A gulp bigger than the whale itself
 
-A fin whale is the second-largest animal alive today. The very biggest — the blue whale — can stretch a bit longer, but the fin whale is right behind it at about **75 feet long** (that's longer than two school buses parked end to end).
+Picture this: the whale spots a cloud of tiny silver fish and krill, swirling like a school of living glitter. Instead of nibbling, the fin whale does something impossible-looking. It rockets toward the swarm, opens its mouth so wide you can see down its throat, and — in one swift motion — engulfs a volume of water **bigger than its own body**.
 
-And its mouth? It's built like a living bucket.
+The secret lives in its skin. Along the bottom of its head and throat are stretchy pleats, like the folds of a giant accordion. These expand outward, letting the whale take in up to **18,000 gallons of water and prey** in a single gulp. That is roughly the volume of three ordinary bathtubs — swallowed by one whale in one second.
 
-When the fin whale feeds, it doesn't bite. It **lunges**. It rushes forward at full speed, throws its head up, and opens its mouth so wide that the whole throat folds out like a giant, pleated curtain. In one single gulp, it takes in **thousands of tonnes of seawater** — along with millions of tiny shrimp-like creatures called krill.
+## The squeeze that makes it possible
 
-Then, just as fast, it closes its mouth, pushes all that water out through its baleen plates (those are like the whale's teeth, but made of a rubbery black material), and the water and krill slide out, leaving only the food to swallow.
+After the gulp, comes the squeeze. The whale closes its mouth and pushes its enormous tongue upward, like a living piston. The water squirts out through the baleen plates hanging from its jaw — those stiff, bristle-like filters that look like a moustache made of black silk. Tiny fish and krill get trapped on the baleen; the water goes back to the sea.
 
-## A hungry giant, close to home
+It is a clever system. A fin whale can eat up to **2,000 kilograms** of food in a single day — that is as much as a full-grown grizzly bear, but gulped in great, sweeping mouthfuls.
 
-For most people, seeing a fin whale is a once-in-a-lifetime lucky moment. They normally live far out at sea, on the open ocean highways where ships pass and humans rarely go.
+## Why film it from above
 
-So when one appeared close to the Pembrokeshire coast and started lunge feeding — throwing its massive head back, gulping the sea, and doing the whole spectacular routine right where a drone could film it — that was special.
+That is exactly what videographer Rhys Morgan did. Flying his drone off Pembrokeshire, he watched in amazement as the whale surfaced, mouth agape, swallowing thousands of gallons of water and letting it all go again. The whale was also swimming alongside a pod of dolphins — a reminder that even the biggest animal in your neighborhood neighborhood still shares the water with friends.
 
-Marine watchers say fin whales are usually shy and fast-swimming, which is how they earned their name: a single fin cuts through the water, tall and sickle-shaped, and then they're gone. But this one wasn't in a hurry. It was feeding — and feeding hard.
+Scientists say a clear drone shot of lunge feeding is rare. Most fin whales live far from shore, diving deep, disappearing beneath the waves for minutes at a time. To see one feed at the surface — and capture it from above — is what Morgan called "complete luck."
 
-## Why we should care
+## Fun fact
 
-Fin whales were hunted almost to the edge of disappearing. Whalers in the old days killed them for their blubber and oil, and the great herds scattered. Today, the fin whale is still listed as **endangered** — there are maybe 50,000 left in the world's oceans, which sounds like a lot until you remember there were once millions.
+Fin whales are built for speed. They are the fastest big animal on Earth, cruising at 37 km/h and sprinting up to 50 km/h. They earned the nickname "the greyhound of the sea" — and like a race car, their bodies are built to chase down a meal at top speed before anyone else does.
 
-Seeing one so close to shore is a good sign: when whales feel safe, they come back to the places where they used to feed. The Pembrokeshire coast is waking up to the fact that these giants still pass by — and that we're lucky enough to share the ocean with them.
+## Try this at home
 
-**Sources:**
-- BBC News: "Moment giant fin whale caught feeding on off Pembrokeshire coast" (Oct 20, 2026) — https://www.bbc.co.uk/news/articles/cjr4yeygwdxvo
-- ScienceDaily: "NASA's SpaceX launch lights up the sky with a giant glowing jellyfish" (Oct 17, 2026) — https://www.sciencedaily.com/releases/2026/10/261016070635.htm
+Go outside after a rainstorm and watch puddles on the sidewalk. Now imagine trying to scoop up the whole puddle in your mouth in one sip — that is roughly what a fin whale does, except the "puddle" is the ocean surface, and the "sip" holds more water than a swimming pool. You can also try the squeeze trick: fill a kitchen sieve with rice, then tilt it — the rice stays in, just like the fish stay trapped in the whale's baleen.
+
+## Sources
+
+- BBC News: "Moment giant fin whale's huge mouth engulfs thousands of gallons of water" — https://www.bbc.co.uk/news/articles/cjr4yeygwdxvo (reported the drone footage off Pembrokeshire, Wales, by Rhys Morgan, and the 18,000-gallon engulfment figure)
+- Wikipedia, "Fin whale" — https://en.wikipedia.org/wiki/Fin_whale (confirmed: second-largest animal, 24-27 m length, up to 70-80 t weight, krill/fish/squid diet, lunge-feeding mechanism, vulnerable status, historical whaling numbers)
+- Wikipedia, "Lunge feeding" — https://en.wikipedia.org/wiki/Lunge_feeding (confirmed: rorqual feeding strategy, mouth-gape engulfment + baleen filtration across multiple baleen-bearing species)
