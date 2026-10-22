@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-22-spider-crater-wa-space-image": "Spider Crater Western Australia impact structure Landsat",
     "massive-asteroid-north-sea-tsunami-silverpit-crater": "asteroid impact crater",
     "how-does-exercise-keep-muscles-young": "human muscle tissue",
     "bear-bread-farmers-market-aspen": "black bear",
