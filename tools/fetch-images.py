@@ -204,6 +204,7 @@ QUERY = {
     "solar-orbiter-switchback-traced-to-sun": "Solar Orbiter spacecraft solar wind magnetic field switchback",
     "2026-10-22-curiosity-rover-mars-mystery-cliffs": "Mars rover Curiosity Mastcam panorama Mount Sharp yardang",
     "2026-10-22-silverpit-asteroid-crater-north-sea": "Silverpit Crater",
+    "2026-10-22-mars-arsia-mons-mysterious-cloud": "Arsia Mons Mars cloud",
     "2026-10-22-hailstone-science-explainer": "hailstones on ground",
 }
 
