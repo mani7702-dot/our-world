@@ -209,6 +209,7 @@ QUERY = {
     "2026-10-22-mars-arsia-mons-mysterious-cloud": "Arsia Mons Mars cloud",
     "2026-10-22-hailstone-science-explainer": "hailstones on ground",
     "2026-10-22-virus-particles-self-assemble-without-a-blueprint": "virus capsid protein self-assembly microscopic",
+    "2026-10-22-why-marmoset-brains-are-smooth": "common marmoset monkey Callithrix jacchus",
     "2026-10-22-how-did-a-rock-travel-90-km-into-earth": "subduction zone cross section Earth mantle eclogite",
     "ai-found-php-security-flaw-internet": "data center computer server rack illuminated",
     "2026-10-22-giant-scorpion-praearcturus-gigas": "fossil scorpion Praearcturus",
@@ -217,6 +218,8 @@ QUERY = {
     "2026-10-22-earth-oxygen-phosphorus-cycle-habitability": "cyanobacteria stromatolite rock",
     "starbucks-china-purchase-to-sit-policy": "Starbucks coffee shop interior China",
     "hubble-roman-gravitational-lenses": "gravitational lens galaxy Hubble Space Telescope arc",
+    "2026-10-22-vasuki-indicus-giant-prehistoric-snake-india": "prehistoric snake fossil skeleton",
+    "2026-10-22-milky-way-disk-two-stage-settling-gaia": "Milky Way galaxy disk spiral arms stars Gaia satellite",
 }
 
 def ok_license(l):
