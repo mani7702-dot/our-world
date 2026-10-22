@@ -1,16 +1,16 @@
 {
   "ok": true,
   "category": "explainers",
-  "title": "Two storms in two days as Austen and Boelo target UK",
-  "url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
-  "slug": "two-storms-in-two-days-as-austen-and-boelo-target-",
-  "desc": "The Met Office have named a new storm, Boelo, which is set to bring another round of stormy weather to the UK over the weekend.  ",
+  "title": "Damaging hail pelts Phoenix in rare storm",
+  "url": "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
+  "slug": "damaging-hail-pelts-phoenix-in-rare-storm",
+  "desc": "Videos from the Arizona capital show people sheltering inside a car as hail smashes the windscreen, while intense downpours covered neighbourhoods in ice.",
   "verified": true,
   "cross_sources": [
     {
-      "url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
       "ok": true,
-      "title": "Two named storms in two days as Austen and Boelo target UK - BBC Weather"
+      "title": "Damaging hail pelts Phoenix in rare storm - BBC News"
     },
     {
       "url": "https://www.sciencedaily.com/news/top_news.xml",
