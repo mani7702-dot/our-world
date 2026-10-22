@@ -211,6 +211,7 @@ QUERY = {
     "2026-10-22-how-did-a-rock-travel-90-km-into-earth": "subduction zone cross section Earth mantle eclogite",
     "ai-found-php-security-flaw-internet": "data center computer server rack illuminated",
     "2026-10-22-giant-scorpion-praearcturus-gigas": "fossil scorpion Praearcturus",
+    "2026-10-22-iguazu-falls-super-el-nino-near-record-flows": "Iguazu Falls waterfall Argentina Brazil",
 }
 
 def ok_license(l):
