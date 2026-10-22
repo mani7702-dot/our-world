@@ -199,6 +199,8 @@ QUERY = {
     "samoa-island-wildlife-recovery-after-rat-pig-removal": "native bird",
     "zoo-lion-feeding-wild-behavior-carcass-study": "African lion eating meat",
     "airbnb-hosts-no-longer-ask-guests-to-clean": "cleaning supplies sponge and cloth",
+    "solar-orbiter-switchback-traced-to-sun": "Solar Orbiter spacecraft solar wind magnetic field switchback",
+    "2026-10-22-curiosity-rover-mars-mystery-cliffs": "Mars rover Curiosity Mastcam panorama Mount Sharp yardang",
 }
 
 def ok_license(l):
