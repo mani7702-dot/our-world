@@ -1,5 +1,60 @@
 [
   {
+    "title": "How did the United States get its name? And why \"America\"?",
+    "url": "blog/how-did-america-get-its-name.html",
+    "section": "blog",
+    "excerpt": "Before \"United States of America,\" there was \"United Colonies,\" \"Columbia,\" and even \"United States of the Earth.\" Here is how the name that fit on a map became the name on every passport.",
+    "tags": [
+      "science",
+      "history",
+      "united states",
+      "naming",
+      "america",
+      "columbia"
+    ]
+  },
+  {
+    "title": "Why are peat fires so bad?",
+    "url": "blog/why-are-peat-fires-so-bad.html",
+    "section": "blog",
+    "excerpt": "Peat fires do not just burn trees — they smolder underground for weeks, turning whole regions into a blanket of thick, rust-colored smoke. That is why a \"normal\" forest fire is nothing like a peat fire.",
+    "tags": [
+      "environment",
+      "indonesia",
+      "peat",
+      "fires",
+      "smoke",
+      "carbon",
+      "how-things-work"
+    ]
+  },
+  {
+    "title": "Why do cave paintings seem to move when you shine a light on them?",
+    "url": "blog/why-do-cave-paintings-seem-to-move-in-torchlight.html",
+    "section": "blog",
+    "excerpt": "\"Deep inside dark caves, ancient artists painted on curved walls with only torches to light their way. With the right kind of light, those old pictures don't just sit still — they seem to breathe, flicker, and move like a silent movie made of stone.\"",
+    "tags": [
+      "history",
+      "cave-art",
+      "archaeology",
+      "light",
+      "prehistoric"
+    ]
+  },
+  {
+    "title": "Why do tropical trees breathe at night?",
+    "url": "blog/why-do-tropical-trees-breathe-at-night.html",
+    "section": "blog",
+    "excerpt": "Tropical trees in dry places close their pores by day and take in carbon dioxide by night — a clever trick called CAM photosynthesis that saves water.",
+    "tags": [
+      "science",
+      "plants",
+      "photosynthesis",
+      "drought",
+      "evolution"
+    ]
+  },
+  {
     "title": "10 sunken villages that reappear when the water goes down",
     "url": "blog/10-sunken-villages-that-reappear.html",
     "section": "blog",
@@ -38,6 +93,20 @@
       "history",
       "solar system",
       "centaur"
+    ]
+  },
+  {
+    "title": "How do scientists study nature recovery in the mountains?",
+    "url": "blog/cumbria-uplands-lab-nature-recovery-science.html",
+    "section": "blog",
+    "excerpt": "High up in England's Lake District, scientists have built a brand-new field lab to study how mountains recover when humans step back. Here's how peatlands, rainforests, and tiny organisms work together to heal the land.",
+    "tags": [
+      "science",
+      "nature",
+      "conservation",
+      "peatlands",
+      "uplands",
+      "howitworks"
     ]
   },
   {
@@ -92,6 +161,19 @@
       "compass",
       "magnets",
       "how it works"
+    ]
+  },
+  {
+    "title": "How a New Super-Restraint Microscope Lets Scientists Watch Living Cells Without Dye",
+    "url": "blog/stanford-microscope-seeing-cells-without-labels.html",
+    "section": "blog",
+    "excerpt": "Stanford's new iISM microscope uses light scattering instead of fluorescent dyes, letting scientists watch living cells move and change in stunning detail without harming them.",
+    "tags": [
+      "science",
+      "microscope",
+      "cells",
+      "nobel-prize",
+      "technology"
     ]
   },
   {
@@ -385,6 +467,13 @@
     ]
   },
   {
+    "title": "why-universe-laws-tuned-for-life-water-flow",
+    "url": "blog/why-universe-laws-tuned-for-life-water-flow.html",
+    "section": "blog",
+    "excerpt": "",
+    "tags": []
+  },
+  {
     "title": "Can we really un-break plastic? A new way to recycle acrylic glass",
     "url": "news/2026-10-22-acrylic-glass-recycling-eth-zurich.html",
     "section": "news",
@@ -396,6 +485,349 @@
       "chemistry",
       "environment",
       "science-lab"
+    ]
+  },
+  {
+    "title": "Why is the Moon still shrinking? Space scientists find clues in cliff-lined fault scarps",
+    "url": "news/2026-10-22-moon-still-shrinking-cools.html",
+    "section": "news",
+    "excerpt": "The Moon may look unchanged from millions of years ago, but new measurements show it is actually still cooling — and as it cools, it slowly shrinks, building tiny cliffs and causing moonquakes that future astronauts need to watch out for.",
+    "tags": [
+      "science",
+      "space",
+      "moon",
+      "nasa",
+      "lunar",
+      "astronomy"
+    ]
+  },
+  {
+    "title": "How a British astronaut surprised a classroom with a video from space",
+    "url": "news/astronaut-tim-peake-surprise-video-plymouth-school.html",
+    "section": "news",
+    "excerpt": "A real astronaut sent a surprise video message to primary school kids in Plymouth — and they couldn't believe their eyes.",
+    "tags": [
+      "space",
+      "astronauts",
+      "education",
+      "uk"
+    ]
+  },
+  {
+    "title": "How much helium did the Big Bang create in its first 5 minutes?",
+    "url": "news/big-bang-helium-first-five-minutes.html",
+    "section": "news",
+    "excerpt": "Scientists have measured how much helium was forged in the Universe's first five minutes with three-times better precision — using pristine \"time capsule\" galaxies that have barely changed since the dawn of time.",
+    "tags": [
+      "space",
+      "big bang",
+      "helium",
+      "cosmology",
+      "astronomy",
+      "universe"
+    ]
+  },
+  {
+    "title": "How can a dying coral come back just by touching a healthy one? A touch for 5 days is enough",
+    "url": "news/coral-reef-recovery-by-touch-stanford.html",
+    "section": "news",
+    "excerpt": "\"Bleached corals — ghostly white and close to dying — can fully recover in just seven weeks after touching a healthy, genetically identical coral for as little as five days. Stanford scientists found that brief contact is enough to pass beneficial algae back into the damaged coral and restart its recovery.\"",
+    "tags": [
+      "science",
+      "corals",
+      "coral reefs",
+      "ocean",
+      "climate",
+      "biology",
+      "Stanford",
+      "Innovation"
+    ]
+  },
+  {
+    "title": "Can 4 minutes of daily exercise keep you strong as you grow?",
+    "url": "news/daily-4-minute-strength-after-65.html",
+    "section": "news",
+    "excerpt": "A Penn State study found that older adults who did just four minutes of daily strength exercises — four simple moves, 30 seconds each — gained real muscle power, better balance, and stronger legs in only 12 weeks, with no special gym or expensive gear needed.",
+    "tags": [
+      "science",
+      "exercise",
+      "fitness",
+      "health",
+      "body",
+      "news"
+    ]
+  },
+  {
+    "title": "The lost dinosaur hidden in a drawer for 40 years",
+    "url": "news/dinosaur-antarctica-fossil-drawer-titanosaur.html",
+    "section": "news",
+    "excerpt": "A fossil dug up in Antarctica in 1985 spent four decades tucked away in a drawer, mistaken for a marine reptile, before a curator realized it was the very first dinosaur bone ever found on the frozen continent.",
+    "tags": [
+      "dinosaurs",
+      "antarctica",
+      "fossils",
+      "history",
+      "science"
+    ]
+  },
+  {
+    "title": "How did removing a dam bring salmon back to a river for the first time in 100 years?",
+    "url": "news/elwha-river-tribe-salmon-1100-acres-restored.html",
+    "section": "news",
+    "excerpt": "A century after the Elwha Dam silenced the river, salmon are swimming upstream again — and a tribe is reclaiming 1,100 acres of the land that was flooded for over 100 years.",
+    "tags": [
+      "animals",
+      "salmon",
+      "river",
+      "conservation",
+      "tribe",
+      "washington"
+    ]
+  },
+  {
+    "title": "What happens when a hurricane runs out of warm water and turns into a wind monster?",
+    "url": "news/extratropical-cyclone-iceland-isaias.html",
+    "section": "news",
+    "excerpt": "Hurricane Isaias ran out of warm ocean water and transformed into an extratropical cyclone — a comma-shaped \"bomb\" storm that sent 205 km/h winds screaming past Iceland, all captured from space by NASA's NOAA-21 satellite.",
+    "tags": [
+      "science",
+      "weather",
+      "hurricanes",
+      "satellites",
+      "NASA",
+      "space"
+    ]
+  },
+  {
+    "title": "How did an 18th-century queen use King Arthur to prove she belonged on the throne?",
+    "url": "news/how-queen-caroline-used-king-arthur.html",
+    "section": "news",
+    "excerpt": "Queen Caroline of Ansbach was born in Germany. To make her family feel British, she built a cottage linked to King Arthur — turning an old legend into a PR story for the whole kingdom.",
+    "tags": [
+      "trending",
+      "history",
+      "royalty",
+      "king arthur",
+      "great britain",
+      "caroline",
+      "pr",
+      "legend"
+    ]
+  },
+  {
+    "title": "How a group of Caltech students turned rocket experiments into 90 years of space history",
+    "url": "news/jpl-90th-anniversary-future-missions.html",
+    "section": "news",
+    "excerpt": "In October 1936, Caltech students fired rockets in a dry riverbed in Pasadena — unknowingly founding the Jet Propulsion Laboratory. Ninety years later, JPL is building interstellar probes, lunar drones, and helicopters that fly on Mars.",
+    "tags": [
+      "science",
+      "nasa",
+      "jpl",
+      "rockets",
+      "history",
+      "mars",
+      "space",
+      "innovation"
+    ]
+  },
+  {
+    "title": "Dame Judi Dench and her secret superpower: turning setbacks into stories",
+    "url": "news/judi-dench-legend-of-m.html",
+    "section": "news",
+    "excerpt": "Oscar-winning actress Dame Judi Dench, 91, says her eye condition stopped her from reading and performing — but her seven-decade career is full of stories that show how curiosity and humor win every time.",
+    "tags": [
+      "trending",
+      "judi dench",
+      "acting",
+      "james bond",
+      "shakespeare",
+      "age"
+    ]
+  },
+  {
+    "title": "What does JWST's new peek inside Orion reveal about baby stars?",
+    "url": "news/jwst-orion-stellar-nursery-protostars.html",
+    "section": "news",
+    "excerpt": "The James Webb Space Telescope sees through dusty clouds in Orion's stellar nursery to catch baby stars shooting out high-speed jets.",
+    "tags": [
+      "space",
+      "james webb",
+      "stars",
+      "orion"
+    ]
+  },
+  {
+    "title": "10 quiet math geniuses who secretly made your phone, plane, and game console work",
+    "url": "news/math-geniuses-built-modern-world.html",
+    "section": "news",
+    "excerpt": "Matrices, probability, and abstract algebra sound like school stuff — but the brilliant but forgotten minds behind them built the invisible math that runs every photo, flight, and video game today.",
+    "tags": [
+      "world",
+      "math",
+      "history",
+      "science",
+      "technology",
+      "listicle"
+    ]
+  },
+  {
+    "title": "Why can't humans make the sugar that's hiding in their burger?",
+    "url": "news/neu5gc-red-meat-sugar-diabetes-link.html",
+    "section": "news",
+    "excerpt": "A sugar called Neu5Gc lives in beef and lamb but not in our own bodies. Humans lost the ability to make it millions of years ago -- and eating it may quietly spark inflammation linked to type 2 diabetes.",
+    "tags": [
+      "science",
+      "food",
+      "evolution",
+      "biology"
+    ]
+  },
+  {
+    "title": "Why are drought fires turning the sky over New Guinea a thick white-gray?",
+    "url": "news/new-guinea-drought-fires-el-nino.html",
+    "section": "news",
+    "excerpt": "Strong El Niño has dried out New Guinea's savannas and grasslands. Human-set fires are spreading across the unusually parched landscape, sending smoke visible from satellites and stirring up air-quality concerns for nearby communities.",
+    "tags": [
+      "science",
+      "el nino",
+      "drought",
+      "fires",
+      "new guinea",
+      "papua",
+      "satellite",
+      "environment"
+    ]
+  },
+  {
+    "title": "How did scientists discover a whole new penguin species hiding in plain sight?",
+    "url": "news/new-penguin-species-kerguelen-islands-genetics.html",
+    "section": "news",
+    "excerpt": "",
+    "tags": [
+      "animals",
+      "penguins",
+      "gentoo penguin",
+      "kerguelen islands",
+      "genetics",
+      "conservation",
+      "dna"
+    ]
+  },
+  {
+    "title": "How Perseverance learned to drive itself across Mars on the road to a record",
+    "url": "news/perseverance-autonav-road-to-mars-record.html",
+    "section": "news",
+    "excerpt": "Perseverance broke the far-driving record on Mars — but the real hero is brainy autopilot software that lets the rover think while it drives.",
+    "tags": [
+      "space",
+      "mars",
+      "perseverance",
+      "nasa",
+      "technology",
+      "autonomous"
+    ]
+  },
+  {
+    "title": "\"A magic fabric blanket that triples strawberry harvests — and keeps bugs away without chemicals\"",
+    "url": "news/plant-armor-strawberry-fabric-triples-yields.html",
+    "section": "news",
+    "excerpt": "\"A special knitted fabric called Plant Armor, draped like a blanket over strawberry plants, boosted harvests by 3.56 times in North Carolina field tests while keeping insects out and cutting chemical pesticides.\"",
+    "tags": [
+      "animals",
+      "agriculture",
+      "strawberries",
+      "sustainable farming",
+      "pesticides",
+      "insects",
+      "nc state",
+      "innovation"
+    ]
+  },
+  {
+    "title": "What strange cargo did SpaceX deliver to the Space Station this week?",
+    "url": "news/spacex-iss-strange-cargo-2026.html",
+    "section": "news",
+    "excerpt": "A SpaceX Dragon capsule docked with the International Space Station carrying more than just food and socks — its cargo bay held 3D heart tissue, brain organoids, materials for an artificial retina, and glass that only forms in zero gravity.",
+    "tags": [
+      "space",
+      "nasa",
+      "spacex",
+      "iss",
+      "biology",
+      "microgravity"
+    ]
+  },
+  {
+    "title": "Why do we name big storms — and how does Storm Austen brew?",
+    "url": "news/storm-austen-uk-severe-gales.html",
+    "section": "news",
+    "excerpt": "A patch of low pressure coming in from the Atlantic is being called \"Storm Austen\" before it even arrives. Here is why the wind spins up so fast — and how forecasters pick the name.",
+    "tags": [
+      "science",
+      "weather",
+      "storms",
+      "wind",
+      "uk",
+      "meteorology",
+      "el nino"
+    ]
+  },
+  {
+    "title": "How Strangers Helped an 86-Year-Old Finish His 62-Foot Boat",
+    "url": "news/texas-man-builds-62-foot-boat-since-1987.html",
+    "section": "news",
+    "excerpt": ">-",
+    "tags": [
+      "dream",
+      "perseverance",
+      "kindness",
+      "texas",
+      "boat-building",
+      "gofundme"
+    ]
+  },
+  {
+    "title": "Why do UK summers feel like ovens, and why is air-con still rare?",
+    "url": "news/uk-extreme-heat-air-conditioning.html",
+    "section": "news",
+    "excerpt": "Older UK homes were built to hold heat in, not push it out. During heatwaves the solid brick walls act like thermal batteries, storing the day's heat and radiating it back all night — turning a sunny afternoon into a sleepless, sweaty ordeal and pushing cities several degrees hotter than the countryside.",
+    "tags": [
+      "science",
+      "howthingswork",
+      "climate",
+      "heat",
+      "urban-warming",
+      "buildings"
+    ]
+  },
+  {
+    "title": "5 Secrets Hiding in Elizabeth I's Angriest Letters",
+    "url": "news/who-wrote-elizabeth-i-letters.html",
+    "section": "news",
+    "excerpt": ">-",
+    "tags": [
+      "history",
+      "tudor",
+      "elizabeth i",
+      "letters",
+      "england",
+      "secretaries"
+    ]
+  },
+  {
+    "title": "\"How a giant bridge over a highway cut animal crashes by 91%?\"",
+    "url": "news/wildlife-overpass-i25-collisions-down-91.html",
+    "section": "news",
+    "excerpt": "\"A 200-foot-wide wildlife bridge over Interstate 25 in Colorado has slashed vehicle-animal collisions by 91%, proving that when roads and nature cross the same space, a little concrete can save a lot of lives.\"",
+    "tags": [
+      "world",
+      "colorado",
+      "wildlife",
+      "engineering",
+      "conservation",
+      "i-25",
+      "overpass",
+      "animals"
     ]
   },
   {
@@ -425,6 +857,20 @@
       "conservation",
       "aldabra",
       "rewilding"
+    ]
+  },
+  {
+    "title": "How did 1,000 bison come to roam free across 600,000 acres of Montana prairie?",
+    "url": "news/american-prairie-bison-1016-milestone.html",
+    "section": "news",
+    "excerpt": "On a vast rewilded prairie in Montana, a herd of free-roaming American bison has just passed 1,000 individuals — a milestone for the largest private conservation project in the US, working to restore a landscape where tens of millions once thundered.",
+    "tags": [
+      "animals",
+      "bison",
+      "montana",
+      "conservation",
+      "rewilding",
+      "american prairie"
     ]
   },
   {
@@ -553,6 +999,20 @@
     ]
   },
   {
+    "title": "How a Laser \"Broom\" Paints 3D Maps of Earth from Space — Without Any Moving Parts",
+    "url": "news/casals-lidar-earth-3d-maps.html",
+    "section": "news",
+    "excerpt": "NASA's CASALS instrument uses rainbow light — not spinning mirrors — to sweep laser pulses across Earth, creating seamless 3D maps of forests and terrain in one pass.",
+    "tags": [
+      "science",
+      "nasa",
+      "satellites",
+      "lidar",
+      "earth",
+      "mapping"
+    ]
+  },
+  {
     "title": "3 ghostly nebulas hiding in Cassiopeia that only show up with a special filter",
     "url": "news/cassiopeia-ghosts-ic59-ic63.html",
     "section": "news",
@@ -579,6 +1039,21 @@
       "warming",
       "aerosols",
       "greenhouse-gases"
+    ]
+  },
+  {
+    "title": "Why did scientists build a lab in the Lake District's misty hills?",
+    "url": "news/cumbria-uplands-lab-studies-peat-carbon.html",
+    "section": "news",
+    "excerpt": "A new field station in the Lake District lets scientists, students, and conservationists study peat bogs, rainforests, and mountain air — all to learn how these fragile \"upland\" ecosystems store carbon and protect our water.",
+    "tags": [
+      "world",
+      "nature",
+      "lake-district",
+      "peatlands",
+      "conservation",
+      "carbon",
+      "science"
     ]
   },
   {
@@ -609,19 +1084,6 @@
     ]
   },
   {
-    "title": "A forgotten dinosaur bone pulled from a drawer turns out to be Antarctica’s first",
-    "url": "news/dinosaur-antarctica-fossil-drawer-titanosaur.html",
-    "section": "news",
-    "excerpt": "A fossil collected in Antarctica in 1985 was tucked away in a drawer for 40 years — until a curator spotted it and realized it was the tail bone of a Titanosaur, the first dinosaur ever found on the frozen continent.",
-    "tags": [
-      "science",
-      "dinosaurs",
-      "antarctica",
-      "fossils",
-      "titanosaurs"
-    ]
-  },
-  {
     "title": "How did a shelter bulldog weigh as much as a baby hippo? Diet and foster love helped her lose 20 pounds",
     "url": "news/dog-weighed-baby-hippo-sheds-pounds-rspca.html",
     "section": "news",
@@ -648,6 +1110,17 @@
       "population",
       "predictions",
       "doomsday"
+    ]
+  },
+  {
+    "title": "Why ancient Chinese astronomers lived in fear of the dark",
+    "url": "news/eclipse-predictors-chinese-astronomers.html",
+    "section": "news",
+    "excerpt": "Ancient Chinese court astronomers were expected to predict every eclipse — and if they missed one, the penalty was death. A new Smithsonian study examines why this 4,000-year-old legend still fascinates us today.",
+    "tags": [
+      "astronomy",
+      "history of science",
+      "ancient china"
     ]
   },
   {
@@ -684,6 +1157,20 @@
     ]
   },
   {
+    "title": "\"How does a fin whale fit an entire school of fish in one gulp?\"",
+    "url": "news/fin-whale-lunge-feeding-pembrokeshire.html",
+    "section": "news",
+    "excerpt": "",
+    "tags": [
+      "fin whale",
+      "lunge feeding",
+      "marine mammals",
+      "whale behavior",
+      "pembrokeshire",
+      "drone footage"
+    ]
+  },
+  {
     "title": "What lives in a cave, has no eyes, and is so see-through you can almost see right through it?",
     "url": "news/ghostly-eyeless-cave-snail-china.html",
     "section": "news",
@@ -697,6 +1184,17 @@
       "China",
       "troglobites",
       "conservation"
+    ]
+  },
+  {
+    "title": "Why does the Hamburger Galaxy look like a fast-food sandwich?",
+    "url": "news/hamburger-galaxy-ngc3628-edge-on-spiral.html",
+    "section": "news",
+    "excerpt": "The Hamburger Galaxy gets its name from a dark dust lane that slices across its middle — like lettuce and tomato inside a cosmic bun.",
+    "tags": [
+      "space",
+      "galaxies",
+      "astronomy"
     ]
   },
   {
@@ -772,6 +1270,21 @@
     ]
   },
   {
+    "title": "\"Why did the 2026 Asian Games in Japan start with hotel chaos and a cruise ship?\"",
+    "url": "news/japan-nagoya-asian-games-accommodation-chaos.html",
+    "section": "news",
+    "excerpt": "\"Japan's 2026 Asian Games in Nagoya started with too-few hotel rooms, tiny container beds, and an Italian cruise ship pressed into service — what went wrong?\"",
+    "tags": [
+      "world",
+      "sports",
+      "japan",
+      "asian-games",
+      "nagoya",
+      "accommodation",
+      "planning"
+    ]
+  },
+  {
     "title": "\"A tiny island just protected a fifth of its ocean — here's what that means\"",
     "url": "news/jersey-marine-reefs-protected-sea.html",
     "section": "news",
@@ -783,6 +1296,20 @@
       "marine-life",
       "sea",
       "animals]"
+    ]
+  },
+  {
+    "title": "Who runs the science lab on the ISS while orbiting 250 miles above Earth?",
+    "url": "news/jessica-watkins-iss-science-kibo.html",
+    "section": "news",
+    "excerpt": "NASA astronaut Jessica Watkins spends her days aboard the ISS running life-science experiments inside the giant Kibo lab — the biggest scientific workhorse orbiting Earth.",
+    "tags": [
+      "space",
+      "iss",
+      "nasa",
+      "astronaut",
+      "experiments",
+      "science"
     ]
   },
   {
@@ -813,6 +1340,22 @@
       "palm house",
       "uk",
       "london"
+    ]
+  },
+  {
+    "title": "How did a tiny kitten survive stuck inside a car engine for hours?",
+    "url": "news/kitten-stuck-car-engine-sandy-springs.html",
+    "section": "news",
+    "excerpt": "A tiny black kitten crawled into the warm engine bay of a car in Sandy Springs, Georgia, and got trapped as the couple drove home — only to be rescued by firefighters and police officers just in time for their Halloween anniversary.",
+    "tags": [
+      "animals",
+      "cats",
+      "kitten",
+      "rescue",
+      "firefighters",
+      "halloween",
+      "georgia",
+      "sandy springs"
     ]
   },
   {
@@ -860,6 +1403,20 @@
     ]
   },
   {
+    "title": "How far can a robot drive on Mars? Perseverance just broke the record",
+    "url": "news/mars-rover-perseverance-longest-drive-record.html",
+    "section": "news",
+    "excerpt": "NASA's Perseverance rover drove 45.22 km (28.10 miles) on Mars, becoming the farthest vehicle ever to roll on another world. Its engineering twin on Earth even got a Guinness World Records plaque.",
+    "tags": [
+      "space",
+      "mars",
+      "nasa",
+      "perseverance",
+      "rover",
+      "exploration"
+    ]
+  },
+  {
     "title": "Can a molecule hit the ultimate speed limit for staying \"quantum\"?",
     "url": "news/molecule-quantum-fourier-limit-surface.html",
     "section": "news",
@@ -884,6 +1441,20 @@
       "artemis",
       "rover",
       "exploration"
+    ]
+  },
+  {
+    "title": "\"Why does Mozambique's 'butterfly forest' teem with 200 species found nowhere else?\"",
+    "url": "news/mozambique-mount-mabu-butterfly-forest-protected.html",
+    "section": "news",
+    "excerpt": "\"A government decree set aside 23,000 acres around Mount Mabu as a community conservation area, protecting one of southern Africa's wettest forests and its hundreds of butterflies that exist nowhere else on Earth.\"",
+    "tags": [
+      "animals",
+      "butterflies",
+      "mozambique",
+      "conservation",
+      "biodiversity",
+      "mount mabu"
     ]
   },
   {
@@ -941,6 +1512,20 @@
       "agriculture",
       "atmosphere",
       "flying"
+    ]
+  },
+  {
+    "title": "How NASA took to the sky at a football game",
+    "url": "news/nasa-football-flyover-inspiration-tour.html",
+    "section": "news",
+    "excerpt": "NASA's Inspiration Tour brought a supersonic flyover and a space exhibit to a college football game in Alabama — meeting fans where they are.",
+    "tags": [
+      "space",
+      "nasa",
+      "flyover",
+      "football",
+      "artemis",
+      "sls"
     ]
   },
   {
@@ -1002,6 +1587,19 @@
     ]
   },
   {
+    "title": "How 99-Year-Old Helga Duffy Became the World's Oldest Wing-Walker",
+    "url": "news/oldest-wing-walker-99-helga-duffy.html",
+    "section": "news",
+    "excerpt": "At age 99, Helga Duffy strapped herself to the wings of a tiny plane in England and earned a Guinness World Record — proving that adventurous spirit doesn't retire.",
+    "tags": [
+      "world",
+      "england",
+      "aviation",
+      "record",
+      "inspirational"
+    ]
+  },
+  {
     "title": "How Perseverance became the ultimate Mars mileage champion",
     "url": "news/perseverance-mars-rover-driving-record.html",
     "section": "news",
@@ -1031,6 +1629,21 @@
     ]
   },
   {
+    "title": "Pupils sent a badge to space — then got to ask questions aboard the ISS",
+    "url": "news/pupils-space-badge-meet-astronaut-rubio.html",
+    "section": "news",
+    "excerpt": "A school in Wales designed a badge that flew to the International Space Station, where it floated in zero gravity — then the students got to video-chat with NASA astronaut Frank Rubio, who holds the record for the longest single spaceflight.",
+    "tags": [
+      "science",
+      "space",
+      "ISS",
+      "students",
+      "Wales",
+      "education",
+      "zero gravity"
+    ]
+  },
+  {
     "title": "Why are red squirrels thriving on Jersey but vanishing from the rest of England?",
     "url": "news/red-squirrels-thrive-jersey-england-refuge.html",
     "section": "news",
@@ -1043,6 +1656,21 @@
       "Jersey",
       "England",
       "UK"
+    ]
+  },
+  {
+    "title": "How did fuel leak into Wales' River Taff and hurt the fish?",
+    "url": "news/river-taff-fuel-leak-kills-fish.html",
+    "section": "news",
+    "excerpt": "A fuel leak from a GE Aerospace repair site sent kerosene flowing nearly 2.5 miles down Wales' River Taff, leaving dead fish in its wake and teaching us why even small leaks can ripple into big trouble for rivers.",
+    "tags": [
+      "world",
+      "wales",
+      "river",
+      "pollution",
+      "environment",
+      "fish",
+      "kerosene"
     ]
   },
   {
@@ -1070,6 +1698,47 @@
       "archaeology",
       "germany",
       "ancient"
+    ]
+  },
+  {
+    "title": "How NASA's newest rocket engine test fired up for the Moon",
+    "url": "news/rs25-engine-test-artemis-moon-rocket.html",
+    "section": "news",
+    "excerpt": "NASA just fired its most powerful rocket engine for 500 seconds — the same length of a real launch — as it prepares to send astronauts back to the Moon on the SLS rocket.",
+    "tags": [
+      "space",
+      "nasa",
+      "rocket",
+      "engine",
+      "moon",
+      "artemis",
+      "sls"
+    ]
+  },
+  {
+    "title": "ESA's Sentinel-3C Returns Stunning First Photos of Italy and the Arctic",
+    "url": "news/sentinel-3c-satellite-first-images-italy-arctic.html",
+    "section": "news",
+    "excerpt": "Just weeks after launching on a Vega rocket, Europe's latest Earth-watching satellite captured its first color images — showing Italy from the Alps to Sicily and the icy Canadian Arctic in crisp detail. Here's what the ocean-and-land color camera sees from 800 kilometers up.",
+    "tags": [
+      "space",
+      "satellites",
+      "europe",
+      "aerial photographs",
+      "earth observation"
+    ]
+  },
+  {
+    "title": "How a Scottish surgeon's \"mind reading\" became the world's greatest detective",
+    "url": "news/sherlock-holmes-joseph-bell-real-surgeon.html",
+    "section": "news",
+    "excerpt": "\"The real-life doctor who inspired Sherlock Holmes could tell where you'd been just by looking at your shoes.\"",
+    "tags": [
+      "history",
+      "detective",
+      "sherlock holmes",
+      "scotland",
+      "victorian"
     ]
   },
   {
@@ -1121,6 +1790,20 @@
       "growth",
       "biology",
       "brain"
+    ]
+  },
+  {
+    "title": "How a soybean compound may shield the brain from too much salt",
+    "url": "news/soy-salt-brain-compound.html",
+    "section": "news",
+    "excerpt": "Eating too much salt can harm memory and social behavior, not just blood pressure. Japanese researchers found that a natural compound from soy helps restore balance in the body's signaling chemicals.",
+    "tags": [
+      "science",
+      "salt",
+      "brain",
+      "soy",
+      "biology",
+      "health"
     ]
   },
   {
@@ -1202,6 +1885,20 @@
       "tides",
       "scotland",
       "innovation"
+    ]
+  },
+  {
+    "title": "10 different diets all slow down your body's clock — here's why",
+    "url": "news/ten-diets-slower-biological-aging.html",
+    "section": "news",
+    "excerpt": "Scientists studied 10 healthy eating patterns — from Mediterranean to plant-based to DASH — and found they all slow biological aging, measured by DNA methylation clocks.",
+    "tags": [
+      "science",
+      "diet",
+      "aging",
+      "dna",
+      "health",
+      "nature-communications"
     ]
   },
   {
@@ -1434,6 +2131,19 @@
     ]
   },
   {
+    "title": "Why do sunbeams look like they meet at a rainbow?",
+    "url": "news/anticrepuscular-rainbow-fan.html",
+    "section": "news",
+    "excerpt": "A photographer in Italy caught a strange sight — sunbeams that seem to converge right in front of some hills, with a tiny rainbow fanned across them. What looks like a trick of light is real science.",
+    "tags": [
+      "space",
+      "astronomy",
+      "weather",
+      "light",
+      "optics"
+    ]
+  },
+  {
     "title": "Why are Bennu’s boulders hiding secrets in the asteroid’s cracks?",
     "url": "news/bennu-boulders-hidden-cracks-osiris-rex.html",
     "section": "news",
@@ -1445,19 +2155,6 @@
       "osiris-rex",
       "bennu",
       "nature"
-    ]
-  },
-  {
-    "title": "7 Surprising clues about the first 5 minutes of the Universe, found in 15 tiny galaxies",
-    "url": "news/big-bang-helium-first-five-minutes.html",
-    "section": "news",
-    "excerpt": "Astronomers used 15 pristine galaxies as cosmic time capsules to measure how much helium the Big Bang made — nailing it down 3x more precisely than ever before.",
-    "tags": [
-      "space",
-      "big bang",
-      "helium",
-      "galaxies",
-      "telescope"
     ]
   },
   {
@@ -1530,19 +2227,6 @@
       "ramlila",
       "navratri",
       "world-culture"
-    ]
-  },
-  {
-    "title": "How a fin whale's mouth holds enough space to swallow a school bus — and why that giant gulp is how it eats",
-    "url": "news/fin-whale-lunge-feeding-pembrokeshire.html",
-    "section": "news",
-    "excerpt": "A fin whale off the Welsh coast opened its mouth so wide it took in thousands of tonnes of seawater in one single lunge — the biggest bite any animal on Earth can take.",
-    "tags": [
-      "science",
-      "ocean",
-      "whales",
-      "animals",
-      "news"
     ]
   },
   {
@@ -1709,6 +2393,19 @@
     ]
   },
   {
+    "title": "Can scientists turn 80-year-old cells back into 20-year-old ones?",
+    "url": "news/reverse-cellular-aging-epigenetic-clock-60-years.html",
+    "section": "news",
+    "excerpt": "German researchers reprogrammed blood cells from an 80-year-old person straight into brain stem cells, and the cells' molecular age clock reset from 80 down to under 20.",
+    "tags": [
+      "science",
+      "cells",
+      "aging",
+      "stem-cells",
+      "research"
+    ]
+  },
+  {
     "title": "How does a dog sniff out an invisible sea invader called 'sea vomit'?",
     "url": "news/sea-vomit-detecting-dog-sgiath.html",
     "section": "news",
@@ -1851,6 +2548,20 @@
       "nasa",
       "astronomy",
       "weather"
+    ]
+  },
+  {
+    "title": "Why Do Blueberries Make Your Brain Happy? The Gut-Brain-Berry Link",
+    "url": "news/blueberries-mood-gut-brain-link.html",
+    "section": "news",
+    "excerpt": "A small study found that older adults who ate blueberries every day for three months had fewer sad-mood feelings and friendlier gut bacteria than those who ate a placebo. The fruit is packed with color-powered plant chemicals that may help the gut and brain chat better.",
+    "tags": [
+      "science",
+      "brain",
+      "mood",
+      "gut-microbiome",
+      "blueberries",
+      "nutrition"
     ]
   },
   {
