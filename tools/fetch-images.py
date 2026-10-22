@@ -181,6 +181,7 @@ QUERY = {
     "new-guinea-drought-fires-el-nino": "New Guinea wildfire satellite smoke",
     "judi-dench-legend-of-m": "Judi Dench portrait",
     "anticrepuscular-rainbow-fan": "anticrepuscular rays rainbow sunset",
+    "elwha-river-tribe-salmon-1100-acres-restored": "Chinook salmon spawning",
 }
 
 def ok_license(l):
