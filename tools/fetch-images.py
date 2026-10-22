@@ -188,6 +188,7 @@ QUERY = {
     "elwha-river-tribe-salmon-1100-acres-restored": "Chinook salmon spawning",
     "2026-10-22-moon-still-shrinking-cools": "Moon surface cliff fault scarp lobate thrust fault Lunar Reconnaissance Orbiter",
     "new-penguin-species-kerguelen-islands-genetics": "Gentoo penguin swimming",
+    "why-does-your-brain-always-predict-everything": "neurons brain illustration drawing",
 }
 
 def ok_license(l):
