@@ -20,6 +20,7 @@ QUERY = {
     "nasa-roman-telescope-exceeds-expectations": "space telescope",
     "webb-brown-dwarf-weather": "brown dwarf",
     "bleached-corals-recover-by-touching": "bleached coral",
+    "coral-reef-recovery-by-touch-stanford": "coral reef bleaching recovery Acropora",
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
     "mmx-mars-phobos-sample": "Phobos",
     "japan-mmx-mars-phobos-sample-mission-launches": "Phobos Mars moon",
