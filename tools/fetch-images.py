@@ -165,6 +165,7 @@ QUERY = {
     "how-did-america-get-its-name": "1776 Declaration of Independence parchment signing",
     "storm-austen-uk-severe-gales": "isobars weather map storm",
     "plant-armor-strawberry-fabric-triples-yields": "strawberry plant",
+    "jwst-orion-stellar-nursery-protostars": "JWST Orion Nebula infrared protostars",
 }
 
 def ok_license(l):
