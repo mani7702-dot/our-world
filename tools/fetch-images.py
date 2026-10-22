@@ -109,6 +109,7 @@ QUERY = {
     "japan-kikai-akahoya-volcanic-apocalypse-populations": "Kikai caldera eruption",
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
     "why-are-peat-fires-so-bad": "peat swamp fire Indonesia smoke haze",
+    "2026-10-22-peat-fires-indonesia-dangerous": "Indonesian forest fire peat swamp burning",
     "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
     "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
     "antarctica-sea-ice-third-lowest-2026": "Antarctic sea ice",
@@ -190,6 +191,7 @@ QUERY = {
     "new-penguin-species-kerguelen-islands-genetics": "Gentoo penguin swimming",
     "why-does-your-brain-always-predict-everything": "neurons brain illustration drawing",
     "2026-10-22-octopus-dna-fold-intelligence": "octopus intelligence brain neurons",
+    "period-drama-details-historically-accurate": "period drama Regency era costume historical artifacts",
 }
 
 def ok_license(l):
