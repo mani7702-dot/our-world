@@ -162,6 +162,7 @@ QUERY = {
     "japan-nagoya-asian-games-accommodation-chaos": "Japanese athlete Olympic village",
     "ten-diets-slower-biological-aging": "fruits and vegetables healthy food",
     "extratropical-cyclone-iceland-isaias": "Classic Comma Mid-Latitude Cyclone",
+    "how-did-america-get-its-name": "1776 Declaration of Independence parchment signing",
 }
 
 def ok_license(l):
