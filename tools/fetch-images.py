@@ -163,6 +163,7 @@ QUERY = {
     "ten-diets-slower-biological-aging": "fruits and vegetables healthy food",
     "extratropical-cyclone-iceland-isaias": "Classic Comma Mid-Latitude Cyclone",
     "how-did-america-get-its-name": "1776 Declaration of Independence parchment signing",
+    "plant-armor-strawberry-fabric-triples-yields": "strawberry field farming",
 }
 
 def ok_license(l):
