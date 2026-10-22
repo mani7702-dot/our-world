@@ -189,6 +189,7 @@ QUERY = {
     "2026-10-22-moon-still-shrinking-cools": "Moon surface cliff fault scarp lobate thrust fault Lunar Reconnaissance Orbiter",
     "new-penguin-species-kerguelen-islands-genetics": "Gentoo penguin swimming",
     "why-does-your-brain-always-predict-everything": "neurons brain illustration drawing",
+    "2026-10-22-octopus-dna-fold-intelligence": "octopus intelligence brain neurons",
 }
 
 def ok_license(l):
