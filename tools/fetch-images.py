@@ -169,6 +169,7 @@ QUERY = {
     "plant-armor-strawberry-fabric-triples-yields": "strawberry plant",
     "jwst-orion-stellar-nursery-protostars": "JWST Orion Nebula infrared protostars",
     "how-queen-caroline-used-king-arthur": "King Arthur medieval manuscript illustration",
+    "why-do-cave-paintings-seem-to-move-in-torchlight": "Lascaux cave painting bison",
 }
 
 def ok_license(l):
