@@ -34,6 +34,7 @@ QUERY = {
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
     "green-star-white-dwarf-wdj1330-6435": "green star",
     "spacex-crs35-jellyfish-launch": "SpaceX Falcon 9 launch jellyfish",
+    "spacex-iss-strange-cargo-2026": "SpaceX Dragon cargo International Space Station",
     "masaya-volcano-hidden-magma": "Masaya volcano Nicaragua lava lake",
     "2026-10-20-sloth-bear-odum-julia-roberts-rescue": "sloth bear",
     "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
