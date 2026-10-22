@@ -166,6 +166,7 @@ QUERY = {
     "storm-austen-uk-severe-gales": "isobars weather map storm",
     "plant-armor-strawberry-fabric-triples-yields": "strawberry plant",
     "jwst-orion-stellar-nursery-protostars": "JWST Orion Nebula infrared protostars",
+    "how-queen-caroline-used-king-arthur": "King Arthur medieval manuscript illustration",
 }
 
 def ok_license(l):
