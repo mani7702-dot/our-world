@@ -172,6 +172,7 @@ QUERY = {
     "jwst-orion-stellar-nursery-protostars": "JWST Orion Nebula infrared protostars",
     "how-queen-caroline-used-king-arthur": "King Arthur medieval manuscript illustration",
     "why-do-cave-paintings-seem-to-move-in-torchlight": "Lascaux cave painting bison",
+    "nasa-football-flyover-inspiration-tour": "NASA F-5 flyover",
 }
 
 def ok_license(l):
