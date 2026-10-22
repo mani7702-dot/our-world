@@ -2,7 +2,7 @@
 title: Why is the Moon still shrinking? Space scientists find clues in cliff-lined fault scarps
 date: 2026-10-22
 time: 14:51
-image: assets/images/moon-still-shrinking-cools.jpg
+image: assets/images/moon-still-shrinking-cools.png
 image_caption: Photo: Wikimedia Commons
 category: Science
 read: 4 min
