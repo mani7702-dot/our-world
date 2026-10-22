@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-10-22-honey-bees-bullying-wild-pollinators": "honey bee on flower bumble bee pollinator",
+    "2026-10-22-venus-slides-past-sun": "Venus planet from space NASA Solar System",
     "2026-10-22-spider-crater-wa-space-image": "Spider Crater Western Australia impact structure Landsat",
     "massive-asteroid-north-sea-tsunami-silverpit-crater": "asteroid impact crater",
     "how-does-exercise-keep-muscles-young": "human muscle tissue",

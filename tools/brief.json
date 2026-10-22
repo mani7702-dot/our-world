@@ -1,16 +1,16 @@
 {
   "ok": true,
-  "category": "explainers",
-  "title": "Damaging hail pelts Phoenix in rare storm",
-  "url": "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
-  "slug": "damaging-hail-pelts-phoenix-in-rare-storm",
-  "desc": "Videos from the Arizona capital show people sheltering inside a car as hail smashes the windscreen, while intense downpours covered neighbourhoods in ice.",
+  "category": "science",
+  "title": "Firefighters and public 'knowingly put at risk' during summer wildfires",
+  "url": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss",
+  "slug": "firefighters-and-public-knowingly-put-at-risk-duri",
+  "desc": "Crews and control centre staff say the fires were relentless with many firefighters still off work injured.",
   "verified": true,
   "cross_sources": [
     {
-      "url": "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss",
       "ok": true,
-      "title": "Damaging hail pelts Phoenix in rare storm - BBC News"
+      "title": "Firefighters 'knowingly put at risk' during summer wildfires - BBC News"
     },
     {
       "url": "https://www.sciencedaily.com/news/top_news.xml",
