@@ -196,6 +196,7 @@ QUERY = {
     "2026-10-22-meta-fined-25b-data-privacy": "computer server data center racks",
     "samoa-island-wildlife-recovery-after-rat-pig-removal": "native bird",
     "zoo-lion-feeding-wild-behavior-carcass-study": "African lion eating meat",
+    "airbnb-hosts-no-longer-ask-guests-to-clean": "cleaning supplies sponge and cloth",
 }
 
 def ok_license(l):
