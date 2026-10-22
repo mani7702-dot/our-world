@@ -141,6 +141,7 @@ QUERY = {
     "ghostly-eyeless-cave-snail-china": "freshwater gastropod cave",
     "lost-dog-survived-month-yellowstone-luna": "Jack Russell terrier",
     "ultra-processed-food-colorectal-cancer-study": "epidemiology study researcher analyzing questionnaire data",
+    "neu5gc-red-meat-sugar-diabetes-link": "beef butcher shop raw meat",
     "perseverance-mars-rover-driving-record": "Perseverance rover Mars surface",
     "astronauts-hearts-mars-spaceflight-test": "astronaut exercise ISS treadmill",
     "atlantic-current-amoc-climate-weather": "Gulf Stream ocean current satellite sea surface temperature",
