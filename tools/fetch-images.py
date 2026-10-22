@@ -98,6 +98,7 @@ QUERY = {
     "magic-mushroom-compound-calms-aggressive-fish": "psilocybin mushroom",
     "pilot-whales-chase-orcas-mobbing": "orcas pilot whales",
     "sphinx-crocodile-skull-herugavialis-cairensis": "gharial fossil skull",
+    "texas-man-builds-62-foot-boat-since-1987": "steel fishing boat",
     "wasp-17b-lopsided-atmosphere-webb-telescope": "WASP-17b exoplanet artist impression",
     "japan-kikai-akahoya-volcanic-apocalypse-populations": "Kikai caldera eruption",
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
