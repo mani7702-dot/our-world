@@ -1,52 +1,46 @@
 ---
-title: A forgotten dinosaur bone pulled from a drawer turns out to be Antarctica’s first
-date: 2026-10-21
-time: 04:12
+title: The lost dinosaur hidden in a drawer for 40 years
+date: 2026-10-22
+time: 05:46
 image: assets/images/dinosaur-antarctica-fossil-drawer-titanosaur.jpg
 image_caption: Photo: Wikimedia Commons
-category: Science
+category: Weird History
 read: 3 min
-excerpt: A fossil collected in Antarctica in 1985 was tucked away in a drawer for 40 years — until a curator spotted it and realized it was the tail bone of a Titanosaur, the first dinosaur ever found on the frozen continent.
-tags: science, dinosaurs, antarctica, fossils, titanosaurs
+excerpt: A fossil dug up in Antarctica in 1985 spent four decades tucked away in a drawer, mistaken for a marine reptile, before a curator realized it was the very first dinosaur bone ever found on the frozen continent.
+tags: dinosaurs, antarctica, fossils, history, science
 sample: false
-for-grownups: The short version for curious grown-ups: this is a procoelous anterior caudal vertebra from a titanosaurian sauropod, collected in December 1985 on James Ross Island (Santa Marta Formation, lower Campanian, ~82 million years ago) by geologist Mike Thomson, BAS, and stored uncatalogued until collections manager Mark Evans re-examined it in 2026. Lead author Paul M. Barrett (Natural History Museum, London) confirmed it as a non-saltasaurid eutitanosaurian, the second sauropod body fossil known from Antarctica and the first dinosaur ever collected from the continent. Other Antarctic dinosaur finds since 1985 include ornithopods and theropods. Size comparison shows this individual was a small titanosaur (~7 m), possibly a juvenile. Published 25 June 2026 in Acta Palaeontologica Polonica 71(2):349-362, doi:10.4202/app.013152025, by Barrett, Mannion, Beeston, Lamanna, Clark, Otero, O’Gorman & Evans.
+for-grownups: In December 1985, geologist Mike Thomson collected a 10cm vertebra on James Ross Island, Antarctic Peninsula, sketching it in his field notebook as "vertebra of large reptile." Stored at the British Antarctic Survey collections in Cambridge for 40 years, BAS collections manager Dr Mark Evans re-identified it in 2025/2026 as a titanosaur caudal vertebra — a group of large-bodied sauropod dinosaurs. This makes it the first confirmed non-avian dinosaur fossil discovered on the Antarctic continent; prior Antarctic dinosaur finds came from the Antarctic Peninsula and Ross Sea region but this James Ross Island specimen predates the formal recognition. Titanosaurs were the last and largest of the long-necked sauropods, living ~100-66 million years ago (Late Cretaceous); James Ross Island was ice-free during the Cretaceous, supporting terrestrial vertebrate life. Source: BBC News "First dinosaur bone from Antarctica found in a drawer" + Wikipedia "Dinosaur".
 ---
+In 1985, a geologist working on James Ross Island near the Antarctic Peninsula picked up a small, unremarkable fossil. He sketched it in his field notebook and wrote simply: "vertebra of large reptile."
 
-# What did scientists find hiding in a drawer after 40 years?
+Then the fossil went into a drawer — and stayed there for 40 years.
 
-## A fossil that waited decades to be recognised
+Now, after decades forgotten on a shelf at the British Antarctic Survey in Cambridge, that same bone has been carefully studied again. And it turns out the geologist had accidentally found something extraordinary: the **first dinosaur bone ever discovered on the frozen continent**.
 
-Imagine putting something special in a drawer and then forgetting all about it. Now imagine that "something" is a **dinosaur bone**.
+## What sort of dinosaur was it?
 
-In **1985**, a geologist named **Mike Thomson** was working on **James Ross Island** in Antarctica. He picked up a small fossil — a thick, knobbly bone about the size of a hand — and carefully drew a sketch of it. He wrote down: "vertebra of large reptile."
+The fossil is a single tail vertebra, about 10 centimetres wide. Paleontologists have confirmed it belongs to a group of long-necked giants called **Titanosaurs** — the sauropods that include the largest animals to ever walk the Earth, like Argentinosaurus and Dreadnoughtus.
 
-But the team was not sure what it really was. So, like a found coin you tuck into a jar, they stored the fossil away in the geology collection of the **British Antarctic Survey** in Cambridge. And there it stayed — forgotten — for **over 40 years**.
+At the time, the 1985 team probably mistook it for the spine of a marine reptile, which are common finds in Antarctic rock. But the bone's shape was unmistakably terrestrial — land-dwelling, not sea-dwelling.
 
-Then, in **2026**, a curator named **Mark Evans** was sorting through thousands of specimens. He pulled this one out of a drawer and thought: "That looks interesting."
+## Why did it stay hidden for so long?
 
-## Why the shape said "dinosaur"
+Antarctica is the driest, windiest, and coldest continent, and its land is almost entirely buried beneath two kilometres of ice. The few patches of rock that stick out — like James Ross Island — were only properly mapped by geologists starting in the 1980s. Any fossils there are rare, precious, and scattered across many drawers.
 
-The bone is a **tail vertebra** — one of the round, interlocking bones that ran down the length of a dinosaur's tail. When you line them up, each one looks a little like a tiny saddle or knob.
+Dr Mark Evans, the collections manager at the British Antarctic Survey, recently noticed the old specimen among thousands of specimens brought back from Antarctic expeditions over the decades.
 
-Professor **Paul Barrett** from the Natural History Museum in London took one look and knew right away. The shape was *just right* for a famous group of giants: the **Titanosaurs**.
+"It's only when you start thinking 'what's in this drawer,'" he said, "that sometimes you come across something and you think, 'Ah — this looks interesting.'"
 
-Titanosaurs were the biggest land animals that ever lived. The very largest were longer than a school bus and heavier than several elephants. But this particular bone told a different story — it was from a much smaller fellow. From its size, scientists think the animal was only about **7 metres long**, roughly as long as a small bus.
+## What does a Titanosaur tail tell us?
 
-Was it a baby? A juvenile? Or just a genuinely small grown-up? The scientists are not sure, but it is a mystery worth solving.
+Titanosaurs were the last of the great sauropods. They lived during the Late Cretaceous period — roughly 100 to 66 million years ago — when Antarctica was still connected to what is now South America and the climate was far warmer than today. Finding a piece of a Titanosaur in Antarctica helps scientists fill in gaps about how these giants lived on the ancient southern continents.
 
-## A first for the frozen continent
+## Try this at home
 
-This discovery is special for two reasons.
+You don't need a frozen continent to hunt fossils — your own backyard can hold buried history! On a walk, look for small, oddly shaped rocks that are darker than the others. Are they smooth and layered, or do they have strange hollows? Paleontologists started by carefully noticing things that looked *different*. Always ask an adult before you pocket anything that might belong to nature or a protected site, but keep your eyes open — the next great discovery might be hiding in plain sight.
 
-First — it is the **first dinosaur ever found in Antarctica**. Even though other dinosaur bones have turned up on the continent since 1985, this little vertebra, sitting quietly in its drawer, holds the title of *first*.
+## Fun fact
 
-Second — it helps us picture what Antarctica was like **82 million years ago**. Back then, it was not the icy wilderness we know today. It was covered in **lush green forests**, buzzing with life, and home to herds of plant-eating giants strolling beneath fern trees.
+The very first dinosaur fossils were not found in the American West or Patagonia — they were found by people who simply looked carefully and kept good notes. Mike Thomson's 1985 field notebook, with its tiny sketch and careful handwriting, is exactly the kind of record that lets a fossil found decades later still tell its story. Good notes are time machines for science.
 
-The team's report was published in the journal *Acta Palaeontologica Polonica*. It reminds us that some of the greatest discoveries hide in plain sight — tucked inside drawers, waiting patiently for someone to wonder: "What is this?"
-
-### Try this at home
-Find a small object — a button, a spoon, or a toy — and draw it carefully in a notebook, just like Mike Thomson did in 1985. Then write down what you *think* it is. Put the drawing away for a month. When you pull it back out, ask yourself: "Am I sure that's what it is?" You might be surprised.
-
-**Sources:**
-- University of Warwick — BBC News "First dinosaur bone from Antarctica found in a drawer": https://www.bbc.co.uk/news/articles/cdep67jnn9zo
-- Acta Palaeontologica Polonica 71(2):349-362, doi:10.4202/app.013152025 (Barrett et al. 2026)
+**Sources:** [BBC News — First dinosaur bone from Antarctica found in a drawer](https://www.bbc.co.uk/news/articles/cdep67jnn9zo) · [Wikipedia — Dinosaur](https://en.wikipedia.org/wiki/Dinosaur)
