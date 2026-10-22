@@ -217,6 +217,7 @@ QUERY = {
     "2026-10-22-iguazu-falls-super-el-nino-near-record-flows": "Iguazu Falls waterfall Argentina Brazil",
     "2026-10-22-van-gogh-starry-night-real-sky": "Van Gogh The Starry Night 1889 painting Saint-Remy sky",
     "2026-10-22-earth-oxygen-phosphorus-cycle-habitability": "cyanobacteria stromatolite rock",
+    "2026-10-23-coconut-oil-jet-fuel": "coconut oil biofuel jet engine laboratory experiment",
     "starbucks-china-purchase-to-sit-policy": "Starbucks coffee shop interior China",
     "hubble-roman-gravitational-lenses": "gravitational lens galaxy Hubble Space Telescope arc",
     "2026-10-22-vasuki-indicus-giant-prehistoric-snake-india": "prehistoric snake fossil skeleton",
