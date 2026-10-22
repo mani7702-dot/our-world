@@ -192,6 +192,7 @@ QUERY = {
     "why-does-your-brain-always-predict-everything": "neurons brain illustration drawing",
     "2026-10-22-octopus-dna-fold-intelligence": "octopus intelligence brain neurons",
     "period-drama-details-historically-accurate": "period drama Regency era costume historical artifacts",
+    "2026-10-22-meta-fined-25b-data-privacy": "computer server data center racks",
 }
 
 def ok_license(l):
