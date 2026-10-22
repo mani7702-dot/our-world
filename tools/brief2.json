@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "category": "science",
+  "title": "First human case of Shamonda virus detected in France, officials say",
+  "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
+  "slug": "first-human-case-of-shamonda-virus-detected-in-fra",
+  "desc": "The disease, which usually affects cattle, has been identified in a patient who died in early October.",
+  "verified": true,
+  "cross_sources": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
+      "ok": true,
+      "title": "First human case of Shamonda virus detected in France, officials say - BBC News"
+    },
+    {
+      "url": "https://www.sciencedaily.com/news/top_news.xml",
+      "ok": false,
+      "err": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "ok": true,
+      "title": "BBC News"
+    }
+  ],
+  "image_url": null,
+  "image_credit": null
+}

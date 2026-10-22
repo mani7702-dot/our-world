@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "category": "animals",
+  "title": "Samoan Island Witnesses Explosion of Native Wildlife Following Removal of Invasive Rats and Pigs",
+  "url": "https://www.goodnewsnetwork.org/samoan-island-witnesses-explosion-of-native-wildlife-following-removal-of-invasive-rats-and-pigs/",
+  "slug": "samoan-island-witnesses-explosion-of-native-wildli",
+  "desc": "<p>Just one year after ecological restoration efforts on Samoa, forests, wildlife, and food resources are showing remarkable signs of recovery. Nu\u2019utele Island is considered a Key Biodiversity Area for Samoa, and is home to one of the country\u2019s most pristine native forests teemin",
+  "verified": true,
+  "cross_sources": [
+    {
+      "url": "https://www.goodnewsnetwork.org/samoan-island-witnesses-explosion-of-native-wildlife-following-removal-of-invasive-rats-and-pigs/",
+      "ok": true,
+      "title": "Samoan Island Witnesses Explosion of Native Wildlife Following Removal of Invasive Rats and Pigs"
+    },
+    {
+      "url": "https://www.goodnewsnetwork.org/feed/",
+      "ok": true,
+      "title": "Good News Network"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/science_env/rss",
+      "ok": false,
+      "err": "HTTP Error 404: Not Found"
+    }
+  ],
+  "image_url": null,
+  "image_credit": null
+}

@@ -193,6 +193,7 @@ QUERY = {
     "2026-10-22-octopus-dna-fold-intelligence": "octopus intelligence brain neurons",
     "period-drama-details-historically-accurate": "period drama Regency era costume historical artifacts",
     "2026-10-22-meta-fined-25b-data-privacy": "computer server data center racks",
+    "samoa-island-wildlife-recovery-after-rat-pig-removal": "native bird",
 }
 
 def ok_license(l):

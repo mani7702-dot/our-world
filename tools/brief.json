@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "category": "explainers",
+  "title": "Two storms in two days as Austen and Boelo target UK",
+  "url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
+  "slug": "two-storms-in-two-days-as-austen-and-boelo-target-",
+  "desc": "The Met Office have named a new storm, Boelo, which is set to bring another round of stormy weather to the UK over the weekend.  ",
+  "verified": true,
+  "cross_sources": [
+    {
+      "url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
+      "ok": true,
+      "title": "Two named storms in two days as Austen and Boelo target UK - BBC Weather"
+    },
+    {
+      "url": "https://www.sciencedaily.com/news/top_news.xml",
+      "ok": false,
+      "err": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "ok": true,
+      "title": "BBC News"
+    }
+  ],
+  "image_url": null,
+  "image_credit": null
+}
