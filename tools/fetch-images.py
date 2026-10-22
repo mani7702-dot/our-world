@@ -97,6 +97,7 @@ QUERY = {
     "sweeteners-gut-microbes-lab-test-39": "gut microbiome bacteria",
     "sitcoms-launch-biggest-music-careers-century": "television studio recording microphone singer",
     "musicians-who-resent-their-biggest-hits": "singer microphone stage spotlight",
+    "astronaut-tim-peake-surprise-video-plymouth-school": "Tim Peake space suit astronaut",
     "strawberry-soil-steam-cleanse-crop": "strawberry plant",
     "nobel-prize-optogenetics-brain-light-2026": "optogenetics neuron laser illumination microscopy",
     "magic-mushroom-compound-calms-aggressive-fish": "psilocybin mushroom",
