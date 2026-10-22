@@ -38,6 +38,7 @@ QUERY = {
     "spacex-iss-strange-cargo-2026": "SpaceX Dragon cargo International Space Station",
     "masaya-volcano-hidden-magma": "Masaya volcano Nicaragua lava lake",
     "2026-10-20-sloth-bear-odum-julia-roberts-rescue": "sloth bear",
+    "2026-10-22-acrylic-glass-recycling-eth-zurich": "acrylic glass plastic sheet",
     "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
     "ancient-peruvian-hairless-dogs-wari-huarmey": "Peruvian hairless dog",
@@ -197,7 +198,7 @@ def ok_license(l):
 def curl_json(params):
     url = API + "?" + urllib.parse.urlencode(params)
     for _ in range(3):
-        p = subprocess.run(["curl", "-s", "--compressed", "--max-time", "30", "-A", UA, url],
+        p = subprocess.run(["curl", "-s", "--max-time", "30", "-A", UA, url],
                            capture_output=True, text=True)
         out = p.stdout.strip()
         if not out:
@@ -215,7 +216,7 @@ def curl_json(params):
 
 
 def down(url):
-    return subprocess.run(["curl", "-s", "--compressed", "--max-time", "45", "-A", UA, url],
+    return subprocess.run(["curl", "-s", "--max-time", "45", "-A", UA, url],
                           capture_output=True).stdout
 
 hits = 0

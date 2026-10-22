@@ -48,7 +48,7 @@ BLOCK = ("war", "attack", "death toll", "killed", "murder", "court", "lawsuit", 
 
 
 def items(url):
-    p = subprocess.run(["curl", "-s", "--compressed", "--max-time", "25", "-A", UA, url],
+    p = subprocess.run(["curl", "-s", "--max-time", "25", "-A", UA, url],
                        capture_output=True)
     try:
         data = p.stdout
