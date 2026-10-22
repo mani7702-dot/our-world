@@ -179,6 +179,7 @@ QUERY = {
     "nasa-football-flyover-inspiration-tour": "NASA F-5 flyover",
     "uk-extreme-heat-air-conditioning": "urban heat island city street",
     "new-guinea-drought-fires-el-nino": "New Guinea wildfire satellite smoke",
+    "anticrepuscular-rainbow-fan": "anticrepuscular rays rainbow sunset",
 }
 
 def ok_license(l):
