@@ -40,6 +40,7 @@ QUERY = {
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
     "ancient-peruvian-hairless-dogs-wari-huarmey": "Peruvian hairless dog",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
+    "mozambique-mount-mabu-butterfly-forest-protected": "Mozambique butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
     "nasa-simon-atmospheric-waves-above-hurricane": "atmospheric gravity waves hurricane satellite",
     "two-black-holes-hurtling-toward-cosmic-collision": "binary supermassive black hole galaxy jet",

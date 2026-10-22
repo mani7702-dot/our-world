@@ -18,3 +18,4 @@ scripts/parse-wsbtv.py
 scripts/second-source.py
 scripts/ssf-*.py
 scripts/wayback-check.py
+scripts/_*.py
