@@ -212,6 +212,7 @@ QUERY = {
     "ai-found-php-security-flaw-internet": "data center computer server rack illuminated",
     "2026-10-22-giant-scorpion-praearcturus-gigas": "fossil scorpion Praearcturus",
     "2026-10-22-iguazu-falls-super-el-nino-near-record-flows": "Iguazu Falls waterfall Argentina Brazil",
+    "2026-10-22-van-gogh-starry-night-real-sky": "Van Gogh The Starry Night 1889 painting Saint-Remy sky",
 }
 
 def ok_license(l):
