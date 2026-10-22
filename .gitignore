@@ -3,6 +3,7 @@ __pycache__/
 *.pyo
 .DS_Store
 .tmp_*
+_*.py
 _verify-*.png
 scripts/dbg-*.py
 scripts/2nd-source-*.py

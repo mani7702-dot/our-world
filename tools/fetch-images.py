@@ -136,6 +136,7 @@ QUERY = {
     "roman-temple-germany-frankfurt-limes": "Roman limes archaeological site Germany",
     "mars-helicopter-blade-designs-18km-flight": "Ingenuity Mars helicopter rotor",
     "stanford-microscope-seeing-living-cells": "optical microscopy biological cell",
+    "stanford-microscope-seeing-cells-without-labels": "optical microscopy biological cell",
     "moon-base-rover-progress-update-nasa": "lunar rover moon surface",
     "river-taff-fuel-leak-kills-fish": "river pollution foam",
     "six-ways-magic-protected-homes-from-witch-bottles-to-symbols": "witch bottle",

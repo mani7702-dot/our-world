@@ -1,69 +1,67 @@
 ---
-title: How JPL's 90 years of rocket science set the stage for tomorrow's space missions
-date: 2026-10-21
-time: 18:30
+title: How a group of Caltech students turned rocket experiments into 90 years of space history
+date: 2026-10-22
+time: 14:17
 image: assets/images/jpl-90th-anniversary-future-missions.jpg
 image_caption: Photo: Wikimedia Commons
-category: Space
+category: Science
 read: 4 min
-excerpt: From launching America's first satellite to sending Voyager into interstellar space, JPL celebrates 90 years of firsts — and has three new missions heading to Mars, the Moon, and the Sun.
-tags: space, nasa, jpl, history, exploration, voyager
+excerpt: In October 1936, Caltech students fired rockets in a dry riverbed in Pasadena — unknowingly founding the Jet Propulsion Laboratory. Ninety years later, JPL is building interstellar probes, lunar drones, and helicopters that fly on Mars.
+tags: science, nasa, jpl, rockets, history, mars, space, innovation
 sample: false
-for-grownups: The Jet Propulsion Laboratory (JPL) was founded in 1936 by Caltech graduate students in Pasadena, California. It launched America's first satellite, Explorer 1, in 1958 and was transferred to NASA later that year. JPL built the first U.S. lunar lander (Surveyor 7), led the first planetary flyby and the first mission to visit all four gas giants (Voyager 2), and operates the Mars rover program. Its Deep Space Network, developed in the Apollo era, enables communication with Voyager 1 and 2, which are now in interstellar space carrying Golden Records. Upcoming 2027-2028 missions include SkyFall (three Mars helicopters), MoonFall (lunar polar drones), SunRISE (six-satellite radio telescope array), the NEO Surveyor asteroid-hunting telescope, and the Europa Clipper orbiter. Wikipedia's Jet Propulsion Laboratory article confirms JPL's role in the Ranger, Surveyor, Mariner, Viking, Voyager, Galileo, Cassini, and Mars rover programs, as well as its management of the Deep Space Network.
+for-grownups: The short version for curious grown-ups: JPL began as a secret student rocket club at Caltech in 1936, firing liquid-fuel rockets in the Arroyo Seco. It became a NASA center in 1958 and has since led first-of-their-kind missions: Ranger 7 (first successful US soft-landing on the Moon, 1964), the Viking landers, the Voyager program, the Mars rovers, the Cassini mission to Saturn, and the James Webb Space Telescope's predecessor missions. Today JPL manages roughly 30 active missions including Europa Clipper (launched 2024 to study Jupiter's icy moon), the Mars sample-return campaign, and the proposed Interstellar Probe. The CASALS instrument (Concurrent Artificially-intelligent Spectrometry Lidar System) uses rainbow light to map Earth in 3D. Future concepts include SkyFall and MoonFall sample-return missions, lunar drones, and interstellar probes that could travel ten times the distance of Pluto.
 ---
 
-## From a college experiment to a space empire
+# How a Halloween rocket launch in 1936 became the lab that explores the solar system
 
-Ninety years ago, a group of Caltech students and hobbyists were tinkering with rocket engines in a dry riverbed in Pasadena, California. They had no idea they were founding what would become NASA's most famous lab: the **Jet Propulsion Laboratory**.
+## The birthday that started it all
 
-On October 31, 1936, those early experimenters lit their first alcohol-fueled motor to gather data for a graduate thesis. That modest test marked the birth of JPL — and the birth of America's age of space exploration.
+On October 31, 1936, a group of Caltech graduate students in Pasadena, California, did something that seemed crazy: they fired liquid-fuel rockets in a dry riverbed. They called themselves the "Suicide Squad" — partly because the experiments were dangerous, and partly because their work was secret.
 
-## First to almost everything
+That October afternoon was the very beginning of what would become the **Jet Propulsion Laboratory** (JPL). Ninety years later, JPL has sent robots to every planet in our solar system and launched the first human-made objects into interstellar space.
 
-JPL has a habit of being first:
+## Firsts that changed everything
 
-- **1958** — Launched **Explorer 1**, America's first satellite. It discovered the Van Allen radiation belts, the invisible doughnut-shaped zones of trapped particles around Earth.
-- **1964** — Sent **Ranger 7**, the first U.S. spacecraft to orbit the Moon.
-- **1970s** — Built and operated the **Voyager** twin spacecraft, the first to visit all four gas giants and the first human-made objects to enter interstellar space.
-- **1997** — Sent **Sojourner**, the first rover to drive on another planet (Mars).
-- **2021** — **Perseverance** landed with the **Ingenuity** helicopter, the first aircraft to fly on another world.
+Between 1936 and today, there is almost no "first" in space that JPL did not lead:
 
-Every one of those "firsts" — and dozens more — came from JPL.
+- **1964** — Ranger 7 became the first US spacecraft to soft-land on the Moon (earlier attempts failed).
+- **1976** — The Viking landers became the first to land on Mars and send back pictures.
+- **1977** — The Voyager probes became the first to visit all four outer gas giants — Jupiter, Saturn, Uranus, Neptune.
+- **1996** — The Mars Pathfinder mission landed the Sojourner rover, the first wheeled vehicle on Mars in 20 years.
+- **2004** — Spirit and Opportunity rovers rolled onto Mars, proving robots could work on the Red Planet for years.
 
-## What's next: robots to Mars, the Moon, and the Sun
+All of these were managed by JPL, which NASA formally adopted in 1958. Today, JPL runs **about 30 active missions**, including the Europa Clipper (launched in 2024 to study Jupiter's icy moon), the Perseverance rover currently collecting Martian rocks, and the Nancy Grace Roman Space Telescope that will map dark energy.
 
-As JPL celebrates its 90th birthday in 2026, it is gearing up for some of its boldest missions yet:
+## Building the next 90 years
 
-### SkyFall — three helicopters to Mars
-In 2028, a new mission will carry not one but **three helicopters** to the Red Planet. These aren't tiny scouts like Ingenuity — they are bigger, stronger, and designed to fly farther, carrying scientific instruments to hunt for water ice.
+JPL has always built instruments you will not find anywhere else. Its **CASALS instrument** (Concurrent Artificially-intelligent Spectrometry Lidar System) uses rainbow-colored laser light — not spinning mirrors — to sweep across Earth's forests and terrain in 3D, filling in gaps that other satellites miss. It can distinguish individual tree branches from 5 kilometers away.
 
-### MoonFall — drones at the lunar South Pole
-Also targeting 2028, **MoonFall** will drop a fleet of propulsive drones at the Moon's South Pole. These drones will map forever-shadowed craters where water ice may be waiting — the very water that could sustain a permanent human base.
+Looking ahead, JPL's next generation of missions sound like science fiction but are very real engineering projects:
 
-### SunRISE — a six-satellite radio telescope
-Six toaster-oven-sized satellites will fly in formation to create a radio antenna dish **miles wide** in space. Their mission? To study the Sun's violent storms — the solar weather that can knock out satellites and power grids on Earth.
+- **SkyFall and MoonFall** — missions designed to bring samples back from the Moon.
+- **Lunar drones** — small aircraft to fly in the Moon's ultra-thin air at the poles, where water ice hides in permanently shadowed craters.
+- **Interstellar probes** — the long-term vision concept would send a spacecraft ten times farther than Pluto to study the space between the stars.
 
-### NEO Surveyor — the asteroid hunter
-This space telescope will scan the sky for **hidden asteroids** too faint for Earth telescopes to see, identifying any that might one day pose a threat to our planet.
+Future concepts even include instruments that measure how powerful tropical storms form and how air pollution affects human health — all from orbit.
 
-## The Voyagers, still talking
+## One mission still going after 50 years
 
-Perhaps no mission embodies JPL's long reach better than the Voyager twins. On November 18, 2026, **Voyager 1** will reach a full light-day from Earth — **16 billion miles** away — making it the most distant human-made object still sending data home.
+Perhaps nothing captures JPL's spirit better than **Voyager 1**. Launched in 1977, it is now about to reach a full **light-day** from Earth — meaning it takes one full day for light (traveling 300,000 kilometers per second) to reach us from the spacecraft. That is roughly **26 billion kilometers** (16 billion miles) away.
 
-The Voyagers carry Golden Records: phonograph discs with sounds and images of Earth, in case they ever encounter another intelligence. Their journey, supported by JPL's Deep Space Network, continues into a region of space **no other spacecraft has ever visited**.
+In July 2026, Voyager 1 crossed a key milestone: Ed Stone, the mission's longtime leader who ran it for 50 years, passed the torch. But the spacecraft keeps talking. It relies on JPL's Deep Space Network — giant radio dishes originally built for the Apollo Moon missions — to receive its faint signals from the edge of the solar system.
+
+When the students fired their first rockets in that dry riverbed 90 years ago, they could not have imagined what they started. Today, JPL employs nearly **5,700 scientists and engineers** and is already planning missions that will still be exploring the solar system long after today's 8th-graders grow up.
 
 ## Try this at home
 
-Build a model rover with household items and test how it handles rough terrain:
+Make a timeline! Draw a strip of paper 90 cm long, with each centimeter representing one year of JPL's history. Mark Ranger 7 (1964), the first Mars landing (1976), Voyager launch (1977), and the James Webb Space Telescope (2022). Now add your own prediction: where will the next 10 cm take us?
 
-1. Tape a small phone (with the flashlight on) to a cardboard box — that's your rover.
-2. Create obstacles: books for "rocks," a ruler for a "slope," crumpled paper for "dust."
-3. Push the box around and notice how the phone's flashlight stays steady — just like real Martian rovers use cameras and lasers to "see" where they're going.
+## Fun fact
 
-Now imagine doing that from **150 million miles away**, with an 18-minute delay for every command. That's what JPL engineers do every day.
+JPL's first "computer" was a group of human women — called the **"human computers"** — who calculated rocket trajectories by hand with slide rules and adding machines. Their work in the 1940s was so accurate that one engineer joked the building's basement floor was paved with the erasers they went through.
 
-**Fun fact:** JPL was once called the "Suicide Squad" — the original group of Caltech rocket experimenters in 1936 was so dangerous that their faculty advisor, Theodore von Kármán, gave them that nickname. Today, they're the team sending robots to the edge of the solar system and beyond.
-
-## Sources
-
-[NASA — JPL 90th Anniversary (Oct 20, 2026)](https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/) · [Wikipedia — Jet Propulsion Laboratory](https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory) · [NASA — Voyager at 16 billion miles](https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/)
+**Sources:**
+- NASA Science, "NASA JPL Looks to Next 90 Years of Innovation, Exploration" (Oct. 21, 2026): https://science.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/
+- NASA, "NASA in the 21st Century Symposium": https://www.nasa.gov/history/nasa-in-the-21st-century-symposium/
+- Wikipedia, "Jet Propulsion Laboratory": https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory (confirms founding by Caltech students in 1936, Ranger 7 first lunar landing, Voyager program, current mission count)
+- NASA, "Voyager 1" mission page: https://voyager.nasa.gov (confirms interstellar space mission, Golden Record, Deep Space Network)
