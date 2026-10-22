@@ -207,6 +207,7 @@ QUERY = {
     "2026-10-22-mars-arsia-mons-mysterious-cloud": "Arsia Mons Mars cloud",
     "2026-10-22-hailstone-science-explainer": "hailstones on ground",
     "2026-10-22-virus-particles-self-assemble-without-a-blueprint": "virus capsid protein self-assembly microscopic",
+    "2026-10-22-how-did-a-rock-travel-90-km-into-earth": "subduction zone cross section Earth mantle eclogite",
 }
 
 def ok_license(l):
