@@ -48,13 +48,13 @@ That split-second escape was caught on camera by the team behind **Blue Planet I
 
 What let that octopus survive is the same kit that lets them open jars, solve mazes and impersonate flounder: a body with **no bones and no skeleton at all**. While a shark or seal is built like a machine with hinges and joints, an octopus is built like a very smart blob of muscle and skin — and that means it can squeeze through any gap bigger than the small, hard beak tucked in the middle of its head.
 
-Add eight arms, each lined with suckers that can grip rock or feel a passing current, plus a brain so distributed that a severed arm can still smell its way to food, and you have an animal built for slipping out of trouble. When camouflage fails, they fire a cloud of ink and jet backward in a rush — a getaway in reverse.
+Add eight arms, each lined with suckers that can grip rock or sense a passing current, plus a brain so distributed that a dropped arm can still smell food — and you have an animal built for slipping out of trouble. When camouflage fails, they fire a cloud of ink and jet backward in a rush — a getaway in reverse.
 
 ## Why it matters (and why Attenborough still leans in close)
 
-These escapes are not rare tricks, but they are rare to *see*. Octopuses live hidden, and most of their drama unfolds in three dimensions among rocks and kelp where cameras rarely fit. Catching one cheat death on film takes patience and a lens that does not disturb the scene — exactly the kind of work that has made the BBC Natural History Unit's Blue Planet series legendary since the year 2000.
+These escapes are not rare tricks, but they are rare to *see*. Octopuses live hidden, and most of their drama unfolds among rocks and kelp where cameras rarely fit. Catching one cheat death on film takes patience and a lens that does not disturb the scene — exactly the kind of work that has made the BBC Natural History Unit's Blue Planet series legendary since 2000.
 
-Sir David Attenborough, now in his second century, returns to narrate Blue Planet III. The new series premieres Sunday 1st November at 8pm on BBC One and iPlayer, taking viewers from icy polar seas to the coral tropics and out into the open ocean where encounters like the octopus escape still wait in the dark.
+Sir David Attenborough, now in his second century, returns to narrate Blue Planet III, which premieres Sunday 1st November at 8pm on BBC One and iPlayer.
 
 ## Fun Fact
 
