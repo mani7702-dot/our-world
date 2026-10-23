@@ -1,26 +1,51 @@
 #!/usr/bin/env python3
-import subprocess, re, sys
-from html import unescape
+"""Extract article text from BBC article using urllib and HTML parsing."""
+import urllib.request, re, html as htmlmod
 
-URL = "https://www.sciencedaily.com/releases/2026/10/261017230028.htm"
-UA = "Mozilla/5.0 (OurWorldSite crosscheck; contact andugulamani722@gmail.com)"
+UA = "Mozilla/5.0 (compatible; OurWorldBot/1.0; contact andugulamani722@gmail.com)"
 
-p = subprocess.run(["curl","-s","--compressed","--max-time","25","-A",UA,URL,"-o","/tmp/blueberry-article.html"],
-                   capture_output=True)
-print("downloaded, size:", p.stdout or "ok")
+urls = [
+    "https://www.bbc.com/news/articles/c20917w25n4o",  # How cleaning up the air is speeding up global warming
+    "https://www.bbc.com/news/videos/cmx2302xe931o",  # Why is a peat fire so bad?
+]
 
-# Read and parse
-html = open("/tmp/blueberry-article.html", encoding="utf-8", errors="ignore").read()
-text = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.S|re.I)
-text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.S|re.I)
-text = re.sub(r'<[^>]+>', ' ', text)
-text = unescape(text)
-text = re.sub(r'\s+', ' ', text)
-# Find the article body - look for key phrases
-# Print context around "blueberr" and "mood" and "depress"
-for kw in ["blueberries", "mood", "depress", "older adult", "gut microbi", "placebo", "study", "doi", "journal", "university"]:
-    idx = text.lower().find(kw)
-    if idx >= 0:
-        start = max(0, idx-100)
-        end = min(len(text), idx+300)
-        print(f"\n[{kw}] ...{text[start:end]}...")
+for url in urls:
+    print(f"\n=== {url} ===")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        resp = urllib.request.urlopen(req, timeout=20)
+        content = resp.read().decode("utf-8", errors="ignore")
+        # Remove scripts and styles
+        content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL|re.IGNORECASE)
+        content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL|re.IGNORECASE)
+        # Try to get title
+        title_match = re.search(r'<title[^>]*>(.*?)</title>', content, re.IGNORECASE|re.DOTALL)
+        if title_match:
+            title = htmlmod.unescape(title_match.group(1).strip())
+            print(f"TITLE: {title}")
+        
+        # Get meta description
+        desc_match = re.search(r'<meta[^>]*name=["\']description["\'][^>]*content=["\'](.*?)["\']', content, re.IGNORECASE|re.DOTALL)
+        if desc_match:
+            desc = htmlmod.unescape(desc_match.group(1).strip())
+            print(f"DESC: {desc[:300]}")
+        
+        # Get paragraphs from main content
+        # Remove tags but keep text
+        body = re.sub(r'<[^>]+>', ' ', content)
+        body = htmlmod.unescape(body)
+        body = re.sub(r'\s+', ' ', body).strip()
+        # Find the main article content
+        # Look for key phrases
+        for phrase in ["peat", "global warming", "aerosol", "sulfate", "dimethyl", "sulphate"]:
+            if phrase.lower() in body.lower():
+                idx = body.lower().find(phrase)
+                print(f"\nContext around '{phrase}':")
+                start = max(0, idx-200)
+                end = min(len(body), idx+500)
+                print(body[start:end])
+                break
+        print("...")
+        
+    except Exception as e:
+        print(f"ERROR: {e}")
