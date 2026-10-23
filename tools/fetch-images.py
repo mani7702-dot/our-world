@@ -86,7 +86,7 @@ QUERY = {
     "musk-tesla-spacex-merger-considered": "Tesla Model S electric car",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
-    "nasa-amazon-fires-hidden-beneath-rainforest": "Amazon rainforest wildfire satellite infrared",
+    "2026-10-23-swiss-glaciers-melting-fast": "Swiss Alps glacier ice mountain snow",
     "alaska-landslide-tsunami-tracy-arm-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "webb-stellar-jets-ngc7129-nebula": "NGC 7129 nebula James Webb stellar jets",
     "molecule-quantum-fourier-limit-surface": "crystal surface microscopy",
