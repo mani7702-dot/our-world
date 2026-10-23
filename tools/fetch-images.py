@@ -14,6 +14,7 @@ QUERY = {
     "2026-10-22-venus-slides-past-sun": "Venus planet from space NASA Solar System",
     "2026-10-22-weight-loss-drugs-skin-science": "human skin collagen fiber structure microscopic diagram",
     "2026-10-22-spider-crater-wa-space-image": "Spider Crater Western Australia impact structure Landsat",
+    "humpback-whale-mourned-stillborn-calf": "humpback whale mother calf Australia ocean",
     "massive-asteroid-north-sea-tsunami-silverpit-crater": "asteroid impact crater",
     "how-does-exercise-keep-muscles-young": "human muscle tissue",
     "bear-bread-farmers-market-aspen": "black bear",
