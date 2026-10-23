@@ -1,16 +1,16 @@
 {
   "ok": true,
-  "category": "science",
-  "title": "Firefighters and public 'knowingly put at risk' during summer wildfires",
-  "url": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss",
-  "slug": "firefighters-and-public-knowingly-put-at-risk-duri",
-  "desc": "Crews and control centre staff say the fires were relentless with many firefighters still off work injured.",
+  "category": "explainers",
+  "title": "Grid operator says lights will stay on this winter after concerns",
+  "url": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
+  "slug": "grid-operator-says-lights-will-stay-on-this-winter",
+  "desc": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
   "verified": true,
   "cross_sources": [
     {
-      "url": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
       "ok": true,
-      "title": "Firefighters 'knowingly put at risk' during summer wildfires - BBC News"
+      "title": "Grid operator says lights will stay on this winter after concerns - BBC News"
     },
     {
       "url": "https://www.sciencedaily.com/news/top_news.xml",
