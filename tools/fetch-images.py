@@ -230,6 +230,7 @@ QUERY = {
     "2026-10-22-milky-way-disk-two-stage-settling-gaia": "Milky Way galaxy disk spiral arms stars Gaia satellite",
     "2026-10-23-shark-hears-250-feet-underwater-sound": "blacktip shark Carcharhinus limbatus swimming ocean",
     "2026-10-23-teesdale-arctic-alpine-plants-seeds-fells": "arctic-alpine wildflowers Teesdale Spring Gentian Bird's-eye primrose",
+    "2026-10-23-aussie-bird-count-takes-flight-2026": "Australian magpie rainbow lorikeet noisy miner bird counting Australia wildlife",
     "rubin-observatory-test-camera-seagull-nebula": "Seagull Nebula IC 2177 ESO",
     "2026-10-23-webb-ngc-7129-stellar-nursery": "NGC 7129 nebula James Webb stellar jets",
     "2026-10-22-mit-black-hole-xray-reverberation": "supermassive black hole accretion disk coronagrapher X-ray Chandra",
