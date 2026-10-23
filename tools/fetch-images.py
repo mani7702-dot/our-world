@@ -255,6 +255,7 @@ QUERY = {
     "2026-10-23-rubio-india-jamnagar-refinery-energy": "Jamnagar Refinery Reliance Industries oil refinery Gujarat India",
     "2026-10-23-nurdles-from-tyne-spill-wash-up-in-denmark": "plastic nurdles pellets beach microplastic pollution",
     "2026-10-23-orphaned-baby-walrus-annautaq-rescue-alaska": "Pacific walrus calf Alaska SeaWorld Orlando",
+    "jwst-reveals-lopsided-alien-world-wind": "WASP-17b exoplanet artist impression hot Jupiter space telescope",
 }
 def ok_license(l):
     l = l.lower()
