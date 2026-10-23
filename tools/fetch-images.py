@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-23-blue-planet-iii-octopus-escape": "octopus swimming colour change camouflage",
     "indonesia-halts-deforestation-saving-4-million-acres": "orangutan Borneo rainforest",
     "2026-10-22-honey-bees-bullying-wild-pollinators": "honey bee on flower bumble bee pollinator",
     "2026-10-22-venus-slides-past-sun": "Venus planet from space NASA Solar System",
@@ -227,7 +228,6 @@ QUERY = {
     "2026-10-22-milky-way-disk-two-stage-settling-gaia": "Milky Way galaxy disk spiral arms stars Gaia satellite",
     "2026-10-23-shark-hears-250-feet-underwater-sound": "blacktip shark Carcharhinus limbatus swimming ocean",
     "2026-10-23-teesdale-arctic-alpine-plants-seeds-fells": "arctic-alpine wildflowers Teesdale Spring Gentian Bird's-eye primrose",
-    "2026-10-23-damaging-hail-pelts-phoenix-in-rare-storm": "hail stone ice pellet weather",
     "rubin-observatory-test-camera-seagull-nebula": "Seagull Nebula IC 2177 ESO",
     "2026-10-23-webb-ngc-7129-stellar-nursery": "NGC 7129 nebula James Webb stellar jets",
     "2026-10-22-mit-black-hole-xray-reverberation": "supermassive black hole accretion disk coronagrapher X-ray Chandra",
@@ -243,6 +243,7 @@ QUERY = {
     "2026-10-23-tongue-eating-louse-real-living-tongue": "Cymothoa exigua tongue-eating louse parasitic isopod fish",
     "2026-10-23-two-disks-accretion-jet": "accretion disk black hole jet 3C 120",
     "how-does-your-body-clock-know-day-from-night": "alarm clock sunrise clock face time",
+    "2026-10-23-earths-center-of-mass-keeps-shifting": "Earth planet from space NASA satellite view",
 }
 
 def ok_license(l):
