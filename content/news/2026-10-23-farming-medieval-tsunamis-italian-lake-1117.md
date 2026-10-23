@@ -2,8 +2,6 @@
 title: Did farmers accidentally set off tsunamis in an Italian lake 900 years ago?
 date: 2026-10-23
 time: 09:00
-image: assets/images/farming-medieval-tsunamis-italian-lake-1117.jpg
-image_caption: Photo: Wikimedia Commons
 category: History
 read: 3 min
 excerpt: "On Jan. 3, 1117, an earthquake struck northern Italy so hard that Lake Garda and Lake Iseo overflowed their banks. Now researchers say centuries of farming on the slopes made the landslides that triggered the flood waves even worse — and the same danger could return today."
