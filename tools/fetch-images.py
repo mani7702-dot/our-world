@@ -88,6 +88,7 @@ QUERY = {
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "2026-10-23-swiss-glaciers-melting-fast": "Swiss Alps glacier ice mountain snow",
     "alaska-landslide-tsunami-tracy-arm-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
+    "2026-10-23-saudi-arabia-joins-search-for-alien-civilizations": "LaserSETI optical detector telescope Saudi Arabia AlUla SETI sky watcher",
     "webb-stellar-jets-ngc7129-nebula": "NGC 7129 nebula James Webb stellar jets",
     "molecule-quantum-fourier-limit-surface": "crystal surface microscopy",
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
