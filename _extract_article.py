@@ -1,51 +1,28 @@
-#!/usr/bin/env python3
-"""Extract article text from BBC article using urllib and HTML parsing."""
-import urllib.request, re, html as htmlmod
+import subprocess, re, html, os
 
-UA = "Mozilla/5.0 (compatible; OurWorldBot/1.0; contact andugulamani722@gmail.com)"
+url = "https://phys.org/news/2026-10-farming-medieval-tsunamis-italian-lake.html"
+ua = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+p = subprocess.run(['curl', '-sL', '--max-time', '30', '-A', ua, url], capture_output=True)
+content = p.stdout.decode('utf-8', errors='replace')
 
-urls = [
-    "https://www.bbc.com/news/articles/c20917w25n4o",  # How cleaning up the air is speeding up global warming
-    "https://www.bbc.com/news/videos/cmx2302xe931o",  # Why is a peat fire so bad?
-]
+# Save raw for inspection
+with open('/tmp/physorg_article.html', 'w') as f:
+    f.write(content)
 
-for url in urls:
-    print(f"\n=== {url} ===")
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        resp = urllib.request.urlopen(req, timeout=20)
-        content = resp.read().decode("utf-8", errors="ignore")
-        # Remove scripts and styles
-        content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL|re.IGNORECASE)
-        content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL|re.IGNORECASE)
-        # Try to get title
-        title_match = re.search(r'<title[^>]*>(.*?)</title>', content, re.IGNORECASE|re.DOTALL)
-        if title_match:
-            title = htmlmod.unescape(title_match.group(1).strip())
-            print(f"TITLE: {title}")
-        
-        # Get meta description
-        desc_match = re.search(r'<meta[^>]*name=["\']description["\'][^>]*content=["\'](.*?)["\']', content, re.IGNORECASE|re.DOTALL)
-        if desc_match:
-            desc = htmlmod.unescape(desc_match.group(1).strip())
-            print(f"DESC: {desc[:300]}")
-        
-        # Get paragraphs from main content
-        # Remove tags but keep text
-        body = re.sub(r'<[^>]+>', ' ', content)
-        body = htmlmod.unescape(body)
-        body = re.sub(r'\s+', ' ', body).strip()
-        # Find the main article content
-        # Look for key phrases
-        for phrase in ["peat", "global warming", "aerosol", "sulfate", "dimethyl", "sulphate"]:
-            if phrase.lower() in body.lower():
-                idx = body.lower().find(phrase)
-                print(f"\nContext around '{phrase}':")
-                start = max(0, idx-200)
-                end = min(len(body), idx+500)
-                print(body[start:end])
-                break
-        print("...")
-        
-    except Exception as e:
-        print(f"ERROR: {e}")
+print(f"Content length: {len(content)}")
+
+# Extract text
+text = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL)
+text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
+text = re.sub(r'<[^>]+>', ' ', text)
+text = html.unescape(text)
+text = re.sub(r'\s+', ' ', text)
+
+# Find the article section
+idx = text.find('farming helped cause')
+if idx > 0:
+    article = text[idx:]
+else:
+    article = text[-3000:]
+
+print(article[:5000])
