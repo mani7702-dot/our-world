@@ -238,6 +238,7 @@ QUERY = {
     "mother-bats-hearts-babies-cries": "Japanese house bat mother pup echolocation cave roost",
     "2026-10-23-grid-operator-lights-winter-supply": "electricity transmission towers substation",
     "2026-10-23-how-citizen-science-tracks-shoreline-changes": "beach sand shoreline coast",
+    "2026-10-23-neutrinos-matter-asymmetry-key": "neutrino detector tank water Cherenkov",
 }
 
 def ok_license(l):
