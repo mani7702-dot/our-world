@@ -246,6 +246,7 @@ QUERY = {
     "how-does-your-body-clock-know-day-from-night": "alarm clock sunrise clock face time",
     "2026-10-23-forgotten-math-geniuses-modern-world": "mathematical equation formula graph chart",
     "2026-10-23-earths-center-of-mass-keeps-shifting": "Earth planet from space NASA satellite view",
+    "2026-10-23-denmark-bans-mink-farming": "mink animal farm enclosure denmark",
 }
 
 def ok_license(l):
