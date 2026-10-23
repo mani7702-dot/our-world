@@ -249,8 +249,8 @@ QUERY = {
     "2026-10-23-forgotten-math-geniuses-modern-world": "mathematical equation formula graph chart",
     "2026-10-23-earths-center-of-mass-keeps-shifting": "Earth planet from space NASA satellite view",
     "2026-10-23-denmark-bans-mink-farming": "mink animal farm enclosure denmark",
+    "2026-10-23-why-should-i-stockpile-and-what-will-i-need": "emergency supply kit backpack water food flashlight",
 }
-
 def ok_license(l):
     l = l.lower()
     return any(k in l for k in OK_LICENSE) and "nc" not in l and "nd" not in l
