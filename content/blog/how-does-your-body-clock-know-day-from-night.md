@@ -30,7 +30,7 @@ When the Sun goes down and the room grows dark, your brain does the opposite. It
 
 Imagine trying to sleep while someone keeps turning on the lights. That is what happens to people who work at night — nurses, factory workers, and truck drivers who keep the world running while everyone else sleeps. Their body clock still thinks it is morning at 3 a.m., so they struggle to fall asleep when they get home.
 
-> Try this at home: Close your curtains completely in the evening and turn off all the lights. Notice how much sleepier you feel compared to when you watch TV or look at your phone in the dark. The blue light from screens tricks your eye into thinking it is still daytime!
+> Try this at home: Close your curtains completely in the evening and turn off all the lights. You will feel sleepier faster than when you watch TV or look at your phone in the dark.
 
 **Fun Fact:** Some animals — like certain fish and frogs — have their own tiny clocks even in their tails and fins. That way, each part of their body knows the time without needing the brain to tell it!
 
