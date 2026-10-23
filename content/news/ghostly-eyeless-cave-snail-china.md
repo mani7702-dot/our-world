@@ -1,57 +1,54 @@
 ---
-title: What lives in a cave, has no eyes, and is so see-through you can almost see right through it?
-date: 2026-10-21
-time: 14:07
+title: How do animals live inside a cave with no light or eyes? China's ghostly cave snail shows us
+date: 2026-10-23
+time: 06:44
 image: assets/images/ghostly-eyeless-cave-snail-china.jpg
 image_caption: Photo: Wikimedia Commons
-category: Animals
+category: Science
 read: 3 min
-excerpt: "Deep in a Chinese mountain cave, scientists found a ghostly snail that lost its eyes and its color to live in total darkness — and the whole population might be only three snails."
-tags: animals, cave-dwelling, snails, gastropods, biodiversity, China, troglobites, conservation
+excerpt: Deep inside a dark cave in southern China, scientists found a tiny, see-through snail that has no eyes at all — and it may already be running out of time.
+tags: science, animals, snails, caves, China, biodiversity, adaptation
 sample: false
-for-grownups: A new species, Erhaia dijiang, was described in the journal Subterranean Biology (Pensoft) after fieldwork in August 2025 in a limestone cave near 2,062 m elevation in Guizhou Province, China. Only three living adults and one empty shell were found, with no juveniles, so the authors describe the conservation outlook as far from optimistic. Cave-adapted species are concept-level verified through Wikipedia's List of troglobites, which documents that subterranean animals repeatedly lose eyes and pigment as evolutionary adaptations to permanent darkness.
+for-grown-ups: >-
+  A new study published in Subterranean Biology (He et al., 2026; DOI 10.3897/subtbiol.56.188075) describes Erhaia dijiang, a new species of freshwater cave snail found in Yuxi City, Yunnan Province, China, at an elevation of 2,062 meters — the highest-altitude cave snail in its family (Erhaiidae) known to date. The snail is a true troglobiont: it has completely lost its eyes, has an unpigmented translucent body, long slender tentacles, and a small conical shell. It was named "dijiang" after Di Jiang, a faceless mountain deity from the ancient Chinese text Classic of Mountains and Seas, fitting its light-averse behavior in lab tests. The species lives in shallow water (less than 1 meter deep) among gravel and broken rock, at a stable temperature near 20°C, and stays within 2 meters of the cave entrance. During the first field survey in August 2025, researchers found only three living adults and one empty shell — no juveniles — leading them to describe its conservation outlook as "far from optimistic."
 ---
 
-# What lives in a cave, has no eyes, and is so see-through you can almost see right through it?
+# How does a creature live its whole life in total darkness?
 
-## A ghost from the deep dark
-Something pale and almost see-through is crawling through the cold, dark waters of a Chinese cave. It has no eyes — the spots where eyes should be are just smooth shell. It has no color, just a faint cone-shaped house it carries on its back. Meet **Erhaia dijiang**, a brand-new kind of freshwater snail that scientists have never seen before.
+## A ghost in the mountain
 
-The snail lives in a limestone cave high in the mountains of Guizhou Province, about **2,062 meters** (over 6,700 feet) above sea level. That makes it the highest-altitude cave snail anyone has ever found in its family, Erhaiidae.
+Deep inside a limestone cave in southern China, where sunlight has never touched the walls, scientists made a discovery that looks like something from a fairy tale. They found a tiny snail — no bigger than a grain of rice — that has no eyes at all. Not tiny eyes. Not hidden eyes. **No eyes whatsoever.**
 
-## Why has it lost its eyes and its color?
-Living in total darkness is a tough life — but also a revealing one. Over millions of years, cave animals evolve the same three tricks:
+This ghostly little creature is called *Erhaia dijiang*, a brand new species of freshwater cave snail. Its shell is see-through and cone-shaped, its body is soft and colorless, and two delicate feelers stick out like question marks. Scientists published their discovery in the journal *Subterranean Biology*, and it is the very first freshwater cave snail ever found in all of China.
 
-- **No eyes**: vision is useless when it is never, ever light, so the eye parts stop growing and shrink away
-- **No color (depigmentation)**: pigment uses energy, and without sunlight to hide from, there is nothing to gain from staying dark
-- **A see-through or very pale body**: so the snail can squeeze into cracks and crevices most animals cannot reach
+## Living without light
 
-The new Chinese cave snail fits this pattern perfectly. It is barely pigmented at all, and its long, slender tentacles feel their way through the water like tiny hands.
+Most animals on Earth depend on sunlight. Plants turn it into food, and animals eat the plants or eat the animals that ate the plants. But caves have no sunlight at all.
 
-## What does it eat in the dark?
-In the cave's cool stream — about 20°C year-round — the snails cling to submerged gravel and broken rock. They are shy feeders. When the researchers watched them in the lab, the snails ate **diatoms** (microscopic algae that paint rocks green and gold) and also accepted fish food. It is a quiet, simple diet for quiet, simple lives.
+So how does a cave snail survive? The answer is that it has learned to live **without the things other animals need**. Over millions of years, *Erhaia dijiang* and its relatives slowly changed. Eyes became useless in the dark, so they disappeared — the spots where eyes should be are just smooth skin now. Color faded away too, because without sunshine there is no need to hide from predators or attract mates with bright colors.
 
-Even when heavy seasonal rains swell the cave's water and wash a few snails out toward the surface, the animals have never been found in the streams below. They stay close — always within **two meters** of the cave mouth — as if the darkness itself is a home they never leave.
+Instead of eyes, the snail uses its long, thin tentacles to feel its way around. It brushes against rocks and gravel, sensing the shape of its world like a blind explorer with a walking stick. And just like its relatives in caves around the world, it survives on whatever tiny scraps drift by — mainly diatoms (microscopic algae) that grow on cave walls, even in the faintest chemical light.
 
-## An ancient, fragile name
-The scientists named the snail **dijiang**, borrowing from an old Chinese myth. In the *Classic of Mountains and Seas*, the **Di Jiang** is a faceless mountain spirit — a strange, unknowable guardian. During lab tests, the real snails showed they take that name seriously: shine a light on them, and they immediately pull back into the dark spaces under rocks.
+## A fragile survivor
 
-It is a name that fits a creature that would rather never meet the light.
+Scientists found *Erhaia dijiang* in a cave high up a mountainside in Yunnan Province — at 2,062 meters (6,765 feet) above sea level. That makes it not just the only cave snail in China, but also the one found at the **highest altitude** on record for its family. The cave water stays a steady 20°C (68°F) all year, and the snails cling to gravel and broken rock in water less than a meter deep — always near the cave mouth.
 
-## An urgent question: how many are left?
-Here is the worry. When the discovery team first explored the cave in **August 2025**, they found only **three living adult snails** — and one empty shell. No babies. No juveniles. Just a tiny cluster of grown-ups guarding a secret the cave has kept for who-knows-how-long.
+But here is the worrying part: when scientists first visited in August 2025, they found only **three living snails and one empty shell**. No babies. No juveniles. If a species cannot find enough mates or loses its babies, it cannot grow its family.
 
-That makes **Erhaia dijiang** one of the rarest animals on Earth. Its whole known population might be fewer than five individuals. And because cave snails live in such tight, hidden spaces, they can vanish before we even learn what they do.
+That is a real problem for cave creatures, which already live in some of the most fragile ecosystems on Earth. Caves are like tiny islands under the ground — clean water, stable temperatures, and very little space. Pollution upstream, changing water flow, or even too many visitors can upset the delicate balance in minutes.
 
-The researchers are calling for more cave surveys across China — many underground worlds have never been explored, and each might hold another ghostly traveler waiting to be noticed.
+The researchers hope their discovery will draw attention to the need to protect these hidden underwater worlds. After all, caves are Earth's last unexplored frontiers — and the creatures that live there may be disappearing before we even learn their names.
 
 ## Try this at home
-Make your own "dark cave" and watch how animals change without sight. Get a small flashlight and a clear cup. Put a few drops of milk in the water so it turns cloudy (this is like cave silt). Shine the light from the side — can you see through the cloudy water? Now tip the cup so the milk settles. The water clears. That is a bit like how a cave snail lives: in a world where light goes first, and seeing comes second (if at all). Always ask an adult to help with anything that uses electricity or water.
 
-## Fun fact
-Some cave snails can live for **years** on almost no food, slowing their bodies down like a phone on battery-saver mode. In the total dark, they age slower than their sunny backyard cousins.
+Fill a clear bowl with water and drop in a few smooth pebbles. Turn off the lights and use a flashlight to slowly move across the surface — pretend you are "feeling" your way through a cave like the snail does with its tentacles. Can you find the hidden rock "exit"? Cave animals rely on touch and taste, not sight, so every bump and current tells them where to go.
 
-**Sources:**
-- ScienceDaily: https://www.sciencedaily.com/releases/2026/10/261019093445.htm
-- Wikipedia — List of troglobites (cave-adapted animals): https://en.wikipedia.org/wiki/Troglobite
-- Subterranean Biology (Pensoft): https://www.pensoft.net/journals/subbiol/
+## Fun Fact
+
+The snail's scientific name "dijiang" comes from an **eyeless, faceless mountain god** in an ancient Chinese myth — a perfect match for a creature that lives in total darkness and navigates the world without eyes!
+
+## Sources
+
+- ScienceDaily, "Scientists discover ghostly, eyeless creature hidden in Chinese cave," 20 October 2026. (https://www.sciencedaily.com/releases/2026/10/261019093445.htm)
+- Pensoft Publishers blog, "China's First Cave-Dwelling Freshwater Snail Named After A Mythical Mountain God," 4 August 2026. (https://blog.pensoft.net/2026/08/04/chinas-first-cave-dwelling-freshwater-snail-named-after-a-mythical-mountain-god/)
+- He Y-M, Xiang H-Q, Yang J-M, Zheng H, Yang S-Z, Zhou Y-F, Zheng J (2026). "A new eyeless species in Erhaiidae (Gastropoda, Truncatelloidea) from a cave in Yuxi City, Yunnan, China." Subterranean Biology 56: 127-136. https://doi.org/10.3897/subtbiol.56.188075
