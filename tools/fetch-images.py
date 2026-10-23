@@ -50,6 +50,7 @@ QUERY = {
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
     "ancient-peruvian-hairless-dogs-wari-huarmey": "Peruvian hairless dog",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
+    "2026-10-23-2027-eclipse-egypt-temples": "total solar eclipse corona",
     "mozambique-mount-mabu-butterfly-forest-protected": "Mozambique butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
     "nasa-simon-atmospheric-waves-above-hurricane": "atmospheric gravity waves hurricane satellite",
@@ -234,6 +235,7 @@ QUERY = {
     "2026-10-23-recoiling-black-holes-pendulum-evidence": "supermassive black hole merger gravitational wave kick artist impression",
     "2026-10-23-exploding-stars-dark-energy-changing": "Type Ia supernova exploding star white dwarf standard candle",
     "2026-10-23-supernova-explosions-first-aided-then-later-impeded-epoch-of-reionization": "Hubble Deep Field galaxies gravitational lensing",
+    "mother-bats-hearts-babies-cries": "Japanese house bat mother pup echolocation cave roost",
 }
 
 def ok_license(l):
