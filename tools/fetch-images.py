@@ -240,6 +240,7 @@ QUERY = {
     "2026-10-23-how-citizen-science-tracks-shoreline-changes": "beach sand shoreline coast",
     "2026-10-23-neutrinos-matter-asymmetry-key": "neutrino detector tank water Cherenkov",
     "2026-10-23-tongue-eating-louse-real-living-tongue": "Cymothoa exigua tongue-eating louse parasitic isopod fish",
+    "2026-10-23-two-disks-accretion-jet": "accretion disk black hole jet 3C 120",
 }
 
 def ok_license(l):

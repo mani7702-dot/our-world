@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""Tirith-safe: fetch the full HTML of the Two Disks / Accretion Disks article from Universe Today."""
+import urllib.request
+import re
+import html
+
+URL = "https://www.universetoday.com/articles/two-disks-in-one-how-accretion-disks-drive-black-hole-jets/"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36 (OurWorldSite reader; contact andugulamani722@gmail.com)"
+
+req = urllib.request.Request(URL, headers={"User-Agent": UA})
+with urllib.request.urlopen(req, timeout=40) as resp:
+    raw = resp.read().decode("utf-8", errors="replace")
+
+# Save a clean text-ish extraction: keep paragraph text, strip scripts/styles
+no_script = re.sub(r"<(script|style)[^>]*>.*?</\1>", "\n", raw, flags=re.S | re.I)
+# Replace tags with newline to preserve paragraph breaks
+text = re.sub(r"<[^>]+>", "\n", no_script)
+text = html.unescape(text)
+# Collapse runs of blank lines
+text = re.sub(r"\n[ \t]*\n+", "\n\n", text)
+text = text.strip()
+
+with open("/tmp/ut_two_disks.txt", "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Saved /tmp/ut_two_disks.txt, length:", len(text), "chars")
+# Print a window around the article body start
+idx = text.lower().find("accretion disk")
+print("--- SNIPPET around 'accretion disk' ---")
+print(text[idx-200:idx+1200] if idx > 0 else "token not found")
