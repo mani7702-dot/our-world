@@ -237,6 +237,7 @@ QUERY = {
     "2026-10-23-supernova-explosions-first-aided-then-later-impeded-epoch-of-reionization": "Hubble Deep Field galaxies gravitational lensing",
     "mother-bats-hearts-babies-cries": "Japanese house bat mother pup echolocation cave roost",
     "2026-10-23-grid-operator-lights-winter-supply": "electricity transmission towers substation",
+    "2026-10-23-how-citizen-science-tracks-shoreline-changes": "beach sand shoreline coast",
 }
 
 def ok_license(l):
