@@ -236,6 +236,7 @@ QUERY = {
     "2026-10-23-exploding-stars-dark-energy-changing": "Type Ia supernova exploding star white dwarf standard candle",
     "2026-10-23-supernova-explosions-first-aided-then-later-impeded-epoch-of-reionization": "Hubble Deep Field galaxies gravitational lensing",
     "mother-bats-hearts-babies-cries": "Japanese house bat mother pup echolocation cave roost",
+    "2026-10-23-grid-operator-lights-winter-supply": "electricity transmission towers substation",
 }
 
 def ok_license(l):
