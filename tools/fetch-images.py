@@ -223,6 +223,7 @@ QUERY = {
     "hubble-roman-gravitational-lenses": "gravitational lens galaxy Hubble Space Telescope arc",
     "2026-10-22-vasuki-indicus-giant-prehistoric-snake-india": "prehistoric snake fossil skeleton",
     "2026-10-22-milky-way-disk-two-stage-settling-gaia": "Milky Way galaxy disk spiral arms stars Gaia satellite",
+    "2026-10-23-shark-hears-250-feet-underwater-sound": "blacktip shark Carcharhinus limbatus swimming ocean",
 }
 
 def ok_license(l):
