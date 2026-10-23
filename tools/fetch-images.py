@@ -77,6 +77,7 @@ QUERY = {
     "aldebra-giant-tortoises-thrive-180000-survey": "Aldabra giant tortoise Seychelles",
     "math-geniuses-built-modern-world": "mathematical equation formula",
     "2026-10-20-wfp-cuts-gaza-food-aid-funding-shortfall": "World Food Programme food distribution",
+    "2026-10-23-solar-orbiter-traces-magnetic-switchbacks-to-sun": "Solar Orbiter solar wind magnetic field switchback S-shaped",
     "musk-tesla-spacex-merger-considered": "Tesla Model S electric car",
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
