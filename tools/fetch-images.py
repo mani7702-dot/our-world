@@ -251,6 +251,7 @@ QUERY = {
     "2026-10-23-earths-center-of-mass-keeps-shifting": "Earth planet from space NASA satellite view",
     "2026-10-23-denmark-bans-mink-farming": "mink animal farm enclosure denmark",
     "2026-10-23-why-should-i-stockpile-and-what-will-i-need": "emergency supply kit backpack water food flashlight",
+    "2026-10-23-rubio-india-jamnagar-refinery-energy": "Jamnagar Refinery Reliance Industries oil refinery Gujarat India",
 }
 def ok_license(l):
     l = l.lower()
