@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "fish-oil-brain-health-no-benefit-study": "omega-3 DHA molecule structure fish oil capsule",
     "2026-10-23-blue-planet-iii-octopus-escape": "octopus swimming colour change camouflage",
     "indonesia-halts-deforestation-saving-4-million-acres": "orangutan Borneo rainforest",
     "2026-10-22-honey-bees-bullying-wild-pollinators": "honey bee on flower bumble bee pollinator",
