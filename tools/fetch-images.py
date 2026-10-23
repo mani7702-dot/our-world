@@ -243,6 +243,7 @@ QUERY = {
     "2026-10-23-tongue-eating-louse-real-living-tongue": "Cymothoa exigua tongue-eating louse parasitic isopod fish",
     "2026-10-23-two-disks-accretion-jet": "accretion disk black hole jet 3C 120",
     "how-does-your-body-clock-know-day-from-night": "alarm clock sunrise clock face time",
+    "2026-10-23-forgotten-math-geniuses-modern-world": "mathematical equation formula graph chart",
     "2026-10-23-earths-center-of-mass-keeps-shifting": "Earth planet from space NASA satellite view",
 }
 
