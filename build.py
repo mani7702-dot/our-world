@@ -181,16 +181,19 @@ def render(name, tokens):
     return t
 
 
-def page(title, desc, active, prefix, main_name, main_tokens, base_extra=None):
+def page(title, desc, active, prefix, main_name, main_tokens, base_extra=None, canonical_path=None):
+    """Render a generated page with canonical + og:url + og:image.
+
+    canonical_path is the site-root-relative path of the page (e.g. "/blog/",
+    "/blog/foo.html"). When omitted it is derived from `active`: "home" -> "/",
+    otherwise "/<section>/".
+    """
     base_extra = base_extra or {}
-    # Auto-build canonical <link> tag for the page (section + slug if present).
-    slug = main_tokens.get("SLUG", "")
-    canon_url = ("%s/%s/%s.html" % (SITE_BASE, active, slug)) if active and slug else ""
+    if canonical_path is None:
+        canonical_path = "/" if active == "home" else "/%s/" % active
+    canon_url = SITE_BASE + canonical_path
     base_extra.setdefault("CANONICAL_TAG", canonical_tag(canon_url))
-    # og:url meta tag — only emitted when explicitly supplied (e.g. home).
-    og_url = base_extra.get("OG_URL", "")
-    base_extra.setdefault("OG_URL_TAG",
-        ('<meta property="og:url" content="%s">\n' % og_url) if og_url else "")
+    base_extra.setdefault("OG_URL_TAG", '<meta property="og:url" content="%s">\n' % canon_url)
     # og:image must be an ABSOLUTE URL — social scrapers do not resolve relative paths.
     base_extra.setdefault("OG_IMAGE", "%s/assets/og-cover.png" % SITE_BASE)
     # AdSense header script tag — empty until ADSENSE_PUB_ID is configured.
@@ -440,6 +443,7 @@ def search_page():
         "../",
         "search.html",
         {},
+        canonical_path="/search/",
     )
 
 
@@ -568,6 +572,68 @@ def build_feed(blog, news):
     )
 
 
+# Hand-authored pages (not produced by a template). They still need canonical/og tags,
+# and those must follow SITE_BASE when the domain changes, so a build pass injects them.
+STATIC_HTML = [
+    "about/index.html",
+    "contact/index.html",
+    "parents/index.html",
+    "privacy/index.html",
+    "terms/index.html",
+    "games/index.html",
+    "games/memory-match.html",
+    "games/math-quiz.html",
+    "games/draw-paint.html",
+    "games/bubble-pop.html",
+    "games/colour-echo.html",
+    "games/tic-tac-toe.html",
+    "games/number-slide.html",
+    "games/hungry-snake.html",
+]
+
+CANON_START = "<!-- ow:canonical -->"
+CANON_END = "<!-- /ow:canonical -->"
+
+
+def add_canonical_to_static_pages():
+    """Inject canonical + og tags into hand-authored pages, idempotently.
+
+    build.py generates the home page, section indexes and articles; the pages above are
+    edited by hand. Without this pass they would silently lack canonical tags and would
+    have to be hand-edited whenever the domain changes. The marked block is stripped and
+    re-inserted on every build, so repeated runs converge instead of accumulating tags.
+    """
+    changed = []
+    for rel in STATIC_HTML:
+        path = os.path.join(ROOT, rel)
+        if not os.path.exists(path):
+            continue
+        html = read(path)
+        if rel.endswith("index.html"):
+            url = "%s/%s" % (SITE_BASE, rel[: -len("index.html")])
+        else:
+            url = "%s/%s" % (SITE_BASE, rel)
+        block = "\n".join([
+            CANON_START,
+            canonical_tag(url).rstrip("\n"),
+            '<meta property="og:url" content="%s">' % url,
+            '<meta property="og:image" content="%s/assets/og-cover.png">' % SITE_BASE,
+            CANON_END,
+            "",
+        ])
+        # Drop any block from a previous run so this is safe to run repeatedly.
+        html = re.sub(
+            re.escape(CANON_START) + r".*?" + re.escape(CANON_END) + r"\n?",
+            "", html, flags=re.S,
+        )
+        marker = '<link rel="icon"'
+        if marker not in html:
+            continue
+        write(path, html.replace(marker, block + marker, 1))
+        changed.append(rel)
+    return changed
+
+
 def main():
     blog = load_posts("blog")
     news = load_posts("news")
@@ -587,6 +653,9 @@ def main():
     # client-side search index (site root, fetched by search/index.html)
     write(os.path.join(ROOT, "search-index.json"), build_search_index(blog + news))
     written.append("search-index.json")
+
+    # canonical/og tags for hand-authored pages (idempotent; follows SITE_BASE)
+    written.extend(add_canonical_to_static_pages())
 
     # home
     home_tokens = {
