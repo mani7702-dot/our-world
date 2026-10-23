@@ -254,6 +254,7 @@ QUERY = {
     "2026-10-23-why-should-i-stockpile-and-what-will-i-need": "emergency supply kit backpack water food flashlight",
     "2026-10-23-rubio-india-jamnagar-refinery-energy": "Jamnagar Refinery Reliance Industries oil refinery Gujarat India",
     "2026-10-23-nurdles-from-tyne-spill-wash-up-in-denmark": "plastic nurdles pellets beach microplastic pollution",
+    "2026-10-23-orphaned-baby-walrus-annautaq-rescue-alaska": "Pacific walrus calf Alaska SeaWorld Orlando",
 }
 def ok_license(l):
     l = l.lower()
