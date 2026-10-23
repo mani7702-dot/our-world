@@ -234,6 +234,7 @@ QUERY = {
     "2026-10-23-recoiling-black-holes-pendulum-evidence": "supermassive black hole merger gravitational wave kick artist impression",
     "2026-10-23-exploding-stars-dark-energy-changing": "Type Ia supernova exploding star white dwarf standard candle",
     "2026-10-23-supernova-explosions-first-aided-then-later-impeded-epoch-of-reionization": "Hubble Deep Field galaxies gravitational lensing",
+    "hardings-pits-village-green-protected-kings-lynn-wildlife": "Harding Pits wildlife nature reserve Norfolk King's Lynn",
 }
 
 def ok_license(l):

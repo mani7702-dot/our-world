@@ -182,13 +182,27 @@ def render(name, tokens):
 
 
 def page(title, desc, active, prefix, main_name, main_tokens, base_extra=None):
+    base_extra = base_extra or {}
+    # Auto-build canonical <link> tag for the page (section + slug if present).
+    slug = main_tokens.get("SLUG", "")
+    canon_url = ("%s/%s/%s.html" % (SITE_BASE, active, slug)) if active and slug else ""
+    base_extra.setdefault("CANONICAL_TAG", canonical_tag(canon_url))
+    # og:url meta tag — only emitted when explicitly supplied (e.g. home).
+    og_url = base_extra.get("OG_URL", "")
+    base_extra.setdefault("OG_URL_TAG",
+        ('<meta property="og:url" content="%s">\n' % og_url) if og_url else "")
+    # AdSense header script tag — empty until ADSENSE_PUB_ID is configured.
+    base_extra.setdefault("ADSENSE_TAG", build_adsense_tag() if ADSENSE_PUB_ID else "")
     tokens = {
         "TITLE": title,
         "DESC": desc,
-        "JSONLD": (base_extra or {}).get("JSONLD", ""),
         "PREFIX": prefix,
         "NAV": nav_html(active, prefix),
         "MAIN": render(main_name, main_tokens),
+        "CANONICAL_TAG": base_extra.get("CANONICAL_TAG", ""),
+        "OG_URL_TAG": base_extra.get("OG_URL_TAG", ""),
+        "JSONLD": base_extra.get("JSONLD", ""),
+        "ADSENSE_TAG": base_extra.get("ADSENSE_TAG", build_adsense_tag() if ADSENSE_PUB_ID else ""),
     }
     return render("base.html", tokens)
 
@@ -384,7 +398,13 @@ def article_page(p):
     }
     title = "%s — Our World" % esc(p["title"])
     desc = p["excerpt"][:155]
-    out = page(title, desc, section, prefix, "article.html", tokens, base_extra={"JSONLD": jsonld_script})
+    canon_url = "%s/%s/%s.html" % (SITE_BASE, section, p["slug"])
+    out = page(title, desc, section, prefix, "article.html", tokens,
+               base_extra={
+                   "JSONLD": jsonld_script,
+                   "CANONICAL_TAG": canonical_tag(canon_url),
+                   "OG_URL_TAG": '<meta property="og:url" content="%s">\n' % canon_url,
+               })
     write(os.path.join(ROOT, section, p["slug"] + ".html"), out)
 
 
@@ -420,7 +440,65 @@ def search_page():
     )
 
 
-SITE_BASE = "https://mani7702-dot.github.io/our-world"
+# Allow overriding the deployed domain via env so the same build can serve a custom domain:
+#   SITE_BASE="https://ourworld.news" python build.py
+SITE_BASE = os.environ.get("SITE_BASE", "https://mani7702-dot.github.io/our-world")
+
+# AdSense publisher ID (leave empty until you have an approved account). When set, every
+# page gets the AdSense <script> so revenue is "code-ready" at launch.
+ADSENSE_PUB_ID = os.environ.get("ADSENSE_PUB_ID", "")
+
+
+def build_adsense_tag():
+    """Render the AdSense <script async data-ad-client> tag. Empty until a pub ID is set.
+
+    The canonical AdSense header script is:
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    With a publisher ID, add  data-ad-client="ca-pub-<ID>"  to enable auto-ads.
+    Until you're approved, ADSENSE_PUB_ID stays empty and NO script is injected.
+    """
+    if not ADSENSE_PUB_ID:
+        return ""
+    return ('<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"'
+            ' data-ad-client="ca-pub-{pub}"></script>').format(pub=ADSENSE_PUB_ID)
+
+
+def build_adsense_slot(slot_id):
+    """Render an AdSense ad <ins> slot. Returns empty until ADSENSE_PUB_ID is set.
+
+    Drop into an article template as {{ADSENSE_SLOT}}; the page auto-hides it (display:none)
+    when empty so layout is stable pre-approval.
+    """
+    if not ADSENSE_PUB_ID:
+        return ""
+    return ('<ins class="adsbygoogle" style="display:block;margin:2rem auto"'
+            ' data-ad-client="ca-pub-{pub}" data-ad-slot="{slot}"'
+            ' data-ad-format="auto" data-full-width-responsive="true"></ins>').format(
+                pub=ADSENSE_PUB_ID, slot=slot_id)
+
+
+def build_ads_txt():
+    """Generate ads.txt at the site root. Empty/comment-only until a pub ID is set.
+
+    Google will not suppress earnings on an empty ads.txt, but a valid line here is
+    required once you go live with ads:
+        google.com, ca-pub-<YOUR_ID>, DIRECT, f08c47fec0940fa3
+    """
+    if not ADSENSE_PUB_ID:
+        return "# ads.txt placeholder — add your AdSense ca-pub line after approval.\n"
+    return "google.com, ca-pub-{pub}, DIRECT, f08c47fec0940fa3\n".format(pub=ADSENSE_PUB_ID)
+
+
+def build_adsense_slot(slot_id):
+    """Render an ad <ins> slot. Caller styles placement. Empty until a pub ID is set."""
+    if not ADSENSE_PUB_ID:
+        return ""
+    return '<ins class="adsbygoogle" data-ad-client="ca-pub-{pub}" data-ad-slot="{slot}"></ins>'.format(pub=ADSENSE_PUB_ID, slot=slot_id)
+
+
+def canonical_tag(canonical_url):
+    """<link rel=canonical> tag for a page. Empty when no URL supplied."""
+    return '<link rel="canonical" href="%s">\n' % canonical_url if canonical_url else ""
 
 
 def build_robots_txt():
@@ -495,6 +573,9 @@ def main():
     # robots.txt + sitemap.xml (root-relative; update the domain once chosen)
     write(os.path.join(ROOT, "robots.txt"), build_robots_txt())
     written.append("robots.txt")
+    # ads.txt — required for AdSense; empty/comment-only until a pub ID is configured.
+    write(os.path.join(ROOT, "ads.txt"), build_ads_txt())
+    written.append("ads.txt")
     write(os.path.join(ROOT, "sitemap.xml"), build_sitemap(blog, news))
     written.append("sitemap.xml")
     write(os.path.join(ROOT, "feed.xml"), "\n".join(build_feed(blog, news)))
