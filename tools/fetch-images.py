@@ -228,6 +228,7 @@ QUERY = {
     "rubin-observatory-test-camera-seagull-nebula": "Seagull Nebula IC 2177 ESO",
     "2026-10-23-webb-ngc-7129-stellar-nursery": "NGC 7129 nebula James Webb stellar jets",
     "2026-10-22-mit-black-hole-xray-reverberation": "supermassive black hole accretion disk coronagrapher X-ray Chandra",
+    "soy-compound-salt-brain-health-mice": "soybeans in pod",
 }
 
 def ok_license(l):
