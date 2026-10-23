@@ -230,6 +230,7 @@ QUERY = {
     "2026-10-23-webb-ngc-7129-stellar-nursery": "NGC 7129 nebula James Webb stellar jets",
     "2026-10-22-mit-black-hole-xray-reverberation": "supermassive black hole accretion disk coronagrapher X-ray Chandra",
     "soy-compound-salt-brain-health-mice": "soybeans in pod",
+    "2026-10-23-euclid-discovers-comet-c2026-s1": "Euclid space telescope comet C/2026 S1",
 }
 
 def ok_license(l):
