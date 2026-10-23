@@ -258,7 +258,8 @@ QUERY = {
     "2026-10-23-orphaned-baby-walrus-annautaq-rescue-alaska": "Pacific walrus calf Alaska SeaWorld Orlando",
     "jwst-reveals-lopsided-alien-world-wind": "WASP-17b exoplanet artist impression hot Jupiter space telescope",
     "2026-10-23-typhoon-champi-strongest-storm-of-year-el-nino": "typhoon aerial view spiral satellite storm clouds Pacific Ocean",
-    "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation"
+    "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation",
+    "2026-10-24-masaya-volcano-beneath-strange-dance": "Masaya volcano Nicaragua Santiago crater lava lake sulfur gas"
 }
 def ok_license(l):
     l = l.lower()
