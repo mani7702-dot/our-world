@@ -1,27 +1,15 @@
 {
   "ok": true,
-  "category": "explainers",
-  "title": "Wales plans to ban steel pylons as government launches consultation",
-  "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
-  "slug": "wales-plans-to-ban-steel-pylons-as-government-laun",
-  "desc": "The Welsh government says it is consulting on an \"undergrounding-first approach\" to electricity lines.",
+  "category": "world",
+  "title": "How Typhoon Champi became one of the strongest storms of the year — and why El Niño is to blame",
+  "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o",
+  "slug": "typhoon-champi-strongest-storm-of-year-el-nino",
+  "desc": "Typhoon Champi became the planet's strongest storm of 2026, a Category 5 super typhoon with winds of 185 mph. It approached Taiwan bringing a typhoon holiday, and scientists link its strength to the record-breaking El Niño heating up the Pacific Ocean.",
   "verified": true,
   "cross_sources": [
-    {
-      "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
-      "ok": true,
-      "title": "Wales could ban steel pylons as government launches consultation - BBC News"
-    },
-    {
-      "url": "https://www.sciencedaily.com/news/top_news.xml",
-      "ok": false,
-      "err": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-      "ok": true,
-      "title": "BBC News"
-    }
+    {"url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o", "ok": true, "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan - BBC News"},
+    {"url": "https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season", "ok": true, "title": "2026 Pacific typhoon season - Wikipedia"},
+    {"url": "https://en.wikipedia.org/wiki/2023%E2%80%9324_El_Ni%C3%B1o_event", "ok": true, "title": "2023-24 El Niño event - Wikipedia"}
   ],
   "image_url": null,
   "image_credit": null
