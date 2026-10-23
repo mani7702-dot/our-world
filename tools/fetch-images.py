@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "private-griffin-moon-lander-gets-put-to-the-test": "Griffin-1 lunar lander NASA JPL space simulator testing",
     "fish-oil-brain-health-no-benefit-study": "omega-3 DHA molecule structure fish oil capsule",
     "2026-10-23-blue-planet-iii-octopus-escape": "octopus swimming colour change camouflage",
     "indonesia-halts-deforestation-saving-4-million-acres": "orangutan Borneo rainforest",
