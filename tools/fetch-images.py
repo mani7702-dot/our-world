@@ -286,6 +286,7 @@ QUERY = {
     "2026-10-24-marmoset-brain-smooth-folds": "marmoset monkey brain anatomy neurons synapse",
     "2026-10-24-magnetic-web-above-sun": "Sunrise-III balloon telescope solar magnetic field chromosphere Sun surface",
     "2026-10-24-ukraine-starlink-connection-now-stable-after-network-limits": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish",
+    "2026-10-24-ukraine-starlink-stable-connection-after-network-limits": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish",
     "2026-10-24-spacex-starlink-california-launch-cadence-slows": "SpaceX Falcon 9 Starlink launch Vandenberg droneship landing booster landing",
     "2026-10-24-hidden-brain-messages-locus-coeruleus": "locus coeruleus brainstem neuron norepinephrine brain anatomy diagram",
     "2026-10-24-hidden-safety-bias-human-language": "human language word meaning safety bias brain neural network communication",
