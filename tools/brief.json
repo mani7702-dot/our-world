@@ -1,16 +1,16 @@
 {
   "ok": true,
   "category": "explainers",
-  "title": "Storm Austen brings power cuts and travel disruption as more wind and rain forecast",
-  "url": "https://www.bbc.co.uk/news/articles/cxj0l193y0l8o?at_medium=RSS&at_campaign=rss",
-  "slug": "storm-austen-brings-power-cuts-and-travel-disrupti",
-  "desc": "A second storm, Storm Boelo, is expected to hit Scotland, Northern Ireland and northern England on Saturday bringing more wild weather.",
+  "title": "Wales plans to ban steel pylons as government launches consultation",
+  "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
+  "slug": "wales-plans-to-ban-steel-pylons-as-government-laun",
+  "desc": "The Welsh government says it is consulting on an \"undergrounding-first approach\" to electricity lines.",
   "verified": true,
   "cross_sources": [
     {
-      "url": "https://www.bbc.co.uk/news/articles/cxj0l193y0l8o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
       "ok": true,
-      "title": "Storm Austen: Strong winds and heavy rain batter southern UK - BBC News"
+      "title": "Wales could ban steel pylons as government launches consultation - BBC News"
     },
     {
       "url": "https://www.sciencedaily.com/news/top_news.xml",
