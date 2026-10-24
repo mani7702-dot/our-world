@@ -656,6 +656,25 @@
     ]
   },
   {
+    "title": "\"What is NASA sending to the Moon aboard a rover named FLIP?\"",
+    "url": "news/2026-10-24-flip-rover-supercomputer-moon.html",
+    "section": "news",
+    "excerpt": "\"A California space company is sending a rugged supercomputer and AI computer to the Moon's south pole this year — riding on a rover named FLIP.\"",
+    "tags": [
+      "space",
+      "moon",
+      "nasa",
+      "artemis",
+      "supercomputer",
+      "ai",
+      "robotics",
+      "FLIP",
+      "Astrolab",
+      "HPE",
+      "Griffin Mission 1"
+    ]
+  },
+  {
     "title": "\"How did giant stick insects hide their true identity for decades — and what DNA revealed?\"",
     "url": "news/2026-10-24-giant-stick-insects-fooled-scientists-for-decades.html",
     "section": "news",
@@ -1056,6 +1075,21 @@
       "dark-matter",
       "black-holes",
       "cosmos"
+    ]
+  },
+  {
+    "title": "What hidden magnetic web did a balloon telescope find above the Sun?",
+    "url": "news/2026-10-24-suns-hidden-magnetic-web.html",
+    "section": "news",
+    "excerpt": "A balloon-borne telescope called Sunrise-III floated 35 km above Earth in 2024 and spotted delicate, thread-like magnetic structures woven through the Sun's \"quiet\" regions — a hidden web that may help explain how the Sun's atmosphere stays hot.",
+    "tags": [
+      "sun",
+      "solar physics",
+      "magnetism",
+      "Sunrise-III",
+      "space telescopes",
+      "astrophysics",
+      "balloon telescope"
     ]
   },
   {

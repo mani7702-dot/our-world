@@ -3,7 +3,7 @@ title: "What is NASA sending to the Moon aboard a rover named FLIP?"
 date: 2026-10-24
 time: 18:47
 image: assets/images/2026-10-24-flip-rover-supercomputer-moon.jpg
-image_caption: "Artist's concept of Astrolab's FLIP rover on the Moon. Credit: Astrolab / NASA CLPS"
+image_caption: "Artist's concept of a lunar rover on the Moon. Public domain. Credit: NASA Johnson Space Center / Wikimedia Commons"
 category: Space
 read: 4 min
 excerpt: "A California space company is sending a rugged supercomputer and AI computer to the Moon's south pole this year — riding on a rover named FLIP."
