@@ -38,6 +38,7 @@ QUERY = {
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
     "mmx-mars-phobos-sample": "Phobos",
     "japan-mmx-mars-phobos-sample-mission-launches": "Phobos Mars moon",
+    "japan-mars-moon-samples": "Phobos Mars moon spacecraft MMX",
     "how-does-a-compass-work": "compass",
     "soy-salt-brain-compound": "soybeans",
     "forests-swallowing-methane-climate-shift": "forest floor leaf litter",
