@@ -159,6 +159,7 @@ QUERY = {
     "wasps-nest-took-over-wildlife-office-norfolk": "paper wasp nest",
     "david-bushnell-turtle-secret-submarine-1776": "David Bushnell Turtle submarine",
     "aging-brain-memory-meaning": "brain anatomy diagram hippocampus",
+    "2026-10-24-aging-brain-trades-memory-for-wisdom": "hippocampus brain anatomy frontal cortex neuron memory meaning wisdom",
     "roman-temple-germany-frankfurt-limes": "Roman limes archaeological site Germany",
     "mars-helicopter-blade-designs-18km-flight": "Ingenuity Mars helicopter rotor",
     "stanford-microscope-seeing-living-cells": "optical microscopy biological cell",
