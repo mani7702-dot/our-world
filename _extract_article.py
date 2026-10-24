@@ -1,28 +1,53 @@
-import subprocess, re, html, os
+#!/usr/bin/env python3
+"""Extract full article text from a Universe Today URL using urllib (Tirith-safe)."""
+import urllib.request, re, html as htmlmod, gzip, sys
 
-url = "https://phys.org/news/2026-10-farming-medieval-tsunamis-italian-lake.html"
-ua = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
-p = subprocess.run(['curl', '-sL', '--max-time', '30', '-A', ua, url], capture_output=True)
-content = p.stdout.decode('utf-8', errors='replace')
+url = sys.argv[1] if len(sys.argv) > 1 else "https://www.universetoday.com/articles/white-dwarfs-are-actuallyyellow-green-pink-and-purple"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
-# Save raw for inspection
-with open('/tmp/physorg_article.html', 'w') as f:
-    f.write(content)
+req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+try:
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = resp.read()
+        if resp.headers.get("Content-Encoding") == "gzip" or raw[:2] == b'\x1f\x8b':
+            raw = gzip.decompress(raw)
+        text = raw.decode('utf-8', errors='replace')
+except Exception as e:
+    print(f"FETCH ERROR: {e}")
+    sys.exit(1)
 
-print(f"Content length: {len(content)}")
+# Extract article body — Universe Today uses <article> or .entry-content
+article = ""
+# Try article tag
+m = re.search(r'<article[^>]*>(.*?)</article>', text, re.DOTALL | re.IGNORECASE)
+if m:
+    article = m.group(1)
+# Fallback: .entry-content
+if not article:
+    m = re.search(r'class="entry-content[^"]*"[^>]*>(.*?)</div>', text, re.DOTALL | re.IGNORECASE)
+    if m:
+        article = m.group(1)
+# Fallback: .post-content
+if not article:
+    m = re.search(r'class="post-content[^"]*"[^>]*>(.*?)</div>', text, re.DOTALL | re.IGNORECASE)
+    if m:
+        article = m.group(1)
 
-# Extract text
-text = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL)
-text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
-text = re.sub(r'<[^>]+>', ' ', text)
-text = html.unescape(text)
-text = re.sub(r'\s+', ' ', text)
+if not article:
+    print("Could not locate article body; dumping page title + length.")
+    t = re.search(r'<title>(.*?)</title>', text, re.DOTALL | re.IGNORECASE)
+    print(f"Title: {t.group(1) if t else 'N/A'}")
+    print(f"Page length: {len(text)} chars")
+    sys.exit(2)
 
-# Find the article section
-idx = text.find('farming helped cause')
-if idx > 0:
-    article = text[idx:]
-else:
-    article = text[-3000:]
-
-print(article[:5000])
+# Strip scripts/styles
+article = re.sub(r'<script.*?</script>', '', article, flags=re.DOTALL | re.IGNORECASE)
+article = re.sub(r'<style.*?</style>', '', article, flags=re.DOTALL | re.IGNORECASE)
+# Clean
+article = re.sub(r'<[^>]+>', ' ', article)
+article = htmlmod.unescape(article)
+article = re.sub(r'\s+', ' ', article).strip()
+print(f"ARTICLE LENGTH: {len(article)} chars")
+print("=" * 60)
+print(article[:4000])
+print("=" * 60)
