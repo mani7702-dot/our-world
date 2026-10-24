@@ -42,22 +42,25 @@
       <div class="container">
         <span class="kicker">About</span>
         <h1>About Our World</h1>
-        <p>A small, calm corner of the internet for young readers — stories, games and news in one place.</p>
+        <p>A small, calm corner of the internet for curious minds of every age — stories, games and news in one place.</p>
       </div>
     </section>
     <section class="page-body">
       <div class="container prose">
         <h2>Why it exists</h2>
-        <p>Most kids' sites shout: pop-ups, ads, endless video autoplay, features designed to keep eyes glued. Our World does the opposite — it gives young readers good short content and then leaves them alone.</p>
+        <p>Most sites for young readers shout: pop-ups, ads, endless video autoplay, features designed to keep eyes glued. Our World does the opposite — it gives readers good short content and then leaves them alone. Children are the audience we build for, and adults are welcome to read along.</p>
         <h2>How it is built</h2>
         <p>The whole site is plain static files: no database, no accounts, nothing to hack. That is also why it loads fast on a school computer and keeps working when everything else is slow.</p>
         <h2>Talk to us</h2>
-        <p>Parents and teachers can write about anything: a correction, a topic you would like covered, or a safety question. We read everything.</p>
+        <p>Anyone can write about anything: a correction, a topic you would like covered, or a safety question. We read everything.</p>
         <ul class="contact-ways">
-          <li><strong>Email:</strong> <a href="mailto:hello@ourworld.example">hello@ourworld.example</a> <span class="muted small">(replace with the real address before launch)</span></li>
-          <li><strong>Form:</strong> it goes live the moment a real form ID is set. Until then it posts nowhere, so nothing you type leaves this page.</li>
+          <li><strong>Email:</strong> <a class="ow-contact-email" href="mailto:contact@ourworld.eu.org">contact@ourworld.eu.org</a></li>
         </ul>
-        <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
+        <!-- Message form. To switch it on: create a free form at https://formspree.io, then set
+             action="https://formspree.io/f/YOUR_FORM_ID" below and delete the `hidden` attribute.
+             It stays hidden (and unusable) until a real form ID exists, so visitors never hit a
+             dead endpoint. Until then, email is the contact route. -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" hidden>
           <label for="cf-name">Your name</label>
           <input id="cf-name" name="name" type="text" autocomplete="name" required>
           <label for="cf-email">Your email</label>
@@ -84,7 +87,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom" style="margin-top:0;border:none;padding-top:0">
-        <span>© <span id="year">2026</span> Our World. Made for curious kids.</span>
+        <span>© <span id="year">2026</span> Our World. Made for curious minds of every age.</span>
         <span><a href="../search/index.html">Search</a> · No chat · No accounts · Your progress stays on your device · <a href="https://www.instagram.com/ourworlddaillyword/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595534401425" target="_blank" rel="noopener">Facebook</a></span>
       </div>
     </div>

@@ -448,8 +448,16 @@ def search_page():
 
 
 # Allow overriding the deployed domain via env so the same build can serve a custom domain:
-#   SITE_BASE="https://ourworld.news" python build.py
+#   SITE_BASE="https://ourworld.eu.org" python build.py
 SITE_BASE = os.environ.get("SITE_BASE", "https://mani7702-dot.github.io/our-world")
+
+# Public contact address shown on the policy pages. Configured in exactly one place:
+# policy pages carry a marker anchor (class="ow-contact-email") that this build rewrites.
+CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "contact@ourworld.eu.org")
+
+# GitHub Pages custom domain. Set SITE_CNAME=ourworld.eu.org to emit the CNAME file.
+# Left empty, nothing is written (the github.io default keeps working).
+SITE_CNAME = os.environ.get("SITE_CNAME", "")
 
 # AdSense publisher ID (leave empty until you have an approved account). When set, every
 # page gets the AdSense <script> so revenue is "code-ready" at launch.
@@ -634,6 +642,38 @@ def add_canonical_to_static_pages():
     return changed
 
 
+# Policy pages carry one marker anchor for the public contact address. This pass keeps its
+# href and label in sync with CONTACT_EMAIL, so the address lives in exactly one place.
+CONTACT_RE = re.compile(r'<a class="ow-contact-email" href="mailto:[^"]*">[^<]*</a>')
+
+
+def apply_contact_email():
+    """Rewrite the marked contact address on hand-authored pages, idempotently."""
+    changed = []
+    for rel in STATIC_HTML + ["404.html"]:
+        path = os.path.join(ROOT, rel)
+        if not os.path.exists(path):
+            continue
+        html = read(path)
+        new = CONTACT_RE.sub(
+            lambda _m: '<a class="ow-contact-email" href="mailto:%s">%s</a>'
+            % (CONTACT_EMAIL, CONTACT_EMAIL),
+            html,
+        )
+        if new != html:
+            write(path, new)
+            changed.append(rel)
+    return changed
+
+
+def write_cname():
+    """Emit the GitHub Pages CNAME file when SITE_CNAME is configured."""
+    if not SITE_CNAME:
+        return None
+    write(os.path.join(ROOT, "CNAME"), SITE_CNAME.strip() + "\n")
+    return "CNAME"
+
+
 def main():
     blog = load_posts("blog")
     news = load_posts("news")
@@ -645,6 +685,10 @@ def main():
     # ads.txt — required for AdSense; empty/comment-only until a pub ID is configured.
     write(os.path.join(ROOT, "ads.txt"), build_ads_txt())
     written.append("ads.txt")
+    # CNAME — only when a custom domain is configured for GitHub Pages.
+    cname = write_cname()
+    if cname:
+        written.append(cname)
     write(os.path.join(ROOT, "sitemap.xml"), build_sitemap(blog, news))
     written.append("sitemap.xml")
     write(os.path.join(ROOT, "feed.xml"), "\n".join(build_feed(blog, news)))
@@ -656,6 +700,8 @@ def main():
 
     # canonical/og tags for hand-authored pages (idempotent; follows SITE_BASE)
     written.extend(add_canonical_to_static_pages())
+    # public contact address on hand-authored pages (idempotent; follows CONTACT_EMAIL)
+    written.extend(apply_contact_email())
 
     # home
     home_tokens = {
@@ -665,8 +711,8 @@ def main():
         "NEWS_LIST": "\n".join(news_item(p, "news/%s.html" % p["slug"]) for p in news[:3]),
     }
     write(os.path.join(ROOT, "index.html"),
-          page("Our World — stories, games and news for curious kids",
-               "Our World is a safe place for young readers: short stories, three playful browser games, and kid-safe world news — free, and supported by ads. No accounts, no chat.",
+          page("Our World — stories, games and news for curious minds",
+               "Our World is a calm, all-ages place to read: short stories, eight playful browser games and kid-safe world news — free, and supported by ads. No accounts, no chat.",
                "home", "", "home.html", home_tokens))
     written.append("index.html")
 
@@ -684,7 +730,7 @@ def main():
         }
         write(os.path.join(ROOT, section, "index.html"),
               page("%s — Our World" % section.capitalize(),
-                   "Posts and news from Our World, written for young readers.",
+                   "Posts and news from Our World, written for curious readers of every age.",
                    section, "../", tpl, tokens))
         written.append("%s/index.html" % section)
 
