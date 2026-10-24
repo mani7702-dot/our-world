@@ -78,6 +78,7 @@ QUERY = {
     "sr1-freedom-nuclear-spaceship-mars": "nuclear reactor space satellite",
     "jurassic-squid-butt-was-chunkiest-ever": "belemnite fossil Jurassic squid",
     "altermagnetism-third-magnetism-europhysics-prize": "altermagnetism magnetic crystal",
+    "2026-10-24-jurassic-bird-lost-flight-dinosaur-features": "Yuezhuornis Jurassic bird dinosaur teeth sickle claw fossil",
     "dussehra-india-good-over-evil": "Dussehra effigy burning India",
     "third-form-of-magnetism-altermagnetism-europhysics-prize": "altermagnetism magnetic crystal",
     "dussehra-festival-good-over-evil-celebrated-india": "Dussehra effigy burning India",
