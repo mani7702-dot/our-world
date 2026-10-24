@@ -276,6 +276,7 @@ QUERY = {
     "2026-10-24-lazuli-private-space-telescope-exoplanet-targets": "space telescope coronagraph exoplanet artist impression",
     "2026-10-24-white-dwarfs-yellow-green-pink-purple": "white dwarf star colorful pink yellow green blue artist impression stellar remnant",
     "2026-10-24-tiny-snakes-roll-four-times-faster-than-they-slither": "dwarf reedsnake Pseudorabdion saravacense Southeast Asia rolling snake",
+    "2026-10-24-nairobi-building-collapse-rescue": "construction site safety rescue workers emergency services Kenya",
 }
 
 def ok_license(l):
