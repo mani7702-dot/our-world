@@ -271,6 +271,7 @@ QUERY = {
     "a-tiny-defect-in-a-crystal-reveals-a-big-quantum-surprise": "diamond silicon carbide crystal lattice spin defect quantum atom",
     "cambridge-10-dollar-chip-sensor-wearable": "optical spectrometer sensor chip wearable device silicon photonic",
     "2026-10-24-halloween-skywatching-spooky-targets": "Algol Demon Star Perseus variable star eclipse Pleiades M45 Taurus Cetus constellation sea monster Tycho crater Moon spiderweb rays Taurid meteor shower fireball comet Encke October sky",
+    "2026-10-24-lazuli-private-space-telescope-exoplanet-targets": "space telescope coronagraph exoplanet artist impression",
 }
 
 def ok_license(l):
