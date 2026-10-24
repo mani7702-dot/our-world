@@ -267,6 +267,7 @@ QUERY = {
     "2026-10-23-uae-oil-spill-tanker-hormuz-beaches": "crude oil spill at sea tanker",
     "2026-10-23-forgotten-fossil-fearsome-dinosaur-giant-claws": "Invictibellatrix amberina feathered dinosaur fossil megaraptoran claws",
     "2026-10-20-solar-storm-train-delay-1848-mystery": "Carrington Event 1859 aurora telegraph interference historical illustration",
+    "a-tiny-defect-in-a-crystal-reveals-a-big-quantum-surprise": "diamond silicon carbide crystal lattice spin defect quantum atom",
     "cambridge-10-dollar-chip-sensor-wearable": "optical spectrometer sensor chip wearable device silicon photonic",
 }
 def ok_license(l):
