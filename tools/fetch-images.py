@@ -283,6 +283,7 @@ QUERY = {
     "2026-10-24-marmoset-brain-smooth-folds": "marmoset monkey brain anatomy neurons synapse",
     "2026-10-24-magnetic-web-above-sun": "Sunrise-III balloon telescope solar magnetic field chromosphere Sun surface",
     "2026-10-24-ukraine-starlink-connection-now-stable-after-network-limits": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish",
+    "2026-10-24-hidden-brain-messages-locus-coeruleus": "locus coeruleus brainstem neuron norepinephrine brain anatomy diagram",
 }
 
 def ok_license(l):
