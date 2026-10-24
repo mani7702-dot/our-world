@@ -504,13 +504,6 @@ def build_ads_txt():
     return "google.com, ca-pub-{pub}, DIRECT, f08c47fec0940fa3\n".format(pub=ADSENSE_PUB_ID)
 
 
-def build_adsense_slot(slot_id):
-    """Render an ad <ins> slot. Caller styles placement. Empty until a pub ID is set."""
-    if not ADSENSE_PUB_ID:
-        return ""
-    return '<ins class="adsbygoogle" data-ad-client="ca-pub-{pub}" data-ad-slot="{slot}"></ins>'.format(pub=ADSENSE_PUB_ID, slot=slot_id)
-
-
 def canonical_tag(canonical_url):
     """<link rel=canonical> tag for a page. Empty when no URL supplied."""
     return '<link rel="canonical" href="%s">\n' % canonical_url if canonical_url else ""

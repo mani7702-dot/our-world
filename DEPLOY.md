@@ -55,11 +55,13 @@ This is the backup. If Cloudflare ever has a bad day, the mirror keeps the site 
 
 ## 3. Turn on the contact form (optional)
 
-The About page already contains a Formspree-ready form. It stays dormant until you set a real form ID:
+The About page carries a Formspree-ready form, but it ships **hidden** so that visitors never hit a dead endpoint. Until it is switched on, **email is the contact route**, and the Contact page says so.
 
 1. Create a free form at [formspree.io](https://formspree.io) (free tier: 50 submissions/month).
-2. In `about/index.html`, replace `REPLACE_WITH_YOUR_FORM_ID` in the form action with your ID.
-3. Rebuild and push:
+2. In `about/index.html`, set the form action to your real endpoint:
+   `action="https://formspree.io/f/YOUR_FORM_ID"`
+3. Delete the `hidden` attribute on that same `<form ...>` tag.
+4. Update the Contact page wording, then rebuild and push:
 
 ```bash
 python build.py
@@ -67,7 +69,31 @@ git add -A && git commit -m "Activate contact form"
 git push
 ```
 
-## 4. The daily update loop
+## 4. Custom domain (eu.org)
+
+Everything domain-dependent is generated from three variables, so switching hosts is a one-line rebuild:
+
+```bash
+SITE_BASE="https://ourworld.eu.org" \
+SITE_CNAME="ourworld.eu.org" \
+CONTACT_EMAIL="contact@ourworld.eu.org" \
+python build.py
+```
+
+That single run rewrites the canonical tags, `og:`/Twitter URLs, JSON-LD, `sitemap.xml`, `robots.txt` and `feed.xml`, updates every hand-authored policy page, and writes the GitHub Pages `CNAME` file. Then commit and push.
+
+**Before that run will work in the real world:**
+
+- EU.org must have **approved** the name and delegating nameservers to your DNS provider.
+- DNS records for GitHub Pages: `A` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; and `CNAME www` → `mani7702-dot.github.io`.
+- Turn on **Enforce HTTPS** in the repo's Settings → Pages.
+- **The contact email needs a mailbox.** EU.org provides no email at all — set up free **Cloudflare Email Routing** to forward `contact@<domain>` to your inbox, or the address will be a dead end.
+- **Re-verify the new domain** in Google Search Console and Bing Webmaster Tools, and move the verification files (`google*.html`, `BingSiteAuth.xml`) to the new root.
+- Old URLs carried an `/our-world/` prefix that **disappears** on a custom domain, so plan 301 redirects for anything already indexed.
+
+Omitting `SITE_CNAME` leaves the `CNAME` file untouched, so the github.io default keeps working.
+
+## 5. The daily update loop
 
 Every change — a post, a page, the design — follows the same loop:
 
@@ -83,7 +109,7 @@ git push
 
 Both hosts redeploy automatically within about a minute. Never push without rebuilding first — the repo's generated pages would ship stale.
 
-## 5. Verify after each deploy
+## 6. Verify after each deploy
 
 - Open the `*.pages.dev` URL.
 - Check one article page (reading controls work), one game (plays), and the dark-mode toggle.
