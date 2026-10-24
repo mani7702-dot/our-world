@@ -12,8 +12,6 @@ sources:
 
 # How did early birds learn to live on the ground instead of in the sky?
 
-![Fossil bird Confuciusornis sanctus, a close relative of early Jurassic birds. Photo: CC BY 2.0 James St. John via Wikimedia Commons](assets/images/2026-10-24-jurassic-bird-lost-flight-dinosaur-features.jpg)
-
 ## A surprising mix of bird and dinosaur
 
 About 150 million years ago, in what is now southeastern China, a crow-sized bird took a very different path from its flying cousins. Scientists have discovered a new species called **Yuezhuornis yangyuanensis** — and this bird had features that look like they belong more on a *Jurassic Park* predator than on a gentle feathered flyer.
