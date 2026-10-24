@@ -1,26 +1,26 @@
 {
   "ok": true,
-  "category": "explainers",
-  "title": "Wales plans to ban steel pylons as government launches consultation",
-  "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
-  "slug": "wales-plans-to-ban-steel-pylons-as-government-laun",
-  "desc": "The Welsh government says it is consulting on an \"undergrounding-first approach\" to electricity lines.",
+  "category": "world",
+  "title": "Ukraine says Starlink connection 'now stable' after network limits",
+  "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+  "slug": "ukraine-says-starlink-connection-now-stable-after-",
+  "desc": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
   "verified": true,
   "cross_sources": [
     {
-      "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
       "ok": true,
-      "title": "Wales could ban steel pylons as government launches consultation - BBC News"
+      "title": "Ukraine says Starlink connection 'now stable' after network limits - BBC News"
     },
     {
-      "url": "https://www.sciencedaily.com/news/top_news.xml",
-      "ok": false,
-      "err": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "ok": true,
       "title": "BBC News"
+    },
+    {
+      "url": "https://www.npr.org/rss/rss.php?f=1004",
+      "ok": false,
+      "err": "The read operation timed out"
     }
   ],
   "image_url": null,

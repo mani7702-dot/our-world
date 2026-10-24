@@ -282,6 +282,7 @@ QUERY = {
     "2026-10-24-halleys-comet-orionid-meteor-shower": "Halley's Comet Giotto 1986 nucleus dust trail meteor shower",
     "2026-10-24-marmoset-brain-smooth-folds": "marmoset monkey brain anatomy neurons synapse",
     "2026-10-24-magnetic-web-above-sun": "Sunrise-III balloon telescope solar magnetic field chromosphere Sun surface",
+    "2026-10-24-ukraine-starlink-connection-now-stable-after-network-limits": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish",
 }
 
 def ok_license(l):
