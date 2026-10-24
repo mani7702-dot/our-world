@@ -9,7 +9,6 @@ QUERY = {
     "2026-10-24-rewilded-gorilla-lulingu-birth-virunga": "eastern lowland gorilla infant Virunga national park",
     "2026-10-24-suns-hidden-magnetic-web": "Sunrise-III balloon telescope solar chromosphere magnetic canopy thread-like magnetic field lines Sun",
     "2026-10-24-nasa-artemis-3-moon-lander-test": "NASA Orion spacecraft approaching International Space Station concept Artemis",
-    "2026-10-24-eagles-nest-fire-hitlers-mountain-retreat": "Berchtesgaden Alps mountain summit fire",
     "2026-10-24-eagles-nest-fire-bavaria": "Eagle's Nest Kehlsteinhaus Berchtesgaden mountain building",
     "private-griffin-moon-lander-gets-put-to-the-test": "Griffin-1 lunar lander NASA JPL space simulator testing",
     "fish-oil-brain-health-no-benefit-study": "omega-3 DHA molecule structure fish oil capsule",
