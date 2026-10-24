@@ -277,6 +277,7 @@ QUERY = {
     "2026-10-24-lazuli-private-space-telescope-exoplanet-targets": "space telescope coronagraph exoplanet artist impression",
     "2026-10-24-white-dwarfs-yellow-green-pink-purple": "white dwarf star colorful pink yellow green blue artist impression stellar remnant",
     "2026-10-24-tiny-snakes-roll-four-times-faster-than-they-slither": "dwarf reedsnake Pseudorabdion saravacense Southeast Asia rolling snake",
+    "2026-10-24-nasa-asteroid-bennu-samples-reveal-45-billion-year-old-secret": "asteroid Bennu sample return OSIRIS-REx NASA Solar System dust",
     "2026-10-24-nairobi-building-collapse-rescue": "construction site safety rescue workers emergency services Kenya",
     "2026-10-24-nasa-asteroid-bennu-samples-solar-system-secret": "asteroid Bennu OSIRIS-REx sample return NASA Solar System dust",
     "2026-10-24-halleys-comet-orionid-meteor-shower": "Halley's Comet Giotto 1986 nucleus dust trail meteor shower",
