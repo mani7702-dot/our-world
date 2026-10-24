@@ -8,6 +8,7 @@ OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-10-24-the-moon-is-shrinking-10000-cracks-on-the-lunar-surface-reveal-by-how-much": "moon fault scarp lobate lunar surface NASA LRO",
     "2026-10-24-nasa-artemis-3-moon-lander-test": "NASA Orion spacecraft approaching International Space Station concept Artemis",
+    "2026-10-24-eagles-nest-fire-hitlers-mountain-retreat": "Berchtesgaden Alps mountain summit fire",
     "private-griffin-moon-lander-gets-put-to-the-test": "Griffin-1 lunar lander NASA JPL space simulator testing",
     "fish-oil-brain-health-no-benefit-study": "omega-3 DHA molecule structure fish oil capsule",
     "2026-10-23-blue-planet-iii-octopus-escape": "octopus swimming colour change camouflage",
