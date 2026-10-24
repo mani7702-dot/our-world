@@ -280,6 +280,7 @@ QUERY = {
     "2026-10-24-nairobi-building-collapse-rescue": "construction site safety rescue workers emergency services Kenya",
     "2026-10-24-nasa-asteroid-bennu-samples-solar-system-secret": "asteroid Bennu OSIRIS-REx sample return NASA Solar System dust",
     "2026-10-24-halleys-comet-orionid-meteor-shower": "Halley's Comet Giotto 1986 nucleus dust trail meteor shower",
+    "2026-10-24-marmoset-brain-smooth-folds": "marmoset monkey brain anatomy neurons synapse",
     "2026-10-24-magnetic-web-above-sun": "Sunrise-III balloon telescope solar magnetic field chromosphere Sun surface",
 }
 
