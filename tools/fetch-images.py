@@ -54,7 +54,8 @@ QUERY = {
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
     "ancient-peruvian-hairless-dogs-wari-huarmey": "Peruvian hairless dog",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
-    "2026-10-23-2027-eclipse-egypt-temples": "total solar eclipse corona",
+    "2026-10-23-lazuli-space-telescope-27-exoplanet-targets": "Lazuli Space Telescope exoplanet coronagraph artist impression",
+    "2026-10-23-2027-eclipse-egypt-temples": "total solar eclipse corona ancient Egyptian temple",
     "mozambique-mount-mabu-butterfly-forest-protected": "Mozambique butterfly",
     "bennu-boulders-hidden-cracks-osiris-rex": "asteroid Bennu OSIRIS-REx boulder",
     "nasa-simon-atmospheric-waves-above-hurricane": "atmospheric gravity waves hurricane satellite",
@@ -261,7 +262,8 @@ QUERY = {
     "2026-10-23-typhoon-champi-strongest-storm-of-year-el-nino": "typhoon aerial view spiral satellite storm clouds Pacific Ocean",
     "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation",
     "2026-10-24-masaya-volcano-beneath-strange-dance": "Masaya volcano Nicaragua Santiago crater lava lake sulfur gas",
-    "2026-10-23-uae-oil-spill-tanker-hormuz-beaches": "crude oil spill at sea tanker"
+    "2026-10-23-uae-oil-spill-tanker-hormuz-beaches": "crude oil spill at sea tanker",
+    "2026-10-23-forgotten-fossil-fearsome-dinosaur-giant-claws": "Invictibellatrix amberina feathered dinosaur fossil megaraptoran claws"
 }
 def ok_license(l):
     l = l.lower()
