@@ -275,6 +275,7 @@ QUERY = {
     "2026-10-24-halloween-skywatching-spooky-targets": "Algol Demon Star Perseus variable star eclipse Pleiades M45 Taurus Cetus constellation sea monster Tycho crater Moon spiderweb rays Taurid meteor shower fireball comet Encke October sky",
     "2026-10-24-lazuli-private-space-telescope-exoplanet-targets": "space telescope coronagraph exoplanet artist impression",
     "2026-10-24-white-dwarfs-yellow-green-pink-purple": "white dwarf star colorful pink yellow green blue artist impression stellar remnant",
+    "2026-10-24-tiny-snakes-roll-four-times-faster-than-they-slither": "dwarf reedsnake Pseudorabdion saravacense Southeast Asia rolling snake",
 }
 
 def ok_license(l):
