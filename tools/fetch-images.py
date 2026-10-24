@@ -291,6 +291,7 @@ QUERY = {
     "2026-10-24-hidden-brain-messages-locus-coeruleus": "locus coeruleus brainstem neuron norepinephrine brain anatomy diagram",
     "2026-10-24-hidden-safety-bias-human-language": "human language word meaning safety bias brain neural network communication",
     "2026-10-24-mit-muscle-robot-swims": "biohybrid robot swimming muscle cells MIT gel fin optogenetics",
+    "2026-10-24-how-to-detect-mirror-life": "chirality molecule handedness left right mirror",
 }
 
 def ok_license(l):
