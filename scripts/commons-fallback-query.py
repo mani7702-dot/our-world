@@ -81,7 +81,7 @@ def main():
     # Step 1: generator=search to get candidate file titles
     params = {
         "action": "query", "format": "json", "generator": "search",
-        "gsrsearch": "file:" + query, "gsrnamespace": "6", "gsrlimit": "20",
+        "gsrsearch": query, "gsrnamespace": "6", "gsrlimit": "20",
         "prop": "imageinfo", "iiprop": "url|mime|extmetadata", "iiurlwidth": "1200",
     }
     url = API + "?" + urllib.parse.urlencode(params)

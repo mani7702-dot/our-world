@@ -295,6 +295,7 @@ QUERY = {
     "2026-10-24-hidden-safety-bias-human-language": "human language word meaning safety bias brain neural network communication",
     "2026-10-24-mit-muscle-robot-swims": "biohybrid robot swimming muscle cells MIT gel fin optogenetics",
     "2026-10-24-how-to-detect-mirror-life": "chirality molecule handedness left right mirror",
+    "2026-10-24-on-this-day-v-2-rocket-earth-photos": "V-2 rocket launch White Sands 1946 first photo Earth from space 35mm camera",
 }
 
 def ok_license(l):
