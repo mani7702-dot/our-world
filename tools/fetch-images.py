@@ -47,6 +47,7 @@ QUERY = {
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
     "green-star-white-dwarf-wdj1330-6435": "green star white dwarf artist impression",
     "ghostly-green-star-white-dwarf": "green star white dwarf artist impression",
+    "2026-10-24-spacex-double-starship-catch": "SpaceX Starship chopstick tower catch Super Heavy booster upper stage",
     "spacex-crs35-jellyfish-launch": "SpaceX Falcon 9 launch jellyfish",
     "spacex-iss-strange-cargo-2026": "SpaceX Dragon cargo International Space Station",
     "masaya-volcano-hidden-magma": "Masaya volcano Nicaragua lava lake",
