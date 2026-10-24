@@ -52,16 +52,16 @@ def inline(s):
     s = esc(s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", s)
-    s = re.sub(
-        r"\[([^\]]+)\]\(([^)]+)\)",
-        lambda m: '<a href="%s"%s>%s</a>'
-        % (
-            m.group(2),
-            ' target="_blank" rel="noopener"' if m.group(2).startswith("http") else "",
-            m.group(1),
-        ),
-        s,
-    )
+
+    def _link(m):
+        # {{SITE_BASE}} lets a content file cite another page on this site without
+        # hard-coding a host, so content survives a domain change. Relative links would
+        # also work; the token keeps the cited URL canonical.
+        url = m.group(2).replace("{{SITE_BASE}}", SITE_BASE)
+        ext = ' target="_blank" rel="noopener"' if url.startswith("http") else ""
+        return '<a href="%s"%s>%s</a>' % (url, ext, m.group(1))
+
+    s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _link, s)
     return s
 
 

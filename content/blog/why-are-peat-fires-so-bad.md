@@ -42,4 +42,4 @@ Light a beeswax candle in a dark room, then blow it out and watch the smoke drif
 
 ---
 
-**Sources:** [BBC News — Why is a peat fire so bad? BBC is in Indonesia to find out](https://www.bbc.co.uk/news/videos/cmx2302xe931o) · [Wikipedia — Peat](https://en.wikipedia.org/wiki/Peat) · [Our World research — Borneo smoky haze article](https://mani7702-dot.github.io/our-world/news/borneo-fires-peat-smoke-haze-science.html)
+**Sources:** [BBC News — Why is a peat fire so bad? BBC is in Indonesia to find out](https://www.bbc.co.uk/news/videos/cmx2302xe931o) · [Wikipedia — Peat](https://en.wikipedia.org/wiki/Peat) · [Our World research — Borneo smoky haze article]({{SITE_BASE}}/news/borneo-fires-peat-smoke-haze-science.html)
