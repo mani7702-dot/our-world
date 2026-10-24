@@ -16,27 +16,25 @@ for-grownups: "In 1871 a Nature report claimed a magnetic storm on 18 October 18
 
 Picture this: a passenger train in Exeter, England sat waiting at the platform in the 1840s — not because of a broken signal or a fallen tree, but because... sunlight from the Sun had messed with the telegraph?
 
-That strange story was first written up in the science journal *Nature* in 1871. A writer reported that a powerful "magnetic disturbance" had rippled through Earth's field on 18 October 1841, scrambled the railway's telegraph system, and held the 10:05 p.m. train up by sixteen minutes. If it were true, it would be the earliest known moment that space weather — storms from the Sun — messed with human technology.
+That strange story was written up in the science journal *Nature* in 1871. A writer reported that a powerful "magnetic disturbance" rippled through Earth's field on 18 October 1841, scrambled the railway's telegraph system, and held the 10:05 p.m. train up by sixteen minutes. If true, it would be the earliest known moment that space weather — storms from the Sun — messed with human technology.
 
 ## A date that did not add up
 
-Something about the date nagged at modern scientists. The story said the problem hit the **Exeter-to-Starcross** railway line. But when researchers checked the records, they found a problem faster than you can say "track work": the Exeter-to-Starcross line did not open until **1846** — five whole years *after* the event was supposed to have happened.
+Something about the date nagged at modern scientists. The story blamed the **Exeter-to-Starcross** railway line. But the line did not open until **1846** — five whole years *after* the supposed event.
 
-"That had to be a typo in a *Nature* paper from 1871," explained Associate Professor Brett Carter, a space weather researcher at RMIT University, who helped run the investigation. "We know it was a typo because the railway line mentioned in that paper didn't exist until 1846, which is five years afterwards."
+"That had to be a typo in a *Nature* paper from 1871," explained Associate Professor Brett Carter, a space weather researcher at RMIT University. "We know it was a typo because the railway line mentioned in that paper didn't exist until 1846, which is five years afterwards."
 
 ## How scientists played detective with old newspapers
 
-So when did the train really stall? The team — scientists from Lancaster University, RMIT, the British Geological Survey, Natural Resources Canada and Baylor University — became history detectives. They gathered every clue they could: old railway timetables, newspaper reports from the day, sightings of the northern lights, and even digitised measurements of Earth's magnetic field taken at the time.
+So when did the train really stall? The team — scientists from Lancaster University, RMIT, the British Geological Survey, Natural Resources Canada and Baylor University — became history detectives. They gathered every clue: old railway timetables, newspaper reports, sightings of the northern lights, and digitised measurements of Earth's magnetic field.
 
 All the evidence pointed to one evening: **18 October 1848**. The date was bumped forward by exactly seven years. The Sun had not changed its mind — just the calendar in the history books.
 
 ## Why this 178-year-old mystery still matters
 
-Professor Jim Wild, who led the study, says the fix is more than a neat bit of trivia. "It shows that space weather is not a new threat," he said. "It has been affecting our technology for almost as long as electrical technology has existed." The 1840s were the moment humanity first built machines that reached out beyond Earth — telegraph wires that stretched for miles and could feel the Sun's tantrums from 93 million miles away.
+Professor Jim Wild, who led the study, says the fix is more than trivia. "Space weather is not a new threat," he said. "It has been affecting our technology for almost as long as electrical technology has existed." The 1840s were the moment humanity first built machines that reached beyond Earth — telegraph wires that could feel the Sun's tantrums from 93 million miles away.
 
-The 1859 **Carrington Event** remains the most dramatic solar storm on record: aurorae glowed so brightly over Hawaii and Central America that people read newspapers outside at midnight. Today, space weather can still rattle power grids, GPS and satellite links — even though our machines are thousands of times more sensitive than a Victorian telegraph.
-
-By stitching together old paper records with modern solar science, the researchers showed how a single typo can rewrite a chapter of history — and why remembering the past helps us prepare for the next big storm.
+The 1859 **Carrington Event** remains the most dramatic solar storm on record: aurorae glowed over Hawaii and Central America so brightly that people read newspapers outside at midnight. Today, space weather can still rattle power grids, GPS and satellite links. By stitching old paper records with modern solar science, the researchers showed how a single typo can rewrite a chapter of history — and why remembering the past helps us prepare for the next big storm.
 
 ## Try this at home
 
