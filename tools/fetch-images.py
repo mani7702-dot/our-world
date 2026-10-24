@@ -262,6 +262,7 @@ QUERY = {
     "2026-10-23-typhoon-champi-strongest-storm-of-year-el-nino": "typhoon aerial view spiral satellite storm clouds Pacific Ocean",
     "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation",
     "2026-10-24-masaya-volcano-beneath-strange-dance": "Masaya volcano Nicaragua Santiago crater lava lake sulfur gas",
+    "2026-10-24-crystal-defect-quantum-surprise": "diamond silicon carbide crystal lattice spin defect quantum atom",
     "2026-10-23-uae-oil-spill-tanker-hormuz-beaches": "crude oil spill at sea tanker",
     "2026-10-23-forgotten-fossil-fearsome-dinosaur-giant-claws": "Invictibellatrix amberina feathered dinosaur fossil megaraptoran claws"
 }
