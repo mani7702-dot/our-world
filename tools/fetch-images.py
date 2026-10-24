@@ -264,6 +264,7 @@ QUERY = {
     "2026-10-24-masaya-volcano-beneath-strange-dance": "Masaya volcano Nicaragua Santiago crater lava lake sulfur gas",
     "2026-10-24-mars-valles-marineris-tectonically-active": "Valles Marineris Mars canyon NASA THEMIS visible",
     "2026-10-24-crystal-defect-quantum-surprise": "diamond silicon carbide crystal lattice spin defect quantum atom",
+    "2026-10-24-spider-catapult-catches-ants": "spider web silk catapult trap spring mechanism ant",
     "2026-10-23-uae-oil-spill-tanker-hormuz-beaches": "crude oil spill at sea tanker",
     "2026-10-23-forgotten-fossil-fearsome-dinosaur-giant-claws": "Invictibellatrix amberina feathered dinosaur fossil megaraptoran claws",
     "2026-10-20-solar-storm-train-delay-1848-mystery": "Carrington Event 1859 aurora telegraph interference historical illustration",
