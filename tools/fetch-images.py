@@ -6,7 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
-    "2026-10-24-the-moon-is-shrinking-10000-cracks-on-the-lunar-surface-reveal-by-how-much": "moon fault scarp lobate lunar surface NASA LRO",
+    "2026-10-24-suns-hidden-magnetic-web": "Sunrise-III balloon telescope solar chromosphere magnetic canopy thread-like magnetic field lines Sun",
     "2026-10-24-nasa-artemis-3-moon-lander-test": "NASA Orion spacecraft approaching International Space Station concept Artemis",
     "2026-10-24-eagles-nest-fire-hitlers-mountain-retreat": "Berchtesgaden Alps mountain summit fire",
     "2026-10-24-eagles-nest-fire-bavaria": "Eagle's Nest Kehlsteinhaus Berchtesgaden mountain building",
@@ -153,6 +153,7 @@ QUERY = {
     "tree-thirsty-berlin-app": "Berlin street tree watering app",
     "arctic-sea-ice-satellite-record-low-2026": "Arctic sea ice satellite",
     "italian-biomethane-plant-turns-farm-waste-into-clean-gas": "biomethane plant Italy agricultural waste",
+    "2026-10-24-flip-rover-supercomputer-moon": "Astrolab FLIP rover lunar surface moon HPE Spaceborne Computer-4",
     "wimpole-estate-5242-species-despite-drought": "great crested newt",
     "farmer-lost-sfi26-wildlife-funding": "barn owl",
     "wasps-nest-took-over-wildlife-office-norfolk": "paper wasp nest",
