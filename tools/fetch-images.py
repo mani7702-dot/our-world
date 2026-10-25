@@ -57,6 +57,7 @@ QUERY = {
     "spacex-crs35-jellyfish-launch": "SpaceX Falcon 9 launch jellyfish",
     "spacex-iss-strange-cargo-2026": "SpaceX Dragon cargo International Space Station",
     "masaya-volcano-hidden-magma": "Masaya volcano Nicaragua lava lake",
+    "2026-10-25-amazon-forest-protection-strategies": "Amazon rainforest canopy aerial NASA satellite view",
     "2026-10-20-sloth-bear-odum-julia-roberts-rescue": "sloth bear",
     "2026-10-22-acrylic-glass-recycling-eth-zurich": "acrylic glass plastic sheet",
     "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
