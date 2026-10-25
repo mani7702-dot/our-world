@@ -183,6 +183,7 @@ QUERY = {
     "neu5gc-red-meat-sugar-diabetes-link": "beef butcher shop raw meat",
     "perseverance-mars-rover-driving-record": "Perseverance rover Mars surface",
     "astronauts-hearts-mars-spaceflight-test": "astronaut exercise ISS treadmill",
+    "2026-10-25-dinosaur-teeth-jurassic-bird-yuezhuornis": "Yuezhuornis fossil dinosaur teeth bird Jurassic China claw",
     "atlantic-current-amoc-climate-weather": "Gulf Stream ocean current satellite sea surface temperature",
     "silverpit-crater-asteroid-tsunami": "Silverpit Crater",
     "nasa-farmflux-low-altitude-flights-amarillo-texas": "agricultural aircraft flying low over farmland",
