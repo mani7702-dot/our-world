@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-24-nasa-wildflower-bloom-australia-outback": "wildflower desert Australia Landsat bloom",
     "2026-10-25-seabirds-isle-of-man-biosphere-conservation": "Manx shearwater burrow seabird cliff coastline",
     "2026-10-24-rewilded-gorilla-lulingu-birth-virunga": "eastern lowland gorilla infant Virunga national park",
     "2026-10-24-suns-hidden-magnetic-web": "Sunrise-III balloon telescope solar chromosphere magnetic canopy thread-like magnetic field lines Sun",
@@ -316,6 +317,7 @@ QUERY = {
     "carpal-tunnel-15-minute-hydrodissection-procedure": "wrist hand anatomy",
     "2026-10-25-tropical-trees-breathe-at-night-cam-photosynthesis": "Clusia plant tropical tree CAM photosynthesis leaves",
     "2026-10-25-on-this-day-india-launches-chandrayaan-1-first-moon-mission": "Chandrayaan-1 PSLV-XL launch ISRO moon mission India",
+    "2026-10-26-googly-eyed-buoys-seabirds-fishing-nets": "seabird common murre guillemot razorbill gillnet fishing net deterrent buoy",
 }
 
 def ok_license(l):
