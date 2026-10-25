@@ -78,6 +78,7 @@ QUERY = {
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
     "2026-10-20-dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
     "d-rex-giant-fungus-king-of-dian-china": "Xylaria polymorpha dead man fingers",
+    "zhu-xi-song-dynasty-confucian-exam": "Zhu Xi Song Dynasty Chinese philosopher portrait",
     "swimmer-turbine-tidal-power-scotland": "tidal power turbine",
     "jurassic-squid-beast-wyoteuthis-linsterorum-found": "belemnite fossil Jurassic squid",
     "sr1-freedom-nuclear-spaceship-mars": "nuclear reactor space satellite",
