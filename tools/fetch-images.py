@@ -301,6 +301,7 @@ QUERY = {
     "2026-10-24-how-to-detect-mirror-life": "chirality molecule handedness left right mirror",
     "2026-10-24-on-this-day-v-2-rocket-earth-photos": "V-2 rocket launch White Sands 1946 first photo Earth from space 35mm camera",
     "2026-10-25-chiricahua-national-park-arizona": "Chiricahua National Park Arizona hoodoo rock spires volcanic tuff",
+    "2026-10-25-rocket-lab-hawk-satellites-signals-intelligence": "Rocket Lab Electron rocket launch satellite constellation low Earth orbit",
 }
 
 def ok_license(l):
