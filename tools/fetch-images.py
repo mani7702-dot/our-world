@@ -304,6 +304,7 @@ QUERY = {
     "2026-10-25-chiricahua-national-park-arizona": "Chiricahua National Park Arizona hoodoo rock spires volcanic tuff",
     "2026-10-25-rocket-lab-hawk-satellites-signals-intelligence": "Rocket Lab Electron rocket launch satellite constellation low Earth orbit",
     "2026-10-25-ai-reads-social-media-drug-side-effects": "artificial intelligence AI machine learning large language model reading social media posts computer screen data analysis visualization",
+    "2026-10-25-quantum-limit-molecules-surface": "crystal surface quantum coherence molecule microscope",
 }
 
 def ok_license(l):
