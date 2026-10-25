@@ -322,6 +322,7 @@ QUERY = {
     "2026-10-25-tropical-trees-breathe-at-night-cam-photosynthesis": "Clusia plant tropical tree CAM photosynthesis leaves",
     "2026-10-25-on-this-day-india-launches-chandrayaan-1-first-moon-mission": "Chandrayaan-1 PSLV-XL launch ISRO moon mission India",
     "2026-10-26-googly-eyed-buoys-seabirds-fishing-nets": "seabird common murre guillemot razorbill gillnet fishing net deterrent buoy",
+    "2026-10-25-russian-spy-satellite-shadows-us-earth-observing-craft": "satellite in low Earth orbit artist impression Earth below space surveillance",
 }
 
 def ok_license(l):
