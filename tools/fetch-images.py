@@ -320,6 +320,7 @@ QUERY = {
     "2026-10-25-quantum-limit-molecules-surface": "crystal surface quantum coherence molecule microscope",
     "2026-10-25-how-cryo-em-revealed-why-statins-cause-muscle-pain": "cryo-electron microscopy protein structure channel membrane RyR1",
     "2026-10-26-brown-bears-rescued-from-russian-cages": "brown bear walking forest wild",
+    "2026-10-26-world-kangaroo-day-climate-conservation": "red kangaroo hopping Australian desert macropod",
     "2026-10-25-kill-gut-bacteria-without-harming-good": "myxobacteria soil bacteria argyrin compound antibiotic natural product",
     "carpal-tunnel-15-minute-hydrodissection-procedure": "wrist hand anatomy",
     "2026-10-25-tropical-trees-breathe-at-night-cam-photosynthesis": "Clusia plant tropical tree CAM photosynthesis leaves",
