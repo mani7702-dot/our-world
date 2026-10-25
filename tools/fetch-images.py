@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-25-antarctic-postmaster-penguins": "Port Lockroy Antarctic post office gentoo penguin historic hut",
     "2026-10-25-brown-bears-bu-tyapa-rescued-to-ireland-sanctuary": "brown bear walking forest Ireland Donegal wildlife sanctuary Wild Ireland",
     "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
     "2026-10-24-nasa-wildflower-bloom-australia-outback": "wildflower desert Australia Landsat bloom",
