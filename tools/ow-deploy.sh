@@ -8,6 +8,7 @@
 # every run die at step 1 with "cannot pull with rebase" and nothing ever shipped.
 # We now commit local work BEFORE syncing, and autostash build artifacts.
 set -uo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 MSG="${1:-publish}"; SLUG="${2:-}"
 
 echo "[1/6] commit local work"
@@ -26,7 +27,7 @@ if ! git pull --rebase --autostash origin main; then
 fi
 
 echo "[3/6] build"
-python3 build.py >/tmp/ow-build.log 2>&1 || { echo "ERROR: build failed"; tail -5 /tmp/ow-build.log; exit 3; }
+python3 build.py >"$ROOT/ow-build.log" 2>&1 || { echo "ERROR: build failed"; tail -5 "$ROOT/ow-build.log"; rm -f "$ROOT/ow-build.log"; exit 3; }
 
 echo "[4/6] link check"
 breaks=$(python3 - <<'EOF'
