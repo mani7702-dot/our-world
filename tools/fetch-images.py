@@ -28,6 +28,7 @@ QUERY = {
     "bronze-whaler-shark-busan-canal": "bronze whaler shark",
     "cheetah-cub-cam-five-cubs": "cheetah cub",
     "manhattan-barn-owls-water-tower": "barn owl",
+    "2026-10-25-narwhal-tusk-double-helix": "narwhal tusk Arctic whale",
     "nightjar-wings-trade-off-long-distance-migration": "European nightjar flying",
     "nasa-moon-base-cave-search": "moon",
     "orangutans-return-borneo-wild": "orangutan",
