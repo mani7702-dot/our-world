@@ -315,6 +315,7 @@ QUERY = {
     "2026-10-25-kill-gut-bacteria-without-harming-good": "myxobacteria soil bacteria argyrin compound antibiotic natural product",
     "carpal-tunnel-15-minute-hydrodissection-procedure": "wrist hand anatomy",
     "2026-10-25-tropical-trees-breathe-at-night-cam-photosynthesis": "Clusia plant tropical tree CAM photosynthesis leaves",
+    "2026-10-25-on-this-day-india-launches-chandrayaan-1-first-moon-mission": "Chandrayaan-1 PSLV-XL launch ISRO moon mission India",
 }
 
 def ok_license(l):
