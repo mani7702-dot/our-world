@@ -331,6 +331,7 @@ QUERY = {
     "2026-10-26-europe-satellite-starlink-alternative": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish IRIS2 artist impression",
     "2026-10-26-us-sloths-act-import-ban": "three-toed sloth Bradypus hanging from tree branch rainforest canopy",
     "2026-10-25-cassini-discovers-iapetus-yin-yang-moon": "Iapetus moon Saturn two-tone yin-yang dark bright hemisphere Cassini spacecraft",
+    "2026-10-26-mysterious-mushroom-makes-people-see-tiny-humans": "Lanmaoa asiatica bolete mushroom fungus mycology brown red pores",
 }
 
 def ok_license(l):
