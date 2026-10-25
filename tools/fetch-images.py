@@ -95,6 +95,7 @@ QUERY = {
     "tourist-guilty-stolen-las-vegas-flamingo": "Chilean flamingo",
     "alaska-tracy-arm-landslide-tsunami-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "2026-10-23-swiss-glaciers-melting-fast": "Swiss Alps glacier ice mountain snow",
+    "swiss-glaciers-vanish-20-percent-ice-loss": "Aletsch Glacier Swiss Alps ice mountain snow melt",
     "alaska-landslide-tsunami-tracy-arm-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "2026-10-23-saudi-arabia-joins-search-for-alien-civilizations": "LaserSETI optical detector telescope Saudi Arabia AlUla SETI sky watcher",
     "webb-stellar-jets-ngc7129-nebula": "NGC 7129 nebula James Webb stellar jets",
