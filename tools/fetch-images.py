@@ -313,6 +313,7 @@ QUERY = {
     "2026-10-25-how-cryo-em-revealed-why-statins-cause-muscle-pain": "cryo-electron microscopy protein structure channel membrane RyR1",
     "2026-10-26-brown-bears-rescued-from-russian-cages": "brown bear walking forest wild",
     "2026-10-25-kill-gut-bacteria-without-harming-good": "myxobacteria soil bacteria argyrin compound antibiotic natural product",
+    "carpal-tunnel-15-minute-hydrodissection-procedure": "wrist hand anatomy",
 }
 
 def ok_license(l):
