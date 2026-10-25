@@ -306,6 +306,7 @@ QUERY = {
     "2026-10-25-ai-reads-social-media-drug-side-effects": "artificial intelligence AI machine learning large language model reading social media posts computer screen data analysis visualization",
     "2026-10-25-spacex-starfall-second-flight-bandwagon-5": "SpaceX Falcon 9 Starfall capsule return vehicle mini-factory microgravity varda",
     "2026-10-25-quantum-limit-molecules-surface": "crystal surface quantum coherence molecule microscope",
+    "2026-10-26-brown-bears-rescued-from-russian-cages": "brown bear walking forest wild",
 }
 
 def ok_license(l):
