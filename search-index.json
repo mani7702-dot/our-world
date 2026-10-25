@@ -515,6 +515,22 @@
     ]
   },
   {
+    "title": "\"How did AI read millions of Reddit posts to find hidden drug side effects?\"",
+    "url": "news/2026-10-25-ai-reads-social-media-drug-side-effects.html",
+    "section": "news",
+    "excerpt": "\"Scientists taught an AI to scan nearly 150,000 Reddit posts from people taking an unapproved weight-loss drug. The AI found something surprising: users reported increased appetite — the opposite of what the drug is supposed to do.\"",
+    "tags": [
+      "science",
+      "AI",
+      "machine learning",
+      "social media",
+      "drugs",
+      "healthcare",
+      "retatrutide",
+      "explainers"
+    ]
+  },
+  {
     "title": "How did a volcanic eruption 27 million years ago create a new U.S. national park?",
     "url": "news/2026-10-25-chiricahua-national-park-arizona.html",
     "section": "news",
