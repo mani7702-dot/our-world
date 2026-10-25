@@ -2,7 +2,7 @@
 title: "How did Australia's desert turn into a rainbow — and what satellites saw from space?"
 date: 2026-10-24
 time: 12:00
-image: assets/images/nasa-wildflower-bloom-australia-outback.jpg
+image: assets/images/2026-10-24-nasa-wildflower-bloom-australia-outback.jpg
 image_caption: Photo: Landsat 8 / NASA-USGS — Wildflower bloom across Western Australia's Murchison region (public domain via Wikimedia Commons)
 category: Science
 read: 3 min
