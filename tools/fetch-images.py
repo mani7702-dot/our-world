@@ -329,6 +329,7 @@ QUERY = {
     "2026-10-25-russian-spy-satellite-shadows-us-earth-observing-craft": "satellite in low Earth orbit artist impression Earth below space surveillance",
     "2026-10-26-europe-satellite-starlink-alternative": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish IRIS2 artist impression",
     "2026-10-26-us-sloths-act-import-ban": "three-toed sloth Bradypus hanging from tree branch rainforest canopy",
+    "2026-10-25-cassini-discovers-iapetus-yin-yang-moon": "Iapetus moon Saturn two-tone yin-yang dark bright hemisphere Cassini spacecraft",
 }
 
 def ok_license(l):

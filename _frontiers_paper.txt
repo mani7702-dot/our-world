@@ -1,0 +1,889 @@
+Title: Mediterranean diet adherence is associated with mitochondrial microproteins Humanin and SHMOOSE; potential role of the Humanin–Nox2 interaction in cardioprotection
+
+URL Source: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full
+
+Published Time: 2026-03-10
+
+Markdown Content:
+## Abstract
+
+**Background:**
+
+The health benefits of the Mediterranean Diet (Med-Diet) have been demonstrated in observational studies and randomized controlled trials. Emerging evidence suggests that the biological effects of the Med-Diet may be mediated by the modulation of mitochondrial function. Human mitochondrial DNA (mtDNA) encodes microproteins, which have been shown to regulate aging, cardiometabolic functions, and neuroprotection.
+
+**Objectives:**
+
+To investigate Humanin and SHMOOSE (Small Human Mitochondrial ORF Over SErine tRNA), as potential mitochondrial biomarkers of Med-Diet adherence and their associations with markers of oxidative stress.
+
+**Methods:**
+
+Cross-sectional analysis of 49 patients (mean age 78.4 ± 8.7 years; 57% female) selected from an observational study of non-valvular atrial fibrillation (AF) conducted at the Atherothrombosis Center of Sapienza University of Rome. Patients were categorized into low-medium (0–6) and high (7–9) adherence to the Med-Diet based on the 9-item Med-Diet questionnaire. Oxidative stress was evaluated by measuring soluble Nox2-derived peptide (sNox2-dp) and plasma 8-iso-prostaglandin F2α (8-iso-PGF2α) using enzyme-linked immunosorbent assays (ELISA). Circulating Humanin and SHMOOSE levels were measured using an in-house sandwich ELISA.
+
+**Results:**
+
+High Med-Diet adherence was observed in 20 patients (40.8%), while 29 patients (59.2%) had low-medium adherence. Patients with high adherence exhibited higher plasma levels of SHMOOSE (_p_ = 0.046) and Humanin (_p_ = 0.045). The analysis of the dietary components of the Med-Diet revealed higher levels of SHMOOSE with olive oil consumption (_p_ = 0.020) and low intake of refined bread (_p_ = 0.029), while Humanin positively correlated with olive oil (_p_ = 0.0069), fish (_p_ = 0.038), and legumes (_p_ = 0.0282). Additionally, Humanin was inversely associated with sNox2-dp (_p_ = 0.019), which remained significant after adjusting for sex and BMI (_B_ = −0.010; _β_ = −0.302; _p_ = 0.040), and 8-iso-PGF2α (_p =_ 0.049).
+
+**Conclusion:**
+
+This study indicates (i) a positive association between adherence to the Med-Diet and circulating levels of mitochondrial microproteins SHMOOSE and Humanin supporting their role as potential mediators of Med-Diet benefits; (ii) a putative crosstalk between Humanin signaling and Nox2 activity, suggesting a novel cardioprotective mechanism of the Med-Diet. Collectively, these findings support mitochondrial microproteins as promising biomarkers for tailoring nutritional strategies for healthy aging. Further studies are warranted to elucidate the underlying mechanisms and determine the causal nature of these associations.
+
+## 1 Introduction
+
+The Mediterranean Diet (Med-Diet) is characterized by a wide variety of nutrient-dense foods, including (i) whole grains, legumes, fruits, and vegetables as the primary sources of carbohydrate, protein and fiber; (ii) nuts and extra virgin olive oil (EVOO), which provide the main dietary fats; and (iii) moderate amounts of fish, poultry, and dairy products, with limited red meat consumption, contributing to overall protein intake (–). The Med-Diet is also rich in bioactive polyphenols (also known as phytonutrients), with antioxidant and anti-inflammatory properties (–), as well as mono- and polyunsaturated fatty acids, primarily from nuts, fish, and EVOO, that have been shown to improve lipid profile (, ) and reduce inflammatory biomarkers (–). Observational studies and randomized controlled trials demonstrated that adherence to the Med-Diet may reduce the risk of cardiometabolic disorders, the burden of multimorbidity (–) and lower the risk for all-cause mortality (, ), thereby promoting healthspan and longevity (, ). Emerging evidence suggest that the benefits of the Med-Diet may be mediated, at least in part, by the reduction of oxidative stress (), as evidenced by decreased activity of NADPH oxidase 2 (Nox2), a major enzymatic source of reactive oxygen species (ROS) (, ), and the modulation of the hallmarks of aging () including attenuation of mitochondrial dysfunction (). Mitochondria play a pivotal role in macronutrient metabolism, redox homeostasis, and cellular signaling, and their dysfunction is involved in the pathophysiology of age-related diseases (). Mitochondria contain circular, double-stranded DNA (mtDNA), which comprises 16,569 base pairs and encodes 37 genes, including protein-coding genes for components of the electron transport chain that drive oxidative phosphorylation, generating most of the cellular energy as adenosine triphosphate (ATP) (). However, recent research has identified previously unannotated mitochondrial microproteins (also known as mitochondrial-derived peptides, MDPs) encoded by small open reading frames (smORFs) within the mtDNA, which were largely overlooked during the Human Genome Project (). The term smORF refers to ORFs with less than 100 codons that are actually translated, while the term “microprotein” refers to biologically active proteins shorter than 100 amino acids encoded by the smORFs () ([Figure 1](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig1)). Mitochondrial microproteins may be involved in crucial biological functions, including the pathophysiology of age-related diseases and the mechanisms of longevity (, ). For example, a recently identified genetic variant of the novel microprotein SHMOOSE (Small Human Mitochondrial ORF Over SErine tRNA) has been shown to mitigate amyloid-β42–induced neurotoxicity, while its genetic variant has been associated with increased risk for Alzheimer’s disease (AD) suggesting neuroprotective effects (). Similarly, Humanin, a microprotein encoded within the 16S ribosomal RNA region and widely distributed across tissues (), was discovered by three independent laboratories over 20 years ago for its neuroprotective properties (–). More recently, analysis of samples from the Albert Einstein Longevity Genes Project identified a Humanin genetic variant enriched in centenarians, which has been shown to mitigate AD-related amyloid-_β_ pathology (). In addition to its neuroprotective effects, Humanin has been detected in human vascular walls, demonstrating a cytoprotective effects against oxidized LDL-induced oxidative stress in age-related cardiovascular disease (CVD)(, ). Moreover, Humanin has been shown to preserve coronary endothelial function (), and low circulating levels of Humanin have been identified as an independent risk factor for coronary artery disease (CAD) (). Given the pivotal role of mitochondria in nutrient metabolism and the previously described role of Humanin in cellular stress response (), it is plausible that the expression of mitochondrial microproteins may be influenced by specific nutrients and dietary patterns. Therefore, based on the evidence linking the adherence to the Med-Diet with reduced oxidative stress, and given the previously reported cardio-and neuroprotective roles of Humanin and SHMOOSE, the present study aimed to examine circulating levels of these microproteins in relation to Med-Diet adherence and to investigate their association with two complementary CVD -related oxidative stress biomarkers, Nox2-derived peptide (sNox2-dp) and 8-iso-prostaglandin F2α (8-iso-PGF2α).
+
+Figure 1
+
+## 2 Study design and methods
+
+### 2.1 Patients recruitment
+
+The present study involved participants from a prospective single-center study of nonvalvular AF referred to the Atherothrombosis Center for evaluation and management of antithrombotic therapies at the Department of Clinical Internal, Anesthesiologic and Cardiovascular Sciences, Policlinico I University Hospital at Sapienza University of Rome. In the initial enrolment, all patients with non-valvular AF, aged >18 years of both sexes were included in the study. Patients were then excluded if they had mechanical or biologic prosthetic valves, severe valvulopathies or history of valvulopasty, congenital heart diseases, severe cognitive impairment, chronic inflammatory diseases, active neoplastic diseases, liver cirrhosis, or if they were taking any nutritional supplements. At baseline, adherence to the Med-Diet was assessed by a physician or registered nurse using the validated 9-item dietary questionnaire (), and the patients were asked to respond based on their usual eating habits at home.
+
+### 2.2 Selection of the sub-cohort for the evaluation of mitochondrial microproteins
+
+For this cross-sectional pilot study, we selected a convenience sub-cohort of 49 patients from a larger prospective registry. Eligible patients were those who: (i) met the initial inclusion criteria, (ii) had completed the Med-Diet questionnaire, (iii) were aged ≥60 years, and (iv) had sufficient stored plasma available for the measurement of at least two types of mitochondrial microproteins. Patients were categorized into two groups: low-medium adherence (0–6 points) and high adherence (7–9 points). The two groups were further balanced for age, BMI, chronic conditions, and cardiovascular risk factors. Patients with a body mass index (BMI) > 30 kg/m 2, stage 3B of chronic kidney disease (CKD), or with any acute medical condition at the time of the initial recruitment were excluded. All participants provided written informed consent, and the study protocol was approved by the local ethics committee of Sapienza University of Rome (Rif. 1,306/2007, Prot. 417/14) and conducted in accordance with the principles of the Declaration of Helsinki.
+
+### 2.3 Adherence to Mediterranean diet questionnaire
+
+Adherence to the Mediterranean Diet was assessed using a validated 9-item questionnaire that captures key components of the traditional Med-Diet pattern. The total Med-Diet score ranged from 0 to 9 points. One point was assigned for meeting each of the following criteria: (1) Olive oil as main culinary fat (≥1 tablespoon/day); (2) Fruit (≥1 serving/day); (3) Vegetables or salad (≥1 serving/day); (4) Fruit (≥1 serving/day) and vegetables (≥1 serving/day); (5) Legumes (≥2 servings/week); (6) Fish (≥3 servings/week); (7) Wine (≥1 glass/day); (8) Meat (<1 serving/day); (9) [White bread (<1/day) and rice (<1/week)] or whole-grain bread (>5/week).
+
+### 2.4 Blood sample collections
+
+Fasting blood samples were collected between 8:00 and 9:00 a.m. via venipuncture at the Atherothrombosis Center. Samples were sent to the local laboratories for routine blood analysis, including glucose, lipid profile, liver enzymes, and parameters of kidney function. For the measurement of oxidative stress biomarkers, additional blood samples were collected in 3.8% sodium citrate tubes (1:10 v/v ratio). Samples were then centrifuged at room temperature (RT) for 10 min at 300 g to obtain plasma samples. Plasma was then aliquoted and stored at −80 °C until analysis of Nox2-derived peptide (sNox2-dp) and isoprostanes was performed. Aliquots of the stored samples were later shipped in dry ice to the laboratories of the USC Leonard Davis School of Gerontology (Los Angeles, CA) for the quantification of mitochondrial microproteins, Humanin and SHMOOSE. All samples were labeled with study codes, and the receiving laboratory was blinded to group allocation.
+
+### 2.5 Markers of oxidative stress
+
+Plasma Nox2 levels were measured as sNox2-dp with an Enzyme-Linked Immunosorbent Assay (ELISA) method as previously reported (). Briefly, the peptide was recognized by binding to a specific monoclonal antibody against the amino acid sequence (224–268) corresponding to the extracellular membrane part of Nox2 (catalytic core of NADPH oxidase), which is released following platelet activation. The enzyme activity was measured spectrophotometrically by the increased absorbance at 450 nm. Values were expressed as pg./mL; intra-assay and inter-assay coefficients of variation were 8.95 and 9.01%, respectively.
+
+Plasma isoprostanes (8-iso-PGF2α) were measured by enzyme immunoassay technology (DRG Inter-national, Springfield, NJ, United States) the values were expressed in pmol/L. Intra-assay and inter-assay coefficients of variation were 5.8 and 5.0%, respectively.
+
+### 2.6 Mitochondrial microprotein assay using the humanin and SHMOOSE ELISA
+
+Plasma levels of Humanin and SHMOOSE were measured using an in-house ELISA (, ). Prior to the assay, Humanin and SHMOOSE were extracted from plasma in 90% acetonitrile and 10% 1 N HCl. Briefly, 200 μL of extraction reagent was added to 100 μL of plasma, gently mixed and incubated at room temperature for 30 min. The mixtures were centrifuged, and the supernatants were removed and dried. The dried extracts were reconstituted with 250 mL of phosphate buffer (50 mM sodium phosphate, 150 mM sodium chloride, 0.5% Tween-20, pH 7.6). To measure endogenous Humanin and SHMOOSE levels, synthetic Humanin, and SHMOOSE-c peptides were used as a standard with a range of 50 pg./mL to 10,000 pg./mL. Ninety-six-well microtiter plates were coated with rabbit anti- Humanin or SHMOOSE antibodies at 0.5 mg/well in 200 μL of 50 mM sodium bicarbonate buffer and incubated at room temperature for 3–4 h on a shaker followed by 2 washes with wash buffer and two washes with Superblock buffer (Pierce Chemicals, Rockford, IL). 100 μL of standards, controls or extracted samples and 100 μL of pre-titered biotinylated anti- Humanin or SHMOOSE antibodies were added to the appropriate wells and incubated overnight. Streptavidin-HRP conjugate was added to the wells after washing and further incubated for 30 min at room temperature. After 4 washes with wash buffer, 200 μL/well of 1-step ultra TMB were added and incubated for 10–20 min. The reaction was stopped by the addition of 2 N H2SO4 and absorbance was measured on a plate spectrophotometer (Molecular Designs, Sunnyvale, CA) at 450 nm.
+
+## 3 Statistical analysis and figures preparation
+
+All statistical analyses were performed using SPSS software (version 29.0.2; IBM, Armonk, NY, United States), while graphical representations and figures were generated using GraphPad Prism (version 10.4.1 for Mac, GraphPad Software, Boston, Massachusetts, United States) and BioRender Scientific Image and Illustration Software. The 3D models for Humanin and SHMOOSE were created using Alphafold 3 (). Descriptive statistics were used to summarize the data, with categorical variables reported as frequencies and continuous variables presented as means ± standard deviation (SD). The Shapiro–Wilk test was used to assess normality. Categorical variables were compared using the Chi-square test, while continuous variables were analyzed using two-tailed independent-samples _t_ tests. Variables with non-normal distributions were log-transformed prior to analysis when appropriate. Pearson’s correlation was used to assess associations between variables. Linear regression analyses adjusted for sex and BMI were performed to evaluate independent associations between mitochondrial microproteins and oxidative stress markers. A _p_ value < 0.05 was considered statistically significant.
+
+## 4 Results
+
+### 4.1 Patient characteristics
+
+The analysis consisted of 49 patients (57% women). The prevalence of hypertension was 85.7%, while 12.2% had a history of coronary heart disease. History of cerebrovascular disease (CeVD) was present in 12.2% of participants, and 6.1% had chronic obstructive pulmonary disease (COPD), while history of heart failure was 4.1%. The mean age of the participants (±SD) was 78.4 ± 8.7 years, with a mean BMI (kg/m 2) of 24 ± 3.2. No significant differences were found between the high adherence and low-medium adherence group in terms of lipid metabolism (total cholesterol, HDL, LDL, triglycerides), liver function (AST, ALT) () and kidney function. However, consistent with our previous findings (), patients with high adherence to the Med-Diet had lower levels of sNox2-dp compared to those with low-medium adherence (high adherence, 18.8 ± 8.97 pg./mL vs. low-medium adherence 25.0 ± 8.4 pg./mL; _p_ = 0.018) and lower 8-iso-PGF2α levels (high adherence, 122.2 ± 32.05 pmol/L vs. low-medium adherence, 156.2 ± 29.05 pmol/L; _p_< 0.001). Patient characteristics are summarized in [Table 1](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#tab1).
+
+Table 1
+
+| Parameter | Overall | Low-medium (0–6) (_N_ = 29) | High (7–9) (_N_ = 20) | _p_-value |
+| --- | --- | --- | --- | --- |
+| Age, years | 78.5 ± 8.7 | 78.2 ± 9.6 | 78.6 ± 7.4 | 0.877 |
+| Female, n (%) | 28 (57) | 16 (57) | 12 (43) | 0.45 |
+| Hemoglobin, g/dl | 13 ± 1.6 | 12.8 ± 1.5 | 13.3 ± 1.8 | 0.243 |
+| Platelets, 10 3/μl | 226 ± 101 | 219 ± 72 | 237 1 ± 32 | 0.557 |
+| Creatinine, mg/dl | 1.0 ± 0.2 | 1.0 ± 0.3 | 1.0 ± 0.2 | 0.339 |
+| GFR (CKD-EPI), ml/min/1.73m 2 | 61.2 ± 16.0 | 64.8 ± 19.58 | 56.5 ± 7.57 | 0.079 |
+| Body mass index, kg/m 2 | 24 ± 3.2 | 24.03 ± 3.42 | 23.97 ± 2.95 | 0.955 |
+| Body weight, kg | 66.5 ± 10.9 | 66.52 ± 11.96 | 66.50 ± 9.69 | 0.996 |
+| Total cholesterol, mg/dl | 174.5 ± 38.86 | 170.19 ± 35.84 | 180.88 ± 43.25 | 0.406 |
+| HDL, mg/dl | 50.1 ± 23.4 | 44.68 ± 16.82 | 57.12 ± 28.92 | 0.100 |
+| LDL, mg/dl | 102.8 ± 29.5 | 104.84 ± 32.86 | 99.96 ± 24.91 | 0.643 |
+| Triglycerides, mg/dl | 116.4 ± 55.1 | 117.97 ± 59.95 | 114.50 ± 50.02 | 0.848 |
+| GOT/AST (<45 U/L) | 26 ± 18.7 | 23.68 ± 10.83 | 28.98 ± 25.78 | 0.359 |
+| GPT/ALT (<40 U/L) | 23.3 ± 18.4 | 19.52 ± 12.33 | 28.74 ± 23.92 | 0.106 |
+| Oxidative stress biomarkers |
+| sNox2-dp, pg./mL | 22.5 ± 9.08 | 25 ± 8.4 | 18.8 ± 8.97 | **0.018** |
+| 8-iso-PGF2α, pmol/L | 84.19 ± 34.4 | 156.2 ± 29.05 | 122.2 ± 32.05 | **< 0.001** |
+
+Patient characteristics and oxidative stress biomarkers according to the Med-Diet adherence.
+
+Data are presented as mean ± standard deviation (SD) for continuous variables, and categorical variables are reported as frequencies. Group comparisons were performed using the Chi-square test for categorical variables and independent samples _t_-test (two-tailed) for continuous variables; _p_-values < 0.05 were considered statistically significant and are highlighted in bold. Total cholesterol and triglycerides were available for 39 patients; AST and ALT were available for 44 patients.
+
+### 4.2 Mitochondrial microproteins and adherence to the Mediterranean diet
+
+The analysis of mitochondrial microproteins, Humanin and SHMOOSE, revealed significant differences between the two groups of Med-Diet adherence. Specifically, SHMOOSE levels were significantly higher in patients with high adherence to the Med-Diet compared with those with low-medium adherence (Ln SHMOOSE: 7.331 ± 0.53 pg./mL vs. 7.067 ± 0.36 pg./mL; _p_ = 0.0460). Similarly, Humanin levels were significantly elevated in the high adherence group compared to the low-medium adherence group (Ln Humanin: 6.833 ± 0.23 pg./mL vs. 6.666 ± 0.33 pg./mL; _p_ = 0.0456; [Figure 2](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig2)). We further examined the associations between the dietary components of the Med-Diet and plasma levels of mitochondrial microproteins. The analysis revealed the following associations:
+
+*   (1) SHMOOSE levels were significantly higher in individuals consuming ≥1 tablespoon of olive oil daily (_p_ = 0.0207) and in those consuming less than one serving of white bread per day (_p_ = 0.0295; [Figure 3A](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig3)).
+
+*   (2) Humanin levels were significantly higher in individuals consuming ≥1 tablespoon of olive oil daily compared to those with a lower intake (_p_ = 0.0069). Additionally, elevated Humanin concentrations were observed in patients consuming ≥3 servings of fish per week (_p_ = 0.0384) and ≥2 servings of legumes per week (_p_ = 0.0282; [Figure 3B](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig3)).
+
+Figure 2
+
+Figure 3
+
+### 4.3 Relationships between mitochondrial microproteins and oxidative stress biomarkers
+
+The analysis of the associations between levels of mitochondrial microprotein and markers of oxidative stress revealed a significant inverse correlation between Humanin and the oxidative stress biomarkers sNOX2-dp (_ρ_ = − 0.335; _p_ = 0.019) and 8-iso-PGF2α (ρ = − 0.283; _p_ = 0.049; [Figure 4](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig4)). However, only the association between Humanin and sNox2-dp remained statistically significant after adjusting for sex and BMI (B = − 0.010; _β_ = − 0.302; _p_ = 0.040). In contrast, no significant associations were found between SHMOOSE and either sNox2-dp or 8-iso-PGF2α (_p_ = 0.346 and _p_ = 0.614, respectively).
+
+Figure 4
+
+## 5 Discussion
+
+This study is the first to investigate mitochondrial microproteins, Humanin and SHMOOSE, as potential biomarkers of mitochondrial response to adherence to the Med-Diet, as well as their relationship with the oxidative stress biomarkers sNOX2-dp and 8-iso-PGF2α. Our findings showed that both SHMOOSE and Humanin levels were significantly higher in patients with high adherence to the Med-Diet. Analysis of individual Med-Diet components revealed that SHMOOSE levels were positively associated with olive oil consumption and lower intake of refined bread, whereas Humanin levels were higher in individuals consuming olive oil, fish, and legumes. These findings suggest that circulating levels of mitochondrial microproteins may reflect bioenergetic adaptations to specific nutrient patterns characteristic of the Med-Diet. Furthermore, the inverse correlation between Humanin and sNox2-dp, a direct marker of Nox2 activation (), indicated a potential interaction between Humanin and Nox2, with Humanin possibly acting as an endogenous modulator of Nox2, thereby contributing to the cardioprotective effects of the Med-Diet (, , ).
+
+The Med-Diet is recognized as the most evidence-supported dietary pattern for the prevention of cardiometabolic conditions and it is widely recommended in clinical nutrition to improve blood pressure, glycemic control, and lipid profile (). Additionally, the Med-Diet has been shown to reduce circulating levels of pro-inflammatory cytokines such as tumor necrosis factor-_α_ (TNF-α) and interleukin-6 (IL-6) (, ), as well as to attenuate oxidative stress via downregulation of Nox2 (). However, whether mitochondrial microproteins may contribute to the biological effects of the Med-Diet remains largely unexplored. In our study, higher circulating levels of SHMOOSE were associated with lower intake of refined bread. This association may reflect the favorable metabolic effects of consuming minimally processed foods on glycemic control and suggests a possible additional role in supporting mitochondrial homeostasis (, ). Indeed, refined carbohydrate may induce intracellular glucotoxicity, leading to excessive ROS production and impaired activity of mitochondrial transcription factor A (TFAM), a central regulator of mtDNA replication and transcription, which could in turn alter mitochondrial microprotein expression (). Furthermore, the elevated levels of SHMOOSE and Humanin observed among individuals consuming olive oil could be linked to the effects of olive oil–derived polyphenols (e.g., hydroxytyrosol and oleuropein) on SIRT1 activation and PGC-1α deacetylation, which may in turn stimulate mitochondrial biogenesis and, plausibly increasing mitochondrial microprotein levels (–). Similarly, the increase in Humanin associated with fish and legumes intake may be explained by the effects of omega-3 polyunsaturated fatty acids (n3-PUFAs) on the AMPK/SIRT1/PGC-1α pathway, and legume-derived polyphenols (e.g., flavonoids, saponins, isoflavones) on the modulation of multiple molecular pathways involved in mitochondrial functions (–).
+
+Although speculative, our results suggest a novel biological trajectory through which mitochondrial microproteins may contribute to the metabolic, cardiovascular, and neuroprotective benefits of the dietary components of the Med-Diet ([Figure 5](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig5)). This hypothesis is supported by accumulating evidence showing that mitochondrial microproteins exert biological effects consistent with those attributed to the Med-Diet. For instance, both Humanin and SHMOOSE have been shown to play a role in AD–related neuropathology by attenuating amyloid-_β_ 42–induced neurotoxicity (, , , ), aligning with the accumulating evidence linking high adherence to the Med-Diet with favorable cognitive outcome (–).
+
+Figure 5
+
+In terms of metabolic effects, both _in vitro_ and _in vivo_ studies have consistently demonstrated that Humanin may enhance insulin sensitivity and promote pancreatic β-cell survival. Specifically, Humanin inhibited cytokine-induced apoptosis in β-cells and prevented the onset of diabetes in non-obese diabetic mice (). Additionally, both central (intracerebroventricular) and peripheral administration of Humanin, or its analogs, improved insulin sensitivity and reduced hepatic glucose production via hypothalamic STAT-3 signaling (). In the clinical setting, circulating Humanin levels were lower in patients with type 2 diabetes mellitus (T2DM) and inversely correlated with HbA1c (). Notably, these metabolic effects appeared to mimic those elicited by adherence to the Med-Diet (). Indeed, in the PREDIMED-Reus trial, adherence to the Med-Diet was associated with a 52% reduction in T2DM incidence (), improved glycemic control () lower HbA1c levels () and delayed disease progression ().
+
+Finally, Humanin has also emerged as a cardioprotective factor. In vascular tissue, studies have shown that Humanin may limit oxidized-LDL–induced oxidative stress in endothelial cells (), and in mice, Humanin preserved endothelial function, prevented the progression of the atherosclerotic plaque () and attenuated myocardial ischemia (). In humans, low circulating Humanin levels have been associated with coronary artery disease, suggesting its role as a potential biomarker for major cardiovascular events ().
+
+In our study, higher Humanin levels were not only associated with greater adherence to the Med-Diet but also with lower levels of oxidative stress biomarkers, particularly sNox2-dp, suggesting a potential molecular crosstalk between Humanin and Nox2. Supporting this hypothesis, Li et al. demonstrated in an _in vitro_ model of endothelial free-fatty acid toxicity that Humanin treatment reduced oxidative stress by downregulating Nox2 expression (), indicating that the inverse correlation between Humanin and sNox2-dp was likely to be causal rather than merely associative. Therefore, as shown in [Figure 6](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#fig6), we hypothesize that the lower sNox2-dp observed in patients with high Med-Diet adherence may resulted from both the intrinsic antioxidant properties of the Med-Diet and a potential inhibitory effect of Humanin on Nox2 activity ultimately contributing to cardioprotection. The cardiovascular relevance of this observation is further supported by findings from our previous larger prospective single-center study in patients with AF, in which higher adherence to the Med-Diet, together with lower Nox2 levels, was associated with a reduced incidence of cardiovascular events (). Taken together, these findings suggest that Humanin may act as a mediator of the cardiovascular benefits of the Med-Diet via Nox2 inhibition, providing a rationale for translational studies to further elucidate the cardioprotective role of the Humanin–Nox2 pathway.
+
+Figure 6
+
+The present study has several limitations. First, its observational design precludes causal inference, and the relatively small sample size, together with the restricted age range, may limit generalizability and reduce the ability to perform robust statistical analyses or stratification by age and sex. Second, the analyzed sub-cohort consisted of individuals with a moderate burden of chronic diseases, which may have contributed to inter-individual variability in mitochondrial microprotein levels. Third, dietary intake was assessed using a brief questionnaire which, although practical and widely used, may not fully capture the complexity of the Med-Diet. Fourth, our study did not account for physical activity levels, metabolic parameters, or other potential confounding factors; therefore, controlled dietary intervention studies are warranted to validate and extend these findings. Finally, the limited availability of stored plasma samples restricted the opportunity to measure additional mitochondrial microproteins. Nevertheless, this pilot study has several strengths: (i) the blinded measurement of mitochondrial microproteins, minimizing measurement bias; (ii) the novel application of mitochondrial microproteins in nutritional research; and (iii) the inverse correlation between Humanin and oxidative stress biomarkers associated with CVD, which strengthens the biological plausibility of the findings.
+
+## 6 Conclusion
+
+This pilot study suggests that: (i) the Med-Diet and its specific components may positively influence mitochondrial function, leading to increased levels of mitochondrial microproteins; (ii) Humanin may modulate Nox2 activity, potentially enhancing the antioxidant and cardioprotective effects of the Med-Diet; and (iii) mitochondrial microproteins may mediate the pro-longevity effects of the Med-Diet, serving as potential biomarkers of mitochondrial response to dietary interventions and opening new perspectives for precision nutrition strategies aimed at promoting healthy aging.
+
+## Statements
+
+### Data availability statement
+
+The raw data supporting the conclusions of this article will be made available by the corresponding author upon reasonable request.
+
+### Ethics statement
+
+The studies involving humans were approved by the local ethics committee of Sapienza University of Rome (Rif. 1,306/2007, Prot. 417/14) and conducted in accordance with the principles of the Declaration of Helsinki. The participants provided their written informed consent to participate in this study.
+
+### Author contributions
+
+RV: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Writing – original draft, Writing – review & editing. VC: Data curation, Investigation, Methodology, Writing – review & editing. JW: Data curation, Investigation, Methodology, Writing – review & editing. KY: Writing – review & editing. PP: Investigation, Supervision, Writing – review & editing. PC: Investigation, Methodology, Supervision, Writing – review & editing.
+
+### Funding
+
+The author(s) declared that financial support was received for this work and/or its publication. This study was supported by the following funding sources: the USC Daryl and Irwin Simon Nutrition for Alzheimer’s Disease Prevention Research Fund (to Dr. Vicinanza); the Hanson-Thorell Family Research Award (to Dr. Vicinanza); NIH grant P30AG094848 (to Dr. Cohen); and PRIN 2022 grant 000031_23_PP_PIGNATELLI_PRIN_2022-B53D23021240006 (to Dr. Pignatelli).
+
+### Conflict of interest
+
+The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+The reviewer NGF is currently organizing a Research Topic with the author RV.
+
+The author RV declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision.
+
+### Generative AI statement
+
+The author(s) declared that Generative AI was not used in the creation of this manuscript.
+
+Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.
+
+### Publisher’s note
+
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+
+## References
+
+*   1.
+
+Serra-Majem L Tomaino L Dernini S Berry EM Lairon D Ngo de la Cruz J. Updating the Mediterranean diet pyramid towards sustainability: focus on environmental concerns. _Int J Environ Res Public Health_. (2020) 17, 1–20. doi: 10.3390/ijerph17238758,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/33255721)
+    *   [CrossRef](https://doi.org/10.3390/ijerph17238758)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=L.%2BSerra-Majem&author=L.%2BTomaino&author=S.%2BDernini&author=EM.%2BBerry&author=D.%2BLairon&author=J.%2BNgo%2Bde%2Bla%2BCruz&publication_year=2020&title=Updating%2Bthe%2BMediterranean%2Bdiet%2Bpyramid%2Btowards%2Bsustainability%3A%2Bfocus%2Bon%2Benvironmental%2Bconcerns&journal=Int+J+Environ+Res+Public+Health&volume=17&pages=1-20)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref1a)
+
+*   2.
+
+Widmer RJ Flammer AJ Lerman LO Lerman A. The Mediterranean diet, its components, and cardiovascular disease. _Am J Med_. (2015) 128:229–38. doi: 10.1016/j.amjmed.2014.10.014,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/25447615)
+    *   [CrossRef](https://doi.org/10.1016/j.amjmed.2014.10.014)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=RJ.%2BWidmer&author=AJ.%2BFlammer&author=LO.%2BLerman&author=A.%2BLerman&publication_year=2015&title=The%2BMediterranean%2Bdiet%2C%2Bits%2Bcomponents%2C%2Band%2Bcardiovascular%2Bdisease&journal=Am+J+Med&volume=128&pages=229-38)
+
+*   3.
+
+Davis C Bryan J Hodgson J Murphy K. Definition of the Mediterranean diet. _A Literature Review Nutrients_. (2015) 7:9139–53. doi: 10.3390/nu7115459,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/26556369)
+    *   [CrossRef](https://doi.org/10.3390/nu7115459)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=C.%2BDavis&author=J.%2BBryan&author=J.%2BHodgson&author=K.%2BMurphy&publication_year=2015&title=Definition%2Bof%2Bthe%2BMediterranean%2Bdiet&journal=A+Literature+Review+Nutrients&volume=7&pages=9139-53)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref3a)
+
+*   4.
+
+Billingsley HE Carbone S. The antioxidant potential of the Mediterranean diet in patients at high cardiovascular risk: an in-depth review of the PREDIMED. _Nutr Diabetes_. (2018) 8:13. doi: 10.1038/s41387-018-0025-1,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/29549354)
+    *   [CrossRef](https://doi.org/10.1038/s41387-018-0025-1)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=HE.%2BBillingsley&author=S.%2BCarbone&publication_year=2018&title=The%2Bantioxidant%2Bpotential%2Bof%2Bthe%2BMediterranean%2Bdiet%2Bin%2Bpatients%2Bat%2Bhigh%2Bcardiovascular%2Brisk%3A%2Ban%2Bin-depth%2Breview%2Bof%2Bthe%2BPREDIMED&journal=Nutr+Diabetes&volume=8)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref4a)
+
+*   5.
+
+Razquin C Martinez JA Martinez-Gonzalez MA Mitjavila MT Estruch R Marti A. A 3 years follow-up of a Mediterranean diet rich in virgin olive oil is associated with high plasma antioxidant capacity and reduced body weight gain. _Eur J Clin Nutr_. (2009) 63:1387–93. doi: 10.1038/ejcn.2009.106,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/19707219)
+    *   [CrossRef](https://doi.org/10.1038/ejcn.2009.106)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=C.%2BRazquin&author=JA.%2BMartinez&author=MA.%2BMartinez-Gonzalez&author=MT.%2BMitjavila&author=R.%2BEstruch&author=A.%2BMarti&publication_year=2009&title=A%2B3%2Byears%2Bfollow-up%2Bof%2Ba%2BMediterranean%2Bdiet%2Brich%2Bin%2Bvirgin%2Bolive%2Boil%2Bis%2Bassociated%2Bwith%2Bhigh%2Bplasma%2Bantioxidant%2Bcapacity%2Band%2Breduced%2Bbody%2Bweight%2Bgain&journal=Eur+J+Clin+Nutr&volume=63&pages=1387-93)
+
+*   6.
+
+Estruch R. Anti-inflammatory effects of the Mediterranean diet: the experience of the PREDIMED study. _Proc Nutr Soc_. (2010) 69:333–40. doi: 10.1017/S0029665110001539,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/20515519)
+    *   [CrossRef](https://doi.org/10.1017/S0029665110001539)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BEstruch&publication_year=2010&title=Anti-inflammatory%2Beffects%2Bof%2Bthe%2BMediterranean%2Bdiet%3A%2Bthe%2Bexperience%2Bof%2Bthe%2BPREDIMED%2Bstudy&journal=Proc+Nutr+Soc&volume=69&pages=333-40)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref6a)
+
+*   7.
+
+Sanchez-Rodriguez E Lima-Cabello E Biel-Glesson S Fernandez-Navarro JR Calleja MA Roca M et al. Effects of virgin olive oils differing in their bioactive compound contents on metabolic syndrome and endothelial functional risk biomarkers in healthy adults: a randomized double-blind controlled trial. _Nutrients_. (2018) 10:626. doi: 10.3390/nu10050626,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/29772657)
+    *   [CrossRef](https://doi.org/10.3390/nu10050626)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=E.%2BSanchez-Rodriguez&author=E.%2BLima-Cabello&author=S.%2BBiel-Glesson&author=JR.%2BFernandez-Navarro&author=MA.%2BCalleja&author=M.%2BRoca&publication_year=2018&title=Effects%2Bof%2Bvirgin%2Bolive%2Boils%2Bdiffering%2Bin%2Btheir%2Bbioactive%2Bcompound%2Bcontents%2Bon%2Bmetabolic%2Bsyndrome%2Band%2Bendothelial%2Bfunctional%2Brisk%2Bbiomarkers%2Bin%2Bhealthy%2Badults%3A%2Ba%2Brandomized%2Bdouble-blind%2Bcontrolled%2Btrial&journal=Nutrients&volume=10)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref7a)
+
+*   8.
+
+Violi F Loffredo L Pignatelli P Angelico F Bartimoccia S Nocella C. Extra virgin olive oil use is associated with improved post-prandial blood glucose and LDL cholesterol in healthy subjects. _Nutr Diabetes_. (2015) 5:e172–2. doi: 10.1038/nutd.2015.23,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/26192450)
+    *   [CrossRef](https://doi.org/10.1038/nutd.2015.23)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=F.%2BVioli&author=L.%2BLoffredo&author=P.%2BPignatelli&author=F.%2BAngelico&author=S.%2BBartimoccia&author=C.%2BNocella&publication_year=2015&title=Extra%2Bvirgin%2Bolive%2Boil%2Buse%2Bis%2Bassociated%2Bwith%2Bimproved%2Bpost-prandial%2Bblood%2Bglucose%2Band%2BLDL%2Bcholesterol%2Bin%2Bhealthy%2Bsubjects&journal=Nutr+Diabetes&volume=5&pages=e172-2)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref8a)
+
+*   9.
+
+Ruiz-García I Ortíz-Flores R Badía R García-Borrego A García-Fernández M Lara E et al. Rich oleocanthal and oleacein extra virgin olive oil and inflammatory and antioxidant status in people with obesity and prediabetes. The APRIL study: a randomised, controlled crossover study. _Clin Nutr_. (2023) 42:1389–98. doi: 10.1016/j.clnu.2023.06.027,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/37421852)
+    *   [CrossRef](https://doi.org/10.1016/j.clnu.2023.06.027)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=I.%2BRuiz-Garc%C3%ADa&author=R.%2BOrt%C3%ADz-Flores&author=R.%2BBad%C3%ADa&author=A.%2BGarc%C3%ADa-Borrego&author=M.%2BGarc%C3%ADa-Fern%C3%A1ndez&author=E.%2BLara&publication_year=2023&title=Rich%2Boleocanthal%2Band%2Boleacein%2Bextra%2Bvirgin%2Bolive%2Boil%2Band%2Binflammatory%2Band%2Bantioxidant%2Bstatus%2Bin%2Bpeople%2Bwith%2Bobesity%2Band%2Bprediabetes.%2BThe%2BAPRIL%2Bstudy%3A%2Ba%2Brandomised%2C%2Bcontrolled%2Bcrossover%2Bstudy&journal=Clin+Nutr&volume=42&pages=1389-98)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref9a)
+
+*   10.
+
+Sanchez-Rodriguez E Biel-Glesson S Fernandez-Navarro JR Calleja MA Espejo-Calvo JA Gil-Extremera B. Effects of virgin olive oils differing in their bioactive compound contents on biomarkers of oxidative stress and inflammation in healthy adults: a randomized double-blind controlled trial. _Nutrients_. (2019) 11:561. doi: 10.3390/nu11030561,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/30845690)
+    *   [CrossRef](https://doi.org/10.3390/nu11030561)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=E.%2BSanchez-Rodriguez&author=S.%2BBiel-Glesson&author=JR.%2BFernandez-Navarro&author=MA.%2BCalleja&author=JA.%2BEspejo-Calvo&author=B.%2BGil-Extremera&publication_year=2019&title=Effects%2Bof%2Bvirgin%2Bolive%2Boils%2Bdiffering%2Bin%2Btheir%2Bbioactive%2Bcompound%2Bcontents%2Bon%2Bbiomarkers%2Bof%2Boxidative%2Bstress%2Band%2Binflammation%2Bin%2Bhealthy%2Badults%3A%2Ba%2Brandomized%2Bdouble-blind%2Bcontrolled%2Btrial&journal=Nutrients&volume=11)
+
+*   11.
+
+Yarla NS Polito A Peluso I. Effects of olive oil on TNF-α and IL-6 in humans: implication in obesity and frailty. _Endocr Metab Immune Disord Drug Targets_. (2018) 18:63–74. doi: 10.2174/1871530317666171120150329,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/29165098)
+    *   [CrossRef](https://doi.org/10.2174/1871530317666171120150329)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=NS.%2BYarla&author=A.%2BPolito&author=I.%2BPeluso&publication_year=2018&title=Effects%2Bof%2Bolive%2Boil%2Bon%2BTNF-%CE%B1%2Band%2BIL-6%2Bin%2Bhumans%3A%2Bimplication%2Bin%2Bobesity%2Band%2Bfrailty&journal=Endocr+Metab+Immune+Disord+Drug+Targets&volume=18&pages=63-74)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref11a)
+
+*   12.
+
+Salas-Salvadó J Bulló M Babio N Martínez-González MÁ Ibarrola-Jurado N Basora J. Reduction in the incidence of type 2 diabetes with the Mediterranean diet. _Diabetes Care_. (2011) 34:14–9. doi: 10.2337/dc10-1288,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/20929998)
+    *   [CrossRef](https://doi.org/10.2337/dc10-1288)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BSalas-Salvad%C3%B3&author=M.%2BBull%C3%B3&author=N.%2BBabio&author=M%C3%81.%2BMart%C3%ADnez-Gonz%C3%A1lez&author=N.%2BIbarrola-Jurado&author=J.%2BBasora&publication_year=2011&title=Reduction%2Bin%2Bthe%2Bincidence%2Bof%2Btype%2B2%2Bdiabetes%2Bwith%2Bthe%2BMediterranean%2Bdiet&journal=Diabetes+Care&volume=34&pages=14-9)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref12a)
+
+*   13.
+
+Salas-Salvadó J Bulló M Estruch R Ros E Covas MI Ibarrola-Jurado N et al. Prevention of diabetes with Mediterranean diets: a subgroup analysis of a randomized trial. _Ann Intern Med_. (2014) 160:1–10. doi: 10.7326/M13-1725,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/24573661)
+    *   [CrossRef](https://doi.org/10.7326/M13-1725)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BSalas-Salvad%C3%B3&author=M.%2BBull%C3%B3&author=R.%2BEstruch&author=E.%2BRos&author=MI.%2BCovas&author=N.%2BIbarrola-Jurado&publication_year=2014&title=Prevention%2Bof%2Bdiabetes%2Bwith%2BMediterranean%2Bdiets%3A%2Ba%2Bsubgroup%2Banalysis%2Bof%2Ba%2Brandomized%2Btrial&journal=Ann+Intern+Med&volume=160&pages=1-10)
+
+*   14.
+
+Estruch R Ros E Salas-Salvadó J Covas MI Corella D Arós F. Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts. _N Engl J Med_. (2018) 378:e34. doi: 10.1056/NEJMoa1800389,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/29897866)
+    *   [CrossRef](https://doi.org/10.1056/NEJMoa1800389)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BEstruch&author=E.%2BRos&author=J.%2BSalas-Salvad%C3%B3&author=MI.%2BCovas&author=D.%2BCorella&author=F.%2BAr%C3%B3s&publication_year=2018&title=Primary%2Bprevention%2Bof%2Bcardiovascular%2Bdisease%2Bwith%2Ba%2BMediterranean%2Bdiet%2Bsupplemented%2Bwith%2Bextra-virgin%2Bolive%2Boil%2Bor%2Bnuts&journal=N+Engl+J+Med&volume=378)
+
+*   15.
+
+Vicinanza R Troisi G Cangemi R Ulderico de Martino M Pastori D Bernardini S. Aging and adherence to the Mediterranean diet: relationship with cardiometabolic disorders and polypharmacy. _J Nutr Health Aging_. (2018) 22:73–81. doi: 10.1007/s12603-017-0922-3,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/29300425)
+    *   [CrossRef](https://doi.org/10.1007/s12603-017-0922-3)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BVicinanza&author=G.%2BTroisi&author=R.%2BCangemi&author=M.%2BUlderico%2Bde%2BMartino&author=D.%2BPastori&author=S.%2BBernardini&publication_year=2018&title=Aging%2Band%2Badherence%2Bto%2Bthe%2BMediterranean%2Bdiet%3A%2Brelationship%2Bwith%2Bcardiometabolic%2Bdisorders%2Band%2Bpolypharmacy&journal=J+Nutr+Health+Aging&volume=22&pages=73-81)
+
+*   16.
+
+Vicinanza R Bersani FS D’Ottavio E Murphy M Bernardini S Crisciotti F. Adherence to Mediterranean diet moderates the association between multimorbidity and depressive symptoms in older adults. _Arch Gerontol Geriatr_. (2020) 88:104022. doi: 10.1016/j.archger.2020.104022,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/32109694)
+    *   [CrossRef](https://doi.org/10.1016/j.archger.2020.104022)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BVicinanza&author=FS.%2BBersani&author=E.%2BD%E2%80%99Ottavio&author=M.%2BMurphy&author=S.%2BBernardini&author=F.%2BCrisciotti&publication_year=2020&title=Adherence%2Bto%2BMediterranean%2Bdiet%2Bmoderates%2Bthe%2Bassociation%2Bbetween%2Bmultimorbidity%2Band%2Bdepressive%2Bsymptoms%2Bin%2Bolder%2Badults&journal=Arch+Gerontol+Geriatr&volume=88)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref16a)
+
+*   17.
+
+Ahmad S Moorthy MV Lee IM Ridker PM Manson JE Buring JE et al. Mediterranean diet adherence and risk of all-cause mortality in women. _JAMA Netw Open_. (2024) 7:e2414322. doi: 10.1001/jamanetworkopen.2024.14322,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/38819819)
+    *   [CrossRef](https://doi.org/10.1001/jamanetworkopen.2024.14322)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=S.%2BAhmad&author=MV.%2BMoorthy&author=IM.%2BLee&author=PM.%2BRidker&author=JE.%2BManson&author=JE.%2BBuring&publication_year=2024&title=Mediterranean%2Bdiet%2Badherence%2Band%2Brisk%2Bof%2Ball-cause%2Bmortality%2Bin%2Bwomen&journal=JAMA+Netw+Open&volume=7)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref17a)
+
+*   18.
+
+Mitrou PN Kipnis V Thiébaut ACM Reedy J Subar AF Wirfält E et al. Mediterranean dietary pattern and prediction of all-cause mortality in a US population: results from the NIH-AARP diet and health study. _Arch Intern Med_. (2007) 167:2461–8. doi: 10.1001/archinte.167.22.2461
+
+    *   [CrossRef](https://doi.org/10.1001/archinte.167.22.2461)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=PN.%2BMitrou&author=V.%2BKipnis&author=ACM.%2BThi%C3%A9baut&author=J.%2BReedy&author=AF.%2BSubar&author=E.%2BWirf%C3%A4lt&publication_year=2007&title=Mediterranean%2Bdietary%2Bpattern%2Band%2Bprediction%2Bof%2Ball-cause%2Bmortality%2Bin%2Ba%2BUS%2Bpopulation%3A%2Bresults%2Bfrom%2Bthe%2BNIH-AARP%2Bdiet%2Band%2Bhealth%2Bstudy&journal=Arch+Intern+Med&volume=167&pages=2461-8)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref18a)
+
+*   19.
+
+Dominguez LJ Di Bella G Veronese N Barbagallo M. Impact of Mediterranean diet on chronic non-communicable diseases and longevity. _Nutrients_. (2021) 13:2028. doi: 10.3390/nu13062028,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/34204683)
+    *   [CrossRef](https://doi.org/10.3390/nu13062028)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=LJ.%2BDominguez&author=G.%2BDi%2BBella&author=N.%2BVeronese&author=M.%2BBarbagallo&publication_year=2021&title=Impact%2Bof%2BMediterranean%2Bdiet%2Bon%2Bchronic%2Bnon-communicable%2Bdiseases%2Band%2Blongevity&journal=Nutrients&volume=13)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref19a)
+
+*   20.
+
+Pérez-López FR Chedraui P Haya J Cuadros JL. Effects of the Mediterranean diet on longevity and age-related morbid conditions. _Maturitas_. (2009) 64:67–79. doi: 10.1016/j.maturitas.2009.07.013,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/19720479)
+    *   [CrossRef](https://doi.org/10.1016/j.maturitas.2009.07.013)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=FR.%2BP%C3%A9rez-L%C3%B3pez&author=P.%2BChedraui&author=J.%2BHaya&author=JL.%2BCuadros&publication_year=2009&title=Effects%2Bof%2Bthe%2BMediterranean%2Bdiet%2Bon%2Blongevity%2Band%2Bage-related%2Bmorbid%2Bconditions&journal=Maturitas&volume=64&pages=67-79)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref20a)
+
+*   21.
+
+Dai J Jones DP Goldberg J Ziegler TR Bostick RM Wilson PW. Association between adherence to the Mediterranean diet and oxidative stress. _Am J Clin Nutr_. (2008) 88:1364–70. doi: 10.3945/ajcn.2008.26528,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/18996873)
+    *   [CrossRef](https://doi.org/10.3945/ajcn.2008.26528)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BDai&author=DP.%2BJones&author=J.%2BGoldberg&author=TR.%2BZiegler&author=RM.%2BBostick&author=PW.%2BWilson&publication_year=2008&title=Association%2Bbetween%2Badherence%2Bto%2Bthe%2BMediterranean%2Bdiet%2Band%2Boxidative%2Bstress&journal=Am+J+Clin+Nutr&volume=88&pages=1364-70)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref21a)
+
+*   22.
+
+Carnevale R Pignatelli P Nocella C Loffredo L Pastori D Vicario T. Extra virgin olive oil blunt post-prandial oxidative stress via NOX2 down-regulation. _Atherosclerosis_. (2014) 235:649–58. doi: 10.1016/j.atherosclerosis.2014.05.954,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/24980290)
+    *   [CrossRef](https://doi.org/10.1016/j.atherosclerosis.2014.05.954)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BCarnevale&author=P.%2BPignatelli&author=C.%2BNocella&author=L.%2BLoffredo&author=D.%2BPastori&author=T.%2BVicario&publication_year=2014&title=Extra%2Bvirgin%2Bolive%2Boil%2Bblunt%2Bpost-prandial%2Boxidative%2Bstress%2Bvia%2BNOX2%2Bdown-regulation&journal=Atherosclerosis&volume=235&pages=649-58)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref22a)
+
+*   23.
+
+Pastori D Carnevale R Bartimoccia S Nocella C Tanzilli G Cangemi R. Does Mediterranean diet reduce cardiovascular events and oxidative stress in atrial fibrillation?_Antioxid Redox Signal_. (2015) 23:682–7. doi: 10.1089/ars.2015.6326,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/25825798)
+    *   [CrossRef](https://doi.org/10.1089/ars.2015.6326)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=D.%2BPastori&author=R.%2BCarnevale&author=S.%2BBartimoccia&author=C.%2BNocella&author=G.%2BTanzilli&author=R.%2BCangemi&publication_year=2015&title=Does%2BMediterranean%2Bdiet%2Breduce%2Bcardiovascular%2Bevents%2Band%2Boxidative%2Bstress%2Bin%2Batrial%2Bfibrillation%3F&journal=Antioxid+Redox+Signal&volume=23&pages=682-7)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref23a)
+
+*   24.
+
+Shannon OM Ashor AW Scialo F Saretzki G Martin-Ruiz C Lara J. Mediterranean diet and the hallmarks of ageing. _Eur J Clin Nutr_. (2021) 75:1176–92. doi: 10.1038/s41430-020-00841-x,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/33514872)
+    *   [CrossRef](https://doi.org/10.1038/s41430-020-00841-x)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=OM.%2BShannon&author=AW.%2BAshor&author=F.%2BScialo&author=G.%2BSaretzki&author=C.%2BMartin-Ruiz&author=J.%2BLara&publication_year=2021&title=Mediterranean%2Bdiet%2Band%2Bthe%2Bhallmarks%2Bof%2Bageing&journal=Eur+J+Clin+Nutr&volume=75&pages=1176-92)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref24a)
+
+*   25.
+
+Khalil M Shanmugam H Abdallah H John Britto JS Galerati I Gómez-Ambrosi J. The potential of the Mediterranean diet to improve mitochondrial function in experimental models of obesity and metabolic syndrome. _Nutrients_. (2022) 14:3112. doi: 10.3390/nu14153112,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/35956289)
+    *   [CrossRef](https://doi.org/10.3390/nu14153112)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BKhalil&author=H.%2BShanmugam&author=H.%2BAbdallah&author=JS.%2BJohn%2BBritto&author=I.%2BGalerati&author=J.%2BG%C3%B3mez-Ambrosi&publication_year=2022&title=The%2Bpotential%2Bof%2Bthe%2BMediterranean%2Bdiet%2Bto%2Bimprove%2Bmitochondrial%2Bfunction%2Bin%2Bexperimental%2Bmodels%2Bof%2Bobesity%2Band%2Bmetabolic%2Bsyndrome&journal=Nutrients&volume=14)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref25a)
+
+*   26.
+
+Amorim JA Coppotelli G Rolo AP Palmeira CM Ross JM Sinclair DA. Mitochondrial and metabolic dysfunction in ageing and age-related diseases. _Nat Rev Endocrinol_. (2022) 18:243–58. doi: 10.1038/s41574-021-00626-7,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/35145250)
+    *   [CrossRef](https://doi.org/10.1038/s41574-021-00626-7)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=JA.%2BAmorim&author=G.%2BCoppotelli&author=AP.%2BRolo&author=CM.%2BPalmeira&author=JM.%2BRoss&author=DA.%2BSinclair&publication_year=2022&title=Mitochondrial%2Band%2Bmetabolic%2Bdysfunction%2Bin%2Bageing%2Band%2Bage-related%2Bdiseases&journal=Nat+Rev+Endocrinol&volume=18&pages=243-58)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref26a)
+
+*   27.
+
+Taanman JW. The mitochondrial genome: structure, transcription, translation and replication. _Biochimica et Biophysica Acta (BBA)_. (1999) 1410:103–23.
+
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=JW.%2BTaanman&publication_year=1999&title=The%2Bmitochondrial%2Bgenome%3A%2Bstructure%2C%2Btranscription%2C%2Btranslation%2Band%2Breplication&journal=Biochimica+et+Biophysica+Acta+%28BBA%29&volume=1410&pages=103-23)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref27a)
+
+*   28.
+
+Kumagai H Miller B Kim SJ Leelaprachakul N Kikuchi N Yen K. Novel insights into mitochondrial DNA: mitochondrial microproteins and mtDNA variants modulate athletic performance and age-related diseases. _Gene_. (2023) 14:286. doi: 10.3390/genes14020286,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/36833212)
+    *   [CrossRef](https://doi.org/10.3390/genes14020286)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=H.%2BKumagai&author=B.%2BMiller&author=SJ.%2BKim&author=N.%2BLeelaprachakul&author=N.%2BKikuchi&author=K.%2BYen&publication_year=2023&title=Novel%2Binsights%2Binto%2Bmitochondrial%2BDNA%3A%2Bmitochondrial%2Bmicroproteins%2Band%2BmtDNA%2Bvariants%2Bmodulate%2Bathletic%2Bperformance%2Band%2Bage-related%2Bdiseases&journal=Gene&volume=14)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref28a)
+
+*   29.
+
+Saghatelian A Couso JP. Discovery and characterization of smORF-encoded bioactive polypeptides. _Nat Chem Biol_. (2015) 11:909–16. doi: 10.1038/nchembio.1964,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/26575237)
+    *   [CrossRef](https://doi.org/10.1038/nchembio.1964)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=A.%2BSaghatelian&author=JP.%2BCouso&publication_year=2015&title=Discovery%2Band%2Bcharacterization%2Bof%2BsmORF-encoded%2Bbioactive%2Bpolypeptides&journal=Nat+Chem+Biol&volume=11&pages=909-16)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref29a)
+
+*   30.
+
+Miller B Kim SJ Kumagai H Yen K Cohen P. Mitochondria-derived peptides in aging and healthspan. _J Clin Invest_. (2022) 132, 1–9. doi: 10.1172/JCI158449,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/35499074)
+    *   [CrossRef](https://doi.org/10.1172/JCI158449)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=B.%2BMiller&author=SJ.%2BKim&author=H.%2BKumagai&author=K.%2BYen&author=P.%2BCohen&publication_year=2022&title=Mitochondria-derived%2Bpeptides%2Bin%2Baging%2Band%2Bhealthspan&journal=J+Clin+Invest&volume=132&pages=1-9)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref30a)
+
+*   31.
+
+Yen K Mehta HH Kim SJ Lue Y Hoang J Guerrero N. The mitochondrial derived peptide humanin is a regulator of lifespan and healthspan. _Aging_. (2020) 12:11185–99. doi: 10.18632/aging.103534,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/32575074)
+    *   [CrossRef](https://doi.org/10.18632/aging.103534)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=K.%2BYen&author=HH.%2BMehta&author=SJ.%2BKim&author=Y.%2BLue&author=J.%2BHoang&author=N.%2BGuerrero&publication_year=2020&title=The%2Bmitochondrial%2Bderived%2Bpeptide%2Bhumanin%2Bis%2Ba%2Bregulator%2Bof%2Blifespan%2Band%2Bhealthspan&journal=Aging&volume=12&pages=11185-99)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref31a)
+
+*   32.
+
+Miller B Kim SJ Mehta HH Cao K Kumagai H Thumaty N. Mitochondrial DNA variation in Alzheimer’s disease reveals a unique microprotein called SHMOOSE. _Mol Psychiatry_. (2023) 28:1813–26. doi: 10.1038/s41380-022-01769-3,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/36127429)
+    *   [CrossRef](https://doi.org/10.1038/s41380-022-01769-3)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=B.%2BMiller&author=SJ.%2BKim&author=HH.%2BMehta&author=K.%2BCao&author=H.%2BKumagai&author=N.%2BThumaty&publication_year=2023&title=Mitochondrial%2BDNA%2Bvariation%2Bin%2BAlzheimer%E2%80%99s%2Bdisease%2Breveals%2Ba%2Bunique%2Bmicroprotein%2Bcalled%2BSHMOOSE&journal=Mol+Psychiatry&volume=28&pages=1813-26)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref32a)
+
+*   33.
+
+Hazafa A Batool A Ahmad S Amjad M Chaudhry SN Asad J et al. Humanin: a mitochondrial-derived peptide in the treatment of apoptosis-related diseases. _Life Sci_. (2021) 264:118679. doi: 10.1016/j.lfs.2020.118679,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/33130077)
+    *   [CrossRef](https://doi.org/10.1016/j.lfs.2020.118679)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=A.%2BHazafa&author=A.%2BBatool&author=S.%2BAhmad&author=M.%2BAmjad&author=SN.%2BChaudhry&author=J.%2BAsad&publication_year=2021&title=Humanin%3A%2Ba%2Bmitochondrial-derived%2Bpeptide%2Bin%2Bthe%2Btreatment%2Bof%2Bapoptosis-related%2Bdiseases&journal=Life+Sci&volume=264)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref33a)
+
+*   34.
+
+Hashimoto Y Niikura T Tajima H Yasukawa T Sudo H Ito Y. A rescue factor abolishing neuronal cell death by a wide spectrum of familial Alzheimer’s disease genes and Abeta. _Proc Natl Acad Sci USA_. (2001) 98:6336–41. doi: 10.1073/pnas.101133498,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/11371646)
+    *   [CrossRef](https://doi.org/10.1073/pnas.101133498)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=Y.%2BHashimoto&author=T.%2BNiikura&author=H.%2BTajima&author=T.%2BYasukawa&author=H.%2BSudo&author=Y.%2BIto&publication_year=2001&title=A%2Brescue%2Bfactor%2Babolishing%2Bneuronal%2Bcell%2Bdeath%2Bby%2Ba%2Bwide%2Bspectrum%2Bof%2Bfamilial%2BAlzheimer%E2%80%99s%2Bdisease%2Bgenes%2Band%2BAbeta&journal=Proc+Natl+Acad+Sci+USA&volume=98&pages=6336-41)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref34a)
+
+*   35.
+
+Ikonen M Liu B Hashimoto Y Ma L Lee KW Niikura T. Interaction between the Alzheimer’s survival peptide humanin and insulin-like growth factor-binding protein 3 regulates cell survival and apoptosis. _Proc Natl Acad Sci USA_. (2003) 100:13042–7. doi: 10.1073/pnas.2135111100,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/14561895)
+    *   [CrossRef](https://doi.org/10.1073/pnas.2135111100)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BIkonen&author=B.%2BLiu&author=Y.%2BHashimoto&author=L.%2BMa&author=KW.%2BLee&author=T.%2BNiikura&publication_year=2003&title=Interaction%2Bbetween%2Bthe%2BAlzheimer%E2%80%99s%2Bsurvival%2Bpeptide%2Bhumanin%2Band%2Binsulin-like%2Bgrowth%2Bfactor-binding%2Bprotein%2B3%2Bregulates%2Bcell%2Bsurvival%2Band%2Bapoptosis&journal=Proc+Natl+Acad+Sci+USA&volume=100&pages=13042-7)
+
+*   36.
+
+Guo B Zhai D Cabezas E Welsh K Nouraini S Satterthwait AC. Humanin peptide suppresses apoptosis by interfering with Bax activation. _Nature_. (2003) 423:456–61. doi: 10.1038/nature01627,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/12732850)
+    *   [CrossRef](https://doi.org/10.1038/nature01627)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=B.%2BGuo&author=D.%2BZhai&author=E.%2BCabezas&author=K.%2BWelsh&author=S.%2BNouraini&author=AC.%2BSatterthwait&publication_year=2003&title=Humanin%2Bpeptide%2Bsuppresses%2Bapoptosis%2Bby%2Binterfering%2Bwith%2BBax%2Bactivation&journal=Nature&volume=423&pages=456-61)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref36a)
+
+*   37.
+
+Miller B Kim SJ Cao K Mehta HH Thumaty N Kumagai H. Humanin variant P3S is associated with longevity in APOE4 carriers and resists APOE4-induced brain pathology. _Aging Cell_. (2024) 23:e14153. doi: 10.1111/acel.14153,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/38520065)
+    *   [CrossRef](https://doi.org/10.1111/acel.14153)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=B.%2BMiller&author=SJ.%2BKim&author=K.%2BCao&author=HH.%2BMehta&author=N.%2BThumaty&author=H.%2BKumagai&publication_year=2024&title=Humanin%2Bvariant%2BP3S%2Bis%2Bassociated%2Bwith%2Blongevity%2Bin%2BAPOE4%2Bcarriers%2Band%2Bresists%2BAPOE4-induced%2Bbrain%2Bpathology&journal=Aging+Cell&volume=23)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref37a)
+
+*   38.
+
+Bachar AR Scheffer L Schroeder AS Nakamura HK Cobb LJ Oh YK. Humanin is expressed in human vascular walls and has a cytoprotective effect against oxidized LDL-induced oxidative stress. _Cardiovasc Res_. (2010) 88:360–6. doi: 10.1093/cvr/cvq191,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/20562421)
+    *   [CrossRef](https://doi.org/10.1093/cvr/cvq191)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=AR.%2BBachar&author=L.%2BScheffer&author=AS.%2BSchroeder&author=HK.%2BNakamura&author=LJ.%2BCobb&author=YK.%2BOh&publication_year=2010&title=Humanin%2Bis%2Bexpressed%2Bin%2Bhuman%2Bvascular%2Bwalls%2Band%2Bhas%2Ba%2Bcytoprotective%2Beffect%2Bagainst%2Boxidized%2BLDL-induced%2Boxidative%2Bstress&journal=Cardiovasc+Res&volume=88&pages=360-6)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref38a)
+
+*   39.
+
+Cai H Cao P Sun W Shao W Li R Wang L et al. Circulating humanin is lower in coronary artery disease and is a prognostic biomarker for major cardiac events in humans. _Am J Physiol Heart Circ Physiol_. (2013) 304:H393–H397. doi: 10.1016/j.bbagen.2021.130010,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/34525397)
+    *   [CrossRef](https://doi.org/10.1016/j.bbagen.2021.130010)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=H.%2BCai&author=P.%2BCao&author=W.%2BSun&author=W.%2BShao&author=R.%2BLi&author=L.%2BWang&publication_year=2013&title=Circulating%2Bhumanin%2Bis%2Blower%2Bin%2Bcoronary%2Bartery%2Bdisease%2Band%2Bis%2Ba%2Bprognostic%2Bbiomarker%2Bfor%2Bmajor%2Bcardiac%2Bevents%2Bin%2Bhumans&journal=Am+J+Physiol+Heart+Circ+Physiol&volume=304&pages=H393-H397)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref39a)
+
+*   40.
+
+Cai H Liu Y Men H Zheng Y. Protective mechanism of humanin against oxidative stress in aging-related cardiovascular diseases. _Front Endocrinol_. (2021) 12, 38–40. doi: 10.3389/fendo.2021.683151
+
+    *   [CrossRef](https://doi.org/10.3389/fendo.2021.683151)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=H.%2BCai&author=Y.%2BLiu&author=H.%2BMen&author=Y.%2BZheng&publication_year=2021&title=Protective%2Bmechanism%2Bof%2Bhumanin%2Bagainst%2Boxidative%2Bstress%2Bin%2Baging-related%2Bcardiovascular%2Bdiseases&journal=Front+Endocrinol&volume=12&pages=38-40)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref40a)
+
+*   41.
+
+Yen K Lee C Mehta H Cohen P. The emerging role of the mitochondrial-derived peptide humanin in stress resistance. _J Mol Endocrinol_. (2013) 50:R11–9. doi: 10.1530/JME-12-0203
+
+    *   [CrossRef](https://doi.org/10.1530/JME-12-0203)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=K.%2BYen&author=C.%2BLee&author=H.%2BMehta&author=P.%2BCohen&publication_year=2013&title=The%2Bemerging%2Brole%2Bof%2Bthe%2Bmitochondrial-derived%2Bpeptide%2Bhumanin%2Bin%2Bstress%2Bresistance&journal=J+Mol+Endocrinol&volume=50&pages=R11-9)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref41a)
+
+*   42.
+
+Martínez-González MA Fernández-Jarne E Serrano-Martínez M Wright M Gomez-Gracia E. (2018). Development of a short dietary intake questionnaire for the quantitative estimation of adherence to a cardioprotective Mediterranean diet. _European journal of clinical nutrition_. 58, 1550–1552. doi: 10.1038/sj.ejcn.1602004
+
+    *   [CrossRef](https://doi.org/10.1038/sj.ejcn.1602004)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=MA.%2BMart%C3%ADnez-Gonz%C3%A1lez&author=E.%2BFern%C3%A1ndez-Jarne&author=M.%2BSerrano-Mart%C3%ADnez&author=M.%2BWright&author=E.%2BGomez-Gracia&publication_year=2018&title=Development%2Bof%2Ba%2Bshort%2Bdietary%2Bintake%2Bquestionnaire%2Bfor%2Bthe%2Bquantitative%2Bestimation%2Bof%2Badherence%2Bto%2Ba%2Bcardioprotective%2BMediterranean%2Bdiet&journal=European+journal+of+clinical+nutrition&volume=58&pages=1550-1552)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref42a)
+
+*   43.
+
+Carnevale R Silvestri R Loffredo L Novo M Cammisotto V Castellani V. Oleuropein, a component of extra virgin olive oil, lowers postprandial glycaemia in healthy subjects. _Br J Clin Pharmacol_. (2018) 84:1566–74. doi: 10.1111/bcp.13589,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/29577365)
+    *   [CrossRef](https://doi.org/10.1111/bcp.13589)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BCarnevale&author=R.%2BSilvestri&author=L.%2BLoffredo&author=M.%2BNovo&author=V.%2BCammisotto&author=V.%2BCastellani&publication_year=2018&title=Oleuropein%2C%2Ba%2Bcomponent%2Bof%2Bextra%2Bvirgin%2Bolive%2Boil%2C%2Blowers%2Bpostprandial%2Bglycaemia%2Bin%2Bhealthy%2Bsubjects&journal=Br+J+Clin+Pharmacol&volume=84&pages=1566-74)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref43a)
+
+*   44.
+
+Chin YP Keni J Wan J Mehta H Anene F Jia Y. Pharmacokinetics and tissue distribution of humanin and its analogues in male rodents. _Endocrinology_. (2013) 154:3739–44. doi: 10.1210/en.2012-2004,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/23836030)
+    *   [CrossRef](https://doi.org/10.1210/en.2012-2004)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=YP.%2BChin&author=J.%2BKeni&author=J.%2BWan&author=H.%2BMehta&author=F.%2BAnene&author=Y.%2BJia&publication_year=2013&title=Pharmacokinetics%2Band%2Btissue%2Bdistribution%2Bof%2Bhumanin%2Band%2Bits%2Banalogues%2Bin%2Bmale%2Brodents&journal=Endocrinology&volume=154&pages=3739-44)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref44a)
+
+*   45.
+
+Abramson J Adler J Dunger J Evans R Green T Pritzel A. Accurate structure prediction of biomolecular interactions with AlphaFold 3. _Nature_. (2024) 630:493–500. doi: 10.1038/s41586-024-07487-w,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/38718835)
+    *   [CrossRef](https://doi.org/10.1038/s41586-024-07487-w)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BAbramson&author=J.%2BAdler&author=J.%2BDunger&author=R.%2BEvans&author=T.%2BGreen&author=A.%2BPritzel&publication_year=2024&title=Accurate%2Bstructure%2Bprediction%2Bof%2Bbiomolecular%2Binteractions%2Bwith%2BAlphaFold%2B3&journal=Nature&volume=630&pages=493-500)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref45a)
+
+*   46.
+
+Basili S Raparelli V Riggio O Merli M Carnevale R Angelico F et al. and CALC Group (2011). NADPH oxidase-mediated platelet isoprostane over-production in cirrhotic patients: implication for platelet activation. _Liver international: official journal of the International Association for the Study of the Liver_, 31, 1533–1540. doi: 10.1111/j.1478-3231.2011.02617.x
+
+    *   [CrossRef](https://doi.org/10.1111/j.1478-3231.2011.02617.x)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=S.%2BBasili&author=V.%2BRaparelli&author=O.%2BRiggio&author=M.%2BMerli&author=R.%2BCarnevale&author=F.%2BAngelico&publication_year=2011&title=NADPH%2Boxidase-mediated%2Bplatelet%2Bisoprostane%2Bover-production%2Bin%2Bcirrhotic%2Bpatients%3A%2Bimplication%2Bfor%2Bplatelet%2Bactivation&journal=Liver+international%3A+official+journal+of+the+International+Association+for+the+Study+of+the+Liver&volume=31&pages=1533-1540)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref46a)
+
+*   47.
+
+Gantenbein KV Kanaka-Gantenbein C. Mediterranean diet as an antioxidant: the impact on metabolic health and overall wellbeing. _Nutrients_. (2021) 13:1951. doi: 10.3390/nu13061951,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/34204057)
+    *   [CrossRef](https://doi.org/10.3390/nu13061951)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=KV.%2BGantenbein&author=C.%2BKanaka-Gantenbein&publication_year=2021&title=Mediterranean%2Bdiet%2Bas%2Ban%2Bantioxidant%3A%2Bthe%2Bimpact%2Bon%2Bmetabolic%2Bhealth%2Band%2Boverall%2Bwellbeing&journal=Nutrients&volume=13)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref47a)
+
+*   48.
+
+Martínez-González MA Gea A Ruiz-Canela M. The Mediterranean diet and cardiovascular health. _Circ Res_. (2019) 124:779–98. doi: 10.1161/circresaha.118.313348
+
+    *   [CrossRef](https://doi.org/10.1161/circresaha.118.313348)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=MA.%2BMart%C3%ADnez-Gonz%C3%A1lez&author=A.%2BGea&author=M.%2BRuiz-Canela&publication_year=2019&title=The%2BMediterranean%2Bdiet%2Band%2Bcardiovascular%2Bhealth&journal=Circ+Res&volume=124&pages=779-98)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref48a)
+
+*   49.
+
+Guasch-Ferré M Willett WC. The Mediterranean diet and health: a comprehensive overview. _J Intern Med_. (2021) 290:549–66. doi: 10.1111/joim.13333,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/34423871)
+    *   [CrossRef](https://doi.org/10.1111/joim.13333)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BGuasch-Ferr%C3%A9&author=WC.%2BWillett&publication_year=2021&title=The%2BMediterranean%2Bdiet%2Band%2Bhealth%3A%2Ba%2Bcomprehensive%2Boverview&journal=J+Intern+Med&volume=290&pages=549-66)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref49a)
+
+*   50.
+
+Urpi-Sarda M Casas R Sacanella E Corella D Andrés-Lacueva C Llorach R. The 3-year effect of the Mediterranean diet intervention on inflammatory biomarkers related to cardiovascular disease. _Biomedicine_. (2021) 9:862. doi: 10.3390/biomedicines9080862,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/34440065)
+    *   [CrossRef](https://doi.org/10.3390/biomedicines9080862)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BUrpi-Sarda&author=R.%2BCasas&author=E.%2BSacanella&author=D.%2BCorella&author=C.%2BAndr%C3%A9s-Lacueva&author=R.%2BLlorach&publication_year=2021&title=The%2B3-year%2Beffect%2Bof%2Bthe%2BMediterranean%2Bdiet%2Bintervention%2Bon%2Binflammatory%2Bbiomarkers%2Brelated%2Bto%2Bcardiovascular%2Bdisease&journal=Biomedicine&volume=9)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref50a)
+
+*   51.
+
+Bonaccio M Costanzo S Di Castelnuovo A Gialluisi A Ruggiero E De Curtis A et al. Increased adherence to a Mediterranean diet is associated with reduced low-grade inflammation after a 12.7-year period: results from the Moli-sani study. _J Acad Nutr Diet_. (2023) 123:783–95. doi: 10.1016/j.jand.2022.12.005,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/36549563)
+    *   [CrossRef](https://doi.org/10.1016/j.jand.2022.12.005)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BBonaccio&author=S.%2BCostanzo&author=A.%2BDi%2BCastelnuovo&author=A.%2BGialluisi&author=E.%2BRuggiero&author=A.%2BDe%2BCurtis&publication_year=2023&title=Increased%2Badherence%2Bto%2Ba%2BMediterranean%2Bdiet%2Bis%2Bassociated%2Bwith%2Breduced%2Blow-grade%2Binflammation%2Bafter%2Ba%2B12.7-year%2Bperiod%3A%2Bresults%2Bfrom%2Bthe%2BMoli-sani%2Bstudy&journal=J+Acad+Nutr+Diet&volume=123&pages=783-95)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref51a)
+
+*   52.
+
+Nishikawa T Edelstein D Du XL Yamagishi S Matsumura T Kaneda Y et al. Normalizing mitochondrial superoxide production blocks three pathways of hyperglycaemic damage. _Nature_. (2000) 404:787–90.
+
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=T.%2BNishikawa&author=D.%2BEdelstein&author=XL.%2BDu&author=S.%2BYamagishi&author=T.%2BMatsumura&author=Y.%2BKaneda&publication_year=2000&title=Normalizing%2Bmitochondrial%2Bsuperoxide%2Bproduction%2Bblocks%2Bthree%2Bpathways%2Bof%2Bhyperglycaemic%2Bdamage&journal=Nature&volume=404&pages=787-90)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref52a)
+
+*   53.
+
+Rovira-Llopis S Bañuls C Diaz-Morales N Hernandez-Mijares A Rocha M Victor VM. Mitochondrial dynamics in type 2 diabetes: pathophysiological implications. _Redox Biol_. (2017) 11:637–45. doi: 10.1016/j.redox.2017.01.013,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/28131082)
+    *   [CrossRef](https://doi.org/10.1016/j.redox.2017.01.013)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=S.%2BRovira-Llopis&author=C.%2BBa%C3%B1uls&author=N.%2BDiaz-Morales&author=A.%2BHernandez-Mijares&author=M.%2BRocha&author=VM.%2BVictor&publication_year=2017&title=Mitochondrial%2Bdynamics%2Bin%2Btype%2B2%2Bdiabetes%3A%2Bpathophysiological%2Bimplications&journal=Redox+Biol&volume=11&pages=637-45)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref53a)
+
+*   54.
+
+Palmeira CM Rolo AP Berthiaume J Bjork JA Wallace KB. Hyperglycemia decreases mitochondrial function: the regulatory role of mitochondrial biogenesis. _Toxicol Appl Pharmacol_. (2007) 225:214–20. doi: 10.1016/j.taap.2007.07.015,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/17761203)
+    *   [CrossRef](https://doi.org/10.1016/j.taap.2007.07.015)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=CM.%2BPalmeira&author=AP.%2BRolo&author=J.%2BBerthiaume&author=JA.%2BBjork&author=KB.%2BWallace&publication_year=2007&title=Hyperglycemia%2Bdecreases%2Bmitochondrial%2Bfunction%3A%2Bthe%2Bregulatory%2Brole%2Bof%2Bmitochondrial%2Bbiogenesis&journal=Toxicol+Appl+Pharmacol&volume=225&pages=214-20)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref54a)
+
+*   55.
+
+Xu J Wei H Sun Z Li W Long J Liu J. Hydroxytyrosol as a mitochondrial homeostasis regulator: implications in metabolic syndrome and related diseases. _Antioxidants_. (2025) 14:398. doi: 10.3390/antiox14040398,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/40298640)
+    *   [CrossRef](https://doi.org/10.3390/antiox14040398)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BXu&author=H.%2BWei&author=Z.%2BSun&author=W.%2BLi&author=J.%2BLong&author=J.%2BLiu&publication_year=2025&title=Hydroxytyrosol%2Bas%2Ba%2Bmitochondrial%2Bhomeostasis%2Bregulator%3A%2Bimplications%2Bin%2Bmetabolic%2Bsyndrome%2Band%2Brelated%2Bdiseases&journal=Antioxidants&volume=14)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref55a)
+
+*   56.
+
+Kikusato M Muroi H Uwabe Y Furukawa K Toyomizu M. Oleuropein induces mitochondrial biogenesis and decreases reactive oxygen species generation in cultured avian muscle cells, possibly via an up-regulation of peroxisome proliferator-activated receptor γ coactivator-1α. _Anim Sci J_. (2016) 87:1371–8. doi: 10.1111/asj.12559,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/26916829)
+    *   [CrossRef](https://doi.org/10.1111/asj.12559)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BKikusato&author=H.%2BMuroi&author=Y.%2BUwabe&author=K.%2BFurukawa&author=M.%2BToyomizu&publication_year=2016&title=Oleuropein%2Binduces%2Bmitochondrial%2Bbiogenesis%2Band%2Bdecreases%2Breactive%2Boxygen%2Bspecies%2Bgeneration%2Bin%2Bcultured%2Bavian%2Bmuscle%2Bcells%2C%2Bpossibly%2Bvia%2Ban%2Bup-regulation%2Bof%2Bperoxisome%2Bproliferator-activated%2Breceptor%2B%CE%B3%2Bcoactivator-1%CE%B1&journal=Anim+Sci+J&volume=87&pages=1371-8)
+
+*   57.
+
+Brenmoehl J Hoeflich A. Dual control of mitochondrial biogenesis by sirtuin 1 and sirtuin 3. _Mitochondrion_. (2013) 13:755–61. doi: 10.1016/j.mito.2013.04.002,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/23583953)
+    *   [CrossRef](https://doi.org/10.1016/j.mito.2013.04.002)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BBrenmoehl&author=A.%2BHoeflich&publication_year=2013&title=Dual%2Bcontrol%2Bof%2Bmitochondrial%2Bbiogenesis%2Bby%2Bsirtuin%2B1%2Band%2Bsirtuin%2B3&journal=Mitochondrion&volume=13&pages=755-61)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref57a)
+
+*   58.
+
+de Oliveira MR Nabavi SF Nabavi SM Jardim FR. Omega-3 polyunsaturated fatty acids and mitochondria, back to the future. _Trends Food Sci Technol_. (2017) 67:76–92. doi: 10.1016/j.tifs.2017.06.019
+
+    *   [CrossRef](https://doi.org/10.1016/j.tifs.2017.06.019)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=MR.%2Bde%2BOliveira&author=SF.%2BNabavi&author=SM.%2BNabavi&author=FR.%2BJardim&publication_year=2017&title=Omega-3%2Bpolyunsaturated%2Bfatty%2Bacids%2Band%2Bmitochondria%2C%2Bback%2Bto%2Bthe%2Bfuture&journal=Trends+Food+Sci+Technol&volume=67&pages=76-92)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref58a)
+
+*   59.
+
+Wu ZJ Li YC Zheng Y Zhou MQ Li H Wu SX et al. Differential effects of EPA and DHA on aging-related sarcopenia in mice and possible mechanisms involved. _Food Funct_. (2025) 16:61–616. doi: 10.1039/d4fo04341c
+
+    *   [CrossRef](https://doi.org/10.1039/d4fo04341c)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=ZJ.%2BWu&author=YC.%2BLi&author=Y.%2BZheng&author=MQ.%2BZhou&author=H.%2BLi&author=SX.%2BWu&publication_year=2025&title=Differential%2Beffects%2Bof%2BEPA%2Band%2BDHA%2Bon%2Baging-related%2Bsarcopenia%2Bin%2Bmice%2Band%2Bpossible%2Bmechanisms%2Binvolved&journal=Food+Funct&volume=16&pages=61-616)
+
+*   60.
+
+Zheng Q Wang F Nie C Zhang K Sun Y AL-Ansi W et al. Elevating the significance of legume intake: a novel strategy to counter aging-related mitochondrial dysfunction and physical decline. _Compr Rev Food Sci Food Saf_. (2024) 23:e13342. doi: 10.1111/1541-4337.13342,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/38634173)
+    *   [CrossRef](https://doi.org/10.1111/1541-4337.13342)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=Q.%2BZheng&author=F.%2BWang&author=C.%2BNie&author=K.%2BZhang&author=Y.%2BSun&author=W.%2BAL-Ansi&publication_year=2024&title=Elevating%2Bthe%2Bsignificance%2Bof%2Blegume%2Bintake%3A%2Ba%2Bnovel%2Bstrategy%2Bto%2Bcounter%2Baging-related%2Bmitochondrial%2Bdysfunction%2Band%2Bphysical%2Bdecline&journal=Compr+Rev+Food+Sci+Food+Saf&volume=23)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref60a)
+
+*   61.
+
+Zhang W Miao J Hao J Li Z Xu J Liu R. Protective effect of S14G-humanin against beta-amyloid induced LTP inhibition in mouse hippocampal slices. _Peptides_. (2009) 30:1197–202. doi: 10.1016/j.peptides.2009.02.017,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/19463756)
+    *   [CrossRef](https://doi.org/10.1016/j.peptides.2009.02.017)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=W.%2BZhang&author=J.%2BMiao&author=J.%2BHao&author=Z.%2BLi&author=J.%2BXu&author=R.%2BLiu&publication_year=2009&title=Protective%2Beffect%2Bof%2BS14G-humanin%2Bagainst%2Bbeta-amyloid%2Binduced%2BLTP%2Binhibition%2Bin%2Bmouse%2Bhippocampal%2Bslices&journal=Peptides&volume=30&pages=1197-202)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref61a)
+
+*   62.
+
+Alqahtani SM Al-Kuraishy HM Al-Gareeb AI Alexiou A Fawzy MN Papadakis M et al. The neuroprotective role of humanin in Alzheimer’s disease: the molecular effects. _Eur J Pharmacol_. (2025) 998:177510. doi: 10.1016/j.ejphar.2025.177510,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/40090538)
+    *   [CrossRef](https://doi.org/10.1016/j.ejphar.2025.177510)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=SM.%2BAlqahtani&author=HM.%2BAl-Kuraishy&author=AI.%2BAl-Gareeb&author=A.%2BAlexiou&author=MN.%2BFawzy&author=M.%2BPapadakis&publication_year=2025&title=The%2Bneuroprotective%2Brole%2Bof%2Bhumanin%2Bin%2BAlzheimer%E2%80%99s%2Bdisease%3A%2Bthe%2Bmolecular%2Beffects&journal=Eur+J+Pharmacol&volume=998)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref62a)
+
+*   63.
+
+Martinez-Lapiscina EH Clavero P Toledo E San Julian B Sanchez-Tainta A Corella D. Virgin olive oil supplementation and long-term cognition: the Predimed-Navarra randomized, trial. _J Nutr Health Aging_. (2013) 17:544–52. doi: 10.1007/s12603-013-0027-6,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/23732551)
+    *   [CrossRef](https://doi.org/10.1007/s12603-013-0027-6)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=EH.%2BMartinez-Lapiscina&author=P.%2BClavero&author=E.%2BToledo&author=B.%2BSan%2BJulian&author=A.%2BSanchez-Tainta&author=D.%2BCorella&publication_year=2013&title=Virgin%2Bolive%2Boil%2Bsupplementation%2Band%2Blong-term%2Bcognition%3A%2Bthe%2BPredimed-Navarra%2Brandomized%2C%2Btrial&journal=J+Nutr+Health+Aging&volume=17&pages=544-52)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref63a)
+
+*   64.
+
+Martínez-Lapiscina EH Clavero P Toledo E Estruch R Salas-Salvadó J San Julián B. Mediterranean diet improves cognition: the PREDIMED-NAVARRA randomised trial. _J Neurol Neurosurg Psychiatry_. (2013) 84:1318–25. doi: 10.1136/jnnp-2012-304792,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/23670794)
+    *   [CrossRef](https://doi.org/10.1136/jnnp-2012-304792)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=EH.%2BMart%C3%ADnez-Lapiscina&author=P.%2BClavero&author=E.%2BToledo&author=R.%2BEstruch&author=J.%2BSalas-Salvad%C3%B3&author=B.%2BSan%2BJuli%C3%A1n&publication_year=2013&title=Mediterranean%2Bdiet%2Bimproves%2Bcognition%3A%2Bthe%2BPREDIMED-NAVARRA%2Brandomised%2Btrial&journal=J+Neurol+Neurosurg+Psychiatry&volume=84&pages=1318-25)
+
+*   65.
+
+Fekete M Varga P Ungvari Z Fekete JT Buda A Szappanos Á. The role of the Mediterranean diet in reducing the risk of cognitive impairement, dementia, and Alzheimer’s disease: a meta-analysis. _GeroScience_. (2025) 47:3111–30. doi: 10.1007/s11357-024-01488-3,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/39797935)
+    *   [CrossRef](https://doi.org/10.1007/s11357-024-01488-3)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BFekete&author=P.%2BVarga&author=Z.%2BUngvari&author=JT.%2BFekete&author=A.%2BBuda&author=%C3%81.%2BSzappanos&publication_year=2025&title=The%2Brole%2Bof%2Bthe%2BMediterranean%2Bdiet%2Bin%2Breducing%2Bthe%2Brisk%2Bof%2Bcognitive%2Bimpairement%2C%2Bdementia%2C%2Band%2BAlzheimer%E2%80%99s%2Bdisease%3A%2Ba%2Bmeta-analysis&journal=GeroScience&volume=47&pages=3111-30)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref65a)
+
+*   66.
+
+Hoang PT Park P Cobb LJ Paharkova-Vatchkova V Hakimi M Cohen P. The neurosurvival factor humanin inhibits _β_-cell apoptosis via signal transducer and activator of transcription 3 activation and delays and ameliorates diabetes in nonobese diabetic mice. _Metabolism_. (2010) 59:343–9. doi: 10.1016/j.metabol.2009.08.001,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/19800083)
+    *   [CrossRef](https://doi.org/10.1016/j.metabol.2009.08.001)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=PT.%2BHoang&author=P.%2BPark&author=LJ.%2BCobb&author=V.%2BPaharkova-Vatchkova&author=M.%2BHakimi&author=P.%2BCohen&publication_year=2010&title=The%2Bneurosurvival%2Bfactor%2Bhumanin%2Binhibits%2B%CE%B2-cell%2Bapoptosis%2Bvia%2Bsignal%2Btransducer%2Band%2Bactivator%2Bof%2Btranscription%2B3%2Bactivation%2Band%2Bdelays%2Band%2Bameliorates%2Bdiabetes%2Bin%2Bnonobese%2Bdiabetic%2Bmice&journal=Metabolism&volume=59&pages=343-9)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref66a)
+
+*   67.
+
+Muzumdar RH Huffman DM Atzmon G Buettner C Cobb LJ Fishman S. Humanin: a novel central regulator of peripheral insulin action. _PLoS One_. (2009) 4:e6334. doi: 10.1371/journal.pone.0006334,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/19623253)
+    *   [CrossRef](https://doi.org/10.1371/journal.pone.0006334)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=RH.%2BMuzumdar&author=DM.%2BHuffman&author=G.%2BAtzmon&author=C.%2BBuettner&author=LJ.%2BCobb&author=S.%2BFishman&publication_year=2009&title=Humanin%3A%2Ba%2Bnovel%2Bcentral%2Bregulator%2Bof%2Bperipheral%2Binsulin%2Baction&journal=PLoS+One&volume=4)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref67a)
+
+*   68.
+
+Ramanjaneya M Bettahi I Jerobin J Chandra P Abi Khalil C Skarulis M et al. Mitochondrial-derived peptides are down regulated in diabetes subjects. _Front Endocrinol_. (2019) 10. doi: 10.3389/fendo.2019.00331
+
+    *   [CrossRef](https://doi.org/10.3389/fendo.2019.00331)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=M.%2BRamanjaneya&author=I.%2BBettahi&author=J.%2BJerobin&author=P.%2BChandra&author=C.%2BAbi%2BKhalil&author=M.%2BSkarulis&publication_year=2019&title=Mitochondrial-derived%2Bpeptides%2Bare%2Bdown%2Bregulated%2Bin%2Bdiabetes%2Bsubjects&journal=Front+Endocrinol&volume=10)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref68a)
+
+*   69.
+
+Martín-Peláez S Fito M Castaner O. Mediterranean diet effects on type 2 diabetes prevention, disease progression, and related mechanisms. A review. _Nutrients_. (2020) 12:2236. doi: 10.3390/nu12082236,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/32726990)
+    *   [CrossRef](https://doi.org/10.3390/nu12082236)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=S.%2BMart%C3%ADn-Pel%C3%A1ez&author=M.%2BFito&author=O.%2BCastaner&publication_year=2020&title=Mediterranean%2Bdiet%2Beffects%2Bon%2Btype%2B2%2Bdiabetes%2Bprevention%2C%2Bdisease%2Bprogression%2C%2Band%2Brelated%2Bmechanisms.%2BA%2Breview&journal=Nutrients&volume=12)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref69a)
+
+*   70.
+
+Salas-Salvadó J Bulló M Babio N Martínez-González MÁ Ibarrola-Jurado N Basora J et al. Reduction in the incidence of type 2 diabetes with the Mediterranean diet: results of the PREDIMED-Reus nutrition intervention randomized trial. _Diabetes Care_. (2010) 34:14–9. doi: 10.2337/dc10-1288
+
+    *   [CrossRef](https://doi.org/10.2337/dc10-1288)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=J.%2BSalas-Salvad%C3%B3&author=M.%2BBull%C3%B3&author=N.%2BBabio&author=M%C3%81.%2BMart%C3%ADnez-Gonz%C3%A1lez&author=N.%2BIbarrola-Jurado&author=J.%2BBasora&publication_year=2010&title=Reduction%2Bin%2Bthe%2Bincidence%2Bof%2Btype%2B2%2Bdiabetes%2Bwith%2Bthe%2BMediterranean%2Bdiet%3A%2Bresults%2Bof%2Bthe%2BPREDIMED-Reus%2Bnutrition%2Bintervention%2Brandomized%2Btrial&journal=Diabetes+Care&volume=34&pages=14-9)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref70a)
+
+*   71.
+
+Estruch R Martínez-González MA Corella D Salas-Salvadó J Ruiz-Gutiérrez V Covas MI. Effects of a Mediterranean-style diet on cardiovascular risk factors: a randomized trial. _Ann Intern Med_. (2006) 145:1–11. doi: 10.7326/0003-4819-145-1-200607040-00004,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/16818923)
+    *   [CrossRef](https://doi.org/10.7326/0003-4819-145-1-200607040-00004)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=R.%2BEstruch&author=MA.%2BMart%C3%ADnez-Gonz%C3%A1lez&author=D.%2BCorella&author=J.%2BSalas-Salvad%C3%B3&author=V.%2BRuiz-Guti%C3%A9rrez&author=MI.%2BCovas&publication_year=2006&title=Effects%2Bof%2Ba%2BMediterranean-style%2Bdiet%2Bon%2Bcardiovascular%2Brisk%2Bfactors%3A%2Ba%2Brandomized%2Btrial&journal=Ann+Intern+Med&volume=145&pages=1-11)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref71a)
+
+*   72.
+
+Itsiopoulos C Brazionis L Kaimakamis M Cameron M Best JD O’Dea K et al. Can the Mediterranean diet lower HbA1c in type 2 diabetes? Results from a randomized cross-over study. _Nutr Metab Cardiovasc Dis_. (2011) 21:740–7. doi: 10.1016/j.numecd.2010.03.005
+
+    *   [CrossRef](https://doi.org/10.1016/j.numecd.2010.03.005)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=C.%2BItsiopoulos&author=L.%2BBrazionis&author=M.%2BKaimakamis&author=M.%2BCameron&author=JD.%2BBest&author=K.%2BO%E2%80%99Dea&publication_year=2011&title=Can%2Bthe%2BMediterranean%2Bdiet%2Blower%2BHbA1c%2Bin%2Btype%2B2%2Bdiabetes%3F%2BResults%2Bfrom%2Ba%2Brandomized%2Bcross-over%2Bstudy&journal=Nutr+Metab+Cardiovasc+Dis&volume=21&pages=740-7)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref72a)
+
+*   73.
+
+Basterra-Gortari FJ Ruiz-Canela M Martínez-González MA Babio N Sorlí JV Fito M. Effects of a Mediterranean eating plan on the need for glucose-lowering medications in participants with type 2 diabetes: a subgroup analysis of the PREDIMED trial. _Diabetes Care_. (2019) 42:1390–7. doi: 10.2337/dc18-2475,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/31182491)
+    *   [CrossRef](https://doi.org/10.2337/dc18-2475)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=FJ.%2BBasterra-Gortari&author=M.%2BRuiz-Canela&author=MA.%2BMart%C3%ADnez-Gonz%C3%A1lez&author=N.%2BBabio&author=JV.%2BSorl%C3%AD&author=M.%2BFito&publication_year=2019&title=Effects%2Bof%2Ba%2BMediterranean%2Beating%2Bplan%2Bon%2Bthe%2Bneed%2Bfor%2Bglucose-lowering%2Bmedications%2Bin%2Bparticipants%2Bwith%2Btype%2B2%2Bdiabetes%3A%2Ba%2Bsubgroup%2Banalysis%2Bof%2Bthe%2BPREDIMED%2Btrial&journal=Diabetes+Care&volume=42&pages=1390-7)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref73a)
+
+*   74.
+
+Oh YK Bachar AR Zacharias DG Kim SG Wan J Cobb LJ. Humanin preserves endothelial function and prevents atherosclerotic plaque progression in hypercholesterolemic ApoE deficient mice. _Atherosclerosis_. (2011) 219:65–73. doi: 10.1016/j.atherosclerosis.2011.06.038,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/21763658)
+    *   [CrossRef](https://doi.org/10.1016/j.atherosclerosis.2011.06.038)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=YK.%2BOh&author=AR.%2BBachar&author=DG.%2BZacharias&author=SG.%2BKim&author=J.%2BWan&author=LJ.%2BCobb&publication_year=2011&title=Humanin%2Bpreserves%2Bendothelial%2Bfunction%2Band%2Bprevents%2Batherosclerotic%2Bplaque%2Bprogression%2Bin%2Bhypercholesterolemic%2BApoE%2Bdeficient%2Bmice&journal=Atherosclerosis&volume=219&pages=65-73)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref74a)
+
+*   75.
+
+Muzumdar RH Huffman DM Calvert JW Jha S Weinberg Y Cui L. Acute humanin therapy attenuates myocardial ischemia and reperfusion injury in mice. _Arterioscler Thromb Vasc Biol_. (2010) 30:1940–8. doi: 10.1161/ATVBAHA.110.205997,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/20651283)
+    *   [CrossRef](https://doi.org/10.1161/ATVBAHA.110.205997)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=RH.%2BMuzumdar&author=DM.%2BHuffman&author=JW.%2BCalvert&author=S.%2BJha&author=Y.%2BWeinberg&author=L.%2BCui&publication_year=2010&title=Acute%2Bhumanin%2Btherapy%2Battenuates%2Bmyocardial%2Bischemia%2Band%2Breperfusion%2Binjury%2Bin%2Bmice&journal=Arterioscler+Thromb+Vasc+Biol&volume=30&pages=1940-8)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref75a)
+
+*   76.
+
+Li W Zhang D Yuan W Wang C Huang Q Luo J. Humanin ameliorates free fatty acid-induced endothelial inflammation by suppressing the NLRP3 inflammasome. _ACS Omega_. (2020) 5:22039–45. doi: 10.1021/acsomega.0c01778,
+
+    *   [Pubmed Abstract](https://pubmed.ncbi.nlm.nih.gov/32923762)
+    *   [CrossRef](https://doi.org/10.1021/acsomega.0c01778)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=W.%2BLi&author=D.%2BZhang&author=W.%2BYuan&author=C.%2BWang&author=Q.%2BHuang&author=J.%2BLuo&publication_year=2020&title=Humanin%2Bameliorates%2Bfree%2Bfatty%2Bacid-induced%2Bendothelial%2Binflammation%2Bby%2Bsuppressing%2Bthe%2BNLRP3%2Binflammasome&journal=ACS+Omega&volume=5&pages=22039-45)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref76a)
+
+*   77.
+
+Widmer RJ Flammer AJ Herrmann J Rodriguez-Porcel M Wan J Cohen P et al. Circulating humanin levels are associated with preserved coronary endothelial function. _Am J Physiol Heart Circ Physiol_. (2013) 304:H393–7. doi: 10.1152/ajpheart.00765.2012
+
+    *   [CrossRef](https://doi.org/10.1152/ajpheart.00765.2012)
+    *   [Google Scholar](http://scholar.google.com/scholar_lookup?author=RJ.%2BWidmer&author=AJ.%2BFlammer&author=J.%2BHerrmann&author=M.%2BRodriguez-Porcel&author=J.%2BWan&author=P.%2BCohen&publication_year=2013&title=Circulating%2Bhumanin%2Blevels%2Bare%2Bassociated%2Bwith%2Bpreserved%2Bcoronary%2Bendothelial%2Bfunction&journal=Am+J+Physiol+Heart+Circ+Physiol&volume=304&pages=H393-7)
+    *   [View reference in article](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full#ref77a)
+
+Keywords
+
+cardioprotection, healthspan, Humanin, Mediterranean diet, mitochondrial microproteins, Nox2, oxidative stress, SHMOOSE
+
+Citation
+
+Vicinanza R, Cammisotto V, Wan J, Yen K, Violi F, Pignatelli P and Cohen P (2026) Mediterranean diet adherence is associated with mitochondrial microproteins Humanin and SHMOOSE; potential role of the Humanin–Nox2 interaction in cardioprotection. _Front. Nutr._ 12:1727012. doi: [10.3389/fnut.2025.1727012](http://dx.doi.org/10.3389/fnut.2025.1727012)
+
+Received
+
+17 October 2025
+
+Revised
+
+23 December 2025
+
+Accepted
+
+30 December 2025
+
+Published
+
+10 March 2026
+
+Volume
+
+12 - 2025
+
+Updates
+
+Copyright
+
+© 2026 Vicinanza, Cammisotto, Wan, Yen, Violi, Pignatelli and Cohen.
+
+This is an open-access article distributed under the terms of the [Creative Commons Attribution License (CC BY)](https://creativecommons.org/licenses/by/4.0/). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+
+*******Correspondence:** Roberto Vicinanza, [roberto.vicinanza@usc.edu](mailto:roberto.vicinanza@usc.edu)
+
+**†** These authors have contributed equally to this work and share last authorship
+
+Disclaimer
+
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.
