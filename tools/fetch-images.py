@@ -272,7 +272,7 @@ QUERY = {
     "2026-10-23-why-should-i-stockpile-and-what-will-i-need": "emergency supply kit backpack water food flashlight",
     "2026-10-23-rubio-india-jamnagar-refinery-energy": "Jamnagar Refinery Reliance Industries oil refinery Gujarat India",
     "2026-10-23-nurdles-from-tyne-spill-wash-up-in-denmark": "plastic nurdles pellets beach microplastic pollution",
-    "2026-10-25-walrus-calf-annautaq-rescue": "Pacific walrus calf",
+    "2026-10-25-rare-lunar-meteorites-fill-gaps-moon-evolution": "lunar meteorite Moon rock NASA Apollo",
     "2026-10-25-hidden-protein-switch-fat-burning-cells": "mitochondria muscle cell fat burning metabolism MTCH2 protein",
     "2026-10-25-zebra-shark-rewilding-indonesia": "zebra shark pup swimming underwater",
     "jwst-reveals-lopsided-alien-world-wind": "WASP-17b exoplanet artist impression hot Jupiter space telescope",
