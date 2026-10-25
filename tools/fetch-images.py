@@ -333,6 +333,7 @@ QUERY = {
     "2026-10-25-cassini-discovers-iapetus-yin-yang-moon": "Iapetus moon Saturn two-tone yin-yang dark bright hemisphere Cassini spacecraft",
     "2026-10-26-mysterious-mushroom-makes-people-see-tiny-humans": "Lanmaoa asiatica bolete mushroom fungus mycology brown red pores",
     "2026-10-26-stupendous-black-holes-not-dark-matter": "supermassive black hole dark matter artist impression cosmic space galaxy",
+    "2026-10-25-artemis-ii-cabin-leak-warning-tli-burn": "NASA Orion spacecraft Artemis II Trans-Lunar Injection moon artist concept",
 }
 
 def ok_license(l):
