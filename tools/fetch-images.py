@@ -9,6 +9,7 @@ QUERY = {
     "2026-10-24-rewilded-gorilla-lulingu-birth-virunga": "eastern lowland gorilla infant Virunga national park",
     "2026-10-24-suns-hidden-magnetic-web": "Sunrise-III balloon telescope solar chromosphere magnetic canopy thread-like magnetic field lines Sun",
     "2026-10-24-nasa-artemis-3-moon-lander-test": "NASA Orion spacecraft approaching International Space Station concept Artemis",
+    "2026-10-26-nasa-lunar-lander-race-moon": "SpaceX Starship lunar lander concept NASA Blue Origin Blue Moon Moon landing",
     "2026-10-24-eagles-nest-fire-bavaria": "Eagle's Nest Kehlsteinhaus Berchtesgaden mountain building",
     "private-griffin-moon-lander-gets-put-to-the-test": "Griffin-1 lunar lander NASA JPL space simulator testing",
     "fish-oil-brain-health-no-benefit-study": "omega-3 DHA molecule structure fish oil capsule",
@@ -354,7 +355,7 @@ for dirpath, _, files in os.walk("content"):
             continue
         print("QUERY", QUERY[slug])
         data = curl_json({"action": "query", "format": "json", "generator": "search",
-                          "gsrsearch": "file:" + QUERY[slug], "gsrnamespace": "6", "gsrlimit": "15",
+                          "gsrsearch": QUERY[slug], "gsrnamespace": "6", "gsrlimit": "15",
                           "prop": "imageinfo", "iiprop": "url|mime|extmetadata", "iiurlwidth": "1200"})
         time.sleep(6)
         if not data:
