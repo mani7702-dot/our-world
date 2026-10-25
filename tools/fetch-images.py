@@ -194,6 +194,7 @@ QUERY = {
     "casals-lidar-earth-3d-maps": "space lidar instrument",
     "oldest-wing-walker-99-helga-duffy": "biplane",
     "daily-4-minute-strength-after-65": "human muscle exercise fitness",
+    "2026-10-26-four-minute-strength-training-older-adults": "older adult exercise strength training resistance band elastic band muscle fitness",
     "why-do-tropical-trees-breathe-at-night": "CAM photosynthesis tropical tree",
     "reverse-cellular-aging-epigenetic-clock-60-years": "DNA methylation cell",
     "jpl-90th-anniversary-future-missions": "Jet Propulsion Laboratory Pasadena rocket",
