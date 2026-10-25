@@ -98,6 +98,7 @@ QUERY = {
     "alaska-landslide-tsunami-tracy-arm-1580-feet": "Alaska landslide tsunami Tracy Arm fjord",
     "2026-10-23-saudi-arabia-joins-search-for-alien-civilizations": "LaserSETI optical detector telescope Saudi Arabia AlUla SETI sky watcher",
     "webb-stellar-jets-ngc7129-nebula": "NGC 7129 nebula James Webb stellar jets",
+    "2026-10-24-sparkling-spiral-galaxy-ngc-1827": "NGC 1827 spiral galaxy Hubble edge-on",
     "molecule-quantum-fourier-limit-surface": "crystal surface microscopy",
     "dinosaur-antarctica-fossil-drawer-titanosaur": "Titanosaur vertebra fossil",
     "nightjar-migration-wings-sacrifice-efficiency": "European nightjar (Caprimulgus europaeus) flying",
