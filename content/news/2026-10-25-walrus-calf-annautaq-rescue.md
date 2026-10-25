@@ -1,6 +1,6 @@
 ---
 title: "How Did a Baby Walrus Named Annautaq Get a Second Chance?"
-image: https://upload.wikimedia.org/wikipedia/commons/2/22/Pacific_Walrus_-_Bull_%288247646168%29.jpg
+image: assets/images/2026-10-25-walrus-calf-annautaq-rescue.jpg
 image_caption: Pacific walrus bull, Joel Garlich-Miller, U.S. Fish and Wildlife Service, Public domain via Wikimedia Commons.
 sources:
   - "https://www.goodnewsnetwork.org/rescuers-ensure-orphaned-baby-walrus-gets-a-second-chance-look/"
