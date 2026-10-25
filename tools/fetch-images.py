@@ -72,6 +72,7 @@ QUERY = {
     "hamburger-galaxy-ngc3628-edge-on-spiral": "NGC 3628 Hamburger Galaxy edge-on spiral",
     "webb-wasp-17b-lopsided-atmosphere": "exoplanet atmosphere",
     "2026-10-20-nasa-16-galaxies-cosmic-chaos": "galaxy Messier 82 Chandra X-ray",
+    "walrus-calf-annautaq-rescue": "Pacific walrus calf",
     "dog-weighed-baby-hippo-sheds-pounds-rspca": "rescue dog",
     "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
