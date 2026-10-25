@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
     "2026-10-24-nasa-wildflower-bloom-australia-outback": "wildflower desert Australia Landsat bloom",
     "2026-10-25-seabirds-isle-of-man-biosphere-conservation": "Manx shearwater burrow seabird cliff coastline",
     "2026-10-24-rewilded-gorilla-lulingu-birth-virunga": "eastern lowland gorilla infant Virunga national park",
@@ -37,6 +38,7 @@ QUERY = {
     "roman-telescope-best-inventions-2026": "Roman Space Telescope",
     "nasa-roman-telescope-exceeds-expectations": "space telescope",
     "webb-brown-dwarf-weather": "brown dwarf",
+    "2026-10-19-brown-dwarfs-spherex-goth-atmospheres": "brown dwarf artist impression NASA SPHEREx telescope space infrared spectrum",
     "bleached-corals-recover-by-touching": "bleached coral",
     "coral-reef-recovery-by-touch-stanford": "coral reef bleaching recovery Acropora",
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
@@ -325,6 +327,7 @@ QUERY = {
     "2026-10-26-googly-eyed-buoys-seabirds-fishing-nets": "seabird common murre guillemot razorbill gillnet fishing net deterrent buoy",
     "2026-10-25-russian-spy-satellite-shadows-us-earth-observing-craft": "satellite in low Earth orbit artist impression Earth below space surveillance",
     "2026-10-26-europe-satellite-starlink-alternative": "Starlink satellite constellation SpaceX low Earth orbit satellite internet user terminal Dish IRIS2 artist impression",
+    "2026-10-26-us-sloths-act-import-ban": "three-toed sloth Bradypus hanging from tree branch rainforest canopy",
 }
 
 def ok_license(l):
