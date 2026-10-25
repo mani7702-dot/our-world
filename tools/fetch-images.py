@@ -337,6 +337,7 @@ QUERY = {
     "2026-10-26-stupendous-black-holes-not-dark-matter": "supermassive black hole dark matter artist impression cosmic space galaxy",
     "2026-10-25-artemis-ii-cabin-leak-warning-tli-burn": "NASA Orion spacecraft Artemis II Trans-Lunar Injection moon artist concept",
     "2026-10-26-plastic-eating-pac-man-enzyme-fights-pollution": "plastic eating enzyme Pac-Man esterase biodegradable bioplastic polymer bacteria microbe",
+    "2026-10-26-how-did-scientists-prove-asteroid-hit-north-sea": "Silverpit Crater asteroid impact north sea tsunami shock metamorphism mineral",
 }
 
 def ok_license(l):
