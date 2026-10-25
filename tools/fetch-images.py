@@ -276,6 +276,7 @@ QUERY = {
     "2026-10-25-rare-lunar-meteorites-fill-gaps-moon-evolution": "lunar meteorite Moon rock NASA Apollo",
     "2026-10-25-hidden-protein-switch-fat-burning-cells": "mitochondria muscle cell fat burning metabolism MTCH2 protein",
     "2026-10-25-zebra-shark-rewilding-indonesia": "zebra shark pup swimming underwater",
+    "2026-10-25-spinosaurus-underwater-hunter": "Spinosaurus dinosaur swimming underwater paleoart sail back Nile river",
     "jwst-reveals-lopsided-alien-world-wind": "WASP-17b exoplanet artist impression hot Jupiter space telescope",
     "2026-10-23-typhoon-champi-strongest-storm-of-year-el-nino": "typhoon aerial view spiral satellite storm clouds Pacific Ocean",
     "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation",
