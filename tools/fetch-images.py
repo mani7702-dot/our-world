@@ -332,6 +332,7 @@ QUERY = {
     "2026-10-26-us-sloths-act-import-ban": "three-toed sloth Bradypus hanging from tree branch rainforest canopy",
     "2026-10-25-cassini-discovers-iapetus-yin-yang-moon": "Iapetus moon Saturn two-tone yin-yang dark bright hemisphere Cassini spacecraft",
     "2026-10-26-mysterious-mushroom-makes-people-see-tiny-humans": "Lanmaoa asiatica bolete mushroom fungus mycology brown red pores",
+    "2026-10-26-stupendous-black-holes-not-dark-matter": "supermassive black hole dark matter artist impression cosmic space galaxy",
 }
 
 def ok_license(l):
