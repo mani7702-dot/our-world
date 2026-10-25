@@ -268,6 +268,7 @@ QUERY = {
     "2026-10-23-rubio-india-jamnagar-refinery-energy": "Jamnagar Refinery Reliance Industries oil refinery Gujarat India",
     "2026-10-23-nurdles-from-tyne-spill-wash-up-in-denmark": "plastic nurdles pellets beach microplastic pollution",
     "2026-10-23-orphaned-baby-walrus-annautaq-rescue-alaska": "Pacific walrus calf Alaska SeaWorld Orlando",
+    "2026-10-25-zebra-shark-rewilding-indonesia": "zebra shark pup swimming underwater",
     "jwst-reveals-lopsided-alien-world-wind": "WASP-17b exoplanet artist impression hot Jupiter space telescope",
     "2026-10-23-typhoon-champi-strongest-storm-of-year-el-nino": "typhoon aerial view spiral satellite storm clouds Pacific Ocean",
     "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation",
