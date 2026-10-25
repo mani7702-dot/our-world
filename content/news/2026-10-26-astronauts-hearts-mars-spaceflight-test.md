@@ -3,7 +3,7 @@ title: "How did astronauts' hearts handle six months in space — and will they 
 date: 2026-10-26
 time: 17:19
 image: assets/images/2026-10-26-astronauts-hearts-mars-spaceflight-test.jpg
-image_caption: Astronaut exercising on a treadmill aboard the International Space Station as part of NASA's daily exercise countermeasure program. Photo: NASA / Public domain via Wikimedia Commons
+image_caption: Astronauts Sophie Adenot and Jessica Meir prepare for their exercise sessions aboard the International Space Station as part of NASA's daily exercise countermeasure program. Photo: NASA / Public domain via Wikimedia Commons
 category: Science
 read: 3 min
 excerpt: A study of 13 astronauts found that daily exercise helped their hearts adapt to months in weightless space and pass a simulated test of Mars' gravity — making the red planet look a little more reachable.
