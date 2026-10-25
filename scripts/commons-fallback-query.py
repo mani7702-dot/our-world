@@ -15,7 +15,7 @@ import sys, os, json, re, subprocess, io, urllib.parse
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "OurWorldSite/1.0 (contact: andugulamani722@gmail.com)"
 REFERER = "https://commons.wikimedia.org/"
-BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".ogg", ".ogv", ".pdf", ".webm")
+BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".ogg", ".ogv", ".pdf", ".djvu", ".webm")
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 # Accept public domain, cc0, cc by (including cc by-sa). Reject nc/nd variants.
 REJECT_LICENSE_SUB = ("nc", "nd", "copyright")
@@ -163,7 +163,13 @@ def main():
             t = f.read()
         caption = "Photo: {}, {} via Wikimedia Commons".format(
             c["creator"] or "Wikimedia Commons", c["license"] or "Creative Commons")
-        # If image: already set (from my draft), keep it but fix caption
+        # Ensure image: path line exists (fixes pitfall: script did not write image: line)
+        image_line = f"image: {out}"
+        if not re.search(r"^image:\s*\S+", t, re.M):
+            t = re.sub(r"^(time:\s*\S+)$", r'\1\n' + image_line, t, count=1, flags=re.M)
+        elif not re.search(r"^image:\s*assets/", t, re.M):
+            t = re.sub(r"^image:.*$", image_line, t, count=1, flags=re.M)
+        # Ensure image_caption: line exists and is fresh
         if re.search(r"^image_caption:", t, re.M):
             t = re.sub(r"^image_caption:.*$", "image_caption: " + caption, t, count=1, flags=re.M)
         else:
