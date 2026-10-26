@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-26-pompeii-eruption-date-mystery": "Pompeii Mount Vesuvius Roman ruins volcanic ash plaster cast victims excavation",
     "2026-10-26-kikai-supervolcano-refills-with-magma": "Kikai caldera supervolcano Japan underwater submerged caldera magma chamber aerial photograph",
     "2026-10-26-nasa-swift-mission-ends": "Neil Gehrels Swift Observatory space telescope gamma-ray burst NASA Goddard artist concept",
     "2026-10-26-african-mantle-plume-rift-discovery": "African Superplume East African Rift anorthosite NASA ISS astronaut photograph Madagascar",
