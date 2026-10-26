@@ -1,70 +1,58 @@
 ---
-title: "How NASA Is Letting Scientists 'Compete on Science First' to Build Better Missions Faster"
+title: "How is NASA making room for more science missions — and getting them to space faster?"
 date: 2026-10-26
-time: 15:41 IST
-category: science
+time: 11:29 IST
+slug: "2026-10-26-nasa-overhauls-science-mission-selection"
+lane: space
+kid_safe: true
+excerpt: "NASA just announced a big change to how it picks which science missions fly. The new 'Competition Model 2.0' lets scientists focus on the science idea first, cuts the wait time from 35 months to about 19.5 months, and opens the door wider so universities and smaller teams can take part. The result? More missions, more often, racing toward space."
 image: assets/images/2026-10-26-nasa-overhauls-science-mission-selection.jpg
-image_caption: "Artist's concept of NASA's James Webb Space Telescope, a flagship-class astronomy mission. Photo: NASA / CC0 1.0 / Wikimedia Commons"
-excerpt: "NASA is rewriting the rulebook for how it chooses its next big science missions, asking scientists to focus on the science first and the paperwork later — so missions can fly sooner and teach us more about space."
-tags: [science, nasa, space exploration, mission selection, competition model 2.0, james webb, james webb space telescope, scientific discovery]
+image_caption: "The Hubble Space Telescope's view of the HH30 protostar, a baby sun wrapped in a dusty spinning disk — the kind of discovery NASA hopes its faster new mission-selection process will bring more of. Photo: ESA/Webb, NASA & CSA, Tazaki et al. / CC BY 4.0 / Wikimedia Commons"
+tags: space, nasa, science-missions, discovery-program, new-frontiers, james-webb-space-telescope, jpl, goddard, competition-model
 sample: false
-for-grownups: "NASA's Science Mission Directorate announced on October 21, 2026 that it is replacing its decades-old mission-selection process with 'Competition Model 2.0' (CM 2.0). Under the new rules, scientists submitting proposals for Discovery, New Frontiers, and MIDEX-class missions no longer need to include thick engineering and cost plans at the first step — they can focus on describing the science they want to do and a preliminary plan for how to do it. NASA says this 'science-first' approach cuts the initial evaluation timeline from 35 months to about 19.5 months (a 45% reduction), with the heavier engineering and financial work deferred until a mission is shortlisted. Flagship missions (the largest, like the James Webb Space Telescope) keep their existing, already-reformed process based on lessons learned from Webb's development. The reforms were announced in an open letter from Dr. Nicky Fox, Associate Administrator of NASA's Science Mission Directorate (SMD), and directed by NASA Administrator Jared Isaacman; NASA hosted a virtual town hall on October 26, 2026 to explain the changes. NASA organizes its missions by class: small Explorer-class (SMEX/MIDEX), medium New Frontiers and Discovery missions, and large flagship observatories. The new model also opens some competitions to a wider field of applicants, including universities and commercial companies, and gives them access to NASA Center implementation support to speed development. Wikipedia's 'New Frontiers (NASA program)' article confirms New Frontiers selects principal-investigator-led medium-class missions (examples: Juno, Osiris-REx, Lucy), while the 'Discovery Program (NASA)' article confirms Discovery funds competitively-selected small spacecraft. The 'James Webb Space Telescope' article confirms flagship-class missions are the largest and most expensive, developed after a major decadal survey recommendation."
 sources:
   - name: Space.com — "'More missions, more often': NASA is overhauling how it selects science missions"
     url: https://www.space.com/space-exploration/more-missions-more-often-nasa-is-overhauling-how-it-selects-science-missions
-  - name: NASA Science — "Faster to Science: A Letter to the Science Community" (open letter announcing CM 2.0)
-    url: https://science.nasa.gov/directories/smd/faster-to-science-a-letter-to-the-science-community
-  - name: Wikipedia — "New Frontiers (NASA program)"
-    url: https://en.wikipedia.org/wiki/New_Frontiers_(NASA_program)
-  - name: Wikipedia — "Discovery Program (NASA)"
-    url: https://en.wikipedia.org/wiki/NASA_Discovery_Program
-  - name: Wikipedia — "James Webb Space Telescope"
-    url: https://en.wikipedia.org/wiki/James_Webb_Space_Telescope
+  - name: NASA — "A letter to the science community: Faster to Science"
+    url: https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community
+for-grownups: "NASA's Competition Model 2.0 (CM 2.0) was announced on October 21, 2026 by NASA Administrator Jared Isaacman and directed to the Science Mission Directorate (SMD), led by Associate Administrator Nicky Fox. The reform cuts the selection-timeline for mid-class missions (Discovery, New Frontiers, Astro-Probes) from ~35 months to ~19.5 months (around a 45% reduction), and for smaller Explorer/MIDEX/Earth-Explorer programs from ~32 months to ~19 months (a ~40% reduction). Proposals now emphasize the science case first — detailed engineering, cost, and implementation plans are deferred until later down-selection stages. Flagship missions (large, expensive programs like the James Webb Space Telescope) retain their existing post-JWST 'Large Mission Study' procedures. The changes were communicated in an open letter titled 'Faster to Science' published on science.nasa.gov within the NASA Science Mission Directorate. Implementation teams for mid-class missions can request support from NASA's Goddard Space Flight Center or the Jet Propulsion Laboratory (JPL) during the first selection stage, and the broader field of applicants — including universities and commercial organizations — is widened. Source 1: NASA open letter, 'Faster to Science' (Oct 21, 2026). Source 2: Space.com, 'More missions, more often' (Oct 26, 2026)."
 ---
 
-# How did NASA decide which space telescope or explorer flies next?
+# How is NASA making room for more science missions — and getting them to space faster?
 
-# Why NASA is asking scientists to lead with the science, not the paperwork
+## 1. What Is the Competition Model 2.0?
 
-For decades, if you were a space scientist with a big idea for a new NASA mission, your first job was to write a very thick proposal — packed with engineering drawings, budget spreadsheets, and risk plans — just to get astronomers' attention. By the time NASA finished reading everyone's paperwork, years had slipped by.
+Every few years, NASA has to choose which science missions fly to space. Some look at Mars. Others study distant galaxies. A few even ride along with the James Webb Space Telescope's big siblings. The tricky part? Lots of brilliant scientists send in ideas, but only a handful can be chosen — and the whole process used to take nearly **three whole years**.
 
-That is changing fast.
+Now NASA has a brand-new rulebook. It's called **Competition Model 2.0**, or **CM 2.0** for short, and its big idea is simple: **pick the best science first, sort out the boring details later**.
 
-On October 21, NASA's Science Mission Directorate announced a brand-new way to pick its next missions. The plan is called **Competition Model 2.0** — and the big idea is simple: **let scientists compete on the science first.**
+## 2. Cut the Clock, Boost the Science
 
-# What does "science first" actually mean?
+Under this new approach — announced on October 21, 2026 by NASA Administrator **Jared Isaacman** — proposals start by describing the **science question**, not the rocket or the price tag. That means scientists spend less time filling out endless forms and more time dreaming up amazing discoveries.
 
-Dr. Nicky Fox, who leads NASA's science division, explained it like this: she and her team had "heard you" — scientists who said the old process was too heavy, too slow, and asked too much up front.
+Here's the cool part: the wait time could drop from **35 months down to about 19.5 months** — that's almost a **45% cut**. Smaller missions might see the timeline shrink from 32 months to roughly **19 months**.
 
-So NASA flipped the order. In the new system, when a team applies for a **Discovery** or **New Frontiers** mission — the middle-sized explorers that study our solar system, distant stars, and the early universe — they no longer have to stuff their first proposal with every engineering detail and dollar figure. They focus on one thing: **what science they want to do and why it matters.**
+That extra speed means NASA can say **"yes" to more missions** every year. More missions means more eyes on Mars, more telescopes peering at baby stars, and more chances for students like you to grow up and work on real space science.
 
-Think of it like entering a science fair. Instead of forcing every student to hand in a full construction blueprint before the judges have even seen their experiment, the judges first ask: "What cool question are you trying to answer?" Only later — once the most promising ideas are chosen — does the hard work of sizing circuits and pricing parts begin.
+## 3. Which Missions Change — and Which Stay the Same
 
-# How much faster can missions really fly?
+Not every NASA mission follows the same path. Under CM 2.0:
 
-NASA says the difference is huge on paper. Where it used to take about **35 months** just to pick a finalist from the first round of proposals, the new science-first round should take roughly **19.5 months** — a cut of almost half (about 45%).
+- **Discovery**, **New Frontiers**, and **Astro-Probes** — these are the mid-size missions that explore planets, study the sun, and peer deep into space. They keep a fast two-step process, but with nearly **half the paperwork** at the start.
+- **Smaller Explorer (MIDEX)** and **Earth Explorer** missions — these open up to an even wider crowd, including **universities** and **commercial companies**. Now a bright idea from a university classroom could actually fly!
+- **Flagship missions** — the big budget projects like the James Webb Space Telescope — stick with their existing (and already-improved) process, so the trickiest, most expensive work keeps its careful planning.
 
-Crucially, NASA says the missions themselves come out *stronger* by the time they're finally selected, because teams have time to mature their designs before committing to expensive hardware.
+The whole point? Let teams led by a **principal investigator** team up with NASA's Goddard Space Flight Center or the **Jet Propulsion Laboratory (JPL)** from day one, so the best ideas get the expert help they need.
 
-The changes roll out in stages by mission class:
+## Try this at home
 
-1. **Discovery** (small, fast-turnaround spacecraft — past examples include the Kepler and W FIRST telescopes) and **New Frontiers** (medium missions like the Juno Jupiter orbiter and the Osiris-REx asteroid sample-return): both move to an *accelerated two-step* competition, with nearly half the paperwork required at the start.
-2. **MIDEX** (Medium Explorer) and Earth science Explorers: open to a wider field of applicants, including universities and companies, with NASA centers able to lend a hand on tricky engineering problems.
-3. **Flagships** — the largest, costliest observatories like the **James Webb Space Telescope** — keep their own, already-reformed process built from lessons learned during Webb's long development.
+Pick a question about space that puzzles you — maybe "Why do stars twinkle?" or "What's a day on Venus?" Write it on an index card. Now sketch, in three simple steps, how a robot or telescope might answer it. You just did what real NASA scientists do — except NASA now gets to do it in half the time!
 
-NASA's leadership also wants more voices in the room: commercial companies and universities can now compete for some of these missions alongside longtime research centers, and NASA can pair teams with experts at Goddard or JPL (the Jet Propulsion Laboratory) early to smooth out technical challenges.
+## Fun Fact
 
-# Why does this matter to kids who love space?
+NASA's **Jet Propulsion Laboratory (JPL)** in Pasadena, California, was originally built by the Caltech students back in 1938. Today, JPL still designs some of the cleverest machines in space — from the *Perseverance* rover on Mars to the *Europa Clipper* mission. And thanks to the new Competition Model 2.0, future missions from smaller teams might get a JPL high-five earlier than ever.
 
-Pick a night and look up. Almost everything you see up there — the planets, the Moon, distant galaxies, the cosmic background glow left over from the Big Bang — exists because someone at NASA, or a partner university, convinced a committee that their telescope or probe would help answer a great question.
+## Sources
 
-Faster, simpler selections mean more good ideas get a fair hearing — and more science gets done sooner. A student's idea for sniffing alien atmospheres, or a team's design for a tiny satellite to chase asteroids, gets to move from "interesting on paper" to "built and flying" more quickly.
-
-**Fun Fact:** NASA picks its missions like a school board picks science-fair winners — but on a planetary scale. "Discovery" missions are the smallest and quickest (usually under about $1 billion), "New Frontiers" are mid-size (past winners include the Lucy asteroid flyby and the Juno Jupiter orbiter), and "flagships" are the biggest observatories like Hubble and James Webb, which cost many billions and take decades to build.
-
-**Try this at home:** Draw three boxes on a sheet of paper and label them Discovery, New Frontiers, and Flagship. Now pick a question you'd love to answer about space — maybe "Do any moons have oceans?" or "What are stars born inside?" Write your *question* in the smallest box (that's the science-first step!), a quick sketch of *how* you'd find out in the middle box, and a rough *budget note* in the largest box. That's basically how NASA scientists pitch their missions — just scaled up to the size of rockets.
-
-**for-grownups:** see above.
-
----
-*Sources: Space.com (Oct 26, 2026) | NASA Science open letter "Faster to Science" (Oct 21, 2026) | Wikipedia: New Frontiers (NASA program), Discovery Program (NASA), James Webb Space Telescope*\
+1. Space.com — "'More missions, more often': NASA is overhauling how it selects science missions" (October 26, 2026) — https://www.space.com/space-exploration/more-missions-more-often-nasa-is-overhauling-how-it-selects-science-missions
+2. NASA — "A letter to the science community: Faster to Science" (October 21, 2026) — https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community
