@@ -381,6 +381,7 @@ QUERY = {
     "2026-10-26-dakar-2026-youth-olympics-africa-debut": "Dakar 2026 Senegal Youth Olympic Games Ayo mascot lion cub red yellow traditional hat Senegalese flag Olympic rings stadium competition athletes",
     "2026-10-26-parker-solar-probe-magnetic-braids-solar-wind": "Parker Solar Probe NASA solar wind magnetic field helicity twisted braids charged particles Sun corona",
     "2026-10-26-amos-channel-antarctica-named": "Antarctica satellite view iceberg sea ice coastline map",
+    "2026-10-26-chime-hydrogen-dark-energy-signal": "CHIME Canadian Hydrogen Intensity Mapping Experiment radio telescope Penticton British Columbia 100m cylindrical parabolic reflector 21cm hydrogen line radio waves dark energy baryon acoustic oscillations BAO universe expansion",
     "2026-10-27-exercise-rewires-heart-nerves": "person running exercise track athlete physical fitness heart healthy",
 }
 
