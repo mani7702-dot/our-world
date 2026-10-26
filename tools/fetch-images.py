@@ -395,6 +395,7 @@ QUERY = {
     "2026-10-27-maxxing-word-of-the-year": "typewriter keys letters alphabet keyboard vintage typing words",
     "2026-10-27-viking-hoard-olaf-holy-coin": "silver coin penny Viking Age Norway museum coin collection",
     "2026-10-27-moon-cave-lava-tube-exploration": "lunar lava tube moon cave pit crater Marius Hills NASA GIMLI mission underground cavern radar seismic gravity astronaut shelter radiation",
+    "2026-10-27-lismore-monastery-scottish-island": "Lismore island Scotland Inner Hebrides monastery castle cathedral Argyll coast",
     "2026-10-27-chariklo-asteroid-rings-changing": "Chariklo asteroid rings stellar occultation James Webb JWST Oiapoque Chuí centaur asteroid ring system Science Advances",
     "2026-10-27-india-ai-data-workers": "AI training data human hand movement machine learning robotics data collector head camera wearable",
     "2026-10-26-analog-astronauts-underwater-space-training": "analog astronaut underwater habitat NASA NEEMO Aquarius Reef Base saturation diving aquanaut spacewalk simulation training Florida Key Largo",
