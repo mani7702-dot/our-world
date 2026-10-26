@@ -348,6 +348,7 @@ QUERY = {
     "2026-10-26-plastic-eating-pac-man-enzyme-fights-pollution": "plastic eating enzyme Pac-Man esterase biodegradable bioplastic polymer bacteria microbe",
     "2026-10-26-how-did-scientists-prove-asteroid-hit-north-sea": "Silverpit Crater asteroid impact north sea tsunami shock metamorphism mineral",
     "2026-10-26-did-giant-object-collide-earth-to-form-moon": "Theia protoplanet collision Earth Moon formation giant impact hypothesis artist impression Mars-sized object",
+    "2026-10-26-wasp-189b-exoplanet-star-chemistry-match": "WASP-189b exoplanet ultra-hot Jupiter Gemini South telescope artist impression star planet magnesium silicon spectroscopy",
 }
 
 def ok_license(l):
