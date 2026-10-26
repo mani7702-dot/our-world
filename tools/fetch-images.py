@@ -59,6 +59,7 @@ QUERY = {
     "why-do-seeds-know-which-way-is-up": "plant seedling",
     "jersey-marine-reefs-protected-sea": "marine protected area Jersey",
     "2026-10-26-wildlife-overpass-i25-collisions": "wildlife overpass Colorado Interstate 25 bridge Banff elk deer pronghorn wildlife crossing",
+    "2026-10-26-silicon-quantum-qubit-stark-shift": "silicon spin qubit quantum dot quantum computer chip microchip electron microscope illustration",
     "wildlife-overpass-i25-collisions-down-91": "wildlife overpass bridge Colorado",
     "fin-whale-lunge-feeding-pembrokeshire": "fin whale lunge feeding",
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
