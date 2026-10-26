@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-26-drex-giant-fungus-dinosaur-extinction": "giant fungus D-rex Dianjunus rex ascomycota sac fungus mushroom fruiting body Yunnan China forest mycelium spores decomposition",
     "2026-10-26-jwst-glowing-cauldron-n159-stars": "James Webb Space Telescope N159 Large Magellanic Cloud star-forming region H II region nebula NASA ESA CSA infrared observation",
     "2026-10-26-mekong-irrawaddy-dolphin-six-calves": "Irrawaddy dolphin Mekong Cambodia Orcaella brevirostris river dolphin",
     "2026-10-26-orion-mystery-merger-solves-proplyd-paradox": "Orion Nebula Trapezium Cluster Hubble proplyd star-forming region theta1 orionis C M42 NASA ESA public domain Hubble Heritage",
