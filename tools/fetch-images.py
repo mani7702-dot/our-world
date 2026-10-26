@@ -363,6 +363,7 @@ QUERY = {
     "2026-10-26-flare-ribbons-solar-explosions": "solar flare ribbon NASA Solar Dynamics Observatory SDO extreme ultraviolet Sun corona magnetic reconnection",
     "2026-10-26-nasa-overhauls-science-mission-selection": "NASA James Webb Space Telescope artist concept space telescope galaxy cosmic deep space NASA HQ",
     "2026-10-26-moon-two-faces-chang-e6-moon-mystery": "Moon near side far side maria highlands contrast Chang'e 6 China lunar sample return South Pole Aitken Basin artist impression NASA astronomical",
+    "2026-10-26-kings-lynn-wildflower-meadow-buzzing-with-life": "wildflower meadow King's Lynn Nature Volunteer Network native wildflower pollinator bee butterfly planting habitat biodiversity",
 }
 
 def ok_license(l):
