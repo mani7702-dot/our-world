@@ -352,6 +352,7 @@ QUERY = {
     "2026-10-26-how-did-scientists-prove-asteroid-hit-north-sea": "Silverpit Crater asteroid impact north sea tsunami shock metamorphism mineral",
     "2026-10-26-did-giant-object-collide-earth-to-form-moon": "Theia protoplanet collision Earth Moon formation giant impact hypothesis artist impression Mars-sized object",
     "2026-10-26-wasp-189b-exoplanet-star-chemistry-match": "WASP-189b exoplanet ultra-hot Jupiter Gemini South telescope artist impression star planet magnesium silicon spectroscopy",
+    "2026-10-26-van-goghs-starry-night-real-sky-date-astronomy": "Van Gogh The Starry Night 1889 painting Saint-Rémy sky Hyades cluster Venus Procrustes analysis astronomy",
 }
 
 def ok_license(l):
