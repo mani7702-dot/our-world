@@ -53,7 +53,7 @@ QUERY = {
     "forests-swallowing-methane-climate-shift": "forest floor leaf litter",
     "why-do-seeds-know-which-way-is-up": "plant seedling",
     "jersey-marine-reefs-protected-sea": "marine protected area Jersey",
-    "colorado-wildlife-overpass-i25-collisions-down-91": "wildlife overpass",
+    "2026-10-26-wildlife-overpass-i25-collisions": "wildlife overpass Colorado Interstate 25 bridge Banff elk deer pronghorn wildlife crossing",
     "wildlife-overpass-i25-collisions-down-91": "wildlife overpass bridge Colorado",
     "fin-whale-lunge-feeding-pembrokeshire": "fin whale lunge feeding",
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
