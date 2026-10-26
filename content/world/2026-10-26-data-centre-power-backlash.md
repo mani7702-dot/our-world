@@ -1,9 +1,9 @@
 ---
 title: Why are so many people saying no to giant data centres?
 date: 2026-10-26
-time: 16:22
-image:
-image_caption:
+time: 11:51 IST
+image: assets/images/2026-10-26-data-centre-power-backlash.jpg
+image_caption: Photo: Esquilo / CC BY-SA 3.0 / Wikimedia Commons
 category: World
 read: 3 min
 excerpt: Giant data centres power all our favourite apps, but their hunger for electricity and water is sparking a backlash — 16 U.S. states have proposed laws to block new ones.

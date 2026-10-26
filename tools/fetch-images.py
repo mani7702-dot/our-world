@@ -97,6 +97,7 @@ QUERY = {
     "brazil-ends-6-day-workweek-constitutional-amendment": "Brazilian National Congress",
     "amelia-earhart-taraia-object-trees": "Nikumaroro",
     "2026-10-26-gene-rodenberry-ashes-into-space-sts-52": "Gene Roddenberry Star Trek ashes space shuttle Columbia STS-52 launch memorial",
+    "2026-10-26-data-centre-power-backlash": "data centre server room cooling fans humming computers warehouse AI",
     "2026-10-20-dianjunus-rex-giant-fungus-china": "Xylaria fungus stroma",
     "d-rex-giant-fungus-king-of-dian-china": "Xylaria polymorpha dead man fingers",
     "zhu-xi-song-dynasty-confucian-exam": "Zhu Xi Song Dynasty Chinese philosopher portrait",
