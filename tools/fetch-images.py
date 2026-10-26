@@ -6,7 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
-    "2026-10-26-jwst-xlssc-122-dark-matter-cluster": "JWST James Webb Space Telescope galaxy cluster XLSSC 122 dark matter gravitational lensing cosmic noon infrared space telescope artist concept",
+    "2026-10-26-switzerland-glaciers-disappearing-fast": "glacier Switzerland Alps Rhone Aletsch Clariden glacier ice melt water GLAMOS ETH Zurich monitoring",
     "2026-10-26-pompeii-eruption-date-mystery": "Pompeii Mount Vesuvius Roman ruins volcanic ash plaster cast victims excavation",
     "2026-10-26-kikai-supervolcano-refills-with-magma": "Kikai caldera supervolcano Japan underwater submerged caldera magma chamber aerial photograph",
     "2026-10-26-nasa-swift-mission-ends": "Neil Gehrels Swift Observatory space telescope gamma-ray burst NASA Goddard artist concept",
