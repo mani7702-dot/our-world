@@ -22,6 +22,7 @@ QUERY = {
     "2026-10-26-shark-bukangi-rescue-busan-canal": "dusky shark Carcharhinus obscurus swimming ocean",
     "2026-10-25-brown-bears-bu-tyapa-rescued-to-ireland-sanctuary": "brown bear walking forest Ireland Donegal wildlife sanctuary Wild Ireland",
     "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
+    "2026-10-26-magnetic-skyrmions-brain-like-computers": "skyrmion magnetic vortex spintronics computer brain neuromorphic computing technology",
     "2026-10-26-silver-diamine-flimmer-stop-cavities-without-drilling": "silver diamine fluoride SDF liquid tooth cavity dental fluoride application dentist child",
     "2026-10-26-silver-diamine-fluoride-stops-cavities": "silver diamine fluoride SDF liquid tooth cavity dental fluoride application dentist child filling",
     "2026-10-24-nasa-wildflower-bloom-australia-outback": "wildflower desert Australia Landsat bloom",
