@@ -389,7 +389,8 @@ QUERY = {
     "2026-10-26-exercise-rewires-heart-nerves": "person running exercise track athlete physical fitness heart healthy",
     "2026-10-26-changie6-moon-magnetic-time-capsule": "Chang'e 6 lunar sample return Moon far side gamma-Fe gamma iron magnetic mineral impact glass magnetic field lunar magnetism NASA CNSA China National Space Administration PNAS",
     "2026-10-27-exercise-rewires-heart-nerves": "person running exercise track athlete physical fitness heart healthy",
-    "2026-10-27-maxxing-word-of-the-year": "typewriter keys letters alphabet keyboard vintage typing words"
+    "2026-10-27-maxxing-word-of-the-year": "typewriter keys letters alphabet keyboard vintage typing words",
+    "2026-10-27-viking-hoard-olaf-holy-coin": "silver coin penny Viking Age Norway museum coin collection"
 }
 
 def ok_license(l):
