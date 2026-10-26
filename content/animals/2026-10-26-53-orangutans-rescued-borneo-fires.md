@@ -6,7 +6,6 @@ slug: "2026-10-26-53-orangutans-rescued-borneo-fires"
 lane: animals
 kid_safe: true
 excerpt: "When forest and peatland fires swept across Borneo, an 18-year-old nonprofit stepped into the smoke. They rescued 53 orangutans from burning forests, nursed burned babies back to health, and rewilded survivors deep into Gunung Palung National Park. Here's how a tiny team is giving critically endangered orangutans a second chance—one quiet forest at a time."
-image: assets/images/2026-10-26-53-orangutans-rescued-borneo-fires.jpg
 image_credit: "International Animal Rescue / BKSDA / YIARI"
 image_caption: "A rescued young orangutan named Irene is cradled by Dr. Karmele Llano Sanchez, CEO of YIARI, at their rescue and rehabilitation center in Borneo. Orangutans are critically endangered great apes found only in Borneo and Sumatra, threatened by habitat loss and forest fires. Credit: YIARI / BKSDA / International Animal Rescue"
 source: "Good News Network; International Animal Rescue; Wikipedia (Orangutan)"
