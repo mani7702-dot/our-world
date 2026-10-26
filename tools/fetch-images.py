@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-26-ancient-eclipse-earth-rotation": "solar eclipse total eclipse corona Sun Moon shadow ancient china astronomy NASA Goddard",
     "2026-10-26-switzerland-glaciers-disappearing-fast": "glacier Switzerland Alps Rhone Aletsch Clariden glacier ice melt water GLAMOS ETH Zurich monitoring",
     "2026-10-26-pompeii-eruption-date-mystery": "Pompeii Mount Vesuvius Roman ruins volcanic ash plaster cast victims excavation",
     "2026-10-26-kikai-supervolcano-refills-with-magma": "Kikai caldera supervolcano Japan underwater submerged caldera magma chamber aerial photograph",
