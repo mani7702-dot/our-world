@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-26-african-mantle-plume-rift-discovery": "African Superplume East African Rift anorthosite NASA ISS astronaut photograph Madagascar",
     "2026-10-26-wheat-rice-fungus-defense": "wheat field rice field barley crop fungus rice blast disease protection",
     "2026-10-26-uhackatik-impact-crater": "impact crater shatter cone meteorite asteroid Quebec Canada breccia",
     "2026-10-26-valles-marineris-mars-alive": "Valles Marineris Mars canyon Mars Reconnaissance Orbiter THEMIS visible infrared",
