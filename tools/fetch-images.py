@@ -10,6 +10,7 @@ QUERY = {
     "2026-10-26-drex-giant-fungus-dinosaur-extinction": "giant fungus D-rex Dianjunus rex ascomycota sac fungus mushroom fruiting body Yunnan China forest mycelium spores decomposition",
     "2026-10-26-jwst-glowing-cauldron-n159-stars": "James Webb Space Telescope N159 Large Magellanic Cloud star-forming region H II region nebula NASA ESA CSA infrared observation",
     "2026-10-26-mekong-irrawaddy-dolphin-six-calves": "Irrawaddy dolphin Mekong Cambodia Orcaella brevirostris river dolphin",
+    "2026-10-27-sacred-river-dolphins-grow-by-6-after-breeding": "Irrawaddy dolphin Mekong River Cambodia Orcaella brevirostris river dolphin conservation sacred breeding season calving",
     "2026-10-26-orion-mystery-merger-solves-proplyd-paradox": "Orion Nebula Trapezium Cluster Hubble proplyd star-forming region theta1 orionis C M42 NASA ESA public domain Hubble Heritage",
     "2026-10-26-3d-thermal-invisibility-cloak": "3D thermal invisibility cloak infrared camera metal lattice aluminum 3D printing heat redirection thermal metamaterial",
     "2026-10-26-ancient-eclipse-earth-rotation": "solar eclipse total eclipse corona Sun Moon shadow ancient china astronomy NASA Goddard",
