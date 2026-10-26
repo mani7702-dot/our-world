@@ -374,7 +374,7 @@ QUERY = {
     "2026-10-26-samoan-island-wildlife-recovery": "Samoa Nu'utele Island invasive rats pigs removal native bird conservation Island Conservation Pacific forest regeneration seabird nesting endemic bird",
     "2026-10-26-kings-lynn-wildflower-meadow-buzzing-with-life": "wildflower meadow King's Lynn Nature Volunteer Network native wildflower pollinator bee butterfly planting habitat biodiversity",
     "2026-10-26-dakar-2026-youth-olympics-africa-debut": "Dakar 2026 Senegal Youth Olympic Games Ayo mascot lion cub red yellow traditional hat Senegalese flag Olympic rings stadium competition athletes",
-    "2026-10-26-real-places-history-fantasy": "UNESCO World Heritage Site ancient city carved cave stone staircase mountain town historical architecture",
+    "2026-10-26-parker-solar-probe-magnetic-braids-solar-wind": "Parker Solar Probe NASA solar wind magnetic field helicity twisted braids charged particles Sun corona",
 }
 
 def ok_license(l):
