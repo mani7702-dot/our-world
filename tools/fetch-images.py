@@ -360,6 +360,7 @@ QUERY = {
     "2026-10-26-wasp-189b-exoplanet-star-chemistry-match": "WASP-189b exoplanet ultra-hot Jupiter Gemini South telescope artist impression star planet magnesium silicon spectroscopy",
     "2026-10-26-van-goghs-starry-night-real-sky-date-astronomy": "Van Gogh The Starry Night 1889 painting Saint-Rémy sky Hyades cluster Venus Procrustes analysis astronomy",
     "2026-10-26-cochlostoma-door-snails-montenegro": "Cochlostoma land snail operculum door shell Montenegro limestone Balkans biodiversity",
+    "2026-10-26-flare-ribbons-solar-explosions": "solar flare ribbon NASA Solar Dynamics Observatory SDO extreme ultraviolet Sun corona magnetic reconnection",
 }
 
 def ok_license(l):
