@@ -14,6 +14,7 @@ QUERY = {
     "2026-10-26-valles-marineris-mars-alive": "Valles Marineris Mars canyon Mars Reconnaissance Orbiter THEMIS visible infrared",
     "2026-10-26-could-satellite-deorbit-bonds-prevent-space-junk-disaster": "space debris satellite orbital junk low earth orbit Kessler syndrome artist concept",
     "2026-10-25-antarctic-postmaster-penguins": "Port Lockroy Antarctic post office gentoo penguin historic hut",
+    "2026-10-26-shark-bukangi-rescue-busan-canal": "dusky shark Carcharhinus obscurus swimming ocean",
     "2026-10-25-brown-bears-bu-tyapa-rescued-to-ireland-sanctuary": "brown bear walking forest Ireland Donegal wildlife sanctuary Wild Ireland",
     "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
     "2026-10-26-silver-diamine-flimmer-stop-cavities-without-drilling": "silver diamine fluoride SDF liquid tooth cavity dental fluoride application dentist child",
@@ -352,6 +353,7 @@ QUERY = {
     "2026-10-26-plastic-eating-pac-man-enzyme-fights-pollution": "plastic eating enzyme Pac-Man esterase biodegradable bioplastic polymer bacteria microbe",
     "2026-10-26-how-did-scientists-prove-asteroid-hit-north-sea": "Silverpit Crater asteroid impact north sea tsunami shock metamorphism mineral",
     "2026-10-26-did-giant-object-collide-earth-to-form-moon": "Theia protoplanet collision Earth Moon formation giant impact hypothesis artist impression Mars-sized object",
+    "2026-10-26-black-hole-jet-universal-rule": "supermassive black hole tidal disruption event relativistic jet star torn apart accretion disk galaxy artist concept",
     "2026-10-26-wasp-189b-exoplanet-star-chemistry-match": "WASP-189b exoplanet ultra-hot Jupiter Gemini South telescope artist impression star planet magnesium silicon spectroscopy",
     "2026-10-26-van-goghs-starry-night-real-sky-date-astronomy": "Van Gogh The Starry Night 1889 painting Saint-Rémy sky Hyades cluster Venus Procrustes analysis astronomy",
 }
