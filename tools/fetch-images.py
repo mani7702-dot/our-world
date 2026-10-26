@@ -393,6 +393,7 @@ QUERY = {
     "2026-10-27-viking-hoard-olaf-holy-coin": "silver coin penny Viking Age Norway museum coin collection",
     "2026-10-27-moon-cave-lava-tube-exploration": "lunar lava tube moon cave pit crater Marius Hills NASA GIMLI mission underground cavern radar seismic gravity astronaut shelter radiation",
     "2026-10-27-chariklo-asteroid-rings-changing": "Chariklo asteroid rings stellar occultation James Webb JWST Oiapoque Chuí centaur asteroid ring system Science Advances",
+    "2026-10-27-india-ai-data-workers": "AI training data human hand movement machine learning robotics data collector head camera wearable",
 }
 
 def ok_license(l):
