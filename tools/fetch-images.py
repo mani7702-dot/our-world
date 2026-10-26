@@ -78,6 +78,7 @@ QUERY = {
     "2026-10-26-silicon-quantum-qubit-stark-shift": "silicon spin qubit quantum dot quantum computer chip microchip electron microscope illustration",
     "2026-10-26-record-breaker-grb-220706a-cosmic-explosion-27-days": "gamma-ray burst GRB Swift satellite X-ray flare afterglow black hole collapsar massive star explosion NASA artist concept",
     "2026-10-26-record-breaker-27-day-gamma-ray-burst-gompertz": "gamma-ray burst GRB 220706A ultra-long afterglow X-ray flare black hole collapsar blue supergiant star magnetar ZTF Palomar telescope explosion NASA artist concept",
+    "2026-10-26-cassini-titan-first-closeup-photos": "Cassini spacecraft Titan Saturn moon flyby closeup photo 2004 NASA JPL ESA Huygens probe Xanadu hazy atmosphere",
     "wildlife-overpass-i25-collisions-down-91": "wildlife overpass bridge Colorado",
     "fin-whale-lunge-feeding-pembrokeshire": "fin whale lunge feeding",
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
