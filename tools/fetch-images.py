@@ -158,6 +158,7 @@ QUERY = {
     "borneo-fires-peat-smoke-haze-science": "peat swamp fire Indonesia Borneo smoke",
     "why-are-peat-fires-so-bad": "peat swamp fire Indonesia smoke haze",
     "2026-10-22-peat-fires-indonesia-dangerous": "Indonesian forest fire peat swamp burning",
+    "2026-10-26-mars-sized-worlds-smashing-webb-impacts": "planetary collision Mars-sized impact Theia Webb James Webb telescope debris disk dust planet formation",
     "worlds-oldest-shipwreck-kekova-turkey-amphorae": "ancient Greek amphora Bronze Age",
     "us-green-card-wait-what-indians-are-facing": "world map showing country connections people migration",
     "hurricane-warning-maps-improving": "hurricane forecast cone National Hurricane Center",
