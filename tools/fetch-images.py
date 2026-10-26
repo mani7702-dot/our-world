@@ -391,7 +391,8 @@ QUERY = {
     "2026-10-27-exercise-rewires-heart-nerves": "person running exercise track athlete physical fitness heart healthy",
     "2026-10-27-maxxing-word-of-the-year": "typewriter keys letters alphabet keyboard vintage typing words",
     "2026-10-27-viking-hoard-olaf-holy-coin": "silver coin penny Viking Age Norway museum coin collection",
-    "2026-10-27-moon-cave-lava-tube-exploration": "lunar lava tube moon cave pit crater Marius Hills NASA GIMLI mission underground cavern radar seismic gravity astronaut shelter radiation"
+    "2026-10-27-moon-cave-lava-tube-exploration": "lunar lava tube moon cave pit crater Marius Hills NASA GIMLI mission underground cavern radar seismic gravity astronaut shelter radiation",
+    "2026-10-27-chariklo-asteroid-rings-changing": "Chariklo asteroid rings stellar occultation James Webb JWST Oiapoque Chuí centaur asteroid ring system Science Advances",
 }
 
 def ok_license(l):
