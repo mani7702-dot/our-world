@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-26-a-brief-history-of-meti": "METI Messaging Extraterrestrial Intelligence SETI radio telescope Arecibo message Fermi paradox Project Ozma Frank Drake Carl Sagan star communication NASA deep space network radio signal galaxy universe NASA ESA public domain artist concept",
     "2026-10-26-shanghai-grand-opera-house-gravity-staircase": "Shanghai Grand Opera House Snøhetta Norwegian architecture firm spiral staircase exterior Huangpu River opera auditorium acoustic design China architectural",
     "2026-10-26-rubin-telescope-mini-moons": "Vera C. Rubin Observatory Chile LSST Legacy Survey of Space and Time 8.4-meter telescope 3.2 gigapixel camera mini-moon asteroid Earth temporary satellite captured orbit",
     "2026-10-26-drex-giant-fungus-dinosaur-extinction": "giant fungus D-rex Dianjunus rex ascomycota sac fungus mushroom fruiting body Yunnan China forest mycelium spores decomposition",
