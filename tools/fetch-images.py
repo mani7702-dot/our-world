@@ -6,11 +6,9 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
-<<<<<<< HEAD
     "2026-10-26-jwst-glowing-cauldron-n159-stars": "James Webb Space Telescope N159 Large Magellanic Cloud star-forming region H II region nebula NASA ESA CSA infrared observation",
-=======
     "2026-10-26-mekong-irrawaddy-dolphin-six-calves": "Irrawaddy dolphin Mekong Cambodia Orcaella brevirostris river dolphin",
->>>>>>> 899b864 (news: six Irrawaddy dolphin calves raise Mekong population to 118)
+    "2026-10-26-orion-mystery-merger-solves-proplyd-paradox": "Orion Nebula Trapezium Cluster Hubble proplyd star-forming region theta1 orionis C M42 NASA ESA public domain Hubble Heritage",
     "2026-10-26-3d-thermal-invisibility-cloak": "3D thermal invisibility cloak infrared camera metal lattice aluminum 3D printing heat redirection thermal metamaterial",
     "2026-10-26-ancient-eclipse-earth-rotation": "solar eclipse total eclipse corona Sun Moon shadow ancient china astronomy NASA Goddard",
     "2026-10-26-switzerland-glaciers-disappearing-fast": "glacier Switzerland Alps Rhone Aletsch Clariden glacier ice melt water GLAMOS ETH Zurich monitoring",
