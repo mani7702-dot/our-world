@@ -442,6 +442,7 @@ QUERY = {
     "2026-10-28-animals-evolved-200-million-years-earlier": "Ediacaran fossils Cambrian explosion early animal evolution molecular clock fossil record paleontology microscopic fossil stromatolite ancient sea creature public domain CC BY",
     "2026-10-27-analog-astronauts-underwater-training": "NASA NEEMO Aquarius underwater laboratory analog astronaut saturation diving astronaut training ISS international space station neutral buoyancy aquanaut Key Largo Florida NOAA public domain CC BY NASA space exploration underwater habitat",
     "2026-10-27-antarctic-titanosaur-dinosaur-fossil-drawer": "titanosaur sauropod dinosaur tail vertebra fossil Antarctic James Ross Island Late Cretaceous dinosaur skeleton museum drawer discovery paleontology fossil bone skeleton public domain CC BY Wikimedia Commons",
+    "2026-10-27-lazuli-space-telescope-27-exoplanet-targets": "Lazuli Space Telescope private space telescope 3-meter mirror coronagraph exoplanet ESC ExtraSolar Coronagraph arxiv NASA ESA Hubble James Webb space telescope artist concept public domain CC BY",
 }
 
 
