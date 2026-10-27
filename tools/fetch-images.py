@@ -425,6 +425,7 @@ QUERY = {
     "2026-10-27-tape-blocks-flood-water-better-than-sandbags": "flood barrier tape door sandbag water tank University of Hull testing rubber tape door flood protection floodwater sandbags defensive measures protective measures emergency household disaster prevention seal weatherproof",
     "2026-10-27-eclipse-egyptian-temples-2027": "total solar eclipse corona sun moon shadow ancient Egyptian temple Luxor Karnak Hatshepsut Horus Edfu Valley of the Kings 2027 eclipse solar eclipse astronomy NASA public domain CC BY",
     "2026-10-27-nuclear-bomb-pulse-hidden-clues": "nuclear bomb test atomic mushroom cloud 1950s 1960s atmospheric testing Chernobyl test site Bikini Atoll Nevada Semipalatinsk hydrogen bomb explosion mushroom cloud nuclear test explosion public domain CC0 CC BY NASA DOE department of energy",
+    "2026-10-27-do-spiders-dream-surprising-clues": "jumping spider Portia fimbriata sleep REM sleep stage eye movement muscle twitch infrared camera arachnid spider dreaming research University of Bonn PNAS public domain CC BY",
 }
 
 
