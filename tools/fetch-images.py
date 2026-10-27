@@ -85,6 +85,7 @@ QUERY = {
     "2026-10-26-cassini-titan-first-closeup-photos": "Cassini spacecraft Titan Saturn moon flyby closeup photo 2004 NASA JPL ESA Huygens probe Xanadu hazy atmosphere",
     "2026-10-27-forest-thinning-carbon-storage-leadbeaters-possum": "mountain ash Eucalyptus regnans forest thinning selective logging Victoria Australia carbon storage timber harvest wildlife habitat Leadbeater's possum",
     "2026-10-27-53-orangutans-rescued-from-borneo-fires": "orangutan Borneo Indonesia rainforest fire rescue rehabilitation rewilding Gunung Palung national park critically endangered great ape red primate",
+    "2026-10-27-ai-helping-farmers-care-for-cows": "dairy cow cattle AI camera monitoring farm technology robotic milking machine agricultural technology cows herd health farmer with tablet smart farm",
     "wildlife-overpass-i25-collisions-down-91": "wildlife overpass bridge Colorado",
     "fin-whale-lunge-feeding-pembrokeshire": "fin whale lunge feeding",
     "coral-recovery-by-touch-stanford-7-weeks": "coral bleaching recovery",
