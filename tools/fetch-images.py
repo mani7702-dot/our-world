@@ -27,7 +27,7 @@ QUERY = {
     "2026-10-26-valles-marineris-mars-alive": "Valles Marineris Mars canyon Mars Reconnaissance Orbiter THEMIS visible infrared",
     "2026-10-26-could-satellite-deorbit-bonds-prevent-space-junk-disaster": "space debris satellite orbital junk low earth orbit Kessler syndrome artist concept",
     "2026-10-25-antarctic-postmaster-penguins": "Port Lockroy Antarctic post office gentoo penguin historic hut",
-    "2026-10-26-shark-bukangi-rescue-busan-canal": "dusky shark Carcharhinus obscurus swimming ocean",
+    "2026-10-27-kekova-oldest-shipwreck": "Kekova shipwreck Turkey archaeology underwater excavation Bronze Age 2700 BCE 2400 BCE pottery amphora cargo trade Mediterranean ancient maritime",
     "2026-10-25-brown-bears-bu-tyapa-rescued-to-ireland-sanctuary": "brown bear walking forest Ireland Donegal wildlife sanctuary Wild Ireland",
     "2026-10-26-hidden-sunspots-solar-far-side": "sunspot solar far side helioseismology acoustic wave SDO HMI NASA Solar Dynamics Observatory sun surface magnetic field travel time",
     "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
