@@ -447,6 +447,7 @@ QUERY = {
     "2026-10-27-lazuli-space-telescope-27-exoplanet-targets": "Lazuli Space Telescope private space telescope 3-meter mirror coronagraph exoplanet ESC ExtraSolar Coronagraph arxiv NASA ESA Hubble James Webb space telescope artist concept public domain CC BY",
     "2026-10-27-esa-juice-earth-gravity-assist-jupiter": "ESA Juice spacecraft Earth gravity assist slingshot Jupiter icy moons explorer JMC1 monitoring camera Earth flyby 2026 September 28 Ariane 5 launch Jupiter 2031 Ganymede Callisto Europa",
     "2026-10-27-nasa-roman-telescope-planet-hunting-eye": "Nancy Grace Roman Space Telescope NASA exoplanet coronagraph Wide Field Instrument pointing stability fine guidance spectral guide star Large Magellanic Cloud planet-hunting space telescope public domain CC BY artist concept NASA",
+    "2026-10-27-mysterious-long-delayed-radio-echoes-atmosphere": "radio telescope antenna array radio waves ionosphere magnetosphere Earth atmosphere long delayed echoes LDE Jorgen Hals 1927 dipole antenna shortwave radio propagation public domain CC BY NASA NOAA",
 }
 
 
