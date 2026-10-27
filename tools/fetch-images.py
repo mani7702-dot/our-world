@@ -439,6 +439,7 @@ QUERY = {
     "2026-10-27-toi-561-b-lava-planet-sunscreen-atmosphere": "TOI-561 b exoplanet lava world silicate clouds sunscreen atmosphere James Webb Space Telescope JWST super-Earth ultra-short period star 2000 Kelvin reflective",
     "2026-10-27-zombie-star-string-of-pearls-supernova-pa30": "Pa 30 IRAS 00500+6713 supernova remnant SN 1181 Type Iax zombie star white dwarf Gemini North telescope string of pearls gas knots Cassiopeia historical supernova citizen scientist NASA public domain CC BY",
     "2026-10-28-animals-evolved-200-million-years-earlier": "Ediacaran fossils Cambrian explosion early animal evolution molecular clock fossil record paleontology microscopic fossil stromatolite ancient sea creature public domain CC BY",
+    "2026-10-27-analog-astronauts-underwater-training": "NASA NEEMO Aquarius underwater laboratory analog astronaut saturation diving astronaut training ISS international space station neutral buoyancy aquanaut Key Largo Florida NOAA public domain CC BY NASA space exploration underwater habitat",
 }
 
 
