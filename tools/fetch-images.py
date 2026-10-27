@@ -33,6 +33,7 @@ QUERY = {
     "2026-10-26-could-satellite-deorbit-bonds-prevent-space-junk-disaster": "space debris satellite orbital junk low earth orbit Kessler syndrome artist concept",
     "2026-10-25-antarctic-postmaster-penguins": "Port Lockroy Antarctic post office gentoo penguin historic hut",
     "2026-10-27-kekova-oldest-shipwreck": "Kekova shipwreck Turkey archaeology underwater excavation Bronze Age 2700 BCE 2400 BCE pottery amphora cargo trade Mediterranean ancient maritime",
+    "2026-10-27-nanotyrannus-dinosaur-auction-jodi": "Nanotyrannus lancensis dinosaur fossil skeleton Hall Creek Formation Montana paleontology museum Sotheby auction T. rex tyrannosaurid Late Cretaceous",
     "2026-10-25-brown-bears-bu-tyapa-rescued-to-ireland-sanctuary": "brown bear walking forest Ireland Donegal wildlife sanctuary Wild Ireland",
     "2026-10-26-hidden-sunspots-solar-far-side": "sunspot solar far side helioseismology acoustic wave SDO HMI NASA Solar Dynamics Observatory sun surface magnetic field travel time",
     "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
@@ -427,6 +428,7 @@ QUERY = {
     "2026-10-27-eclipse-egyptian-temples-2027": "total solar eclipse corona sun moon shadow ancient Egyptian temple Luxor Karnak Hatshepsut Horus Edfu Valley of the Kings 2027 eclipse solar eclipse astronomy NASA public domain CC BY",
     "2026-10-27-nuclear-bomb-pulse-hidden-clues": "nuclear bomb test atomic mushroom cloud 1950s 1960s atmospheric testing Chernobyl test site Bikini Atoll Nevada Semipalatinsk hydrogen bomb explosion mushroom cloud nuclear test explosion public domain CC0 CC BY NASA DOE department of energy",
     "2026-10-27-do-spiders-dream-surprising-clues": "jumping spider Portia fimbriata sleep REM sleep stage eye movement muscle twitch infrared camera arachnid spider dreaming research University of Bonn PNAS public domain CC BY",
+    "2026-10-27-ghana-bus-preaching-law": "Ghana Accra bus pastor preaching evangelism Christian church congregation public transport tro-tro minibus travel",
 }
 
 
