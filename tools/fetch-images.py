@@ -424,6 +424,7 @@ QUERY = {
     "2026-10-27-meghan-marks-junior-masterchef-australia": "Junior MasterChef Australia cooking show Meghan Markle co-host Poh Ling Yeow chef Network 10 Paramount Australia Channel 10 kitchen cooking children kids young cooks",
     "2026-10-27-tape-blocks-flood-water-better-than-sandbags": "flood barrier tape door sandbag water tank University of Hull testing rubber tape door flood protection floodwater sandbags defensive measures protective measures emergency household disaster prevention seal weatherproof",
     "2026-10-27-eclipse-egyptian-temples-2027": "total solar eclipse corona sun moon shadow ancient Egyptian temple Luxor Karnak Hatshepsut Horus Edfu Valley of the Kings 2027 eclipse solar eclipse astronomy NASA public domain CC BY",
+    "2026-10-27-nuclear-bomb-pulse-hidden-clues": "nuclear bomb test atomic mushroom cloud 1950s 1960s atmospheric testing Chernobyl test site Bikini Atoll Nevada Semipalatinsk hydrogen bomb explosion mushroom cloud nuclear test explosion public domain CC0 CC BY NASA DOE department of energy",
 }
 
 
