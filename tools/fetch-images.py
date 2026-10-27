@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-27-zebra-striped-bee-somerset-saltmarsh-restoration": "sea aster mining bee Colletes halophilus striped bee saltmarsh Somerset Steart Marshes bee UK conservation wildlife",
     "2026-10-27-hubble-tension-magnetic-fields-universe-expansion": "Hubble Space Telescope cosmic microwave background Planck Space Telescope galaxy redshift expansion universe Hubble constant Hubble's law Edwin Hubble Big Bang cosmic magnetic field Hubble tension public domain CC BY NASA ESA artist concept",
     "2026-10-27-green-white-dwarf-star-j1330": "white dwarf WD J1330+6435 green star white dwarf star color sodium absorption planetary debris stellar remnant NASA Hubble spectrometer artist concept galaxy space public domain CC BY",
     "2026-10-27-hubble-planet-born-after-star-died": "Hubble Space Telescope white dwarf HS 0209+0832 second-generation planet niobium gas giant NASA TESS artist concept stellar remnant exoplanet James Webb Space Telescope public domain CC BY 4.0",
@@ -420,6 +421,7 @@ QUERY = {
     "2026-10-28-nasa-astronauts-splash-down-100-million-mile-mission": "SpaceX Crew Dragon splashdown ISS International Space Station astronaut capsule NASA Pacific Ocean recovery astronauts return home 100 million miles 237 days Crew-12 crew splashdown capsule ocean recovery",
     "2026-10-27-meghan-marks-junior-masterchef-australia": "Junior MasterChef Australia cooking show Meghan Markle co-host Poh Ling Yeow chef Network 10 Paramount Australia Channel 10 kitchen cooking children kids young cooks",
     "2026-10-27-tape-blocks-flood-water-better-than-sandbags": "flood barrier tape door sandbag water tank University of Hull testing rubber tape door flood protection floodwater sandbags defensive measures protective measures emergency household disaster prevention seal weatherproof",
+    "2026-10-27-eclipse-egyptian-temples-2027": "total solar eclipse corona sun moon shadow ancient Egyptian temple Luxor Karnak Hatshepsut Horus Edfu Valley of the Kings 2027 eclipse solar eclipse astronomy NASA public domain CC BY",
 }
 
 
