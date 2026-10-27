@@ -752,6 +752,21 @@
     "tags": []
   },
   {
+    "title": "\"Europe's Sentinel-3C Satellite Shows Earth in Stunning True Color\"",
+    "url": "news/2026-10-27-sentinel-3c-earth-images.html",
+    "section": "news",
+    "excerpt": "\"Europe's newest Earth-observation satellite, Sentinel-3C, has beamed back its first breathtaking photos of our planet — from the snowy Alps to turquoise Caribbean waters — and is already measuring sea levels and melting ice.\"",
+    "tags": [
+      "space",
+      "earth observation",
+      "satellite",
+      "copernicus",
+      "climate",
+      "sentinel-3",
+      "esa"
+    ]
+  },
+  {
     "title": "\"5 Things on SpaceX's Strange ISS Cargo Run\"",
     "url": "news/2026-10-27-spacex-strange-iss-cargo.html",
     "section": "news",
@@ -7058,23 +7073,6 @@
       "anorthosite",
       "madagascar",
       "earth-observatory"
-    ]
-  },
-  {
-    "title": "\"How Is Sentinel-3C Mapping Earth's Changing Climate From Space?\"",
-    "url": "news/2026-10-27-sentinel-3c-earth-images.html",
-    "section": "news",
-    "excerpt": "\"Europe's Sentinel-3C satellite captured its first stunning images of Earth just two weeks after reaching orbit — from the snowy Alps to the turquoise Caribbean — while also measuring sea levels and Greenland's ice sheet.\"",
-    "tags": [
-      "satellite",
-      "climate",
-      "earth observation",
-      "esa",
-      "copernicus",
-      "ice",
-      "ocean",
-      "italy",
-      "caribbean"
     ]
   }
 ]
