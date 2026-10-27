@@ -402,7 +402,8 @@ QUERY = {
     "2026-10-27-india-ai-data-workers": "AI training data human hand movement machine learning robotics data collector head camera wearable",
     "2026-10-26-analog-astronauts-underwater-space-training": "analog astronaut underwater habitat NASA NEEMO Aquarius Reef Base saturation diving aquanaut spacewalk simulation training Florida Key Largo",
     "2026-10-27-bezos-earth-fund-500m-species-recovery": "Bezos Earth Fund $500m species recovery endangered animals biodiversity COP17 Yerevan Armenia threatened species conservation",
-    "2026-10-27-star-eating-brown-dwarf-billions-of-years": "brown dwarf star accretion stellar eating companion ZTF J0440+2325 low mass star brown dwarf consuming material stream NASA artist concept space telescope,"
+    "2026-10-27-star-eating-brown-dwarf-billions-of-years": "brown dwarf star accretion stellar eating companion ZTF J0440+2325 low mass star brown dwarf consuming material stream NASA artist concept space telescope",
+    "2026-10-27-arctic-sea-ice-loss-far-worse-than-predicted": "Arctic winter sea ice NASA satellite ice extent climate change melting Arctic Ocean polar ice caps IPCC global warming temperature",
 }
 
 def ok_license(l):
