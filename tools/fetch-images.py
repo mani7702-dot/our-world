@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-27-agua-dulce-bolivia-wildlife-reserve-link-of-life": "Amazon river dolphin Inia geoffrensis pink river dolphin swimming Amazon river Bolivia Brazil wildlife",
     "2026-10-27-laser-beam-memory-1000x-faster": "hard disk drive magnetic platter interior magnets data storage inside computer hard drive public domain CC BY Wikimedia Commons",
     "2026-10-27-zebra-striped-bee-somerset-saltmarsh-restoration": "sea aster mining bee Colletes halophilus striped bee saltmarsh Somerset Steart Marshes bee UK conservation wildlife",
     "2026-10-27-ubeidiya-jordan-valley-early-humans-19-million": "ancient humans stone tools hand axe Oldowan Acheulean Jordan Valley Ubeidiya fossil snail shell archaeology hominid migration out of Africa Israel Georgia Dmanisi paleoanthropology paleolithic site public domain CC BY Wikimedia Commons",
