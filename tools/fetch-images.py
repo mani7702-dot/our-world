@@ -409,6 +409,7 @@ QUERY = {
     "2026-10-27-star-eating-brown-dwarf-billions-of-years": "brown dwarf star accretion stellar eating companion ZTF J0440+2325 low mass star brown dwarf consuming material stream NASA artist concept space telescope",
     "2026-10-27-arctic-sea-ice-loss-far-worse-than-predicted": "Arctic winter sea ice NASA satellite ice extent climate change melting Arctic Ocean polar ice caps IPCC global warming temperature",
     "2026-10-27-nasa-lro-discovers-new-moon-crater": "Moon crater LRO Lunar Reconnaissance Orbiter McGetchin impact crater asteroid NASA Goddard satellite moon surface",
+    "2026-10-27-moon-rock-madagascar-anorthosite": "anorthosite rock Madagascar Moon highlands ISS astronaut photograph NASA Earth Observatory geology anorthosite outcrop Precambrian Saririaky massif",
 }
 
 
