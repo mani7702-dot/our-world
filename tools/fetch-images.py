@@ -446,6 +446,7 @@ QUERY = {
     "2026-10-27-antarctic-titanosaur-dinosaur-fossil-drawer": "titanosaur sauropod dinosaur tail vertebra fossil Antarctic James Ross Island Late Cretaceous dinosaur skeleton museum drawer discovery paleontology fossil bone skeleton public domain CC BY Wikimedia Commons",
     "2026-10-27-lazuli-space-telescope-27-exoplanet-targets": "Lazuli Space Telescope private space telescope 3-meter mirror coronagraph exoplanet ESC ExtraSolar Coronagraph arxiv NASA ESA Hubble James Webb space telescope artist concept public domain CC BY",
     "2026-10-27-esa-juice-earth-gravity-assist-jupiter": "ESA Juice spacecraft Earth gravity assist slingshot Jupiter icy moons explorer JMC1 monitoring camera Earth flyby 2026 September 28 Ariane 5 launch Jupiter 2031 Ganymede Callisto Europa",
+    "2026-10-27-nasa-roman-telescope-planet-hunting-eye": "Nancy Grace Roman Space Telescope NASA exoplanet coronagraph Wide Field Instrument pointing stability fine guidance spectral guide star Large Magellanic Cloud planet-hunting space telescope public domain CC BY artist concept NASA",
 }
 
 
