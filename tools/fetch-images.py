@@ -78,6 +78,7 @@ QUERY = {
     "jersey-marine-reefs-protected-sea": "marine protected area Jersey",
     "2026-10-26-wildlife-overpass-i25-collisions": "wildlife overpass Colorado Interstate 25 bridge Banff elk deer pronghorn wildlife crossing",
     "2026-10-26-silicon-quantum-qubit-stark-shift": "silicon spin qubit quantum dot quantum computer chip microchip electron microscope illustration",
+    "2026-10-27-ai-litter-tracking-dashcam-fights-roadside-trash": "litter roadside trash waste plastic bottle AI dashcam environmental cleanup pollution rubbish",
     "2026-10-26-record-breaker-grb-220706a-cosmic-explosion-27-days": "gamma-ray burst GRB Swift satellite X-ray flare afterglow black hole collapsar massive star explosion NASA artist concept",
     "2026-10-26-record-breaker-27-day-gamma-ray-burst-gompertz": "gamma-ray burst GRB 220706A ultra-long afterglow X-ray flare black hole collapsar blue supergiant star magnetar ZTF Palomar telescope explosion NASA artist concept",
     "2026-10-26-cassini-titan-first-closeup-photos": "Cassini spacecraft Titan Saturn moon flyby closeup photo 2004 NASA JPL ESA Huygens probe Xanadu hazy atmosphere",
