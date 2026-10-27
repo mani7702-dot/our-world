@@ -418,8 +418,8 @@ QUERY = {
     "2026-10-27-flip-rover-moon-supercomputer": "Astrolab FLIP rover lunar surface moon HPE Spaceborne Computer-4 supercomputer GPU AI artificial intelligence lunar south pole NASA Artemis Griffin-1 mission astrobotic CLPS rover cooling system lunar night extreme temperature",
     "2026-10-27-how-first-stars-changed-universe": "first stars Population III stellar nucleosynthesis Big Bang hydrogen helium carbon oxygen iron supernova simulation supercomputer MEGATRON James Webb Space Telescope JWST cosmic dawn universe expansion galaxy formation stellar archaeology ancient stars public domain CC BY NASA ESA artist concept",
     "2026-10-28-nasa-astronauts-splash-down-100-million-mile-mission": "SpaceX Crew Dragon splashdown ISS International Space Station astronaut capsule NASA Pacific Ocean recovery astronauts return home 100 million miles 237 days Crew-12 crew splashdown capsule ocean recovery",
-    "2026-10-27-corals-as-pollution-detectives-metabolomics": "coral reef pollution contaminant metabolomics monitoring health coral tissue marine coral reef Hawaii Maui Nature Communications study public domain CC BY 4.0",
     "2026-10-27-meghan-marks-junior-masterchef-australia": "Junior MasterChef Australia cooking show Meghan Markle co-host Poh Ling Yeow chef Network 10 Paramount Australia Channel 10 kitchen cooking children kids young cooks",
+    "2026-10-27-tape-blocks-flood-water-better-than-sandbags": "flood barrier tape door sandbag water tank University of Hull testing rubber tape door flood protection floodwater sandbags defensive measures protective measures emergency household disaster prevention seal weatherproof",
 }
 
 
