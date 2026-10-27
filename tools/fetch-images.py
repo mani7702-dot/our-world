@@ -412,6 +412,7 @@ QUERY = {
     "2026-10-27-arctic-sea-ice-loss-far-worse-than-predicted": "Arctic winter sea ice NASA satellite ice extent climate change melting Arctic Ocean polar ice caps IPCC global warming temperature",
     "2026-10-27-nasa-lro-discovers-new-moon-crater": "Moon crater LRO Lunar Reconnaissance Orbiter McGetchin impact crater asteroid NASA Goddard satellite moon surface",
     "2026-10-27-moon-rock-madagascar-anorthosite": "anorthosite rock Madagascar Moon highlands ISS astronaut photograph NASA Earth Observatory geology anorthosite outcrop Precambrian Saririaky massif",
+    "2026-10-27-spacex-strange-iss-cargo": "SpaceX Dragon cargo spacecraft International Space Station ISS NASA astronaut photograph docking Harmony module solar arrays organoid brain research heart tissue artificial retina microgravity experiment public domain CC0 CC BY",
     "2026-10-27-flip-rover-moon-supercomputer": "Astrolab FLIP rover lunar surface moon HPE Spaceborne Computer-4 supercomputer GPU AI artificial intelligence lunar south pole NASA Artemis Griffin-1 mission astrobotic CLPS rover cooling system lunar night extreme temperature",
 }
 
