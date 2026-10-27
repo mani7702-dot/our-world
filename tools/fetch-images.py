@@ -78,6 +78,7 @@ QUERY = {
     "nasa-roman-telescope-exceeds-expectations": "space telescope",
     "webb-brown-dwarf-weather": "brown dwarf",
     "2026-10-19-brown-dwarfs-spherex-goth-atmospheres": "brown dwarf artist impression NASA SPHEREx telescope space infrared spectrum",
+    "2026-10-27-stellar-collisions-early-supermassive-black-holes": "supermassive black hole stellar collision merging stars Very Massive Star early universe JWST Little Red Dot cosmic web gravity simulation galaxy formation",
     "bleached-corals-recover-by-touching": "bleached coral",
     "coral-reef-recovery-by-touch-stanford": "coral reef bleaching recovery Acropora",
     "mosasaurs-fast-sneaky-sea-hunters": "mosasaur fossil",
