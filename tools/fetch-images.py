@@ -45,6 +45,7 @@ QUERY = {
     "2026-10-26-silver-diamine-fluoride-stops-cavities": "silver diamine fluoride SDF liquid tooth cavity dental fluoride application dentist child filling",
     "2026-10-24-nasa-wildflower-bloom-australia-outback": "wildflower desert Australia Landsat bloom",
     "2026-10-25-seabirds-isle-of-man-biosphere-conservation": "Manx shearwater burrow seabird cliff coastline",
+    "2026-10-27-november-full-moon-2026-beaver-moon-dawn-viewing": "full moon November Beaver Moon supermoon night sky startrail astrophotography public domain CC0 CC BY NASA ESA",
     "2026-10-24-rewilded-gorilla-lulingu-birth-virunga": "eastern lowland gorilla infant Virunga national park",
     "2026-10-24-suns-hidden-magnetic-web": "Sunrise-III balloon telescope solar chromosphere magnetic canopy thread-like magnetic field lines Sun",
     "2026-10-24-nasa-artemis-3-moon-lander-test": "NASA Orion spacecraft approaching International Space Station concept Artemis",
