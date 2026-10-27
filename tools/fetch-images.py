@@ -36,6 +36,7 @@ QUERY = {
     "2026-10-26-uhackatik-impact-crater": "impact crater shatter cone meteorite asteroid Quebec Canada breccia",
     "2026-10-26-valles-marineris-mars-alive": "Valles Marineris Mars canyon Mars Reconnaissance Orbiter THEMIS visible infrared",
     "2026-10-26-could-satellite-deorbit-bonds-prevent-space-junk-disaster": "space debris satellite orbital junk low earth orbit Kessler syndrome artist concept",
+    "2026-10-28-european-bison-wisent-back-from-the-brink": "European bison wisent bison herd meadow Poland Bialowieza Forest wildlife grazing grassland steppe conservation public domain CC BY Wikimedia Commons",
     "2026-10-25-antarctic-postmaster-penguins": "Port Lockroy Antarctic post office gentoo penguin historic hut",
     "2026-10-27-kekova-oldest-shipwreck": "Kekova shipwreck Turkey archaeology underwater excavation Bronze Age 2700 BCE 2400 BCE pottery amphora cargo trade Mediterranean ancient maritime",
     "2026-10-27-nanotyrannus-dinosaur-auction-jodi": "Nanotyrannus lancensis dinosaur fossil skeleton Hall Creek Formation Montana paleontology museum Sotheby auction T. rex tyrannosaurid Late Cretaceous",
