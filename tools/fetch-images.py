@@ -57,6 +57,7 @@ QUERY = {
     "indonesia-halts-deforestation-saving-4-million-acres": "orangutan Borneo rainforest",
     "2026-10-22-honey-bees-bullying-wild-pollinators": "honey bee on flower bumble bee pollinator",
     "2026-10-22-venus-slides-past-sun": "Venus planet from space NASA Solar System",
+    "2026-10-27-string-of-pearls-supernova-pa30-zombie-star": "Pa 30 supernova remnant string of pearls Gemini North telescope International Gemini Observatory NOIRLab dandelion-shaped gas knots Type Iax supernova zombie star remnants Cassiopeia 1181 AD guest star public domain CC BY NASA ESA",
     "2026-10-22-weight-loss-drugs-skin-science": "human skin collagen fiber structure microscopic diagram",
     "2026-10-22-spider-crater-wa-space-image": "Spider Crater Western Australia impact structure Landsat",
     "humpback-whale-mourned-stillborn-calf": "humpback whale mother calf Australia ocean",
