@@ -53,7 +53,7 @@ QUERY = {
     "2026-10-22-spider-crater-wa-space-image": "Spider Crater Western Australia impact structure Landsat",
     "humpback-whale-mourned-stillborn-calf": "humpback whale mother calf Australia ocean",
     "massive-asteroid-north-sea-tsunami-silverpit-crater": "asteroid impact crater",
-    "how-does-exercise-keep-muscles-young": "human muscle tissue",
+    "2026-10-27-sentinel-3c-earth-images": "Sentinel-3C satellite Copernicus ESA Earth observation Italy Alps Arctic Caribbean sea level Greenland ice sheet satellite image public domain CC BY 4.0",
     "bear-bread-farmers-market-aspen": "black bear",
     "bronze-whaler-shark-busan-canal": "bronze whaler shark",
     "cheetah-cub-cam-five-cubs": "cheetah cub",
