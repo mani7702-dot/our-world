@@ -7,6 +7,8 @@ read: 3 min
 excerpt: "A software developer built an AI-powered 'litter dashcam' that automatically spots and grades roadside trash. It has already logged over 28,000 pieces of litter across the UK — and the data is helping environmental groups demand cleaner streets."
 tags: environment, technology, litter, ai, uk, pollution, cleanup
 for-grownups: "Litter — waste discarded in the wrong place — is a serious environmental problem. Items like plastic bottles, food wrappers, and tires can persist for decades and wash into oceans. Robin Bennett, a software developer from Shropshire, built the Roadside Litter app: a dashboard-mounted phone that takes a photo every 10 seconds, uses AI to identify visible litter, and grades it against a national standard before uploading the data. The app logged over 3,000 reports in Shropshire and 28,000 nationwide, with hotspots near fast-food outlets and motorway service stations. Data is shared with Clean Up Britain, a UK environmental NGO, to help target cleanup efforts. Wikipedia confirms litter is one of the most widespread forms of environmental pollution, with cigarette butts being the single most littered item globally (4.5 trillion per year)."
+image: assets/images/2026-10-27-ai-litter-tracking-dashcam-fights-roadside-trash.jpg
+image_caption: "Detail on beached marine litter — plastic waste and debris left on a shoreline, illustrating the kind of environmental pollution that roadside litter-tracking technology aims to address. Photo: Marina Locritani / CC BY 4.0 / Wikimedia Commons"
 sources:
   - "BBC News — 'Fed-up Shropsbury driver builds AI litter tracker' — https://www.bbc.co.uk/news/articles/c5x2v3ky1ek7o"
   - "Wikipedia — 'Litter' — https://en.wikipedia.org/wiki/Litter"
