@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-27-green-white-dwarf-star-j1330": "white dwarf WD J1330+6435 green star white dwarf star color sodium absorption planetary debris stellar remnant NASA Hubble spectrometer artist concept galaxy space public domain CC BY",
     "2026-10-27-hubble-planet-born-after-star-died": "Hubble Space Telescope white dwarf HS 0209+0832 second-generation planet niobium gas giant NASA TESS artist concept stellar remnant exoplanet James Webb Space Telescope public domain CC BY 4.0",
     "2026-10-27-asymmetric-space-waves-map-pressure-on-earths-magnetic-shield": "Earth magnetosphere solar wind magnetopause Kelvin-Helmholtz instability KHI wave asymmetry northern hemisphere southern hemisphere winter summer dawn dusk NASA ESA simulation Geophysical Research Letters aurora aurora borealis aurora australis",
     "2026-10-26-a-brief-history-of-meti": "METI Messaging Extraterrestrial Intelligence SETI radio telescope Arecibo message Fermi paradox Project Ozma Frank Drake Carl Sagan star communication NASA deep space network radio signal galaxy universe NASA ESA public domain artist concept",
