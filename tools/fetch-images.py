@@ -416,6 +416,7 @@ QUERY = {
     "2026-10-27-moon-rock-madagascar-anorthosite": "anorthosite rock Madagascar Moon highlands ISS astronaut photograph NASA Earth Observatory geology anorthosite outcrop Precambrian Saririaky massif",
     "2026-10-27-spacex-strange-iss-cargo": "SpaceX Dragon cargo spacecraft International Space Station ISS NASA astronaut photograph docking Harmony module solar arrays organoid brain research heart tissue artificial retina microgravity experiment public domain CC0 CC BY",
     "2026-10-27-flip-rover-moon-supercomputer": "Astrolab FLIP rover lunar surface moon HPE Spaceborne Computer-4 supercomputer GPU AI artificial intelligence lunar south pole NASA Artemis Griffin-1 mission astrobotic CLPS rover cooling system lunar night extreme temperature",
+    "2026-10-27-how-first-stars-changed-universe": "first stars Population III stellar nucleosynthesis Big Bang hydrogen helium carbon oxygen iron supernova simulation supercomputer MEGATRON James Webb Space Telescope JWST cosmic dawn universe expansion galaxy formation stellar archaeology ancient stars public domain CC BY NASA ESA artist concept",
     "2026-10-28-nasa-astronauts-splash-down-100-million-mile-mission": "SpaceX Crew Dragon splashdown ISS International Space Station astronaut capsule NASA Pacific Ocean recovery astronauts return home 100 million miles 237 days Crew-12 crew splashdown capsule ocean recovery",
 }
 
