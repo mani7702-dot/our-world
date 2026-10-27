@@ -399,6 +399,7 @@ QUERY = {
     "2026-10-27-chariklo-asteroid-rings-changing": "Chariklo asteroid rings stellar occultation James Webb JWST Oiapoque Chuí centaur asteroid ring system Science Advances",
     "2026-10-27-india-ai-data-workers": "AI training data human hand movement machine learning robotics data collector head camera wearable",
     "2026-10-26-analog-astronauts-underwater-space-training": "analog astronaut underwater habitat NASA NEEMO Aquarius Reef Base saturation diving aquanaut spacewalk simulation training Florida Key Largo",
+    "2026-10-27-bezos-earth-fund-500m-species-recovery": "Bezos Earth Fund $500m species recovery endangered animals biodiversity COP17 Yerevan Armenia threatened species conservation",
 }
 
 def ok_license(l):
