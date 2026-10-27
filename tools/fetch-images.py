@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-10-27-zebra-striped-bee-somerset-saltmarsh-restoration": "sea aster mining bee Colletes halophilus striped bee saltmarsh Somerset Steart Marshes bee UK conservation wildlife",
+    "2026-10-27-ubeidiya-jordan-valley-early-humans-19-million": "ancient humans stone tools hand axe Oldowan Acheulean Jordan Valley Ubeidiya fossil snail shell archaeology hominid migration out of Africa Israel Georgia Dmanisi paleoanthropology paleolithic site public domain CC BY Wikimedia Commons",
     "2026-10-27-hubble-tension-magnetic-fields-universe-expansion": "Hubble Space Telescope cosmic microwave background Planck Space Telescope galaxy redshift expansion universe Hubble constant Hubble's law Edwin Hubble Big Bang cosmic magnetic field Hubble tension public domain CC BY NASA ESA artist concept",
     "2026-10-27-green-white-dwarf-star-j1330": "white dwarf WD J1330+6435 green star white dwarf star color sodium absorption planetary debris stellar remnant NASA Hubble spectrometer artist concept galaxy space public domain CC BY",
     "2026-10-27-hubble-planet-born-after-star-died": "Hubble Space Telescope white dwarf HS 0209+0832 second-generation planet niobium gas giant NASA TESS artist concept stellar remnant exoplanet James Webb Space Telescope public domain CC BY 4.0",
