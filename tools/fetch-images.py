@@ -320,6 +320,7 @@ QUERY = {
     "2026-10-25-zebra-shark-rewilding-indonesia": "zebra shark pup swimming underwater",
     "2026-10-25-spinosaurus-underwater-hunter": "Spinosaurus dinosaur swimming underwater paleoart sail back Nile river",
     "jwst-reveals-lopsided-alien-world-wind": "WASP-17b exoplanet artist impression hot Jupiter space telescope",
+    "2026-10-23-jwst-lopsided-exoplanet-wasp-17b-evening-winds": "WASP-17b exoplanet hot Jupiter lopsided atmosphere asymmetric egg-shape James Webb Space Telescope artist impression NASA ESA CSA",
     "2026-10-23-typhoon-champi-strongest-storm-of-year-el-nino": "typhoon aerial view spiral satellite storm clouds Pacific Ocean",
     "2026-10-23-dragonfly-first-simulated-flight": "NASA Dragonfly Titan rotorcraft drone landing simulation",
     "2026-10-24-masaya-volcano-beneath-strange-dance": "Masaya volcano Nicaragua Santiago crater lava lake sulfur gas",
