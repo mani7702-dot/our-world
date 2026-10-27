@@ -695,13 +695,6 @@
     ]
   },
   {
-    "title": "\"How Do Scientists Spot Hidden Sunspots on the Sun's Far Side?\"",
-    "url": "news/2026-10-26-hidden-sunspots-solar-far-side.html",
-    "section": "news",
-    "excerpt": "",
-    "tags": []
-  },
-  {
     "title": "\"How a Patch of Rock in Madagascar Looks Just Like the Moon\"",
     "url": "news/2026-10-26-moon-like-madagascar-anorthosite.html",
     "section": "news",
@@ -1140,6 +1133,22 @@
       "bycatch",
       "Cornwall",
       "innovation"
+    ]
+  },
+  {
+    "title": "\"How can scientists see sunspots hiding on the far side of the Sun?\"",
+    "url": "news/2026-10-26-hidden-sunspots-solar-far-side.html",
+    "section": "news",
+    "excerpt": "\"The Sun always shows us the same face — but scientists have figured out how to spot dangerous sunspots brewing on the side we can't see, giving us an early warning system for space weather that could threaten satellites and power grids on Earth.\"",
+    "tags": [
+      "science",
+      "space",
+      "sun",
+      "sunspots",
+      "helioseismology",
+      "solar weather",
+      "SDO",
+      "NASA"
     ]
   },
   {
