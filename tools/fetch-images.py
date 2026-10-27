@@ -401,6 +401,7 @@ QUERY = {
     "2026-10-26-chime-hydrogen-dark-energy-signal": "CHIME Canadian Hydrogen Intensity Mapping Experiment radio telescope Penticton British Columbia 100m cylindrical parabolic reflector 21cm hydrogen line radio waves dark energy baryon acoustic oscillations BAO universe expansion",
     "2026-10-26-exercise-rewires-heart-nerves": "person running exercise track athlete physical fitness heart healthy",
     "2026-10-26-changie6-moon-magnetic-time-capsule": "Chang'e 6 lunar sample return Moon far side gamma-Fe gamma iron magnetic mineral impact glass magnetic field lunar magnetism NASA CNSA China National Space Administration PNAS",
+    "2026-10-27-dump-detectives-illegal-waste-uk": "illegal waste dumping fly-tipping environmental enforcement officer detective waste crime cleanup syringe mattress microwave evidence investigation North East Lincolnshire council public waste management landfill recycling tip",
     "2026-10-27-exercise-rewires-heart-nerves": "person running exercise track athlete physical fitness heart healthy",
     "2026-10-27-maxxing-word-of-the-year": "typewriter keys letters alphabet keyboard vintage typing words",
     "2026-10-27-viking-hoard-olaf-holy-coin": "silver coin penny Viking Age Norway museum coin collection",
