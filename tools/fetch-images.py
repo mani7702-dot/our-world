@@ -430,6 +430,7 @@ QUERY = {
     "2026-10-27-nuclear-bomb-pulse-hidden-clues": "nuclear bomb test atomic mushroom cloud 1950s 1960s atmospheric testing Chernobyl test site Bikini Atoll Nevada Semipalatinsk hydrogen bomb explosion mushroom cloud nuclear test explosion public domain CC0 CC BY NASA DOE department of energy",
     "2026-10-27-do-spiders-dream-surprising-clues": "jumping spider Portia fimbriata sleep REM sleep stage eye movement muscle twitch infrared camera arachnid spider dreaming research University of Bonn PNAS public domain CC BY",
     "2026-10-27-ghana-bus-preaching-law": "Ghana Accra bus pastor preaching evangelism Christian church congregation public transport tro-tro minibus travel",
+    "2026-10-27-toi-561-b-lava-planet-sunscreen-atmosphere": "TOI-561 b exoplanet lava world silicate clouds sunscreen atmosphere James Webb Space Telescope JWST super-Earth ultra-short period star 2000 Kelvin reflective",
 }
 
 
