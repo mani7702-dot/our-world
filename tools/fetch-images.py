@@ -96,6 +96,7 @@ QUERY = {
     "how-does-a-compass-work": "compass",
     "soy-salt-brain-compound": "soybeans",
     "2026-10-28-miyamoto-nintendo-order-of-culture": "Shigeru Miyamoto Nintendo video game designer Mario Zelda Donkey Kong Order of Culture Japan Emperor award ceremony Nintendo Entertainment System NES controller pixel art public domain CC BY",
+    "2026-10-28-maya-city-caracol-belize-lost-civilization": "Maya Caracol Belize pyramids ruins jungle temple Caana sky palace archaeological site public domain CC BY Wikimedia Commons",
     "forests-swallowing-methane-climate-shift": "forest floor leaf litter",
     "why-do-seeds-know-which-way-is-up": "plant seedling",
     "jersey-marine-reefs-protected-sea": "marine protected area Jersey",
