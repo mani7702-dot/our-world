@@ -42,6 +42,7 @@ QUERY = {
     "2026-10-27-kekova-oldest-shipwreck": "Kekova shipwreck Turkey archaeology underwater excavation Bronze Age 2700 BCE 2400 BCE pottery amphora cargo trade Mediterranean ancient maritime",
     "2026-10-27-nanotyrannus-dinosaur-auction-jodi": "Nanotyrannus lancensis dinosaur fossil skeleton Hall Creek Formation Montana paleontology museum Sotheby auction T. rex tyrannosaurid Late Cretaceous",
     "2026-10-25-brown-bears-bu-tyapa-rescued-to-ireland-sanctuary": "brown bear walking forest Ireland Donegal wildlife sanctuary Wild Ireland",
+    "2026-10-27-spacewalking-underwater-real-spacewalk-feel": "underwater spacewalk simulation EVA extravehicular activity NASA NEEMO Aquarius habitat saturation diving scuba spacesuit analog mission astronaut underwater laboratory ocean floor",
     "2026-10-26-hidden-sunspots-solar-far-side": "sunspot solar far side helioseismology acoustic wave SDO HMI NASA Solar Dynamics Observatory sun surface magnetic field travel time",
     "2026-10-26-three-black-holes-dawn-of-time": "supermassive black hole galaxy JWST James Webb telescope artist impression",
     "2026-10-26-magnetic-skyrmions-brain-like-computers": "skyrmion magnetic vortex spintronics computer brain neuromorphic computing technology",
