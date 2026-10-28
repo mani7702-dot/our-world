@@ -53,6 +53,7 @@ QUERY = {
     "2026-10-24-rewilded-gorilla-lulingu-birth-virunga": "eastern lowland gorilla infant Virunga national park",
     "2026-10-24-suns-hidden-magnetic-web": "Sunrise-III balloon telescope solar chromosphere magnetic canopy thread-like magnetic field lines Sun",
     "2026-10-24-nasa-artemis-3-moon-lander-test": "NASA Orion spacecraft approaching International Space Station concept Artemis",
+    "2026-10-28-spaceplane-cornwall-aurora": "spaceplane Dawn Aerospace Aurora reusable suborbital aircraft takeoff runway airport",
     "2026-10-26-nasa-lunar-lander-race-moon": "SpaceX Starship lunar lander concept NASA Blue Origin Blue Moon Moon landing",
     "2026-10-24-eagles-nest-fire-bavaria": "Eagle's Nest Kehlsteinhaus Berchtesgaden mountain building",
     "private-griffin-moon-lander-gets-put-to-the-test": "Griffin-1 lunar lander NASA JPL space simulator testing",
