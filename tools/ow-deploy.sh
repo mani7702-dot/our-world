@@ -33,7 +33,7 @@ echo "[4/6] link check"
 breaks=$(python3 - <<'EOF'
 import os, re
 for dp, _, fs in os.walk('.'):
-    if any(p in dp for p in ('/content', '/templates', '/tools', '.git')):
+    if any(p in dp for p in ('content', 'templates', 'tools', '.git')):
         continue
     for f in fs:
         if not f.endswith('.html') or f.startswith('.tmp'):
