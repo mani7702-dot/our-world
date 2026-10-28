@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-28-mit-star-feasting-on-brown-dwarf": "binary star M dwarf brown dwarf star feeding mass transfer accretion ZTF J0440+2325 brown dwarf star stellar cannibalism Roche lobe overflow stable mass transfer Milky Way astronomy public domain CC0 CC BY artist concept space NASA Hubble",
     "2026-10-28-ai-proofs-maths-trust": "artificial intelligence AI mathematical proof equations Navier-Stokes mathematics computer algorithm algorithm diagram brain neuron network neural network public domain CC0 CC BY Wikimedia Commons",
     "2026-10-28-hera-first-light-two-asteroids-dimorphos": "Dimorphos Didymos asteroid DART",
     "2026-10-28-immune-cells-sense-of-touch-t-cell-stiffness": "lymphocyte",
