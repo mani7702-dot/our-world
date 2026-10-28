@@ -427,7 +427,8 @@ QUERY = {
     "2026-10-27-lismore-monastery-scottish-island": "Lismore island Scotland Inner Hebrides monastery castle cathedral Argyll coast",
     "2026-10-27-chariklo-asteroid-rings-changing": "Chariklo asteroid rings stellar occultation James Webb JWST Oiapoque Chuí centaur asteroid ring system Science Advances",
     "2026-10-27-india-ai-data-workers": "AI training data human hand movement machine learning robotics data collector head camera wearable",
-    "2026-10-26-analog-astronauts-underwater-space-training": "analog astronaut underwater habitat NASA NEEMO Aquarius Reef Base saturation diving aquanaut spacewalk simulation training Florida Key Largo",
+    "2026-10-26-analog-astronauts-underwater-space-training": "analog astronaut underwater habitat NASA NEEMO Aquarius Reef Base saturation diving aquanaut spacewalk simulation training Florida Key Largo NOAA public domain CC BY NASA space exploration underwater habitat",
+    "2026-10-26-a-merger-solves-a-puzzling-paradox-in-orion": "Orion Nebula Trapezium Cluster proplyd protoplanetary disk Hubble Space Telescope theta1 Orionis C star formation stellar merger triple star NASA ESA public domain CC BY artist concept space",
     "2026-10-27-bezos-earth-fund-500m-species-recovery": "Bezos Earth Fund $500m species recovery endangered animals biodiversity COP17 Yerevan Armenia threatened species conservation",
     "2026-10-27-star-eating-brown-dwarf-billions-of-years": "brown dwarf star accretion stellar eating companion ZTF J0440+2325 low mass star brown dwarf consuming material stream NASA artist concept space telescope",
     "2026-10-27-lumina-universe-reionization-supercomputer-simulation": "Lumina cosmological simulation supercomputer Frontier Oak Ridge nuclear Frontier supercomputer cosmic web dark matter galaxy reionization hydrogen helium universe expansion cosmic dawn early universe galaxy formation stellar formation simulation MNRAS astronomy Hubble Space Telescope James Webb cosmic time machine",
@@ -459,6 +460,7 @@ QUERY = {
     "2026-10-28-martian-mantle-garnet-oxidized-rocks-mystery": "Mars mantle majorite garnet oxidized iron mineral crystallization planetary science Mars InSight NASA ESA Olympus Mons volcano mantle convection SPring-8 synchrotron experimental apparatus public domain CC BY artist concept",
     "2026-10-28-black-hole-jets-galaxy-star-formation": "supermassive black hole galaxy jet star formation circumgalactic medium CGM galaxy evolution active galactic nucleus AGN feedback hot plasma jet galaxy NASA artist concept space public domain CC BY",
     "2026-10-28-unveiling-starbirth-mysteries": "prestellar core star formation Taurus Molecular Cloud L1544 ambipolar diffusion magnetic field molecular cloud Herschel Space Observatory IRAM radio telescope nebula baby stars protostars cosmic dust gas cloud collapse gravitational collapse NASA ESA public domain CC BY artist concept",
+    "2026-10-28-hubble-gives-roman-telescope-a-helping-hand": "Hubble Space Telescope gravitational lens galaxy arc dark matter point spread function PSF Roman Space Telescope Nancy Grace Roman Wide Field Instrument HLWAS survey public domain CC BY NASA ESA artist concept galaxy cluster lensing",
 }
 
 
