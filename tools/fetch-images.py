@@ -452,6 +452,7 @@ QUERY = {
     "2026-10-27-mysterious-long-delayed-radio-echoes-atmosphere": "radio telescope antenna array radio waves ionosphere magnetosphere Earth atmosphere long delayed echoes LDE Jorgen Hals 1927 dipole antenna shortwave radio propagation public domain CC BY NASA NOAA",
     "2026-10-27-jpl-90-years-innovation-exploration": "Jet Propulsion Laboratory JPL rocket test 1936 Caltech NASA Arroyo Seco Pasadena Explorer 1 Ranger 7 Voyager 1 Voyager 2 Mars helicopter drone SkyFall MoonFall SunRISE NEO Surveyor Perseverance Mars rover interplanetary space exploration NASA public domain CC BY",
     "2026-10-28-october-night-sky-cosmic-tricks-treats": "October night sky Jupiter Moon occultation Draconid meteor shower Orionid meteor shower Halley's Comet Hunter's Moon full moon star field constellation constellation star chart NASA public domain CC BY artist concept",
+    "2026-10-28-martian-mantle-garnet-oxidized-rocks-mystery": "Mars mantle majorite garnet oxidized iron mineral crystallization planetary science Mars InSight NASA ESA Olympus Mons volcano mantle convection SPring-8 synchrotron experimental apparatus public domain CC BY artist concept",
 }
 
 
