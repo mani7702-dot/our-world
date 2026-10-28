@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-28-nasa-systems-engineering-team-details-hwo-mission-architecture": "NASA Habitable Worlds Observatory space telescope exoplanet direct imaging coronagraph JWST James Webb Space Telescope mirror space observatory NASA public domain CC BY artist concept",
     "2026-10-27-fox-cub-chance-recovers-after-car-accident-hydrotherapy": "fox cub animal wildlife rescue hydrotherapy swimming pool water rehabilitation pool veterinary",
     "2026-10-27-wildlife-trusts-30m-rothbury-estate-nature-recovery": "Rothbury Estate Northumberland wildlife nature corridor Wildlife Trusts bog restoration nature-friendly farming conservation UK public domain CC BY",
     "2026-10-27-cowboy-space-big-iron-rocket-ai-data-centers": "rocket launch stainless steel rocket two-stage rocket upper stage satellite data center artificial intelligence AI low Earth orbit LEO satellite constellation artist illustration",
