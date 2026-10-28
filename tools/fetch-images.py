@@ -10,6 +10,7 @@ QUERY = {
     "2026-10-28-hera-first-light-two-asteroids-dimorphos": "Dimorphos Didymos asteroid DART",
     "2026-10-28-immune-cells-sense-of-touch-t-cell-stiffness": "lymphocyte",
     "2026-10-28-crows-decide-twice-as-fast-as-monkeys": "Corvus corone carrion crow",
+    "2026-10-28-kangaroo-rescued-three-kilometres-out-to-sea": "Macropus rufus kangaroo Australia",
     "2026-10-28-jumping-genes-ants-dinosaur-extinction": "Formica rufa",
     "2026-10-28-nasa-systems-engineering-team-details-hwo-mission-architecture": "NASA Habitable Worlds Observatory space telescope exoplanet direct imaging coronagraph JWST James Webb Space Telescope mirror space observatory NASA public domain CC BY artist concept",
     "2026-10-27-fox-cub-chance-recovers-after-car-accident-hydrotherapy": "fox cub animal wildlife rescue hydrotherapy swimming pool water rehabilitation pool veterinary",
