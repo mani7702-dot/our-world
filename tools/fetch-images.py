@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-27-fox-cub-chance-recovers-after-car-accident-hydrotherapy": "fox cub animal wildlife rescue hydrotherapy swimming pool water rehabilitation pool veterinary",
     "2026-10-27-wildlife-trusts-30m-rothbury-estate-nature-recovery": "Rothbury Estate Northumberland wildlife nature corridor Wildlife Trusts bog restoration nature-friendly farming conservation UK public domain CC BY",
     "2026-10-27-cowboy-space-big-iron-rocket-ai-data-centers": "rocket launch stainless steel rocket two-stage rocket upper stage satellite data center artificial intelligence AI low Earth orbit LEO satellite constellation artist illustration",
     "2026-10-27-agua-dulce-bolivia-wildlife-reserve-link-of-life": "Amazon river dolphin Inia geoffrensis pink river dolphin swimming Amazon river Bolivia Brazil wildlife",
@@ -449,6 +450,8 @@ QUERY = {
     "2026-10-27-esa-juice-earth-gravity-assist-jupiter": "ESA Juice spacecraft Earth gravity assist slingshot Jupiter icy moons explorer JMC1 monitoring camera Earth flyby 2026 September 28 Ariane 5 launch Jupiter 2031 Ganymede Callisto Europa",
     "2026-10-27-nasa-roman-telescope-planet-hunting-eye": "Nancy Grace Roman Space Telescope NASA exoplanet coronagraph Wide Field Instrument pointing stability fine guidance spectral guide star Large Magellanic Cloud planet-hunting space telescope public domain CC BY artist concept NASA",
     "2026-10-27-mysterious-long-delayed-radio-echoes-atmosphere": "radio telescope antenna array radio waves ionosphere magnetosphere Earth atmosphere long delayed echoes LDE Jorgen Hals 1927 dipole antenna shortwave radio propagation public domain CC BY NASA NOAA",
+    "2026-10-27-jpl-90-years-innovation-exploration": "Jet Propulsion Laboratory JPL rocket test 1936 Caltech NASA Arroyo Seco Pasadena Explorer 1 Ranger 7 Voyager 1 Voyager 2 Mars helicopter drone SkyFall MoonFall SunRISE NEO Surveyor Perseverance Mars rover interplanetary space exploration NASA public domain CC BY",
+    "2026-10-28-october-night-sky-cosmic-tricks-treats": "October night sky Jupiter Moon occultation Draconid meteor shower Orionid meteor shower Halley's Comet Hunter's Moon full moon star field constellation constellation star chart NASA public domain CC BY artist concept",
 }
 
 
