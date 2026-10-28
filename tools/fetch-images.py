@@ -6,7 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
-    "2026-10-28-hell-chicken-dinosaur-ate-fruit": "eclectus parrot fruit eating",
+    "2026-10-28-mysterious-dwarf-planet-candidate-beyond-neptune": "dwarf planet trans-neptunian object beyond Neptune",
     "2026-10-28-fire-salamander-glows-under-uv-light": "Salamandra salamandra fire salamander",
     "2026-10-28-mit-star-feasting-on-brown-dwarf": "binary star M dwarf brown dwarf star feeding mass transfer accretion ZTF J0440+2325 brown dwarf star stellar cannibalism Roche lobe overflow stable mass transfer Milky Way astronomy public domain CC0 CC BY artist concept space NASA Hubble",
     "2026-10-28-ai-proofs-maths-trust": "artificial intelligence AI mathematical proof equations Navier-Stokes mathematics computer algorithm algorithm diagram brain neuron network neural network public domain CC0 CC BY Wikimedia Commons",
