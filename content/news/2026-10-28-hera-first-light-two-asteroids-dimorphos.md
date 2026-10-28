@@ -50,7 +50,7 @@ On **25 November**, ESA plans to release the first really detailed pictures of D
 
 **Make your own double asteroid.** You need a football (or a big cushion) and a marble, plus about a metre of string. Put the football on the floor — that is Didymos. Tie the marble to the string and hold the other end, then walk slowly around the football letting the marble swing in a circle at about a metre out. That is Dimorphos's orbit, scaled up.
 
-Now time it. Dimorphos takes about **11 hours and 55 minutes** for one lap around Didymos. In your model that is a very slow walk indeed — a full circle at beetle pace.
+Now time it. Dimorphos takes about **11 and a half hours** for one lap around Didymos. In your model that is a very slow walk indeed — a full circle at beetle pace.
 
 **Be the camera.** Stand across the room and look at a friend holding two small balls close together. From far away, they look like one blob. Walk closer and two shapes appear. That is exactly what happened to Hera — not because the asteroids changed, but because the spacecraft got close enough to tell them apart. Astronomers call that **resolution**: not more light, just finer detail.
 
