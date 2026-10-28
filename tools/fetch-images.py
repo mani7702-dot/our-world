@@ -456,6 +456,7 @@ QUERY = {
     "2026-10-28-october-night-sky-cosmic-tricks-treats": "October night sky Jupiter Moon occultation Draconid meteor shower Orionid meteor shower Halley's Comet Hunter's Moon full moon star field constellation constellation star chart NASA public domain CC BY artist concept",
     "2026-10-28-martian-mantle-garnet-oxidized-rocks-mystery": "Mars mantle majorite garnet oxidized iron mineral crystallization planetary science Mars InSight NASA ESA Olympus Mons volcano mantle convection SPring-8 synchrotron experimental apparatus public domain CC BY artist concept",
     "2026-10-28-black-hole-jets-galaxy-star-formation": "supermassive black hole galaxy jet star formation circumgalactic medium CGM galaxy evolution active galactic nucleus AGN feedback hot plasma jet galaxy NASA artist concept space public domain CC BY",
+    "2026-10-28-unveiling-starbirth-mysteries": "prestellar core star formation Taurus Molecular Cloud L1544 ambipolar diffusion magnetic field molecular cloud Herschel Space Observatory IRAM radio telescope nebula baby stars protostars cosmic dust gas cloud collapse gravitational collapse NASA ESA public domain CC BY artist concept",
 }
 
 
