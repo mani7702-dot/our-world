@@ -90,6 +90,7 @@ QUERY = {
     "japan-mars-moon-samples": "Phobos Mars moon spacecraft MMX",
     "how-does-a-compass-work": "compass",
     "soy-salt-brain-compound": "soybeans",
+    "2026-10-28-miyamoto-nintendo-order-of-culture": "Shigeru Miyamoto Nintendo video game designer Mario Zelda Donkey Kong Order of Culture Japan Emperor award ceremony Nintendo Entertainment System NES controller pixel art public domain CC BY",
     "forests-swallowing-methane-climate-shift": "forest floor leaf litter",
     "why-do-seeds-know-which-way-is-up": "plant seedling",
     "jersey-marine-reefs-protected-sea": "marine protected area Jersey",
