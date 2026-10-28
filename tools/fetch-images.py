@@ -469,6 +469,7 @@ QUERY = {
     "2026-10-28-unveiling-starbirth-mysteries": "prestellar core star formation Taurus Molecular Cloud L1544 ambipolar diffusion magnetic field molecular cloud Herschel Space Observatory IRAM radio telescope nebula baby stars protostars cosmic dust gas cloud collapse gravitational collapse NASA ESA public domain CC BY artist concept",
     "2026-10-28-hubble-gives-roman-telescope-a-helping-hand": "Hubble Space Telescope gravitational lens galaxy arc dark matter point spread function PSF Roman Space Telescope Nancy Grace Roman Wide Field Instrument HLWAS survey public domain CC BY NASA ESA artist concept galaxy cluster lensing",
     "2026-10-28-black-holes-can-split-if-they-spin-fast": "black hole event horizon spacetime illustration NASA ESA artist concept public domain CC BY",
+    "2026-10-28-will-a-leap-hour-replace-the-leap-second": "leap second atomic clock caesium time UTC Earth rotation NIST public domain CC0 CC BY Wikimedia Commons",
 }
 
 
