@@ -20,3 +20,4 @@ scripts/second-source.py
 scripts/ssf-*.py
 scripts/wayback-check.py
 scripts/_*.py
+ow-build.log
