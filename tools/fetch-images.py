@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-28-immune-cells-sense-of-touch-t-cell-stiffness": "lymphocyte",
     "2026-10-28-jumping-genes-ants-dinosaur-extinction": "Formica rufa",
     "2026-10-28-nasa-systems-engineering-team-details-hwo-mission-architecture": "NASA Habitable Worlds Observatory space telescope exoplanet direct imaging coronagraph JWST James Webb Space Telescope mirror space observatory NASA public domain CC BY artist concept",
     "2026-10-27-fox-cub-chance-recovers-after-car-accident-hydrotherapy": "fox cub animal wildlife rescue hydrotherapy swimming pool water rehabilitation pool veterinary",
