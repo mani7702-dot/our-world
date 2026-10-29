@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-29-elephant-tooth-700000-year-old-oasis": "Palaeoloxodon antiquus straight tusked elephant",
     "2026-10-29-solar-eclipse-photos-smoke-rings-sun": "solar eclipse corona smoke rings coronal hole",
     "2026-10-29-guliya-128000-year-old-ice-tibet": "Guliya glacier Tibetan Plateau ice cap glacier mountains snow climate ice core",
     "2026-10-29-tower-of-london-10-true-tales": "tower of london crown jewels",
