@@ -483,6 +483,7 @@ QUERY = {
     "2026-10-28-will-a-leap-hour-replace-the-leap-second": "leap second atomic clock caesium time UTC Earth rotation NIST public domain CC0 CC BY Wikimedia Commons",
     "2026-10-28-nasas-uvex-ultraviolet-telescope": "NASA UVEX ultraviolet space telescope orbit artist concept",
     "2026-10-29-hidden-oxygen-reservoir-deep-earth": "magma oxygen reservoir deep Earth mantle",
+    "2026-10-29-moon-habitats-may-use-layered-mylar-to-block-extreme-heat": "moon habitat insulation mylar thermal shield lunar base",
 }
 
 
