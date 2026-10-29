@@ -18,6 +18,7 @@ QUERY = {
     "2026-10-28-ai-proofs-maths-trust": "artificial intelligence AI mathematical proof equations Navier-Stokes mathematics computer algorithm algorithm diagram brain neuron network neural network public domain CC0 CC BY Wikimedia Commons",
     "2026-10-28-hera-first-light-two-asteroids-dimorphos": "Dimorphos Didymos asteroid DART",
     "2026-10-28-immune-cells-sense-of-touch-t-cell-stiffness": "lymphocyte",
+    "2026-10-29-dental-implants-hijack-immune-system": "titanium dental implant macrophage immune cell",
     "2026-10-28-ancient-comets-organic-compounds-life": "comet nucleus Rosetta 67P organic molecules",
     "2026-10-28-crows-decide-twice-as-fast-as-monkeys": "Corvus corone carrion crow",
     "2026-10-28-kangaroo-rescued-three-kilometres-out-to-sea": "Macropus rufus kangaroo Australia",
