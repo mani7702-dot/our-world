@@ -478,6 +478,7 @@ QUERY = {
     "2026-10-28-hubble-gives-roman-telescope-a-helping-hand": "Hubble Space Telescope gravitational lens galaxy arc dark matter point spread function PSF Roman Space Telescope Nancy Grace Roman Wide Field Instrument HLWAS survey public domain CC BY NASA ESA artist concept galaxy cluster lensing",
     "2026-10-28-black-holes-can-split-if-they-spin-fast": "black hole event horizon spacetime illustration NASA ESA artist concept public domain CC BY",
     "2026-10-28-will-a-leap-hour-replace-the-leap-second": "leap second atomic clock caesium time UTC Earth rotation NIST public domain CC0 CC BY Wikimedia Commons",
+    "2026-10-28-nasas-uvex-ultraviolet-telescope": "NASA UVEX ultraviolet space telescope orbit artist concept",
 }
 
 
