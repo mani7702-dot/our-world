@@ -11,6 +11,7 @@ QUERY = {
     "2026-10-29-indian-jailbreak-17-prisoners-recaptured-tamil-nadu": "Indian prison jail cell bars lock key security guard Tamil Nadu",
     "2026-10-29-tamil-nadu-jailbreak-puzzle-solved": "Tamil Nadu prison jail cell bars escape overcrowding",
     "2026-10-29-solar-eclipse-photos-smoke-rings-sun": "solar eclipse corona smoke rings coronal hole",
+    "2026-10-29-sun-plasma-jets-are-curtains-not-spears": "solar spicule plasma curtain coronal atmosphere Sun",
     "2026-10-29-tower-of-london-10-true-tales": "tower of london crown jewels",
     "2026-10-28-prospero-black-arrow-britains-first-rocket-satellite": "prospero satellite black arrow rocket",
     "2026-10-29-what-really-happens-meteors-atmosphere": "meteor fireball entering Earth atmosphere space rock",
