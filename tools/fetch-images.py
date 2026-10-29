@@ -482,6 +482,7 @@ QUERY = {
     "2026-10-28-black-holes-can-split-if-they-spin-fast": "black hole event horizon spacetime illustration NASA ESA artist concept public domain CC BY",
     "2026-10-28-will-a-leap-hour-replace-the-leap-second": "leap second atomic clock caesium time UTC Earth rotation NIST public domain CC0 CC BY Wikimedia Commons",
     "2026-10-28-nasas-uvex-ultraviolet-telescope": "NASA UVEX ultraviolet space telescope orbit artist concept",
+    "2026-10-29-hidden-oxygen-reservoir-deep-earth": "magma oxygen reservoir deep Earth mantle",
 }
 
 
