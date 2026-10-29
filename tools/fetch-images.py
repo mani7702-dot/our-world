@@ -136,6 +136,7 @@ QUERY = {
     "2026-10-22-acrylic-glass-recycling-eth-zurich": "acrylic glass plastic sheet",
     "big-bang-helium-first-five-minutes": "Big Bang nucleosynthesis helium",
     "2026-10-20-belemnite-squid-jurassic-wyoming": "belemnite fossil Jurassic squid",
+    "2026-10-29-jurassic-squid-butt-fossil-wyoteuthis": "belemnite fossil Jurassic squid",
     "ancient-peruvian-hairless-dogs-wari-huarmey": "Peruvian hairless dog",
     "2026-10-20-mount-mabu-butterfly-forest-protected": "African butterfly",
     "2026-10-23-lazuli-space-telescope-27-exoplanet-targets": "Lazuli Space Telescope exoplanet coronagraph artist impression",
