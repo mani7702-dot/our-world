@@ -495,6 +495,7 @@ QUERY = {
     "2026-10-29-chinese-astronomers-beheaded-eclipse-myth": "solar eclipse total eclipse ancient China court astronomer Hsi Ho",
     "2026-10-29-china-shenlong-space-plane-photo-docked-satellite": "Shenlong space plane docked satellite orbit",
     "2026-10-29-3000-supernovae-test-dark-energy-constant": "Type Ia supernova exploding white dwarf galaxy",
+    "2026-10-29-why-muscle-weakness-protects-with-age": "muscle fiber mitochondrion cardiolipin",
 }
 
 
