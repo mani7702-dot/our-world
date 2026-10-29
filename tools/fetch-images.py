@@ -6,9 +6,8 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
-    "2026-10-29-elephant-tooth-700000-year-old-oasis": "Palaeoloxodon antiquus straight tusked elephant",
+    "2026-10-29-indian-jailbreak-17-prisoners-recaptured-tamil-nadu": "Indian prison jail cell bars lock key security guard Tamil Nadu",
     "2026-10-29-solar-eclipse-photos-smoke-rings-sun": "solar eclipse corona smoke rings coronal hole",
-    "2026-10-29-guliya-128000-year-old-ice-tibet": "Guliya glacier Tibetan Plateau ice cap glacier mountains snow climate ice core",
     "2026-10-29-tower-of-london-10-true-tales": "tower of london crown jewels",
     "2026-10-28-prospero-black-arrow-britains-first-rocket-satellite": "prospero satellite black arrow rocket",
     "2026-10-29-what-really-happens-meteors-atmosphere": "meteor fireball entering Earth atmosphere space rock",
@@ -498,6 +497,7 @@ QUERY = {
     "2026-10-29-china-shenlong-space-plane-photo-docked-satellite": "Shenlong space plane docked satellite orbit",
     "2026-10-29-3000-supernovae-test-dark-energy-constant": "Type Ia supernova exploding white dwarf galaxy",
     "2026-10-29-why-muscle-weakness-protects-with-age": "muscle fiber mitochondrion cardiolipin",
+    "2026-10-29-eu-canada-partnership-montreal": "EU Canada flag handshake partnership diplomacy Montreal",
 }
 
 
