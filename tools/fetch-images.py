@@ -507,6 +507,7 @@ QUERY = {
     "2026-10-29-einstein-equations-universe-without-dark-energy": "Einstein general relativity spacetime curvature cosmic expansion universe balloon",
     "2026-10-29-growing-earth-made-its-own-water": "magma ocean pebble rain water formation",
     "2026-10-29-artemis-ii-commander-reid-wiseman-named-deputy-director-for-nasas-jet-propulsion-laboratory": "JPL rocket lab building telescope",
+    "2026-10-29-young-europeans-making-voices-heard": "young European protesters holding signs demonstration",
 }
 
 
