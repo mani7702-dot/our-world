@@ -500,6 +500,7 @@ QUERY = {
     "2026-10-29-3000-supernovae-test-dark-energy-constant": "Type Ia supernova exploding white dwarf galaxy",
     "2026-10-29-why-muscle-weakness-protects-with-age": "muscle fiber mitochondrion cardiolipin",
     "2026-10-29-eu-canada-partnership-montreal": "EU Canada flag handshake partnership diplomacy Montreal",
+    "2026-10-29-einstein-equations-universe-without-dark-energy": "Einstein general relativity spacetime curvature cosmic expansion universe balloon",
 }
 
 
