@@ -501,6 +501,7 @@ QUERY = {
     "2026-10-29-why-muscle-weakness-protects-with-age": "muscle fiber mitochondrion cardiolipin",
     "2026-10-29-eu-canada-partnership-montreal": "EU Canada flag handshake partnership diplomacy Montreal",
     "2026-10-29-einstein-equations-universe-without-dark-energy": "Einstein general relativity spacetime curvature cosmic expansion universe balloon",
+    "2026-10-29-growing-earth-made-its-own-water": "magma ocean pebble rain water formation",
 }
 
 
