@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-28-prospero-black-arrow-britains-first-rocket-satellite": "prospero satellite black arrow rocket",
     "2026-10-29-what-really-happens-meteors-atmosphere": "meteor fireball entering Earth atmosphere space rock",
     "2026-10-29-villa-vie-cruise-stranded-cambodia": "luxury cruise ship passenger ship at sea ocean travel",
     "2026-10-29-artemis-i-glowing-salt-crystals-tracked-radiation": "lithium fluoride crystal glowing under laser cosmic ray track",
