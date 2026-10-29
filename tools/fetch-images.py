@@ -492,6 +492,7 @@ QUERY = {
     "2026-10-29-iss-solar-array-spacewalk-power-boost": "ISS solar array spacewalk astronaut Canadarm2 space station",
     "2026-10-29-chinese-astronomers-beheaded-eclipse-myth": "solar eclipse total eclipse ancient China court astronomer Hsi Ho",
     "2026-10-29-china-shenlong-space-plane-photo-docked-satellite": "Shenlong space plane docked satellite orbit",
+    "2026-10-29-3000-supernovae-test-dark-energy-constant": "Type Ia supernova exploding white dwarf galaxy",
 }
 
 
