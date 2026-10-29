@@ -6,7 +6,7 @@ lane: "explainers"
 tags: ["science", "health", "chemistry", "plants", "oral-health", "cranberries"]
 sources: ["ScienceDaily", "Wikipedia-Proanthocyanidin"]
 time: 09:42
-image: 2026-10-29-cranberry-juice-fights-tooth-decay.jpg
+image: assets/images/2026-10-29-cranberry-juice-fights-tooth-decay.jpg
 image_caption: Canned cranberry sauce — the tart red fruit behind the juice that helps teeth stay strong. Photo: Sarah Stierch / CC BY 4.0 / Wikimedia Commons
 ---
 
