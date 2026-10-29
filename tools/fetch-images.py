@@ -15,6 +15,7 @@ QUERY = {
     "2026-10-28-tanzania-mnazi-bay-gas": "natural gas drilling rig well Mnazi Bay Tanzania",
     "2026-10-28-mysterious-dwarf-planet-candidate-beyond-neptune": "dwarf planet trans-neptunian object beyond Neptune",
     "2026-10-28-fire-salamander-glows-under-uv-light": "Salamandra salamandra fire salamander",
+    "2026-10-29-superconductor-hidden-crystal-patchwork-warwick": "superconducting magnet laboratory physics experiment", 
     "2026-10-28-mit-star-feasting-on-brown-dwarf": "binary star M dwarf brown dwarf star feeding mass transfer accretion ZTF J0440+2325 brown dwarf star stellar cannibalism Roche lobe overflow stable mass transfer Milky Way astronomy public domain CC0 CC BY artist concept space NASA Hubble",
     "2026-10-28-ai-proofs-maths-trust": "artificial intelligence AI mathematical proof equations Navier-Stokes mathematics computer algorithm algorithm diagram brain neuron network neural network public domain CC0 CC BY Wikimedia Commons",
     "2026-10-28-hera-first-light-two-asteroids-dimorphos": "Dimorphos Didymos asteroid DART",
