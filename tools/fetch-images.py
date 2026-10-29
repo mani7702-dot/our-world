@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-10-29-indian-jailbreak-17-prisoners-recaptured-tamil-nadu": "Indian prison jail cell bars lock key security guard Tamil Nadu",
+    "2026-10-29-tamil-nadu-jailbreak-puzzle-solved": "Tamil Nadu prison jail cell bars escape overcrowding",
     "2026-10-29-solar-eclipse-photos-smoke-rings-sun": "solar eclipse corona smoke rings coronal hole",
     "2026-10-29-tower-of-london-10-true-tales": "tower of london crown jewels",
     "2026-10-28-prospero-black-arrow-britains-first-rocket-satellite": "prospero satellite black arrow rocket",
