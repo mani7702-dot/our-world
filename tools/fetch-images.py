@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-uranus-moon-ariel-hidden-ocean": "Ariel Uranus moon",
     "2026-10-30-laser-plasma-filament-antenna-radio-waves": "laser beam light green",
     "2026-10-30-louisiana-creole-1935-recordings": "New Orleans French Quarter historic street",
     "2026-10-30-cairngorms-scots-pine-wildfire-forest-recovery": "Scots pine forest Scotland",
