@@ -529,7 +529,9 @@ QUERY = {
     "2026-10-29-cranberry-juice-fights-tooth-decay": "cranberry juice tooth decay dental plaque bacteria",
     "2026-10-30-ev-battery-semiconductor-boost": "EV lithium-ion battery anode-free copper foil",
     "2026-10-29-how-do-satellites-keep-watch-over-runaway-icebergs": "Antarctic iceberg A-81 calving ice shelf satellite",
+    "2026-10-30-squeeze-planetary-minerals": "magnesium oxide periclase crystal high-pressure physics planetary interior",
     "2026-10-29-october-skywatching-saturn-orions-pleiades": "Saturn planet rings night sky stargazing telescope",
+    "2026-10-30-zambia-insect-tradition-food-security": "edible insects Zambia mopane worm cricket termite flying ant food security",
 }
 
 
