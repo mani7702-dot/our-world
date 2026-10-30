@@ -564,6 +564,7 @@ QUERY = {
     "2026-10-30-google-ai-search-ad-shifts": "Google search engine AI artificial intelligence computer chip data center server farm",
     "2026-10-30-seahorse-muppet-deep-sea-discoveries": "seahorse lookalike deep sea fish Australia Syngnathidae muppet",
     "2026-10-30-india-nvs-03-navic-navigation-satellite": "GPS satellite orbit Earth NASA",
+    "2026-10-31-nuclear-clock-thorium-timekeeping": "optical atomic clock strontium",
 }
 
 
