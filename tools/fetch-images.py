@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-baniwa-otter-coexistence-amazon": "giant otter Amazon river Pteronura brasiliensis family group swimming fish",
     "2026-10-29-stellar-cradle-in-carina-nebula": "Carina Nebula ghostly stellar crèche cometary globule star nursery",
     "2026-10-30-birdwatching-rewires-brain": "birdwatching binoculars bird watcher birds nature",
     "2026-10-30-jupiter-bow-shock-plasma-waves": "Jupiter Juno spacecraft",
