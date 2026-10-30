@@ -11,6 +11,7 @@ QUERY = {
     "2026-10-30-the-taurid-meteor-shower-slow-fireballs-halloween-sky": "meteor shower public domain",
     "2026-10-30-earth-radiation-shield-breached-from-within": "Van Allen radiation belt Earth solar storm aurora magnetosphere Arase satellite NASA",
     "2026-10-30-crocodile-asteroid-survival": "crocodile dinosaur asteroid extinction Cretaceous Paleogene fossil paleontology",
+    "2026-10-30-crocodiles-gardening-mangroves-mexico": "crocodile mangrove wetland coastal roots forest Mexico",
     "2026-10-30-india-elderly-care-tech": "elderly care start-up health monitoring India seniors living community",
     "2026-10-30-ship-brought-home-wwii-dead": "WWII Liberty ship returning war dead home New York Harbor",
     "2026-10-30-syria-soaring-prices-recovery-challenge": "Syria Damascus market prices bread fuel community sharing",
