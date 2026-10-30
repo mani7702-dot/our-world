@@ -592,6 +592,21 @@
     ]
   },
   {
+    "title": "\"How a computer scientist broke a 30-year-old math limit for finding the shortest path\"",
+    "url": "news/2026-10-30-computer-scientist-shortest-path-limit-1996.html",
+    "section": "news",
+    "excerpt": "\"Every GPS app needs to find the quickest route between two places. But what if a computer had to calculate the shortest distance between every possible pair of points in a giant network? A new algorithm finally fixes a mathematical guarantee that had been stuck since 1996.\"",
+    "tags": [
+      "science",
+      "computer science",
+      "algorithms",
+      "shortest path",
+      "graph theory",
+      "FOCS 2025",
+      "approximation"
+    ]
+  },
+  {
     "title": "\"How Did Canada and the EU Agree on a New Partnership?\"",
     "url": "news/2026-10-30-eu-canada-partnership-montreal-summit.html",
     "section": "news",
