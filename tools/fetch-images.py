@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-ship-brought-home-wwii-dead": "WWII Liberty ship returning war dead home New York Harbor",
     "2026-10-30-syria-soaring-prices-recovery-challenge": "Syria Damascus market prices bread fuel community sharing",
     "2026-10-30-thwaites-doomsday-glacier-sea-level": "Thwaites Glacier Antarctica public domain",
     "2026-10-30-universe-in-eye-of-telescope": "Swedish-ESO Submillimetre Telescope SEST La Silla Observatory Chile 15-meter dish stars night sky",
