@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-golden-eagle-chick-scottish-moor": "golden eagle chick fledgling Scotland flying bird of prey",
     "2026-10-30-mended-clothes-sustainable-fashion": "visible mending sashiko boro patch fabric repair textile",
     "2026-10-30-galapagos-sea-turtles-stay-home": "Galápagos sea turtle green turtle swimming marine reserve",
     "2026-10-29-cats-head-nebula-hubble-jwst": "Cat's Head Nebula Carina Nebula Hubble Webb telescope",
