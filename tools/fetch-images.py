@@ -10,6 +10,7 @@ QUERY = {
     "2026-10-30-70-ophiuchi-habitable-planet-mystery": "binary star",
     "2026-10-30-gamma-ray-burst-hidden-jet-off-axis-grb-260310a": "gamma-ray burst jets supernova illustration NASA",
     "2026-10-30-tigers-leopards-scents-nepal": "Bengal tiger leopard scent marking territory camera trap field research wildlife",
+    "2026-10-30-avalanche-rescue-dogs-snow-scent": "avalanche rescue dog snow public domain",
     "2026-10-30-the-taurid-meteor-shower-slow-fireballs-halloween-sky": "meteor shower public domain",
     "2026-10-30-earth-radiation-shield-breached-from-within": "Van Allen radiation belt Earth solar storm aurora magnetosphere Arase satellite NASA",
     "2026-10-30-crocodile-asteroid-survival": "crocodile dinosaur asteroid extinction Cretaceous Paleogene fossil paleontology",
