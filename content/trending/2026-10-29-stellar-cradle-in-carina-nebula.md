@@ -5,7 +5,7 @@ lane: trending
 tags: [astronomy, nebula, stars, james-webb-space-telescope, chandra-x-ray-observatory]
 sources: [Universe Today, Chandra X-ray Observatory, Wikipedia]
 time: 03:45 IST
-image: 2026-10-29-stellar-cradle-in-carina-nebula.jpg
+image: assets/images/2026-10-29-stellar-cradle-in-carina-nebula.jpg
 image_caption: Photo: ESO/T. Preibisch / CC BY 4.0 / Wikimedia Commons
 ---
 
