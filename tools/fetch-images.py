@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-birdwatching-rewires-brain": "birdwatching binoculars bird watcher birds nature",
     "2026-10-30-jupiter-bow-shock-plasma-waves": "Jupiter Juno spacecraft",
     "2026-10-29-steady-stellar-creche-in-carina-nebula": "Carina Nebula star-forming region ghost cometary globule",
     "2026-10-29-galileo-asteroid-gaspra-flyby": "Galileo spacecraft asteroid Gaspra NASA flyby 18000 mph cratered potato-shaped body",
