@@ -28,6 +28,7 @@ QUERY = {
     "2026-10-29-oddball-lava-world-toi-561b-jwst-atmosphere": "TOI-561 b exoplanet lava world JWST telescope super-Earth silicate clouds atmosphere phase curve",
     "2026-10-29-galileo-asteroid-gaspra-flyby": "Galileo spacecraft asteroid Gaspra NASA flyby 18000 mph cratered potato-shaped body",
     "2026-10-29-sacred-river-dolphins-cambodia-breeding-success": "Irrawaddy dolphin Mekong river Cambodia",
+    "2026-10-30-hubble-universe-reionization-cosmic-fog": "Hubble Space Telescope universe cosmic reionization dark ages hydrogen fog ionized gas photons stars",
     "2026-10-30-peterborough-bee-bus-stops-living-roofs": "wildflower meadow bees",
     "2026-10-29-indian-jailbreak-17-prisoners-recaptured-tamil-nadu": "Indian prison jail cell bars lock key security guard Tamil Nadu",
     "2026-10-29-tamil-nadu-jailbreak-puzzle-solved": "Tamil Nadu prison jail cell bars escape overcrowding",
