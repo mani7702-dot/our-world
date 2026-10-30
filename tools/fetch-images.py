@@ -9,7 +9,7 @@ QUERY = {
     "2026-10-30-ship-brought-home-wwii-dead": "WWII Liberty ship returning war dead home New York Harbor",
     "2026-10-30-syria-soaring-prices-recovery-challenge": "Syria Damascus market prices bread fuel community sharing",
     "2026-10-30-thwaites-doomsday-glacier-sea-level": "Thwaites Glacier Antarctica public domain",
-    "2026-10-30-universe-in-eye-of-telescope": "Swedish-ESO Submillimetre Telescope SEST La Silla Observatory Chile 15-meter dish stars night sky",
+    "2026-10-29-meti-first-message-to-stars-arecibo": "Arecibo Observatory radio telescope SETI Drake Equation message to stars M13 globular cluster",
     "2026-10-30-golden-eagle-chick-scottish-moor": "golden eagle chick fledgling Scotland flying bird of prey",
     "2026-10-30-mended-clothes-sustainable-fashion": "visible mending sashiko boro patch fabric repair textile",
     "2026-10-30-galapagos-sea-turtles-stay-home": "Galápagos sea turtle green turtle swimming marine reserve",
