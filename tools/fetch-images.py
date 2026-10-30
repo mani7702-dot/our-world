@@ -97,6 +97,7 @@ QUERY = {
     "private-griffin-moon-lander-gets-put-to-the-test": "Griffin-1 lunar lander NASA JPL space simulator testing",
     "fish-oil-brain-health-no-benefit-study": "omega-3 DHA molecule structure fish oil capsule",
     "2026-10-23-blue-planet-iii-octopus-escape": "octopus swimming colour change camouflage",
+    "2026-10-29-no-comets-required-earth-made-own-water": "Earth magma ocean pebble rain hydrogen atmosphere water formation planetary science",
     "indonesia-halts-deforestation-saving-4-million-acres": "orangutan Borneo rainforest",
     "2026-10-22-honey-bees-bullying-wild-pollinators": "honey bee on flower bumble bee pollinator",
     "2026-10-22-venus-slides-past-sun": "Venus planet from space NASA Solar System",
