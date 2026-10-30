@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-zombie-cells-aging-senescence-mayo-clinic": "cells microscope public domain",
     "2026-10-30-sun-spicules-plasma-curtains-spinning-jets": "solar spicules sun surface public domain",
     "2026-10-30-enceladus-ice-grains-salt-mystery": "Enceladus geyser plume ice Cassini Saturn",
     "2026-10-30-70-ophiuchi-habitable-planet-mystery": "binary star",
