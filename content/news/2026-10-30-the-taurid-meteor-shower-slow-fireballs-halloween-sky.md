@@ -3,15 +3,10 @@ title: "What Makes the Taurid Meteor Shower's Slow Fireballs Light Up Halloween 
 slug: "the-taurid-meteor-shower-slow-fireballs-halloween-sky"
 tags: space, astronomy, meteor shower, comet, taurus
 time: 21:45
-image: assets/images/2026-10-30-the-taurid-meteor-shower-slow-fireballs-halloween-sky.jpg
-image_caption: Photo: Wikimedia Commons
 excerpt: "Every November, the slowest meteor shower of the year puts on a show of bright green fireballs. Find out why the Taurids move at their own gentle pace and how to watch."
 for-grownups: "The ZHR for the Taurids is only 5, yet the fireball rate is disproportionately high. The Taurid complex consists of two streams (Northern Taurids, NTA, and Southern Taurids, STA) whose parent body is thought to be a disrupted remnant of a ~40 km comet that fragmented about 10,000 years ago. Modern fireball-network cameras triangulate trajectories to study the original comet's structure and the low-velocity impact flux at Earth; the slow 28 km/s geocentric speed makes Taurids significant for bolide and meteoric smoke studies."
-sources:
-  - name: Space.com — "The Taurid meteor shower isn't much to look at. That's why I love it"
-    url: https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-isnt-much-to-look-at-thats-why-i-love-it
-  - name: Wikipedia — "Taurid meteor shower"
-    url: https://en.wikipedia.org/wiki/Taurid_meteor_shower
+image: assets/images/2026-10-30-the-taurid-meteor-shower-slow-fireballs-halloween-sky.jpg
+image_caption: "The Taurid meteor shower produces slow-moving fireballs that streak across the autumn sky. Photo: NASA / Public domain / Wikimedia Commons"
 ---
 
 # What Makes the Taurid Meteor Shower's Slow Fireballs Light Up Halloween Skies?
@@ -36,8 +31,16 @@ What truly sets the Taurids apart is their habit of producing these slow, brilli
 
 Scientists study these fireballs like clues in a mystery. By measuring their speed, brightness, and trajectory, researchers can figure out what the original comet fragments were made of and how they broke apart. It's a way of reading the story written in stardust—10,000 years ago, a giant comet roughly 40 kilometers wide began crumbling into the very particles that light up our October skies tonight.
 
-<div class="fun-fact">
-**Fun Fact:** The Taurids are actually two showers in one—the Northern and Southern Taurids—whose radiant points are so close together in Taurus that they blur into a single autumn display.
-</div>
+### Fun Fact
 
-**Try this at home:** After the Moon rises (or on a night with no Moon), find a dark spot away from streetlights. Lie back on a blanket and let your eyes adjust for 15 minutes. Look toward the east or southeast. The Taurids are slow enough to track with your eyes—you might even catch more than one at once if you scan a wide patch of sky!
+The Taurids are actually two showers in one—the Northern and Southern Taurids—whose radiant points are so close together in Taurus that they blur into a single autumn display.
+
+### Try this at home
+
+After the Moon rises (or on a night with no Moon), find a dark spot away from streetlights. Lie back on a blanket and let your eyes adjust for 15 minutes. Look toward the east or southeast. The Taurids are slow enough to track with your eyes—you might even catch more than one at once if you scan a wide patch of sky!
+
+## Sources
+
+1. Space.com — [The Taurid meteor shower isn't much to look at. That's why I love it](https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-isnt-much-to-look-at-thats-why-i-love-it) by Jamie Carter, Oct 30, 2026 — primary, full text via direct fetch.
+2. Wikipedia — [Taurid meteor shower](https://en.wikipedia.org/wiki/Taurid_meteor_shower) — confirms parent comet 2P/Encke, radiant in Taurus (RA 03h35, Dec +14.4), active Sep 23–Dec 8, ~5/hour (ZHR), 28 km/s impact speed, remnants of a disrupted ~40 km comet ~10,000 years ago.
+3. NASA — [Meteor Shower Basics](https://www.nasa.gov/mission_pages/sunearth/spaceweather/meteors-and-shooting-stars.html) — confirms meteor physics (ram pressure ablation, atmospheric entry at 11–72 km/s), Taurids at the slow end of the range.
