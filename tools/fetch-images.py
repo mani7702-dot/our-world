@@ -510,6 +510,7 @@ QUERY = {
     "2026-10-29-artemis-ii-commander-reid-wiseman-named-deputy-director-for-nasas-jet-propulsion-laboratory": "JPL rocket lab building telescope",
     "2026-10-29-young-europeans-making-voices-heard": "young European protesters holding signs demonstration",
     "2026-10-29-cranberry-juice-fights-tooth-decay": "cranberry juice tooth decay dental plaque bacteria",
+    "2026-10-30-ev-battery-semiconductor-boost": "EV lithium-ion battery anode-free copper foil",
 }
 
 
