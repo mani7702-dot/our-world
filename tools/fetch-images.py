@@ -507,6 +507,7 @@ QUERY = {
     "2026-10-29-why-muscle-weakness-protects-with-age": "muscle fiber mitochondrion cardiolipin",
     "2026-10-29-two-electrons-break-x-ray-laser-physics-rule": "helium atom two electrons laser X-ray",
     "2026-10-29-eu-canada-partnership-montreal": "EU Canada flag handshake partnership diplomacy Montreal",
+    "2026-10-30-rock-collapse-cappadocia-turkey": "Cappadocia Turkey fairy chimney Göreme rock formation volcanic tuff",
     "2026-10-29-einstein-equations-universe-without-dark-energy": "Einstein general relativity spacetime curvature cosmic expansion universe balloon",
     "2026-10-29-growing-earth-made-its-own-water": "magma ocean pebble rain water formation",
     "2026-10-29-artemis-ii-commander-reid-wiseman-named-deputy-director-for-nasas-jet-propulsion-laboratory": "JPL rocket lab building telescope",
