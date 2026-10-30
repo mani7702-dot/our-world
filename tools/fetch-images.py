@@ -56,7 +56,7 @@ QUERY = {
     "2026-10-28-jumping-genes-ants-dinosaur-extinction": "Formica rufa",
     "2026-10-28-nasa-systems-engineering-team-details-hwo-mission-architecture": "NASA Habitable Worlds Observatory space telescope exoplanet direct imaging coronagraph JWST James Webb Space Telescope mirror space observatory NASA public domain CC BY artist concept",
     "2026-10-27-fox-cub-chance-recovers-after-car-accident-hydrotherapy": "fox cub animal wildlife rescue hydrotherapy swimming pool water rehabilitation pool veterinary",
-    "2026-10-28-alphafold-protein-shapes-nobel-chemistry": "protein structure ribbon diagram 3D protein folding",
+    "2026-10-30-computer-scientist-shortest-path-limit-1996": "graph theory network shortest path algorithm computer science mathematics abstract diagram nodes connections public domain",
     "2026-10-27-wildlife-trusts-30m-rothbury-estate-nature-recovery": "Rothbury Estate Northumberland wildlife nature corridor Wildlife Trusts bog restoration nature-friendly farming conservation UK public domain CC BY",
     "2026-10-27-cowboy-space-big-iron-rocket-ai-data-centers": "rocket launch stainless steel rocket two-stage rocket upper stage satellite data center artificial intelligence AI low Earth orbit LEO satellite constellation artist illustration",
     "2026-10-27-agua-dulce-bolivia-wildlife-reserve-link-of-life": "Amazon river dolphin Inia geoffrensis pink river dolphin swimming Amazon river Bolivia Brazil wildlife",
