@@ -18,6 +18,7 @@ QUERY = {
     "2026-10-30-galapagos-sea-turtles-stay-home": "Galápagos sea turtle green turtle swimming marine reserve",
     "2026-10-29-cats-head-nebula-hubble-jwst": "Cat's Head Nebula Carina Nebula Hubble Webb telescope",
     "2026-10-30-himalayan-building-boom-glacier-risk": "Himalayan glacier mountain village flood risk",
+    "2026-10-30-himalayan-helicopter-rescue-safety": "mountain rescue helicopter Himalayan search and rescue Uttarakhand India",
     "2026-10-30-baniwa-otter-coexistence-amazon": "giant otter Amazon river Pteronura brasiliensis family group swimming fish",
     "2026-10-29-stellar-cradle-in-carina-nebula": "Carina Nebula ghostly stellar crèche cometary globule star nursery",
     "2026-10-30-bat-week-tiny-heroes": "bat flying at dusk insect pollination seed dispersal",
