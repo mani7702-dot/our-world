@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-enceladus-ice-grains-salt-mystery": "Enceladus geyser plume ice Cassini Saturn",
     "2026-10-30-70-ophiuchi-habitable-planet-mystery": "binary star",
     "2026-10-30-gamma-ray-burst-hidden-jet-off-axis-grb-260310a": "gamma-ray burst jets supernova illustration NASA",
     "2026-10-30-tigers-leopards-scents-nepal": "Bengal tiger leopard scent marking territory camera trap field research wildlife",
