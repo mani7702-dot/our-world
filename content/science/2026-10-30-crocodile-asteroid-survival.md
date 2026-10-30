@@ -31,7 +31,6 @@ How did these scaly reptiles make it through one of the worst disasters in Earth
 
 The research team studied **over 7,000 fossils** and records from **more than 400 living and extinct crocodile species**. They built computer models that rewound Earth's climate and geography across **245 million years**.
 
-<img src="/our-world/news/crocodile-asteroid-survival.jpg">
 The picture that emerged is striking: crocodile relatives have always been climate chasers. During hot periods, they spread far and wide — even all the way to **Antarctica**! When the planet cooled, they pulled back toward the tropics, hugging warm coastlines and rivers.
 
 ## A safe spot near the equator
