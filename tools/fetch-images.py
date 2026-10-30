@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-earth-radiation-shield-breached-from-within": "Van Allen radiation belt Earth solar storm aurora magnetosphere Arase satellite NASA",
     "2026-10-30-india-elderly-care-tech": "elderly care start-up health monitoring India seniors living community",
     "2026-10-30-ship-brought-home-wwii-dead": "WWII Liberty ship returning war dead home New York Harbor",
     "2026-10-30-syria-soaring-prices-recovery-challenge": "Syria Damascus market prices bread fuel community sharing",
