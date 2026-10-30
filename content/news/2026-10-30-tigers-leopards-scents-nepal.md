@@ -9,7 +9,7 @@ category: animals
 tags: animals, tigers, leopards, nepal, conservation, scent, science
 sample: false
 excerpt: "In Nepal's Khata Corridor, scientists are testing whether laboratory-made animal scents can create invisible barriers that keep wild cats away from farms and villages — an inventive approach to reducing human-big cat conflict."
-for-grown-ups: A field trial led by wildlife veterinarian Martin Gilbert of Cornell University, with WWF Nepal and Nepali forest authorities, is testing synthetic territorial scent compounds as "BioBoundaries" around vulnerable settlements. The compounds were originally identified by chemical engineer Peter Apps at Botswana Predator Conservation using gas chromatography-mass spectrometry to analyze leopard urine; one compound, 3M3MB, substantially reduced leopard attacks on livestock in Botswana. The Nepal team set up 30 stations (iron stake, scent dispenser, camera trap) along the 13-km Khata Corridor linking Bardiya National Park to India's Katarniaghat Wildlife Sanctuary. Results are mixed so far — a key outcome because it shows scent responses differ between species and ecosystems.
+for-grownups: A field trial led by wildlife veterinarian Martin Gilbert of Cornell University, with WWF Nepal and Nepali forest authorities, is testing synthetic territorial scent compounds as "BioBoundaries" around vulnerable settlements. The compounds were originally identified by chemical engineer Peter Apps at Botswana Predator Conservation using gas chromatography-mass spectrometry to analyze leopard urine; one compound, 3M3MB, substantially reduced leopard attacks on livestock in Botswana. The Nepal team set up 30 stations (iron stake, scent dispenser, camera trap) along the 13-km Khata Corridor linking Bardiya National Park to India's Katarniaghat Wildlife Sanctuary. Results are mixed so far — a key outcome because it shows scent responses differ between species and ecosystems.
 ---
 
 # Can Artificial Scents Keep Tigers and Leopards Away From Villages?
@@ -51,4 +51,8 @@ Big cats often make a funny face called the "flehmen response" — they curl bac
 
 ---
 
-**Sources:** Poudel, "After Botswana, Nepal tries artificial scent marking to fend big cats off villages," *Mongabay* (2026); Wikipedia, "Flehmen response" and "Territory (animal)."
+## Sources
+
+1. [Poudel, "After Botswana, Nepal tries artificial scent marking to fend big cats off villages," *Mongabay* (2026)](https://news.mongabay.com/2026/10/after-botswana-nepal-tries-artificial-scent-marking-to-fend-big-cats-off-villages/)
+2. [Wikipedia, "Flehmen response"](https://en.wikipedia.org/wiki/Flehmen_response)
+3. [Wikipedia, "Territory (animal)"](https://en.wikipedia.org/wiki/Territory_(animal))
