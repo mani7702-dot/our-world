@@ -22,7 +22,7 @@ QUERY = {
     "2026-10-30-hidden-ocean-chain-reaction-ice-ages": "ice age ocean current carbon dioxide CO2 Antarctic ice sheet glacier",
     "2026-10-30-jupiter-bow-shock-plasma-waves": "Jupiter Juno spacecraft",
     "2026-10-30-fire-salamanders-secret-glow-under-uv": "fire salamander biofluorescence UV light ultraviolet fluorescence",
-    "2026-10-29-steady-stellar-creche-in-carina-nebula": "Carina Nebula star-forming region ghost cometary globule",
+    "2026-10-29-oddball-lava-world-toi-561b-jwst-atmosphere": "TOI-561 b exoplanet lava world JWST telescope super-Earth silicate clouds atmosphere phase curve",
     "2026-10-29-galileo-asteroid-gaspra-flyby": "Galileo spacecraft asteroid Gaspra NASA flyby 18000 mph cratered potato-shaped body",
     "2026-10-29-sacred-river-dolphins-cambodia-breeding-success": "Irrawaddy dolphin Mekong river Cambodia",
     "2026-10-30-peterborough-bee-bus-stops-living-roofs": "wildflower meadow bees",
