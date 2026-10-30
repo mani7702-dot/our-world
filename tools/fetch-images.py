@@ -27,6 +27,7 @@ QUERY = {
     "2026-10-30-peterborough-bee-bus-stops-living-roofs": "wildflower meadow bees",
     "2026-10-29-indian-jailbreak-17-prisoners-recaptured-tamil-nadu": "Indian prison jail cell bars lock key security guard Tamil Nadu",
     "2026-10-29-tamil-nadu-jailbreak-puzzle-solved": "Tamil Nadu prison jail cell bars escape overcrowding",
+    "2026-10-30-bat-survey-ai-forest-monitoring": "bat echolocation detector AI computer acoustic survey",
     "2026-10-29-solar-eclipse-photos-smoke-rings-sun": "solar eclipse corona smoke rings coronal hole",
     "2026-10-29-sun-plasma-jets-are-curtains-not-spears": "solar spicule plasma curtain coronal atmosphere Sun",
     "2026-10-29-tower-of-london-10-true-tales": "tower of london crown jewels",
