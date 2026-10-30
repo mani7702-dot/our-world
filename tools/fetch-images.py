@@ -10,6 +10,7 @@ QUERY = {
     "2026-10-30-baniwa-otter-coexistence-amazon": "giant otter Amazon river Pteronura brasiliensis family group swimming fish",
     "2026-10-29-stellar-cradle-in-carina-nebula": "Carina Nebula ghostly stellar crèche cometary globule star nursery",
     "2026-10-30-birdwatching-rewires-brain": "birdwatching binoculars bird watcher birds nature",
+    "2026-10-30-hidden-ocean-chain-reaction-ice-ages": "ice age ocean current carbon dioxide CO2 Antarctic ice sheet glacier",
     "2026-10-30-jupiter-bow-shock-plasma-waves": "Jupiter Juno spacecraft",
     "2026-10-29-steady-stellar-creche-in-carina-nebula": "Carina Nebula star-forming region ghost cometary globule",
     "2026-10-29-galileo-asteroid-gaspra-flyby": "Galileo spacecraft asteroid Gaspra NASA flyby 18000 mph cratered potato-shaped body",
