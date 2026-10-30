@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-india-elderly-care-tech": "elderly care start-up health monitoring India seniors living community",
     "2026-10-30-ship-brought-home-wwii-dead": "WWII Liberty ship returning war dead home New York Harbor",
     "2026-10-30-syria-soaring-prices-recovery-challenge": "Syria Damascus market prices bread fuel community sharing",
     "2026-10-30-thwaites-doomsday-glacier-sea-level": "Thwaites Glacier Antarctica public domain",
@@ -35,6 +36,7 @@ QUERY = {
     "2026-10-28-prospero-black-arrow-britains-first-rocket-satellite": "prospero satellite black arrow rocket",
     "2026-10-29-what-really-happens-meteors-atmosphere": "meteor fireball entering Earth atmosphere space rock",
     "2026-10-30-sauna-immune-cell-workout": "Finnish sauna interior hot room steam bath relaxation wellness",
+    "2026-10-29-villa-vie-cruise-stranded-cambodia": "luxury cruise ship passenger ship at sea ocean travel",
     "2026-10-29-artemis-i-glowing-salt-crystals-tracked-radiation": "lithium fluoride crystal glowing under laser cosmic ray track",
     "2026-10-30-artemis-i-moon-radiation-surprise": "Van Allen radiation belt Earth artistic concept NASA space astronomy public domain CC BY",
     "2026-10-29-iss-100th-spacewalk-deploys-irisa-solar-array": "ISS solar array iROSA deployment spacewalk astronaut",
