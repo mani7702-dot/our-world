@@ -31,6 +31,7 @@ QUERY = {
     "2026-10-29-what-really-happens-meteors-atmosphere": "meteor fireball entering Earth atmosphere space rock",
     "2026-10-29-villa-vie-cruise-stranded-cambodia": "luxury cruise ship passenger ship at sea ocean travel",
     "2026-10-29-artemis-i-glowing-salt-crystals-tracked-radiation": "lithium fluoride crystal glowing under laser cosmic ray track",
+    "2026-10-29-iss-100th-spacewalk-deploys-irisa-solar-array": "ISS solar array iROSA deployment spacewalk astronaut",
     "2026-10-29-virgin-galactic-apeiron-delta-class-spacecraft": "Delta-class suborbital space plane Virgin Galactic",
     "2026-10-28-iran-lost-volcanic-chain-tethys-ocean": "subduction zone volcanic arc Iran mountain range",
     "2026-10-28-tanzania-mnazi-bay-gas": "natural gas drilling rig well Mnazi Bay Tanzania",
