@@ -569,6 +569,7 @@ QUERY = {
     "2026-10-30-india-nvs-03-navic-navigation-satellite": "GPS satellite orbit Earth NASA",
     "2026-10-31-nuclear-clock-thorium-timekeeping": "optical atomic clock strontium",
     "2026-10-31-ranji-smile-first-indian-restaurant-america": "Indian curry dish",
+    "2026-10-31-quantum-w-state-entangled-measurement": "Quantum Entanglement Experiment Spontaneous Parametric Down-Conversion",
 }
 
 
