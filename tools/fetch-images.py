@@ -13,6 +13,7 @@ QUERY = {
     "2026-10-31-halloween-asteroid-great-pumpkin-2015-tb145": "2015 TB145 asteroid",
     "2026-10-31-vitamin-a-retinoic-acid-sharp-vision-foveola": "human eye retina anatomy",
     "2026-10-31-wsu-ai-3d-printing-nasa-grcop-42-rocket-alloy": "metal 3D printer laser",
+    "2026-10-31-cold-resistant-metals-niobium-titanium-extreme-cold": "niobium crystal bar",
     "2026-10-31-nanolaser-light-based-computing-dtu": "semiconductor laser diode",
     "2026-10-31-moon-mars-jupiter-regulus-lion-lineup-november": "Leo constellation",
     "2026-10-31-harvard-knitting-shape-shifting-smart-fabric": "knitting yarn wool textile",
