@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-30-aquanauts-return-from-undersea-space-station-mission": "underwater laboratory Jules Undersea Lab habitat aquanaut saturation diving NASA NEEMO",
     "2026-10-31-homo-erectus-drimolen-skull-south-africa": "Homo erectus fossil skull fossil cast public domain museum",
     "2026-10-31-interstellar-comet-3i-atlas-methanol-chemistry-fingerprint": "3I ATLAS Hubble comet",
     "2026-10-31-einstein-gravity-quantum-world-test": "rubidium atom quantum interferometer physics experiment gravity",
