@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-01-superfluid-helium-qubit-shoq-surrey": "liquid helium Rollin film superfluid",
     "2026-10-31-caltech-light-steering-metasurface-femtosecond": "laser beam optics laboratory",
     "2026-11-01-water-companies-clean-rivers-environment-report": "river water flowing weir",
     "2026-11-01-devils-arrows-neolithic-stones-brimham-rocks": "standing stone megalith",
