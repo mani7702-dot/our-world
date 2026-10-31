@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-bacteria-backward-immune-system-retron": "bacteria colony microscope",
     "2026-10-31-saturn-south-pole-decagon-hubble": "Saturn hexagon north pole Cassini",
     "2026-10-31-cosmocube-lunar-satellite-dark-ages-signal": "Moon far side surface",
     "2026-10-31-uk-wettest-week-then-ten-dry-days-high-pressure": "fog weather landscape",
