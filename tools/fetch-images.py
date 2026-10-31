@@ -598,6 +598,7 @@ QUERY = {
     "2026-10-31-ranji-smile-first-indian-restaurant-america": "Indian curry dish",
     "2026-10-31-quantum-w-state-entangled-measurement": "Quantum Entanglement Experiment Spontaneous Parametric Down-Conversion",
     "2026-10-31-massive-stars-explained-webb-strange-galaxies": "Carina Nebula Hubble massive stars public domain",
+    "2026-10-31-stonehenge-altar-stone-glacier-journey-doggerland": "Stonehenge Altar Stone",
 }
 
 
