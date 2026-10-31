@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-10-31-interstellar-comet-3i-atlas-methanol-chemistry-fingerprint": "3I ATLAS Hubble comet",
+    "2026-10-31-einstein-gravity-quantum-world-test": "rubidium atom quantum interferometer physics experiment gravity",
     "2026-10-31-mars-moon-phobos-stickney-crater-origin": "Phobos Stickney crater Mars moon",
     "2026-10-31-quark-wakes-primordial-soup": "quark gluon plasma particle collision LHC",
     "2026-10-31-wordle-information-theory-99-percent": "Wordle screenshot",
@@ -36,6 +37,7 @@ QUERY = {
     "2026-10-30-golden-eagle-chick-scottish-moor": "golden eagle chick fledgling Scotland flying bird of prey",
     "2026-10-30-mended-clothes-sustainable-fashion": "visible mending sashiko boro patch fabric repair textile",
     "2026-10-30-galapagos-sea-turtles-stay-home": "Galápagos sea turtle green turtle swimming marine reserve",
+    "2026-10-31-magnetar-x-ray-flash-neutron-star-merger": "neutron star merger magnetar illustration",
     "2026-10-29-cats-head-nebula-hubble-jwst": "Cat's Head Nebula Carina Nebula Hubble Webb telescope",
     "2026-10-30-himalayan-building-boom-glacier-risk": "Himalayan glacier mountain village flood risk",
     "2026-10-30-himalayan-helicopter-rescue-safety": "mountain rescue helicopter Himalayan search and rescue Uttarakhand India",
