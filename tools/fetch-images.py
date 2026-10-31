@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-neptune-tiny-moons-shattered-ancient-worlds": "Neptune Voyager 2",
     "2026-10-31-caltech-quantum-simulator-energy-ladder-universality": "ultracold atoms optical lattice NIST",
     "2026-10-31-skiddaw-forest-peatland-restoration-rewilding": "peat bog moorland",
     "2026-10-31-ev-batteries-semiconductor-precision-kaist": "lithium ion battery electric vehicle EV battery cell public domain",
