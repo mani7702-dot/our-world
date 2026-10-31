@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-wordle-information-theory-99-percent": "Wordle screenshot",
     "2026-10-31-pluto-liquid-nitrogen-sputnik-planitia": "Sputnik Planitia Pluto New Horizons",
     "2026-10-31-curiosity-rover-5000-sols-mars-postcard": "Curiosity rover self-portrait Mars Mount Sharp",
     "2026-10-30-uranus-moon-ariel-hidden-ocean": "Ariel Uranus moon",
