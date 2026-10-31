@@ -9,6 +9,7 @@ QUERY = {
     "2026-10-31-neptune-tiny-moons-shattered-ancient-worlds": "Neptune Voyager 2",
     "2026-10-31-caltech-quantum-simulator-energy-ladder-universality": "ultracold atoms optical lattice NIST",
     "2026-10-31-skiddaw-forest-peatland-restoration-rewilding": "peat bog moorland",
+    "2026-10-31-wasps-take-over-ant-plant-homes-borneo": "Macaranga ant plant",
     "2026-10-31-ev-batteries-semiconductor-precision-kaist": "lithium ion battery electric vehicle EV battery cell public domain",
     "2026-10-30-aquanauts-return-from-undersea-space-station-mission": "underwater laboratory Jules Undersea Lab habitat aquanaut saturation diving NASA NEEMO",
     "2026-10-31-homo-erectus-drimolen-skull-south-africa": "Homo erectus fossil skull fossil cast public domain museum",
