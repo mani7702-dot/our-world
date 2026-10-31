@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-01-obi-rakhmat-80000-year-arrowheads-bow-origin": "microlith arrowhead flint",
     "2026-11-01-short-necked-oil-beetle-rediscovered-wales-pembrokeshire": "oil beetle Meloe",
     "2026-11-01-salish-sea-new-sea-spider-species": "sea spider pycnogonid",
     "2026-11-01-superfluid-helium-qubit-shoq-surrey": "liquid helium Rollin film superfluid",
