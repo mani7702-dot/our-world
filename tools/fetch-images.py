@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-nanolaser-light-based-computing-dtu": "semiconductor laser diode",
     "2026-10-31-moon-mars-jupiter-regulus-lion-lineup-november": "Leo constellation",
     "2026-10-31-harvard-knitting-shape-shifting-smart-fabric": "knitting yarn wool textile",
     "2026-10-31-northern-ireland-nature-recovery-strategy": "blanket bog peatland Ireland",
