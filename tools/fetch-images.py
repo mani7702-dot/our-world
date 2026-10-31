@@ -13,6 +13,7 @@ QUERY = {
     "2026-10-31-mars-moon-phobos-stickney-crater-origin": "Phobos Stickney crater Mars moon",
     "2026-10-31-quark-wakes-primordial-soup": "quark gluon plasma particle collision LHC",
     "2026-10-31-wordle-information-theory-99-percent": "Wordle screenshot",
+    "2026-10-31-ibm-quantum-advantage-15-minutes": "quantum computer IBM quantum qubits",
     "2026-10-31-pluto-liquid-nitrogen-sputnik-planitia": "Sputnik Planitia Pluto New Horizons",
     "2026-10-31-curiosity-rover-5000-sols-mars-postcard": "Curiosity rover self-portrait Mars Mount Sharp",
     "2026-10-30-uranus-moon-ariel-hidden-ocean": "Ariel Uranus moon",
@@ -577,6 +578,7 @@ QUERY = {
     "2026-10-31-nuclear-clock-thorium-timekeeping": "optical atomic clock strontium",
     "2026-10-31-ranji-smile-first-indian-restaurant-america": "Indian curry dish",
     "2026-10-31-quantum-w-state-entangled-measurement": "Quantum Entanglement Experiment Spontaneous Parametric Down-Conversion",
+    "2026-10-31-massive-stars-explained-webb-strange-galaxies": "Carina Nebula Hubble massive stars public domain",
 }
 
 
