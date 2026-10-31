@@ -11,6 +11,7 @@ QUERY = {
     "2026-10-31-nasa-psyche-mars-flyby-gravity-assist-timelapse": "Mars Viking globe planet",
     "2026-10-31-bacteria-backward-immune-system-retron": "bacteria colony microscope",
     "2026-10-31-saturn-south-pole-decagon-hubble": "Saturn hexagon north pole Cassini",
+    "2026-10-31-planetary-ai-lumina-lunar-outpost-landing-sites": "lunar surface craters Moon",
     "2026-10-31-cosmocube-lunar-satellite-dark-ages-signal": "Moon far side surface",
     "2026-10-31-uk-wettest-week-then-ten-dry-days-high-pressure": "fog weather landscape",
     "2026-10-31-morocco-4000-year-old-wall-north-africa": "Morocco landscape hills",
