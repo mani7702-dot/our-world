@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-morocco-4000-year-old-wall-north-africa": "Morocco landscape hills",
     "2026-10-31-halloween-asteroid-great-pumpkin-2015-tb145": "2015 TB145 asteroid",
     "2026-10-31-vitamin-a-retinoic-acid-sharp-vision-foveola": "human eye retina anatomy",
     "2026-10-31-wsu-ai-3d-printing-nasa-grcop-42-rocket-alloy": "metal 3D printer laser",
