@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-youngest-planet-elias-2-24-b-baby-exoplanet": "protoplanetary disk ALMA",
     "2026-10-31-mount-etna-two-eruptions-different-plumbing-volcano-gas": "Mount Etna eruption lava",
     "2026-10-31-nasa-psyche-mars-flyby-gravity-assist-timelapse": "Mars Viking globe planet",
     "2026-10-31-bacteria-backward-immune-system-retron": "bacteria colony microscope",
