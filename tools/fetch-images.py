@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-10-31-skiddaw-forest-peatland-restoration-rewilding": "peat bog moorland",
     "2026-10-31-ev-batteries-semiconductor-precision-kaist": "lithium ion battery electric vehicle EV battery cell public domain",
     "2026-10-30-aquanauts-return-from-undersea-space-station-mission": "underwater laboratory Jules Undersea Lab habitat aquanaut saturation diving NASA NEEMO",
     "2026-10-31-homo-erectus-drimolen-skull-south-africa": "Homo erectus fossil skull fossil cast public domain museum",
