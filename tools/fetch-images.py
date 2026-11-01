@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-01-synchronized-time-crystals-semiconductor": "pendulum clock physics",
     "2026-11-01-asteroid-naming-armagh-observatory-nezic": "asteroid belt space rocks",
     "2026-11-01-optical-magnus-effect-laser-light-quantum-computing": "ion trap quantum",
     "2026-11-01-dye-sensitized-nanoparticles-upconversion-toronto": "upconverting nanoparticles diffraction grating luminescence",
