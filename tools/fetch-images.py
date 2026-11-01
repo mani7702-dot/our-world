@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-01-roman-shipwreck-waterproofing-pine-tar-beeswax": "Roman amphora shipwreck",
     "2026-11-01-thailand-halloween-blood-donation-drive": "blood donation bag collection",
     "2026-11-01-hall-effect-in-plane-magnetic-sensors-carnegie-mellon": "Hall effect magnetic field diagram",
     "2026-11-01-ucla-light-powered-ai-deepfake-video-detector-optical-neural": "photonic integrated circuit light",
