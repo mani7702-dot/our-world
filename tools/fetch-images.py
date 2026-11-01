@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-11-01-dye-sensitized-nanoparticles-upconversion-toronto": "upconverting nanoparticles diffraction grating luminescence",
+    "2026-11-01-solar-system-fire-over-ice-chondrules-planetesimals": "chondrite meteorite chondrule",
     "2026-11-01-martian-polar-crater-ice-seasonal-frost": "Mars north pole ice cap",
     "2026-11-01-roman-shipwreck-waterproofing-pine-tar-beeswax": "Roman amphora shipwreck",
     "2026-11-01-thailand-halloween-blood-donation-drive": "blood donation bag collection",
