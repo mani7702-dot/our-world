@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-01-hall-effect-in-plane-magnetic-sensors-carnegie-mellon": "Hall effect magnetic field diagram",
     "2026-11-01-ucla-light-powered-ai-deepfake-video-detector-optical-neural": "photonic integrated circuit light",
     "2026-11-01-obi-rakhmat-80000-year-arrowheads-bow-origin": "microlith arrowhead flint",
     "2026-11-01-short-necked-oil-beetle-rediscovered-wales-pembrokeshire": "oil beetle Meloe",
