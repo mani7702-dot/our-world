@@ -1,5 +1,5 @@
 ---
-title: "Could a coral-eating starfish actually help a reef?"
+title: Could a coral-eating starfish actually help a reef?
 date: 2026-11-03
 time: "19:36"
 image: assets/images/2026-11-03-crown-of-thorns-starfish-reef-helper.jpg

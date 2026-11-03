@@ -410,6 +410,7 @@ def article_page(p):
                    "JSONLD": jsonld_script,
                    "CANONICAL_TAG": canonical_tag(canon_url),
                    "OG_URL_TAG": '<meta property="og:url" content="%s">\n' % canon_url,
+                   "OG_IMAGE": "%s/%s" % (SITE_BASE, p["image"]) if p.get("image") else "%s/assets/og-cover.png" % SITE_BASE,
                })
     write(os.path.join(ROOT, section, p["slug"] + ".html"), out)
 
