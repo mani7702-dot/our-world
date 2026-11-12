@@ -1,5 +1,5 @@
 ---
-title: "How can two teeth reveal a rodent as heavy as a big dog?"
+title: How can two teeth reveal a rodent as heavy as a big dog?
 date: 2026-11-13
 time: 01:30
 image: assets/images/yakamys-giant-rodent-teeth-thailand.jpg
