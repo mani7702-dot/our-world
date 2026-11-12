@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-12-whole-milk-vs-skimmed-milk-study": "glass of milk dairy",
     "2026-11-12-cantabrian-brown-bears-spain-comeback": "brown bear Ursus arctos wildlife",
     "2026-11-12-hottest-year-on-record-climate-summit": "thermometer temperature weather station",
     "sandwich-terns-pagham-harbour-return-bird-flu": "Sandwich tern Thalasseus sandvicensis bird",
