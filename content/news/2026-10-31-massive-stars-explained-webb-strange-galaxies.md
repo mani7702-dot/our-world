@@ -3,6 +3,8 @@ title: "Why Are the Universe's First Galaxies So Weird? The Massive Stars Myster
 slug: "massive-stars-explained-webb-strange-galaxies"
 tags: space, stars, galaxies, james-webb, hubble, astronomy
 time: 08:35
+image: assets/images/2026-10-31-massive-stars-explained-webb-strange-galaxies.jpg
+image_caption: Photo: Wikimedia Commons
 for-grownups: "Massive stars (more than 10 times the Sun's mass) are rare but mighty. They burn hot and fast, shed material through stellar winds, and explode as supernovae — seeding their host galaxies with energy and heavy elements. Astronomers use 'metallicity' to describe how much of an element is heavier than hydrogen and helium; the early universe had very low metallicity. A new University of Utah-led survey called TEMPOS (Treasury of Extremely Metal-Poor O Stars) used Hubble's Cosmic Origins Spectrograph to study 29 massive stars across six nearby dwarf galaxies with very low metallicity. The team found that as metallicity drops below about 10% of the Sun's, stellar wind speeds plunge far more sharply than expected. Weaker winds mean those stars kept more of their original mass, which changes how they evolve, explode, and shape the first galaxies. This helps explain why the James Webb Space Telescope sees early galaxies that don't match our models — the physics of massive stars was simply different when the universe was young. The TEMPOS survey was published on Sept 21, 2026 in The Astrophysical Journal Supplement Series."
 ---
 
