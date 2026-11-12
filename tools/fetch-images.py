@@ -11,6 +11,7 @@ QUERY = {
     "2026-11-12-cantabrian-brown-bears-spain-comeback": "brown bear Ursus arctos wildlife",
     "2026-11-12-hottest-year-on-record-climate-summit": "thermometer temperature weather station",
     "sandwich-terns-pagham-harbour-return-bird-flu": "Sandwich tern Thalasseus sandvicensis bird",
+    "2026-11-12-ai-generated-books-india-library-scam": "Anna Centenary Library Chennai",
     "2026-11-03-crown-of-thorns-starfish-reef-helper": "crown-of-thorns starfish Acanthaster Great Barrier Reef",
     "2026-11-01-mercury-low-silicon-dioxide-volcanic-past": "Mercury planet MESSENGER surface",
     "2026-11-01-synchronized-time-crystals-semiconductor": "pendulum clock physics",
