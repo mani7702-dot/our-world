@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "real-animals-that-look-invented": "saiga antelope",
     "2026-11-12-cova-font-major-ice-age-engravings": "cave art Palaeolithic engraving horse",
     "2026-11-12-whole-milk-vs-skimmed-milk-study": "glass of milk dairy",
     "2026-11-12-slimbridge-wetlands-80-years-nene-geese": "nene Hawaiian goose Branta sandvicensis",
