@@ -1,5 +1,5 @@
 ---
-title: "What if you could store electricity by turning air into a liquid?"
+title: What if you could store electricity by turning air into a liquid?
 date: 2026-11-13
 time: "22:56"
 image: assets/images/2026-11-13-liquid-air-battery-qinghai-grid-storage.jpg
@@ -11,8 +11,6 @@ tags: energy, electricity, liquid air, storage, engineering, climate, china
 sample: false
 for-grownups: "Liquid air energy storage (LAES) is a thermo-mechanical store, not an electrochemical one. On charge, surplus electricity drives a multi-stage centrifugal compressor to roughly 7 MPa; intercooling between stages captures the compression heat as hot water up to about 195 C. The cleaned, cooled air is then expanded and liquefied at about -194 C and held in insulated tanks near atmospheric pressure (liquid air is roughly 1/700 the volume of the same mass of gas, so the tanks stay modest). On discharge the liquid is pumped back to pressure, reheated with the stored heat plus ambient warmth, vapourised and expanded through turbines, with the cold recovered and reused for the next charge cycle. The Golmud plant (China Green Development Investment Group, with the Technical Institute of Physics and Chemistry of the Chinese Academy of Sciences) is rated 60 MW / 600 MWh, giving about 10 hours of continuous output and roughly 180 GWh a year, or the annual electricity of about 30,000 households; construction began in July 2023 and it connected to the grid on 30 October 2026. Round-trip efficiency is well below that of lithium-ion because heat and cold are never perfectly conserved, but the working fluid is free, no lithium or cobalt is needed, siting needs no salt cavern or depleted gas field, and the plant lifetime is measured in decades. It sits in the Qaidam Basin, a solar- and wind-rich region where curtailment is the real problem."
 ---
-
-# What if you could store electricity by turning air into a liquid?
 
 Sunshine and wind do not arrive on a schedule. A windy night can make more electricity than anyone needs, and a still evening can leave a city short. Engineers in China have just switched on a very unusual answer: a machine that turns spare electricity into **liquid air**, keeps it in a tank, and turns it back into power when the grid asks.
 
@@ -46,6 +44,6 @@ Pump up a tyre or a ball for a minute, then touch the metal barrel of the pump. 
 
 ## Sources
 
-- ESS News — China connected 60 MW / 600 MWh liquid air storage facility in Qinghai: https://www.ess-news.com/2026/11/06/china-connected-60-mw-600-mwh-liquid-air-storage-facility-in-qinghai/
-- China Energy Storage Alliance — World's Largest Liquid Air Energy Storage Project Connects to Grid in China: https://en.cnesa.org/latest-news/2026/11/8/worlds-largest-liquid-air-energy-storage-project-connects-to-grid-in-china
-- Fix the News (citing PV Magazine) — China's 60 MW liquid air storage facility begins grid supply: https://fixthenews.com/s/china-s-60-mw-liquid-air-storage-facility-begins-grid-supply-8bab70
+- [ESS News — China connected 60 MW / 600 MWh liquid air storage facility in Qinghai](https://www.ess-news.com/2026/11/06/china-connected-60-mw-600-mwh-liquid-air-storage-facility-in-qinghai/)
+- [China Energy Storage Alliance — World's Largest Liquid Air Energy Storage Project Connects to Grid in China](https://en.cnesa.org/latest-news/2026/11/8/worlds-largest-liquid-air-energy-storage-project-connects-to-grid-in-china)
+- [Fix the News (citing PV Magazine) — China's 60 MW liquid air storage facility begins grid supply](https://fixthenews.com/s/china-s-60-mw-liquid-air-storage-facility-begins-grid-supply-8bab70)
