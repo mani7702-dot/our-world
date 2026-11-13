@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "gerrothorax-maritimus-first-marine-amphibian": "Gerrothorax",
     "yakamys-giant-rodent-teeth-thailand": "capybara Hydrochoerus hydrochaeris",
     "why-escaped-budgie-hid-in-storm-drain": "budgerigar Melopsittacus undulatus pet bird",
     "what-happens-space-junk-reentry": "Skylab space station",
