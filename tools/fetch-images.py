@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-13-liquid-air-battery-qinghai-grid-storage": "cryogenic tank liquid nitrogen storage",
     "gerrothorax-maritimus-first-marine-amphibian": "Gerrothorax",
     "yakamys-giant-rodent-teeth-thailand": "capybara Hydrochoerus hydrochaeris",
     "why-escaped-budgie-hid-in-storm-drain": "budgerigar Melopsittacus undulatus pet bird",
