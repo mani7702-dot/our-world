@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-14-atacama-desert-superbloom-200-species": "Desierto florido Atacama flowers",
     "2026-11-14-chapea-mission-2-year-on-fake-mars": "CHAPEA Mars Dune Alpha habitat",
     "2026-11-13-liquid-air-battery-qinghai-grid-storage": "cryogenic tank liquid nitrogen storage",
     "gerrothorax-maritimus-first-marine-amphibian": "Gerrothorax",
