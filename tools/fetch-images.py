@@ -38,6 +38,7 @@ QUERY = {
     "2026-11-01-obi-rakhmat-80000-year-arrowheads-bow-origin": "microlith arrowhead flint",
     "2026-11-01-short-necked-oil-beetle-rediscovered-wales-pembrokeshire": "oil beetle Meloe",
     "2026-11-01-salish-sea-new-sea-spider-species": "sea spider pycnogonid",
+    "2026-11-16-tiny-animals-living-inside-deep-sea-nodules": "polymetallic nodule",
     "2026-11-01-superfluid-helium-qubit-shoq-surrey": "liquid helium Rollin film superfluid",
     "2026-10-31-caltech-light-steering-metasurface-femtosecond": "laser beam optics laboratory",
     "2026-11-01-water-companies-clean-rivers-environment-report": "river water flowing weir",
