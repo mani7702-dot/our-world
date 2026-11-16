@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-17-superheated-magma-lava-fountains-la-palma": "Tajogaite eruption lava fountain La Palma 2021",
     "2026-11-16-erect-crested-penguin-two-islands-paradox": "Erect-crested penguin",
     "2026-11-16-dead-star-radio-pulses-sun-like-neighbour": "white dwarf star artist impression",
     "2026-11-15-dinosaurs-snacked-on-seaweed": "seaweed on beach",
