@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-16-dead-star-radio-pulses-sun-like-neighbour": "white dwarf star artist impression",
     "2026-11-15-dinosaurs-snacked-on-seaweed": "seaweed on beach",
     "2026-11-14-atacama-desert-superbloom-200-species": "Desierto florido Atacama flowers",
     "2026-11-14-chapea-mission-2-year-on-fake-mars": "CHAPEA Mars Dune Alpha habitat",
