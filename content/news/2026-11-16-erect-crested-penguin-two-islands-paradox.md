@@ -1,7 +1,7 @@
 ---
 title: "Same penguin, two islands: why is one colony fine and the other losing birds fast?"
 date: 2026-11-16
-time: "23:59"
+time: 23:59
 image: assets/images/2026-11-16-erect-crested-penguin-two-islands-paradox.jpg
 image_caption: Photo: Wikimedia Commons
 category: Animals
