@@ -1,5 +1,5 @@
 ---
-title: "Why do some volcanoes shoot lava into the sky while others just ooze?"
+title: Why do some volcanoes shoot lava into the sky while others just ooze?
 date: 2026-11-17
 time: 00:59
 image: assets/images/2026-11-17-superheated-magma-lava-fountains-la-palma.jpg
