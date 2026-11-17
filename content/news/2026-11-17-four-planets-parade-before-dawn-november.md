@@ -2,6 +2,8 @@
 title: "Why are four planets lining up in the sky before breakfast?"
 date: 2026-11-17
 time: "21:39"
+image: assets/images/2026-11-17-four-planets-parade-before-dawn-november.jpg
+image_caption: Photo: Wikimedia Commons
 category: Space
 read: 4 min
 excerpt: "Mercury, Venus, Mars and Jupiter are strung out in a diagonal line in the morning sky this November. You do not need a telescope, just an early alarm and a view of the sunrise side of the sky."
