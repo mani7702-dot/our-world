@@ -668,6 +668,30 @@ def write_cname():
     return "CNAME"
 
 
+
+def prune_orphans(blog, news):
+    """Delete generated article pages whose source .md no longer exists.
+
+    Without this, removing an article leaves its HTML live and indexable,
+    so deleted content keeps competing in search. Section index.html files
+    and hand-authored pages are never touched.
+    """
+    keep = {}
+    for p in blog + news:
+        keep.setdefault(p["section"], set()).add(p["slug"] + ".html")
+    removed = []
+    for section, slugs in keep.items():
+        d = os.path.join(ROOT, section)
+        if not os.path.isdir(d):
+            continue
+        for fn in os.listdir(d):
+            if not fn.endswith(".html") or fn == "index.html":
+                continue
+            if fn not in slugs:
+                os.remove(os.path.join(d, fn))
+                removed.append("%s/%s" % (section, fn))
+    return removed
+
 def main():
     blog = load_posts("blog")
     news = load_posts("news")
@@ -732,6 +756,11 @@ def main():
     for p in blog + news:
         article_page(p)
         written.append("%s/%s.html" % (p["section"], p["slug"]))
+
+    # drop article pages whose .md was deleted (keeps deletions from staying live)
+    pruned = prune_orphans(blog, news)
+    if pruned:
+        print("Pruned %d orphaned page(s)" % len(pruned))
 
     # search page
     write(os.path.join(ROOT, "search", "index.html"), search_page())
