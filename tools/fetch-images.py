@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-11-17-four-planets-parade-before-dawn-november": "Morning planetary alignment",
+    "2026-11-17-glowworms-return-yorkshire-after-100-years": "Common glowworm Lampyris noctiluca",
     "2026-11-17-laser-light-electric-islands-crystal": "strontium titanate crystal",
     "2026-11-17-superheated-magma-lava-fountains-la-palma": "Tajogaite eruption lava fountain La Palma 2021",
     "2026-11-16-erect-crested-penguin-two-islands-paradox": "Erect-crested penguin",
