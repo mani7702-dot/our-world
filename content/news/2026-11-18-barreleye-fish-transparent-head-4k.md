@@ -50,21 +50,9 @@ Then move the toy sideways and follow it with your eyes without turning your hea
 
 The barreleye head is not a see-through skull. It is a clear bubble of tissue over the top of the head, like a little glass hat. The eyes underneath are the real thing.
 
-**Sources:**
+## Sources
 
-1. Monterey Bay Aquarium Research Institute. "MBARI researchers film rarely seen deep-sea barreleye fish in 4K." October 2026.
-
-https://www.mbari.org/news/mbari-researchers-film-rarely-seen-deep-sea-barreleye-fish-in-4k/
-
-2. ScienceDaily. "Bizarre deep-sea fish with a see-through head captured in stunning 4K." 17 November 2026.
-
-http://www.sciencedaily.com/releases/2026/11/261117033917.htm
-
-3. Popular Science. "Rare glob-eyed fish spotted in ocean twilight zone." 29 October 2026.
-
-https://www.popsci.com/environment/barreleye-fish-4k-video/
-
-4. Discover Wildlife. "Rarely seen deep-sea creature with see-through head." 2026.
-
-https://www.discoverwildlife.com/animal-facts/fish/barreleye-fish-monterey-canyon
-
+- Monterey Bay Aquarium Research Institute: [MBARI researchers film rarely seen deep-sea barreleye fish in 4K](https://www.mbari.org/news/mbari-researchers-film-rarely-seen-deep-sea-barreleye-fish-in-4k/)
+- ScienceDaily: [Bizarre deep-sea fish with a see-through head captured in stunning 4K](http://www.sciencedaily.com/releases/2026/11/261117033917.htm)
+- Popular Science: [Rare glob-eyed fish spotted in ocean twilight zone](https://www.popsci.com/environment/barreleye-fish-4k-video/)
+- Discover Wildlife: [Rarely seen deep-sea creature with see-through head](https://www.discoverwildlife.com/animal-facts/fish/barreleye-fish-monterey-canyon)
