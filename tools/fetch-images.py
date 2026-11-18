@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-18-barreleye-fish-transparent-head-4k": "barreleye Macropinna microstoma",
     "how-do-new-places-get-their-names": "Alexander Island Antarctica satellite",
     "2026-11-18-olive-ridley-turtles-california-hatchlings": "olive ridley sea turtle hatchling",
     "2026-11-18-hera-arrives-didymos-hidden-side": "Didymos Dimorphos asteroid",
