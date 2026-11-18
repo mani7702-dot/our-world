@@ -7,6 +7,7 @@ OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
     "2026-11-18-olive-ridley-turtles-california-hatchlings": "olive ridley sea turtle hatchling",
+    "2026-11-18-hera-arrives-didymos-hidden-side": "Didymos Dimorphos asteroid",
     "2026-11-17-starship-upper-stage-first-tower-catch": "SpaceX Starship launch tower Boca Chica",
     "2026-11-17-four-planets-parade-before-dawn-november": "Morning planetary alignment",
     "2026-11-17-glowworms-return-yorkshire-after-100-years": "Common glowworm Lampyris noctiluca",
