@@ -1,5 +1,5 @@
 ---
-title: "Why does this fish have a see-through head?"
+title: Why does this fish have a see-through head?
 date: 2026-11-18
 time: "13:05"
 image: assets/images/2026-11-18-barreleye-fish-transparent-head-4k.jpg
