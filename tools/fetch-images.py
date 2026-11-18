@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-19-vitamin-b12-battery": "zinc air battery",
     "2026-11-19-three-butterflies-hiding-as-one": "Colobura dirce butterfly",
     "2026-11-19-astra-robot-builds-antenna-in-space": "Canadarm2 International Space Station robotic arm",
     "2026-11-18-alpine-newt-five-hidden-species": "alpine newt",
