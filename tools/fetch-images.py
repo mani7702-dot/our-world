@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-18-venus-flytrap-counts-to-five": "Venus flytrap Dionaea muscipula",
     "2026-11-18-satellites-spot-el-nino-from-space": "El Nino sea surface temperature anomaly Pacific",
     "2026-11-18-great-unconformity-missing-billion-years-rock": "Grand Canyon Great Unconformity",
     "2026-11-18-barreleye-fish-transparent-head-4k": "barreleye Macropinna microstoma",
