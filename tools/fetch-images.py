@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-18-antarctic-blue-whales-1000-percent-comeback": "Antarctic blue whale",
     "2026-11-18-room-temperature-superconductor-missing-piece": "superconducting magnet",
     "2026-11-18-leonids-fastest-shooting-stars": "Leonid meteor",
     "2026-11-18-venus-flytrap-counts-to-five": "Venus flytrap Dionaea muscipula",
