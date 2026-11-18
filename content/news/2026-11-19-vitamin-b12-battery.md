@@ -1,7 +1,7 @@
 ---
 title: Could a vitamin help make a better battery?
 date: 2026-11-19
-time: "02:56"
+time: 02:56
 image: assets/images/2026-11-19-vitamin-b12-battery.jpg
 image_caption: Photo: Wikimedia Commons
 category: Science
