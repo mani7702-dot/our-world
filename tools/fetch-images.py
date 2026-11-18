@@ -6,6 +6,7 @@ BAD_EXT = (".svg", ".tif", ".tiff", ".gif", ".gz", ".webm", ".ogg", ".ogv", ".pd
 OK_MIME = ("image/jpeg", "image/png", "image/webp")
 OK_LICENSE = ("public domain", "cc0", "cc by")
 QUERY = {
+    "2026-11-17-starship-upper-stage-first-tower-catch": "SpaceX Starship launch tower Boca Chica",
     "2026-11-17-four-planets-parade-before-dawn-november": "Morning planetary alignment",
     "2026-11-17-glowworms-return-yorkshire-after-100-years": "Common glowworm Lampyris noctiluca",
     "2026-11-17-laser-light-electric-islands-crystal": "strontium titanate crystal",
